@@ -684,6 +684,15 @@ PAGES["hardware"] = { page: "hardware", ...page(
         <div class="hw-time" id="hwUpdated"></div>
       </div>
 
+<div class="hw-verified">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        <span><b>Model data verified:</b> shipping models and VRAM figures on this page are calibrated to
+        <b>September 2026</b> — RTX 50 series (5090 32GB, 5090 Laptop 24GB), RTX PRO 6000 Blackwell 96GB,
+        GB300 NVL72, B200 192GB, AMD MI350 series 288GB, and Rubin (HBM4) arriving in the second half of 2026.
+        Sources: vendor product pages and public specification tables. Hardware moves fastest of all —
+        confirm models and pricing officially.</span>
+      </div>
+
       <div class="notice mb-32">
         <b>Currency disclaimer:</b> hardware is the fastest-moving part of this site — GPU, memory and
         system pricing shifts constantly and model numbers turn over quickly. Prices below are
@@ -844,6 +853,12 @@ PAGES["hardware"] = { page: "hardware", ...page(
       </div>
 
       <div class="card mb-24">
+        <div class="sec-eyebrow" style="margin-top:0">拖动试试：这三个变量对临界点影响最大</div>
+        <div class="calc-sliders" id="calcSliders"></div>
+        <div class="row" style="margin:18px 0 20px">
+          <button class="btn btn-sm" id="calcReset" type="button">恢复方案默认值</button>
+          <span class="tiny dim" style="margin-left:12px">滑杆与下方数字框双向同步</span>
+        </div>
         <div class="calc-grid">
           <div class="calc-field" style="grid-column:1/-1">
             <label for="calcPreset">Configuration</label>
@@ -1024,6 +1039,30 @@ PAGES["about"] = { page: "about", ...page(
         <h3 class="card-title">Changelog</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.5.0 · Hardware models recalibrated to 2026-09, plus calculator sliders
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              <b>Why:</b> a reader pointed out that current parts (5090 and above) were missing. On checking,
+              the page's model data had indeed fallen behind, so every entry was recalibrated against vendor
+              product pages and public specification tables.<br>
+              <b>Substantive corrections:</b><br>
+              · Consumer VRAM ceiling: RTX 4090 24 GB → <b>RTX 5090 32 GB GDDR7</b> (1792 GB/s, roughly 1.8× the 4090)<br>
+              · Laptop VRAM ceiling: <b>16 GB → 24 GB</b> (RTX 5090 Laptop); the old "16 GB ceiling" claim is void<br>
+              · Workstation: RTX 6000 Ada 48 GB → <b>RTX PRO 6000 Blackwell 96 GB</b><br>
+              · Datacenter: H100/H200 → <b>GB300 NVL72 (72× Blackwell Ultra)</b> shipping, with
+                <b>Rubin (HBM4, 3 nm) launching in H2 2026</b><br>
+              · AMD: MI300X 192 GB → <b>MI350X / MI355X 288 GB</b>, plus an MI350P PCIe card (May 2026)<br>
+              · Consumer mid-range: 40 series → <b>5060 Ti 16G / 5070 Ti 16G / 5080 16G</b><br>
+              <b>Calculator updated:</b> presets expanded from 7 to 8 and rebuilt around current hardware
+              (single/dual 5090, RTX PRO 6000 96G, 2× RTX PRO 6000 192G, 8× H100 "previous gen", 8× B200 "current gen").<br>
+              <b>New sliders:</b> electricity price, operations labour, cloud rate and horizon are now draggable,
+              synced both ways with the number fields, moving the crossover point on the chart live.<br>
+              <b>A "model data verified" banner</b> now states the calibration date and covered models at the
+              top of the page, so this cannot silently go stale again.
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.4.0 · Rent vs buy cost calculator
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

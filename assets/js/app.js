@@ -1789,6 +1789,47 @@
     F.salvage.value = C.defaults.salvageRate;
     F.runMode.value = "always";
 
+    /* ---- 滑杆：拖动实时重算 ---- */
+    const SLIDERS = [
+      { id: "calcPrice",  key: "price",  label: "hw.calcSliderPrice",  min: 0.1, max: 2.0,   step: 0.05, fmt: (v) => LANG === "zh" ? v.toFixed(2) + " 元/kWh" : "$" + v.toFixed(2) + "/kWh" },
+      { id: "calcOps",    key: "ops",    label: "hw.calcSliderOps",    min: 0,   max: 60000, step: 500,  fmt: (v) => fmtMoney(v) + (LANG === "zh" ? " / 月" : " / mo") },
+      { id: "calcCloud",  key: "cloud",  label: "hw.calcSliderCloud",  min: 0,   max: 500,   step: 1,    fmt: (v) => fmtMoney(v) + (LANG === "zh" ? " / 小时" : " / h") },
+      { id: "calcMonths", key: "months", label: "hw.calcSliderMonths", min: 3,   max: 60,    step: 1,    fmt: (v) => t("hw.calcMonths", { n: v }) }
+    ];
+
+    function renderSliders() {
+      const host = $("#calcSliders");
+      if (!host) return;
+      host.innerHTML = SLIDERS.map((sl) => {
+        const el = $("#" + sl.id);
+        const v = el ? parseFloat(el.value) || 0 : sl.min;
+        return '<div class="calc-slider is-key">' +
+          '<div class="sl-head"><span class="sl-label">' + t(sl.label) + '</span>' +
+          '<span class="sl-val" id="' + sl.id + 'Val">' + esc(sl.fmt(v)) + '</span></div>' +
+          '<input type="range" id="' + sl.id + 'Range" min="' + sl.min + '" max="' + sl.max +
+            '" step="' + sl.step + '" value="' + v + '" aria-label="' + t(sl.label) + '">' +
+          '<div class="sl-range"><span>' + sl.fmt(sl.min) + '</span><span>' + sl.fmt(sl.max) + '</span></div>' +
+        "</div>";
+      }).join("");
+
+      SLIDERS.forEach((sl) => {
+        const range = $("#" + sl.id + "Range");
+        const num = $("#" + sl.id);
+        const out = $("#" + sl.id + "Val");
+        if (!range || !num) return;
+        range.addEventListener("input", function () {
+          num.value = this.value;
+          if (out) out.textContent = sl.fmt(parseFloat(this.value) || 0);
+          render();
+        });
+        // 数字框改动时反向同步滑杆
+        num.addEventListener("input", function () {
+          if (out) out.textContent = sl.fmt(parseFloat(this.value) || 0);
+          if (range) range.value = this.value;
+        });
+      });
+    }
+
     function applyPreset(id) {
       const p = C.presets.find((x) => x.id === id) || C.presets[0];
       F.purchase.value = p.purchase;
@@ -1800,6 +1841,9 @@
       F.cloud.value = p.cloud;
       root.dataset.life = p.life;
       root.dataset.seg = p.seg;
+      root.__preset = p;
+      const btn = $("#calcReset");
+      if (btn) btn.disabled = false;
     }
 
     /* 运行小时数：预置模式自动算，自定义模式用输入框 */
@@ -2007,6 +2051,7 @@
     /* ---- 事件 ---- */
     F.preset.addEventListener("change", function () {
       applyPreset(this.value);
+      renderSliders();   // 方案变了，滑杆必须跟着走
       render();
     });
     [F.purchase, F.power, F.price, F.pue, F.rack, F.ops, F.cloud, F.salvage, F.months].forEach((el) => {
@@ -2017,7 +2062,18 @@
 
     applyPreset(C.presets[0].id);
     F.runMode.value = "always";
+    renderSliders();
     render();
+
+    const resetBtn = $("#calcReset");
+    if (resetBtn) {
+      resetBtn.addEventListener("click", () => {
+        if (root.__preset) applyPreset(root.__preset.id);
+        renderSliders();
+        render();
+        toast(t("hw.calcReset"));
+      });
+    }
 
     /* ---- 云价参考表 ---- */
     const ref = $("#calcCloudRef");

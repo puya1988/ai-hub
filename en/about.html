@@ -120,6 +120,30 @@
         <h3 class="card-title">Changelog</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.5.0 · Hardware models recalibrated to 2026-09, plus calculator sliders
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              <b>Why:</b> a reader pointed out that current parts (5090 and above) were missing. On checking,
+              the page's model data had indeed fallen behind, so every entry was recalibrated against vendor
+              product pages and public specification tables.<br>
+              <b>Substantive corrections:</b><br>
+              · Consumer VRAM ceiling: RTX 4090 24 GB → <b>RTX 5090 32 GB GDDR7</b> (1792 GB/s, roughly 1.8× the 4090)<br>
+              · Laptop VRAM ceiling: <b>16 GB → 24 GB</b> (RTX 5090 Laptop); the old "16 GB ceiling" claim is void<br>
+              · Workstation: RTX 6000 Ada 48 GB → <b>RTX PRO 6000 Blackwell 96 GB</b><br>
+              · Datacenter: H100/H200 → <b>GB300 NVL72 (72× Blackwell Ultra)</b> shipping, with
+                <b>Rubin (HBM4, 3 nm) launching in H2 2026</b><br>
+              · AMD: MI300X 192 GB → <b>MI350X / MI355X 288 GB</b>, plus an MI350P PCIe card (May 2026)<br>
+              · Consumer mid-range: 40 series → <b>5060 Ti 16G / 5070 Ti 16G / 5080 16G</b><br>
+              <b>Calculator updated:</b> presets expanded from 7 to 8 and rebuilt around current hardware
+              (single/dual 5090, RTX PRO 6000 96G, 2× RTX PRO 6000 192G, 8× H100 "previous gen", 8× B200 "current gen").<br>
+              <b>New sliders:</b> electricity price, operations labour, cloud rate and horizon are now draggable,
+              synced both ways with the number fields, moving the crossover point on the chart live.<br>
+              <b>A "model data verified" banner</b> now states the calibration date and covered models at the
+              top of the page, so this cannot silently go stale again.
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.4.0 · Rent vs buy cost calculator
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

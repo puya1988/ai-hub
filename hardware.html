@@ -32,6 +32,14 @@
         <div class="hw-time" id="hwUpdated"></div>
       </div>
 
+<div class="hw-verified">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        <span><b>型号数据已核对：</b>本页在售型号与显存规格按 <b>2026 年 9 月</b>校准，
+        覆盖 RTX 50 系列（5090 32GB / 5090 Laptop 24GB）、RTX PRO 6000 Blackwell 96GB、
+        GB300 NVL72、B200 192GB、AMD MI350 系列 288GB，以及 2026 下半年上市的 Rubin（HBM4）。
+        来源：厂商官方产品页与公开规格表。硬件迭代最快，具体型号与价格请以官方为准。</span>
+      </div>
+
       <div class="notice mb-32">
         <b>时效声明：</b>硬件是本页更新最频繁的部分——显卡、内存与整机价格随时波动，型号也在快速换代。
         以下价格为<b>参考区间</b>（人民币，含税估算），配置组合为推荐起点而非唯一答案。
@@ -195,6 +203,12 @@
       </div>
 
       <div class="card mb-24">
+        <div class="sec-eyebrow" style="margin-top:0">拖动试试：这三个变量对临界点影响最大</div>
+        <div class="calc-sliders" id="calcSliders"></div>
+        <div class="row" style="margin:18px 0 20px">
+          <button class="btn btn-sm" id="calcReset" type="button">恢复方案默认值</button>
+          <span class="tiny dim" style="margin-left:12px">滑杆与下方数字框双向同步</span>
+        </div>
         <div class="calc-grid">
           <div class="calc-field" style="grid-column:1/-1">
             <label for="calcPreset">参考方案</label>

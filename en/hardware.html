@@ -34,6 +34,15 @@
         <div class="hw-time" id="hwUpdated"></div>
       </div>
 
+<div class="hw-verified">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        <span><b>Model data verified:</b> shipping models and VRAM figures on this page are calibrated to
+        <b>September 2026</b> — RTX 50 series (5090 32GB, 5090 Laptop 24GB), RTX PRO 6000 Blackwell 96GB,
+        GB300 NVL72, B200 192GB, AMD MI350 series 288GB, and Rubin (HBM4) arriving in the second half of 2026.
+        Sources: vendor product pages and public specification tables. Hardware moves fastest of all —
+        confirm models and pricing officially.</span>
+      </div>
+
       <div class="notice mb-32">
         <b>Currency disclaimer:</b> hardware is the fastest-moving part of this site — GPU, memory and
         system pricing shifts constantly and model numbers turn over quickly. Prices below are
@@ -194,6 +203,12 @@
       </div>
 
       <div class="card mb-24">
+        <div class="sec-eyebrow" style="margin-top:0">拖动试试：这三个变量对临界点影响最大</div>
+        <div class="calc-sliders" id="calcSliders"></div>
+        <div class="row" style="margin:18px 0 20px">
+          <button class="btn btn-sm" id="calcReset" type="button">恢复方案默认值</button>
+          <span class="tiny dim" style="margin-left:12px">滑杆与下方数字框双向同步</span>
+        </div>
         <div class="calc-grid">
           <div class="calc-field" style="grid-column:1/-1">
             <label for="calcPreset">Configuration</label>

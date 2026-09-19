@@ -67,7 +67,7 @@
         builds: [
           {
             tier: "Entry", name: "Good enough", price: "$900 – 1,300",
-            spec: [["GPU", "RTX 4060 Ti 16GB / RTX 4070 12GB"],
+            spec: [["GPU", "RTX 5060 Ti 16GB / RTX 5070 12GB"],
                    ["CPU", "Ryzen 7 or Core i5 (6–8 cores)"],
                    ["Memory", "32 GB DDR5"],
                    ["Storage", "1 TB NVMe (sequential read ≥ 5 GB/s)"],
@@ -78,24 +78,24 @@
           },
           {
             tier: "Mainstream", name: "Buy once, properly", price: "$2,000 – 3,200",
-            spec: [["GPU", "RTX 4080 SUPER 16GB / RTX 4090 24GB"],
+            spec: [["GPU", "RTX 5070 Ti 16GB / RTX 5090 32GB"],
                    ["CPU", "Ryzen 9 or Core i7 (12–16 cores)"],
                    ["Memory", "64 GB DDR5"],
                    ["Storage", "2 TB NVMe Gen4"],
                    ["PSU", "850–1000 W Gold"],
                    ["Cooling", "Dual-tower air or 360 mm AIO"]],
-            runs: "14B–32B at 4-bit; 32B FP16 needs a second card",
-            note: "24 GB is the sweet spot for consumer hardware and holds its resale value better than anything else in this tier."
+            runs: "14B–32B at 4-bit; the 5090 32 GB reaches 32B at 4-bit",
+            note: "32 GB is the current consumer ceiling (5090). That is a third more than the 4090 24 GB, with roughly double the bandwidth (1792 vs 1008 GB/s) — a visible jump in inference speed."
           },
           {
             tier: "Advanced", name: "Two cards", price: "$5,000 – 8,000",
-            spec: [["GPU", "2 × RTX 4090 24GB (48 GB total)"],
+            spec: [["GPU", "2 × RTX 5090 32GB (64 GB total)"],
                    ["CPU", "Threadripper or Core i9 (24+ cores)"],
                    ["Memory", "128 GB DDR5"],
                    ["Storage", "4 TB NVMe Gen4 + 8 TB HDD archive"],
                    ["PSU", "1600 W Titanium"],
                    ["Cooling", "Large case; leave a slot between cards"]],
-            runs: "70B at 4-bit; full fine-tuning of 32B",
+            runs: "70B at 4-bit; full fine-tuning of 32B; 64 GB supports several models in parallel",
             note: "Check the motherboard's PCIe lane allocation first — dropping to x4 noticeably slows multi-GPU training."
           }
         ],
@@ -115,7 +115,7 @@
         builds: [
           {
             tier: "Starting", name: "Single box, two cards", price: "$9,000 – 15,000",
-            spec: [["GPU", "2 × RTX 4090 24GB or 1 × RTX 6000 Ada 48GB"],
+            spec: [["GPU", "2 × RTX 5090 32GB (64 GB) or 1 × RTX PRO 6000 Blackwell 96GB"],
                    ["CPU", "Threadripper / Xeon Silver (24+ cores)"],
                    ["Memory", "256 GB DDR5 ECC"],
                    ["Storage", "4 TB NVMe Gen4 (OS + models) + 16 TB array"],
@@ -126,7 +126,7 @@
           },
           {
             tier: "Standard", name: "Workstation", price: "$25,000 – 45,000",
-            spec: [["GPU", "2 × RTX 6000 Ada 48GB (96 GB total)"],
+            spec: [["GPU", "2 × RTX PRO 6000 Blackwell 96GB (192 GB total)"],
                    ["CPU", "Threadripper PRO (32–64 cores)"],
                    ["Memory", "512 GB DDR5 ECC"],
                    ["Storage", "8 TB NVMe Gen4 RAID1 + 32 TB backup"],
@@ -137,7 +137,7 @@
           },
           {
             tier: "Advanced", name: "Inference server", price: "$55,000 – 110,000",
-            spec: [["GPU", "4 × L40S 48GB or 4 × A100 80GB"],
+            spec: [["GPU", "4 × L40S 48GB or 4 × H200 141GB"],
                    ["CPU", "Dual EPYC (64+ cores)"],
                    ["Memory", "1 TB DDR5 ECC"],
                    ["Storage", "NVMe RAID plus distributed storage"],
@@ -163,7 +163,7 @@
         builds: [
           {
             tier: "Pilot", name: "Validation node", price: "$20,000 – 45,000",
-            spec: [["GPU", "2 × L40S 48GB or 2 × A100 40GB"],
+            spec: [["GPU", "2 × L40S 48GB or 1 × RTX PRO 6000 96GB"],
                    ["CPU", "Dual Xeon Silver / EPYC"],
                    ["Memory", "512 GB DDR5 ECC"],
                    ["Storage", "SSD OS mirror + NVMe cache tier"],
@@ -174,7 +174,7 @@
           },
           {
             tier: "Production", name: "Standard production node", price: "$110,000 – 280,000",
-            spec: [["GPU", "4–8 × A100 80GB / H100 80GB with NVLink"],
+            spec: [["GPU", "8 × H100 80GB or 8 × B200 192GB with NVLink"],
                    ["CPU", "Dual EPYC (64–96 cores)"],
                    ["Memory", "1–2 TB DDR5 ECC"],
                    ["Storage", "Enterprise NVMe RAID plus distributed storage"],
@@ -223,7 +223,7 @@
           },
           {
             tier: "IPC", name: "Wide-temp IPC with one card", price: "$6,000 – 18,000",
-            spec: [["Compute", "One blower or passively cooled professional card (L4 / RTX A2000 class)"],
+            spec: [["Compute", "One blower or passively cooled professional card (L4 / RTX PRO 2000 Blackwell class)"],
                    ["CPU", "Embedded Xeon / Core, low-power SKU"],
                    ["Memory", "64 GB DDR5 ECC"],
                    ["Storage", "Industrial NVMe RAID1 with SLC cache"],
@@ -259,15 +259,18 @@
     /* ------------------------- VRAM cheat sheet ------------------------- */
     vramNote:
       "Rule of thumb: VRAM ≈ parameters × bytes per parameter + KV cache + activations. FP16 ≈ 2 bytes/param, " +
+      "Note that capacity has advanced quickly since 2025 (32 GB consumer, 96 GB single workstation card), " +
+      "but bandwidth is the real divide for inference speed (0.9–1.8 TB/s consumer vs 3–8 TB/s on HBM accelerators). " +
       "INT8 ≈ 1.1, INT4 ≈ 0.55. KV cache grows linearly with context length and can exceed the model itself on long contexts.",
     vram: [
-      { size: "7B – 8B",   fp16: "16 GB",   int8: "8 – 10 GB", int4: "5 – 6 GB",    market: "RTX 4060 Ti 16GB", prof: "L4 / T4" },
-      { size: "13B – 14B", fp16: "28 GB",   int8: "14 GB",     int4: "8 – 9 GB",    market: "RTX 4080 16GB (4-bit)", prof: "L40S 48GB" },
-      { size: "30B – 34B", fp16: "68 GB",   int8: "34 GB",     int4: "18 – 20 GB",  market: "RTX 4090 24GB (4-bit)", prof: "2 × L40S / A6000 48GB" },
-      { size: "70B",       fp16: "140 GB",  int8: "70 GB",     int4: "36 – 40 GB",  market: "2 × 4090 (4-bit, tight)", prof: "2 × A100 80GB / 4 × L40S" },
-      { size: "110B+ / large MoE", fp16: "220 GB+", int8: "110 GB+", int4: "60 GB+", market: "Not recommended", prof: "4 – 8 × H100 80GB" },
+            { size: "7B – 8B",   fp16: "16 GB",   int8: "8 – 10 GB", int4: "5 – 6 GB",    market: "RTX 5060 Ti 16GB", prof: "RTX PRO 4000 24GB / L4" },
+      { size: "13B – 14B", fp16: "28 GB",   int8: "14 GB",     int4: "8 – 9 GB",    market: "RTX 5070 Ti 16GB", prof: "RTX PRO 5000 48GB" },
+      { size: "30B – 34B", fp16: "68 GB",   int8: "34 GB",     int4: "18 – 20 GB",  market: "RTX 5090 32GB (4-bit)", prof: "RTX PRO 6000 96GB" },
+      { size: "70B",       fp16: "140 GB",  int8: "70 GB",     int4: "36 – 40 GB",  market: "2 × RTX 5090 64GB (4-bit)", prof: "RTX PRO 6000 96GB" },
+      { size: "110B+ / large MoE", fp16: "220 GB+", int8: "110 GB+", int4: "60 GB+", market: "2 × RTX PRO 6000 192GB", prof: "4 × B200 192GB" },
+      { size: "400B+ very large MoE", fp16: "880 GB+", int8: "440 GB+", int4: "220 GB+", market: "Not viable", prof: "GB300 NVL72 / 8 × B200" },
       { size: "Full fine-tuning",  fp16: "≈ 16 × params", int8: "—", int4: "—",      market: "Impractical", prof: "Multi-GPU with NVLink" },
-      { size: "LoRA fine-tuning",  fp16: "≈ 4 × params",  int8: "—", int4: "—",      market: "7B on a single 24 GB card", prof: "L40S / A100" }
+      { size: "LoRA fine-tuning",  fp16: "≈ 4 × params",  int8: "—", int4: "—",      market: "7B on a single 32 GB card", prof: "RTX PRO 6000 / H100" }
     ],
 
     /* ------------------------- Key metrics ------------------------- */
@@ -336,11 +339,11 @@
       "The list below is compiled from public information and is neither a recommendation nor an endorsement.",
     vendors: [
       { name: "NVIDIA", region: "United States", cat: "chip", tier: "Ecosystem leader",
-        products: "H100 / H200 / B200, RTX 40/50 series, L40S, Jetson",
-        note: "The most mature ecosystem by a wide margin — CUDA tooling and community material dwarf every alternative. Watch how export controls affect SKUs and lead times.", url: "https://www.nvidia.com" },
+        products: "GB300 NVL72, GB200 NVL72, B200 (192GB), H200, Vera Rubin, RTX 50 series, RTX PRO 6000 Blackwell, L40S, Jetson",
+        note: "The most mature ecosystem by a wide margin. The Rubin architecture starts shipping in the second half of 2026 (HBM4 on 3 nm), with Rubin Ultra expected in 2027 and Feynman after that. Watch how export controls affect SKUs and lead times.", url: "https://www.nvidia.com" },
       { name: "AMD", region: "United States", cat: "chip", tier: "Value alternative",
-        products: "Instinct MI300X / MI325X, Radeon Pro",
-        note: "Generous VRAM per card and strong price-performance. The ROCm software stack is still catching up — validate compatibility before committing.", url: "https://www.amd.com" },
+        products: "Instinct MI355X / MI350X (288GB HBM3e), MI350P PCIe, MI300X (192GB), Radeon Pro",
+        note: "The most generous VRAM per card anywhere (288 GB on the MI350 series, above NVIDIA's equivalent tier). The MI350P is a PCIe version released in May 2026. The ROCm software stack is still catching up — validate compatibility before committing.", url: "https://www.amd.com" },
       { name: "Intel", region: "United States", cat: "chip", tier: "Challenger",
         products: "Gaudi 3 accelerators, Arc Pro inference cards, Xeon platforms",
         note: "Price-competitive for inference and general server work, backed by oneAPI. A natural fit if you already run Intel infrastructure.", url: "https://www.intel.com" },
@@ -411,7 +414,7 @@
         products: "Z8 Fury, Z6 G5, Z G1 rack",
         note: "Z8 Fury takes dual Xeon plus several double-width cards, with well-developed thermal design.", url: "https://www.hp.com" },
       { name: "Apple Mac Studio / Mac Pro", region: "United States", cat: "workstation", tier: "Unified memory",
-        products: "Mac Studio M4 Max / M3 Ultra (up to 512 GB unified memory)",
+        products: "Mac Studio (M-series Ultra, up to 512 GB unified memory)",
         note: "The only desktop-class route to 192–512 GB of unified memory, but compute density is lower than a comparable discrete-GPU array.", url: "https://www.apple.com/mac-studio/" },
       { name: "Supermicro / ASUS Pro WS", region: "US / Taiwan", cat: "workstation", tier: "Build your own",
         products: "Pro WS WRX90, motherboard plus chosen GPUs",
@@ -520,9 +523,9 @@
         "The same GPU name in a laptop typically delivers only 50–70% of its desktop counterpart, often with less VRAM. " +
         "Decide first whether you are doing “mobile work plus cloud APIs” or “must run models offline” — the two paths lead to completely different machines.",
       points: [
-        { title: "The VRAM ceiling is 16 GB", desc: "Even an RTX 4090 Laptop tops out at 16 GB, and that is the mobile discrete ceiling. Anything above 13B only fits with 4-bit quantisation and luck." },
+        { title: "The VRAM ceiling is now 24 GB", desc: "The RTX 5090 Laptop ships with 24 GB of GDDR7, a clear step up from 16 GB last generation. But the 5080 Laptop is still 16 GB and the 5070/5060 only 8–12 GB, so anything past 24B still needs 4-bit quantisation." },
         { title: "Unified memory is the one exception", desc: "Apple's M4 Max can be configured with 128 GB of unified memory — the only mobile route to 70B-class models. The trade-off is lower bandwidth than a discrete GPU, so tokens per second are slower." },
-        { title: "The power limit decides real performance", desc: "Two RTX 4070 Laptops at 115 W and 140 W can differ by 20%. Check measured sustained power draw, not just the model number." },
+        { title: "The power limit decides real performance", desc: "Two RTX 5070 Laptops at 115 W and 140 W can differ by 20%. Check measured sustained power draw, not just the model number." },
         { title: "Do not use a laptop as an inference server", desc: "Laptop cooling is not designed for sustained load. Long 24/7 operation accelerates battery swelling and fan failure, and out-of-warranty repair is expensive." },
         { title: "eGPU enclosures are poor value", desc: "Thunderbolt 4's 40 Gbps is far below PCIe 5.0 x16, and measured losses of 20–40% are common. Add the enclosure and PSU cost and a desktop is simply better." }
       ],
@@ -537,20 +540,20 @@
           note: "If 90% of your work goes through cloud APIs this is the best value by far. Spending on cloud compute beats buying a GPU you never saturate." },
         { tier: "All-rounder", name: "Small local models plus mobile work", price: "$1,100 – 1,900",
           spec: [["Examples", "Lenovo Legion Pro 5, ASUS ROG Zephyrus, Dell XPS 15"],
-                 ["GPU", "RTX 4060 / 4070 Laptop"],
+                 ["GPU", "RTX 5060 / 5070 Laptop"],
                  ["VRAM", "8 GB"],
                  ["Memory", "32 GB DDR5 — max it out if you can"],
                  ["Sustained power", "115–140 W; insist on the full-power SKU"]],
           runs: "7B–8B at 4-bit runs smoothly; 13B needs quantisation and is a stretch",
-          note: "8 GB of VRAM is the main bottleneck here. Prefer models where you can upgrade memory to 64 GB yourself." },
+          note: "8 GB of VRAM remains the bottleneck here. Prefer the 12 GB 5070 Laptop variant, and models where you can upgrade memory to 64 GB yourself." },
         { tier: "High-performance creator", name: "The mobile discrete ceiling", price: "$2,000 – 3,800",
           spec: [["Examples", "ROG Strix, MSI Titan 18 HX, ASUS ProArt 16"],
-                 ["GPU", "RTX 4080 / 4090 Laptop or RTX 5000 Ada"],
-                 ["VRAM", "12 – 16 GB"],
+                 ["GPU", "RTX 5080 Laptop (16 GB) / RTX 5090 Laptop (24 GB) / RTX PRO 5000 Blackwell"],
+                 ["VRAM", "16 – 24 GB"],
                  ["Memory", "64 GB DDR5"],
                  ["Cooling", "Dual fans and multiple heat pipes; 2.4 kg+"]],
-          runs: "13B–32B at 4-bit; LoRA fine-tuning of 7B",
-          note: "16 GB is the mobile ceiling. At this price you are near the cost of an equivalent desktop plus a thin-and-light laptop — decide whether you truly need one machine." },
+          runs: "13B–32B at 4-bit; the 5090 Laptop's 24 GB reaches 32B at 4-bit; LoRA fine-tuning of 7B",
+          note: "24 GB (5090 Laptop) is the current mobile ceiling. At this price you are near the cost of an equivalent desktop plus a thin-and-light laptop — decide whether you truly need one machine." },
         { tier: "Apple large memory", name: "The only big-VRAM mobile option", price: "$3,500 – 7,500",
           spec: [["Examples", "MacBook Pro 16-inch M4 Max, Mac Studio M3 Ultra"],
                  ["Chip", "Apple M4 Max / M3 Ultra"],
@@ -595,19 +598,21 @@
       salvageRate: 15
     },
     presets: [
-      { id: "p1", name: "Individual · single RTX 4090 24G", seg: "Individual",
-        purchase: 2800, power: 0.6, price: 0.16, pue: 1.1, rack: 0, ops: 0, cloud: 0.5, life: 4 },
-      { id: "p2", name: "Individual · dual RTX 4090 48G", seg: "Individual",
-        purchase: 7000, power: 1.2, price: 0.16, pue: 1.1, rack: 0, ops: 0, cloud: 1.0, life: 4 },
-      { id: "p3", name: "Individual · Mac Studio M3 Ultra 512G", seg: "Individual",
+      { id: "p1", name: "Individual · single RTX 5090 32G", seg: "Individual",
+        purchase: 2400, power: 0.7, price: 0.16, pue: 1.1, rack: 0, ops: 0, cloud: 0.5, life: 4 },
+      { id: "p2", name: "Individual · dual RTX 5090 64G", seg: "Individual",
+        purchase: 5400, power: 1.4, price: 0.16, pue: 1.1, rack: 0, ops: 0, cloud: 1.0, life: 4 },
+      { id: "p3", name: "Individual · RTX PRO 6000 Blackwell 96G", seg: "Individual",
+        purchase: 9000, power: 0.6, price: 0.16, pue: 1.1, rack: 0, ops: 0, cloud: 1.8, life: 5 },
+      { id: "p4", name: "Individual · Mac Studio large memory (512G)", seg: "Individual",
         purchase: 9500, power: 0.3, price: 0.16, pue: 1.0, rack: 0, ops: 0, cloud: 1.5, life: 5 },
-      { id: "p4", name: "Studio · 2× RTX 6000 Ada 96G", seg: "Studio",
-        purchase: 35000, power: 1.4, price: 0.20, pue: 1.2, rack: 400, ops: 600, cloud: 3.0, life: 4 },
-      { id: "p5", name: "Enterprise · 4× A100 80G node", seg: "Enterprise",
-        purchase: 110000, power: 4.0, price: 0.14, pue: 1.4, rack: 800, ops: 2800, cloud: 12.0, life: 3 },
-      { id: "p6", name: "Enterprise · 8× H100 80G node", seg: "Enterprise",
+      { id: "p5", name: "Studio · 2× RTX PRO 6000 192G", seg: "Studio",
+        purchase: 20000, power: 1.3, price: 0.20, pue: 1.2, rack: 400, ops: 600, cloud: 3.5, life: 4 },
+      { id: "p6", name: "Enterprise · 8× H100 80G (previous gen)", seg: "Enterprise",
         purchase: 280000, power: 8.0, price: 0.14, pue: 1.4, rack: 1300, ops: 3200, cloud: 28.0, life: 3 },
-      { id: "p7", name: "Industrial · wide-temp IPC + one card", seg: "Industrial",
+      { id: "p7", name: "Enterprise · 8× B200 192GB (current gen)", seg: "Enterprise",
+        purchase: 420000, power: 12.0, price: 0.14, pue: 1.4, rack: 2000, ops: 3600, cloud: 48.0, life: 3 },
+      { id: "p8", name: "Industrial · wide-temp IPC + RTX 2000 Ada", seg: "Industrial",
         purchase: 12000, power: 0.35, price: 0.18, pue: 1.2, rack: 0, ops: 200, cloud: 0.5, life: 5 }
     ],
     labels: {
@@ -629,7 +634,8 @@
       { id: "custom",  name: "Custom", hours: null }
     ],
     cloudRef: [
-      { name: "RTX 4090 24G", price: "$0.35 – 0.70 / h", note: "Community and specialist providers" },
+      { name: "RTX 5090 32G", price: "$0.40 – 0.80 / h", note: "Community and specialist providers" },
+      { name: "RTX PRO 6000 96G", price: "$1.30 – 2.20 / h", note: "Single-card large VRAM; runs 70B at 4-bit" },
       { name: "A100 40G",     price: "$1.00 – 1.80 / h", note: "Major cloud, on-demand" },
       { name: "A100 80G",     price: "$1.50 – 3.00 / h", note: "Reserved monthly around $1,200–2,500 per card" },
       { name: "H100 80G",     price: "$2.50 – 4.50 / h", note: "Supply constrained; volatile pricing" },

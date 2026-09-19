@@ -65,7 +65,7 @@
         builds: [
           {
             tier: "入门", name: "够用就好", price: "¥6,000 – 9,000",
-            spec: [["显卡", "RTX 4060 Ti 16GB / RTX 4070 12GB"],
+            spec: [["显卡", "RTX 5060 Ti 16GB / RTX 5070 12GB"],
                    ["CPU", "Ryzen 7 或 Core i5（6–8 核）"],
                    ["内存", "32 GB DDR5"],
                    ["存储", "1 TB NVMe（顺序读 ≥ 5 GB/s）"],
@@ -76,24 +76,24 @@
           },
           {
             tier: "主流", name: "一次到位", price: "¥14,000 – 22,000",
-            spec: [["显卡", "RTX 4080 SUPER 16GB / RTX 4090 24GB"],
+            spec: [["显卡", "RTX 5070 Ti 16GB / RTX 5090 32GB"],
                    ["CPU", "Ryzen 9 或 Core i7（12–16 核）"],
                    ["内存", "64 GB DDR5"],
                    ["存储", "2 TB NVMe Gen4"],
                    ["电源", "850–1000 W 金牌"],
                    ["散热", "双塔风冷或 360 水冷"]],
-            runs: "14B–32B 4bit 可跑；32B FP16 需要两张卡",
-            note: "24 GB 是消费级最实用的一档，覆盖绝大多数本地需求，也是二手保值最好的一档。"
+            runs: "14B–32B 4bit 可跑；5090 的 32 GB 可上 32B 4bit",
+            note: "32 GB 是当前消费级的上限（5090）。比上一代 4090 的 24 GB 多出三分之一，且显存带宽接近翻倍（1792 vs 1008 GB/s），推理出字速度提升明显。"
           },
           {
             tier: "进阶", name: "双卡起步", price: "¥35,000 – 55,000",
-            spec: [["显卡", "2 × RTX 4090 24GB（合计 48 GB）"],
+            spec: [["显卡", "2 × RTX 5090 32GB（合计 64 GB）"],
                    ["CPU", "Threadripper 或 Core i9（24 核以上）"],
                    ["内存", "128 GB DDR5"],
                    ["存储", "4 TB NVMe Gen4 + 8 TB HDD 归档"],
-                   ["电源", "1600 W 钛金"],
+                   ["电源", "1600 W 钛金（双卡瞬态余量）"],
                    ["散热", "需要大机箱，双卡之间留足间距"]],
-            runs: "70B 4bit 可跑；32B 全量微调",
+            runs: "70B 4bit 可跑；32B 全量微调；64 GB 显存可并行多模型",
             note: "务必先查主板的 PCIe 通道分配，插满后掉到 x4 会明显拖慢多卡训练。"
           }
         ],
@@ -113,7 +113,7 @@
         builds: [
           {
             tier: "起步", name: "单机双卡", price: "¥60,000 – 100,000",
-            spec: [["显卡", "2 × RTX 4090 24GB 或 1 × RTX 6000 Ada 48GB"],
+            spec: [["显卡", "2 × RTX 5090 32GB（64 GB）或 1 × RTX PRO 6000 Blackwell 96GB"],
                    ["CPU", "Threadripper / Xeon Silver（24 核以上）"],
                    ["内存", "256 GB DDR5 ECC"],
                    ["存储", "4 TB NVMe Gen4（系统+模型） + 16 TB 阵列"],
@@ -124,18 +124,18 @@
           },
           {
             tier: "标准", name: "工作站", price: "¥180,000 – 320,000",
-            spec: [["显卡", "2 × RTX 6000 Ada 48GB（合计 96 GB）"],
+            spec: [["显卡", "2 × RTX PRO 6000 Blackwell 96GB（合计 192 GB）"],
                    ["CPU", "Threadripper PRO（32–64 核）"],
                    ["内存", "512 GB DDR5 ECC"],
                    ["存储", "8 TB NVMe Gen4 RAID1 + 32 TB 备份"],
-                   ["电源", "2000 W 冗余电源"],
+                   ["电源", "2000 W 冗余电源（单卡峰值 600 W）"],
                    ["散热", "机架式或塔式，独立风道"]],
             runs: "70B FP16 推理；32B 全量微调；批量视频生成",
             note: "这个价位必须上 ECC 内存，长时间微调时一位内存翻转就能毁掉整个训练。"
           },
           {
             tier: "进阶", name: "推理服务器", price: "¥400,000 – 800,000",
-            spec: [["显卡", "4 × L40S 48GB 或 4 × A100 80GB"],
+            spec: [["显卡", "4 × L40S 48GB 或 4 × H200 141GB"],
                    ["CPU", "双路 EPYC（64 核以上）"],
                    ["内存", "1 TB DDR5 ECC"],
                    ["存储", "NVMe RAID + 分布式存储接入"],
@@ -161,7 +161,7 @@
         builds: [
           {
             tier: "试点", name: "验证型节点", price: "¥150,000 – 300,000",
-            spec: [["显卡", "2 × L40S 48GB 或 2 × A100 40GB"],
+            spec: [["显卡", "2 × L40S 48GB 或 1 × RTX PRO 6000 96GB"],
                    ["CPU", "双路 Xeon Silver / EPYC"],
                    ["内存", "512 GB DDR5 ECC"],
                    ["存储", "SSD 系统盘 RAID1 + NVMe 缓存盘"],
@@ -172,7 +172,7 @@
           },
           {
             tier: "生产", name: "标准生产节点", price: "¥800,000 – 2,000,000",
-            spec: [["显卡", "4–8 × A100 80GB / H100 80GB，NVLink 互联"],
+            spec: [["显卡", "8 × H100 80GB 或 8 × B200 192GB，NVLink 互联"],
                    ["CPU", "双路 EPYC（64–96 核）"],
                    ["内存", "1–2 TB DDR5 ECC"],
                    ["存储", "企业级 NVMe RAID + 分布式存储"],
@@ -221,7 +221,7 @@
           },
           {
             tier: "工控整机", name: "宽温工控机 + 单卡", price: "¥40,000 – 120,000",
-            spec: [["计算", "单张涡轮/被动散热专业卡（L4 / RTX A2000 级）"],
+            spec: [["计算", "单张涡轮/被动散热专业卡（L4 / RTX PRO 2000 Blackwell 级）"],
                    ["CPU", "嵌入式 Xeon / Core（低功耗型号）"],
                    ["内存", "64 GB DDR5 ECC"],
                    ["存储", "工业级 NVMe RAID1 + SLC 缓存"],
@@ -257,15 +257,18 @@
     /* ------------------------- 显存需求速查 ------------------------- */
     vramNote:
       "估算公式：显存 ≈ 参数量 × 每参数字节数 + KV Cache + 激活值。其中 FP16 ≈ 2 字节/参数，" +
+      "注意 2025 年后的新卡在显存容量上进步很快（消费级已到 32 GB、工作站单卡到 96 GB），" +
+      "但显存带宽的差距（消费级约 0.9–1.8 TB/s，HBM 加速卡 3–8 TB/s）才是推理速度的真正分水岭。" +
       "INT8 ≈ 1.1，INT4 ≈ 0.55。KV Cache 随上下文长度线性增长，长上下文场景可能超过模型本身。",
     vram: [
-      { size: "7B – 8B",   fp16: "16 GB",   int8: "8 – 10 GB", int4: "5 – 6 GB",    market: "RTX 4060 Ti 16GB", prof: "L4 / T4" },
-      { size: "13B – 14B", fp16: "28 GB",   int8: "14 GB",     int4: "8 – 9 GB",    market: "RTX 4080 16GB（4bit）", prof: "L40S 48GB" },
-      { size: "30B – 34B", fp16: "68 GB",   int8: "34 GB",     int4: "18 – 20 GB",  market: "RTX 4090 24GB（4bit）", prof: "2 × L40S / A6000 48GB" },
-      { size: "70B",       fp16: "140 GB",  int8: "70 GB",     int4: "36 – 40 GB",  market: "2 × 4090（4bit，勉强）", prof: "2 × A100 80GB / 4 × L40S" },
-      { size: "110B+ / 大 MoE", fp16: "220 GB+", int8: "110 GB+", int4: "60 GB+",   market: "不建议消费级", prof: "4 – 8 × H100 80GB" },
+      { size: "7B – 8B",   fp16: "16 GB",   int8: "8 – 10 GB", int4: "5 – 6 GB",    market: "RTX 5060 Ti 16GB", prof: "RTX PRO 4000 24GB / L4" },
+      { size: "13B – 14B", fp16: "28 GB",   int8: "14 GB",     int4: "8 – 9 GB",    market: "RTX 5070 Ti 16GB", prof: "RTX PRO 5000 48GB" },
+      { size: "30B – 34B", fp16: "68 GB",   int8: "34 GB",     int4: "18 – 20 GB",  market: "RTX 5090 32GB（4bit）", prof: "RTX PRO 6000 96GB" },
+      { size: "70B",       fp16: "140 GB",  int8: "70 GB",     int4: "36 – 40 GB",  market: "2 × RTX 5090 64GB（4bit）", prof: "RTX PRO 6000 96GB" },
+      { size: "110B+ / 大 MoE", fp16: "220 GB+", int8: "110 GB+", int4: "60 GB+",   market: "2 × RTX PRO 6000 192GB", prof: "4 × B200 192GB" },
+      { size: "400B+ 超大 MoE", fp16: "880 GB+", int8: "440 GB+", int4: "220 GB+",  market: "不具备可行性", prof: "GB300 NVL72 / 8 × B200" },
       { size: "全量微调",  fp16: "≈ 16 × 参数量", int8: "—",     int4: "—",           market: "不现实", prof: "多卡 + NVLink" },
-      { size: "LoRA 微调", fp16: "≈ 4 × 参数量",  int8: "—",     int4: "—",           market: "单卡 24GB 可调 7B", prof: "L40S / A100" }
+      { size: "LoRA 微调", fp16: "≈ 4 × 参数量",  int8: "—",     int4: "—",           market: "单卡 32GB 可调 7B", prof: "RTX PRO 6000 / H100" }
     ],
 
     /* ------------------------- 关键指标 ------------------------- */
@@ -333,11 +336,11 @@
       "下表为公开信息整理，不构成推荐或背书。",
     vendors: [
       { name: "NVIDIA", region: "美国", cat: "chip", tier: "生态主导",
-        products: "H100 / H200 / B200、RTX 40/50 系、L40S、Jetson",
-        note: "CUDA 生态最成熟，工具链与社区资料远超其他平台。关注出口管制对型号与供货的影响。", url: "https://www.nvidia.com" },
+        products: "GB300 NVL72、GB200 NVL72、B200（192GB）、H200、Vera Rubin、RTX 50 系、RTX PRO 6000 Blackwell、L40S、Jetson",
+        note: "CUDA 生态最成熟。2026 年下半年 Rubin 架构开始上市（HBM4 + 3nm），Rubin Ultra 预计 2027 年，之后是 Feynman。关注出口管制对型号与供货的影响。", url: "https://www.nvidia.com" },
       { name: "AMD", region: "美国", cat: "chip", tier: "性价比替代",
-        products: "Instinct MI300X / MI325X、Radeon Pro",
-        note: "显存容量给得大方，单卡性价比高。软件栈 ROCm 仍在追赶，迁移前务必做兼容性验证。", url: "https://www.amd.com" },
+        products: "Instinct MI355X / MI350X（288GB HBM3e）、MI350P PCIe、MI300X（192GB）、Radeon Pro",
+        note: "显存容量给得最大方（MI350 系列单卡 288 GB，超过同期 NVIDIA 同级）。MI350P 是 2026 年 5 月推出的 PCIe 版本。软件栈 ROCm 仍在追赶，迁移前务必做兼容性验证。", url: "https://www.amd.com" },
       { name: "Intel", region: "美国", cat: "chip", tier: "挑战者",
         products: "Gaudi 3 加速卡、Arc Pro 推理卡、Xeon 平台",
         note: "在推理与通用服务器场景有价格优势，配套 oneAPI 生态。适合已有 Intel 平台的企业。", url: "https://www.intel.com" },
@@ -408,10 +411,10 @@
         products: "Z8 Fury、Z6 G5、Z G1 机架式",
         note: "Z8 Fury 支持双路 Xeon + 多张双宽卡，散热设计成熟。", url: "https://www.hp.com" },
       { name: "苹果 Mac Studio / Mac Pro", region: "美国", cat: "workstation", tier: "统一内存",
-        products: "Mac Studio M4 Max / M3 Ultra（最高 512 GB 统一内存）",
+        products: "Mac Studio（M 系列 Ultra，最高 512 GB 统一内存）",
         note: "唯一能在桌面上提供 192–512 GB 统一内存的消费级方案，但算力密度低于同价位独显阵列。", url: "https://www.apple.com/mac-studio/" },
       { name: "超微 / 华硕 Pro WS", region: "美国 / 中国台湾", cat: "workstation", tier: "自建",
-        products: "Pro WS WRX90、主板 + 自选显卡",
+        products: "Pro WS WRX90、主板 + 自选显卡（如 RTX PRO 6000 96GB）",
         note: "自建工作站路线：主板支持 4–7 条 PCIe 5.0 x16，适合需要极限通道数的多卡场景。", url: "https://www.asus.com" },
 
       { name: "苹果 MacBook Pro", region: "美国", cat: "laptop", tier: "统一内存",
@@ -516,9 +519,9 @@
         "笔记本用于本地 AI 有三个硬约束：显存天花板、功耗墙、以及散热带来的性能缩水。" +
         "同型号 GPU 在笔记本上通常只有桌面版 50–70% 的性能，显存也往往被砍。先想清楚你是「移动办公 + 云 API」还是「必须离网跑模型」，这两条路线的选择完全不同。",
       points: [
-        { title: "显存天花板是 16 GB", desc: "RTX 4090 Laptop 也只有 16 GB，且这是移动端独显的上限。13B 以上模型基本只能靠 4bit 量化硬挤。" },
+        { title: "显存天花板已到 24 GB", desc: "RTX 5090 Laptop 提供了 24 GB GDDR7，比上一代的 16 GB 有明显提升；但 5080 Laptop 仍是 16 GB，5070/5060 只有 8–12 GB。24B 以上模型依然要靠 4bit 量化。" },
         { title: "统一内存是唯一的例外", desc: "Apple Silicon 的 M4 Max 可配到 128 GB 统一内存，是移动端唯一能跑 70B 量级的方案。代价是内存带宽低于独显，出字速度慢。" },
-        { title: "功耗墙决定实际性能", desc: "同样是 RTX 4070 Laptop，115 W 和 140 W 满血版差距可到 20%。买之前一定要看实测功耗释放，而不是只看型号。" },
+        { title: "功耗墙决定实际性能", desc: "同样是 RTX 5070 Laptop，115 W 和 140 W 满血版差距可到 20%。买之前一定要看实测功耗释放，而不是只看型号。" },
         { title: "别拿笔记本当推理服务器", desc: "笔记本的散热设计不支持 7×24 满载。长期高负载会加速电池鼓包与风扇失效，出保后维修成本很高。" },
         { title: "外接显卡坞性价比很低", desc: "雷电 4 的 40 Gbps 带宽远低于 PCIe 5.0 x16，实测性能损失常达 20–40%，还要额外买电源和显卡坞，不如直接买台式机。" }
       ],
@@ -533,20 +536,20 @@
           note: "如果你的工作 90% 走云 API，这是最划算的选择——把钱花在云端算力上，比买一块用不上的独显划算得多。" },
         { tier: "全能本", name: "本地小模型 + 移动办公", price: "¥8,000 – 13,000",
           spec: [["代表机型", "联想 Legion Pro 5、华硕 ROG 幻 16、戴尔 XPS 15"],
-                 ["GPU", "RTX 4060 / 4070 Laptop"],
+                 ["GPU", "RTX 5060 / 5070 Laptop"],
                  ["显存", "8 GB"],
                  ["内存", "32 GB DDR5（建议直接上满）"],
                  ["功耗释放", "115–140 W，务必选满血版"]],
           runs: "7B–8B 4bit 流畅；13B 需量化且勉强",
-          note: "8 GB 显存是这条线的主要瓶颈。优先选内存可自行升级到 64 GB 的机型。" },
+          note: "8 GB 显存仍是这条线的主要瓶颈。优先选 5070 Laptop 的 12 GB 版本，以及内存可自行升级到 64 GB 的机型。" },
         { tier: "高性能创作本", name: "移动端独显天花板", price: "¥15,000 – 28,000",
-          spec: [["代表机型", "ROG 枪神 9、微星泰坦 18 HX、华硕 ProArt 创 16"],
-                 ["GPU", "RTX 4080 / 4090 Laptop 或 RTX 5000 Ada"],
-                 ["显存", "12 – 16 GB"],
+          spec: [["代表机型", "ROG 枪神 10、微星泰坦 18 HX、华硕 ProArt 创 16"],
+                 ["GPU", "RTX 5080 Laptop（16 GB）/ RTX 5090 Laptop（24 GB）/ RTX PRO 5000 Blackwell"],
+                 ["显存", "16 – 24 GB"],
                  ["内存", "64 GB DDR5"],
                  ["散热", "双风扇多热管，重量 2.4 kg+"]],
-          runs: "13B–32B 4bit 可跑；LoRA 微调 7B",
-          note: "16 GB 是移动端上限。这个价位已经接近同等性能的台式机 + 一台轻薄本的总价，先想清楚是否真的需要一体。" },
+          runs: "13B–32B 4bit 可跑；5090 Laptop 的 24 GB 可上 32B 4bit；LoRA 微调 7B",
+          note: "24 GB（5090 Laptop）是当前的移动端上限。这个价位已经接近同等性能的台式机 + 一台轻薄本的总价，先想清楚是否真的需要一体。" },
         { tier: "Apple 大内存", name: "移动端唯一的大显存方案", price: "¥25,000 – 55,000",
           spec: [["代表机型", "MacBook Pro 16 英寸 M4 Max、Mac Studio M3 Ultra"],
                  ["芯片", "Apple M4 Max / M3 Ultra"],
@@ -590,19 +593,21 @@
       salvageRate: 15
     },
     presets: [
-      { id: "p1", name: "个人 · 单卡 RTX 4090 24G", seg: "个人",
-        purchase: 20000, power: 0.6, price: 0.6, pue: 1.1, rack: 0, ops: 0, cloud: 2.5, life: 4 },
-      { id: "p2", name: "个人 · 双卡 RTX 4090 48G", seg: "个人",
-        purchase: 50000, power: 1.2, price: 0.6, pue: 1.1, rack: 0, ops: 0, cloud: 5.0, life: 4 },
-      { id: "p3", name: "个人 · Mac Studio M3 Ultra 512G", seg: "个人",
+      { id: "p1", name: "个人 · 单卡 RTX 5090 32G", seg: "个人",
+        purchase: 17000, power: 0.7, price: 0.6, pue: 1.1, rack: 0, ops: 0, cloud: 3.0, life: 4 },
+      { id: "p2", name: "个人 · 双卡 RTX 5090 64G", seg: "个人",
+        purchase: 38000, power: 1.4, price: 0.6, pue: 1.1, rack: 0, ops: 0, cloud: 6.0, life: 4 },
+      { id: "p3", name: "个人 · RTX PRO 6000 Blackwell 96G", seg: "个人",
+        purchase: 70000, power: 0.6, price: 0.6, pue: 1.1, rack: 0, ops: 0, cloud: 12.0, life: 5 },
+      { id: "p4", name: "个人 · Mac Studio 大内存（512G）", seg: "个人",
         purchase: 60000, power: 0.3, price: 0.6, pue: 1.0, rack: 0, ops: 0, cloud: 10.0, life: 5 },
-      { id: "p4", name: "专业 · 2× RTX 6000 Ada 96G", seg: "专业",
-        purchase: 250000, power: 1.4, price: 0.7, pue: 1.2, rack: 2000, ops: 4000, cloud: 24.0, life: 4 },
-      { id: "p5", name: "企业 · 4× A100 80G 节点", seg: "企业",
-        purchase: 800000, power: 4.0, price: 0.8, pue: 1.4, rack: 5000, ops: 18000, cloud: 100.0, life: 3 },
-      { id: "p6", name: "企业 · 8× H100 80G 节点", seg: "企业",
+      { id: "p5", name: "专业 · 2× RTX PRO 6000 192G", seg: "专业",
+        purchase: 150000, power: 1.3, price: 0.7, pue: 1.2, rack: 2000, ops: 4000, cloud: 24.0, life: 4 },
+      { id: "p6", name: "企业 · 8× H100 80G（上一代）", seg: "企业",
         purchase: 2000000, power: 8.0, price: 0.8, pue: 1.4, rack: 8000, ops: 20000, cloud: 360.0, life: 3 },
-      { id: "p7", name: "工业 · 宽温工控机 + 单卡", seg: "工业",
+      { id: "p7", name: "企业 · 8× B200 192GB（当前代）", seg: "企业",
+        purchase: 3000000, power: 12.0, price: 0.8, pue: 1.4, rack: 12000, ops: 24000, cloud: 450.0, life: 3 },
+      { id: "p8", name: "工业 · 宽温工控机 + RTX 2000 Ada", seg: "工业",
         purchase: 80000, power: 0.35, price: 0.9, pue: 1.2, rack: 0, ops: 1500, cloud: 3.0, life: 5 }
     ],
     labels: {
@@ -624,7 +629,8 @@
       { id: "custom", name: "自定义", hours: null }
     ],
     cloudRef: [
-      { name: "RTX 4090 24G", price: "¥1.5 – 3.0 / 小时", note: "AutoDL 等国内平台，个人开发者常用" },
+      { name: "RTX 5090 32G", price: "¥2.0 – 4.0 / 小时", note: "AutoDL 等国内平台，个人开发者常用" },
+      { name: "RTX PRO 6000 96G", price: "¥10 – 16 / 小时", note: "单卡大显存，可跑 70B 4bit" },
       { name: "A100 40G",     price: "¥8 – 14 / 小时",    note: "国内云厂商按量实例" },
       { name: "A100 80G",     price: "¥20 – 35 / 小时",   note: "包月约 ¥12,000 – 25,000 / 卡" },
       { name: "H100 80G",     price: "¥35 – 60 / 小时",   note: "国内供给紧张，价格波动大" },
