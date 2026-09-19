@@ -574,4 +574,69 @@
       ]
     }
   };
+
+  /* ------------------------------------------------------------------
+     算力租赁 vs 自建 成本计算器
+     ------------------------------------------------------------------ */
+  window.AI_DATA.hardware.calculator = {
+    note:
+      "自建的成本远不止采购价：电费、机房、运维人力、以及三年后的折旧，加起来常常超过硬件本身。" +
+      "云租的好处是零前期投入、随时弹性、不用管运维，代价是长期单价高。" +
+      "下面这组参数可以帮你找到自己的临界点。所有计算在浏览器本地完成，不上传任何数据。",
+    defaults: {
+      months: 24,
+      hoursPerDay: 24,
+      daysPerMonth: 30,
+      salvageRate: 15
+    },
+    presets: [
+      { id: "p1", name: "个人 · 单卡 RTX 4090 24G", seg: "个人",
+        purchase: 20000, power: 0.6, price: 0.6, pue: 1.1, rack: 0, ops: 0, cloud: 2.5, life: 4 },
+      { id: "p2", name: "个人 · 双卡 RTX 4090 48G", seg: "个人",
+        purchase: 50000, power: 1.2, price: 0.6, pue: 1.1, rack: 0, ops: 0, cloud: 5.0, life: 4 },
+      { id: "p3", name: "个人 · Mac Studio M3 Ultra 512G", seg: "个人",
+        purchase: 60000, power: 0.3, price: 0.6, pue: 1.0, rack: 0, ops: 0, cloud: 10.0, life: 5 },
+      { id: "p4", name: "专业 · 2× RTX 6000 Ada 96G", seg: "专业",
+        purchase: 250000, power: 1.4, price: 0.7, pue: 1.2, rack: 2000, ops: 4000, cloud: 24.0, life: 4 },
+      { id: "p5", name: "企业 · 4× A100 80G 节点", seg: "企业",
+        purchase: 800000, power: 4.0, price: 0.8, pue: 1.4, rack: 5000, ops: 18000, cloud: 100.0, life: 3 },
+      { id: "p6", name: "企业 · 8× H100 80G 节点", seg: "企业",
+        purchase: 2000000, power: 8.0, price: 0.8, pue: 1.4, rack: 8000, ops: 20000, cloud: 360.0, life: 3 },
+      { id: "p7", name: "工业 · 宽温工控机 + 单卡", seg: "工业",
+        purchase: 80000, power: 0.35, price: 0.9, pue: 1.2, rack: 0, ops: 1500, cloud: 3.0, life: 5 }
+    ],
+    labels: {
+      purchase: "硬件采购价",
+      power: "整机功耗",
+      price: "电价",
+      pue: "PUE（能源效率）",
+      rack: "机柜与托管",
+      ops: "运维人力",
+      cloud: "云租单价",
+      salvage: "期末残值率",
+      months: "比较周期",
+      runMode: "运行时长"
+    },
+    runModes: [
+      { id: "always", name: "7×24 常驻", hours: 720 },
+      { id: "work",   name: "工作日 10 小时", hours: 220 },
+      { id: "evening",name: "每晚 4 小时", hours: 120 },
+      { id: "custom", name: "自定义", hours: null }
+    ],
+    cloudRef: [
+      { name: "RTX 4090 24G", price: "¥1.5 – 3.0 / 小时", note: "AutoDL 等国内平台，个人开发者常用" },
+      { name: "A100 40G",     price: "¥8 – 14 / 小时",    note: "国内云厂商按量实例" },
+      { name: "A100 80G",     price: "¥20 – 35 / 小时",   note: "包月约 ¥12,000 – 25,000 / 卡" },
+      { name: "H100 80G",     price: "¥35 – 60 / 小时",   note: "国内供给紧张，价格波动大" },
+      { name: "8× H100 整机", price: "¥280 – 480 / 小时", note: "通常需要签长期合约才有折扣" }
+    ],
+    caveats: [
+      "未计入：故障停机损失、技术过时风险、电力增容与机房改造成本、迁移与适配人力",
+      "自建的真实成本常被低估——备件、监控、夜间值守、以及「人走了机器没人管」的风险",
+      "云价按当前行情估算，签一年以上合约通常能拿到 30–50% 折扣，届时临界点会明显右移",
+      "工业与边缘场景的采购动机通常不是省钱，而是低延迟、断网可用、数据不出厂区——这类场景不该用本模型判断",
+      "合规与数据不出域要求会让「租」这个选项直接消失，这类场景不在本模型讨论范围内",
+      "硬件残值按直线折旧估算，实际二手价受下一代产品发布时间影响很大"
+    ]
+  };
 })();

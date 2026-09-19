@@ -431,6 +431,13 @@
           url: "hardware.html#hwLaptopsList",
           keys: u.tier + " " + u.name + " " + u.price + " " + u.runs + " " + u.spec.map((r) => r.join(" ")).join(" ")
         }));
+      // 成本计算器的预置方案
+      ((H.calculator && H.calculator.presets) || []).forEach((cp) =>
+        SEARCH_INDEX.push({
+          type: hwType, icon: "🧮", title: cp.name, sub: (LANG === "zh" ? "回本测算 · " : "Payback · ") + cp.seg,
+          url: "hardware.html#calcRoot",
+          keys: cp.name + " " + cp.seg + " 回本 临界点 自建 云租 租赁 payback breakeven rent buy"
+        }));
     }
     SEARCH_READY = true;
     return SEARCH_INDEX.length;
@@ -1711,12 +1718,322 @@
       ltUnits.innerHTML = H.laptops.units.map(hwBuildCard).join("");
     }
 
+    /* ---- 成本计算器 ---- */
+    initCalculator();
+
     /* ---- 深链接：#personal 直接定位到对应受众 ---- */
     if (H.segments.some((s) => s.id === hashId)) {
       setTimeout(() => {
         const el = $("#hwRoot");
         if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
       }, 200);
+    }
+  }
+
+  /* ============================== 14.6 租金 vs 自建计算器 ============================== */
+  /* 金额格式化：中文用万/亿，英文用 k/M */
+  function fmtMoney(n, digits) {
+    if (!isFinite(n)) return "—";
+    const neg = n < 0;
+    const v = Math.abs(n);
+    let out;
+    if (LANG === "zh") {
+      if (v >= 1e8) out = "¥" + (v / 1e8).toFixed(2) + " 亿";
+      else if (v >= 1e4) out = "¥" + (v / 1e4).toFixed(v / 1e4 >= 100 ? 0 : 1) + " 万";
+      else out = "¥" + Math.round(v).toLocaleString("zh-CN");
+    } else {
+      if (v >= 1e6) out = "$" + (v / 1e6).toFixed(2) + "M";
+      else if (v >= 1e3) out = "$" + (v / 1e3).toFixed(v / 1e3 >= 100 ? 0 : 1) + "k";
+      else out = "$" + Math.round(v).toLocaleString("en-US");
+    }
+    return (neg ? "−" : "") + out;
+  }
+
+  function initCalculator() {
+    const root = $("#calcRoot");
+    if (!root) return;
+    const C = D.hardware && D.hardware.calculator;
+    if (!C) {
+      root.innerHTML = '<div class="empty"><div class="em-icon">🧮</div><h3>' + t("hw.noData") + "</h3></div>";
+      return;
+    }
+
+    const noteEl = $("#calcNote");
+    if (noteEl) noteEl.textContent = C.note;
+    const opsHint = $("#calcOpsHint");
+    if (opsHint) opsHint.textContent = t("hw.calcOpsHint");
+
+    /* ---- 表单 ---- */
+    const F = {
+      preset: $("#calcPreset"),
+      purchase: $("#calcPurchase"),
+      power: $("#calcPower"),
+      price: $("#calcPrice"),
+      pue: $("#calcPue"),
+      rack: $("#calcRack"),
+      ops: $("#calcOps"),
+      cloud: $("#calcCloud"),
+      salvage: $("#calcSalvage"),
+      months: $("#calcMonths"),
+      runMode: $("#calcRunMode"),
+      hours: $("#calcHours")
+    };
+
+    /* 预置方案下拉 */
+    F.preset.innerHTML = C.presets.map((p) =>
+      '<option value="' + p.id + '">' + esc(p.name) + "</option>").join("");
+    F.runMode.innerHTML = C.runModes.map((m) =>
+      '<option value="' + m.id + '">' + esc(m.name) + "</option>").join("");
+
+    F.months.value = C.defaults.months;
+    F.salvage.value = C.defaults.salvageRate;
+    F.runMode.value = "always";
+
+    function applyPreset(id) {
+      const p = C.presets.find((x) => x.id === id) || C.presets[0];
+      F.purchase.value = p.purchase;
+      F.power.value = p.power;
+      F.price.value = p.price;
+      F.pue.value = p.pue;
+      F.rack.value = p.rack;
+      F.ops.value = p.ops;
+      F.cloud.value = p.cloud;
+      root.dataset.life = p.life;
+      root.dataset.seg = p.seg;
+    }
+
+    /* 运行小时数：预置模式自动算，自定义模式用输入框 */
+    function currentHours() {
+      const mode = C.runModes.find((m) => m.id === F.runMode.value);
+      if (mode && mode.hours != null) {
+        F.hours.value = mode.hours;
+        F.hours.readOnly = true;
+        F.hours.style.opacity = ".65";
+        return mode.hours;
+      }
+      F.hours.readOnly = false;
+      F.hours.style.opacity = "1";
+      const v = parseFloat(F.hours.value);
+      return isFinite(v) && v > 0 ? v : 0;
+    }
+
+    /* ---- 核心模型 ---- */
+    function model() {
+      const num = (el, d) => { const v = parseFloat(el.value); return isFinite(v) ? v : d; };
+      const purchase = Math.max(0, num(F.purchase, 0));
+      const power = Math.max(0, num(F.power, 0));
+      const price = Math.max(0, num(F.price, 0));
+      const pue = Math.max(1, num(F.pue, 1));
+      const rack = Math.max(0, num(F.rack, 0));
+      const ops = Math.max(0, num(F.ops, 0));
+      const cloud = Math.max(0, num(F.cloud, 0));
+      const salvageRate = Math.min(100, Math.max(0, num(F.salvage, 0))) / 100;
+      const months = Math.max(1, Math.round(num(F.months, 24)));
+      const hours = currentHours();
+      const life = parseFloat(root.dataset.life) || 4;
+
+      // 自建：电费 + 机柜 + 运维
+      const powerMonthly = power * hours * price * pue;
+      const ownMonthly = powerMonthly + rack + ops;
+      // 云：按小时计费
+      const cloudMonthly = cloud * hours;
+
+      const salvage = purchase * salvageRate * Math.max(0, 1 - months / (life * 12));
+      const ownTotal = purchase - salvage + ownMonthly * months;
+      const cloudTotal = cloudMonthly * months;
+
+      // 临界点：只有「云比自建贵」时，自建才有回本的可能
+      // monthlyGap > 0 → 用每月省下的钱去追平采购价
+      // monthlyGap ≤ 0 → 云月成本已经不高于自建，自建永远无法回本
+      const monthlyGap = cloudMonthly - ownMonthly;
+      const breakeven = monthlyGap > 0 ? purchase / monthlyGap : Infinity;
+
+      return { purchase, power, price, pue, rack, ops, cloud, salvageRate, months, hours, life,
+               powerMonthly, ownMonthly, cloudMonthly, salvage, ownTotal, cloudTotal, monthlyGap, breakeven };
+    }
+
+    /* ---- 累计成本采样（用于曲线） ---- */
+    function sample(m, upto) {
+      const own = m.purchase - m.purchase * m.salvageRate * Math.max(0, 1 - upto / (m.life * 12)) + m.ownMonthly * upto;
+      const cloud = m.cloudMonthly * upto;
+      return { own: own, cloud: cloud };
+    }
+
+    /* ---- 折线图（生 SVG，无第三方库） ---- */
+    function chart(m) {
+      const W = 660, H = 280, PL = 76, PR = 16, PT = 16, PB = 34;
+      const N = 36;
+      const maxX = Math.max(6, m.months);
+      const pts = [];
+      let maxY = 0;
+      for (let i = 0; i <= N; i++) {
+        const t = (i / N) * maxX;
+        const s = sample(m, t);
+        pts.push({ t: t, own: s.own, cloud: s.cloud });
+        maxY = Math.max(maxY, s.own, s.cloud);
+      }
+      maxY = maxY * 1.08 || 1;
+      const X = (t) => PL + (t / maxX) * (W - PL - PR);
+      const Y = (v) => H - PB - (v / maxY) * (H - PT - PB);
+      const path = (key) => pts.map((p, i) => (i ? "L" : "M") + X(p.t).toFixed(1) + " " + Y(p[key]).toFixed(1)).join(" ");
+
+      // 网格与 Y 轴刻度（4 条）
+      let grid = "";
+      for (let i = 0; i <= 4; i++) {
+        const v = (maxY / 4) * i;
+        const y = Y(v).toFixed(1);
+        grid += '<line class="grid-line" x1="' + PL + '" y1="' + y + '" x2="' + (W - PR) + '" y2="' + y + '"/>';
+        grid += '<text class="axis-text" x="' + (PL - 8) + '" y="' + (+y + 4) + '" text-anchor="end">' + esc(fmtMoney(v)) + "</text>";
+      }
+      // X 轴刻度
+      let xticks = "";
+      const stepX = maxX <= 12 ? 2 : maxX <= 24 ? 6 : 12;
+      for (let t = 0; t <= maxX + 0.01; t += stepX) {
+        xticks += '<text class="axis-text" x="' + X(t).toFixed(1) + '" y="' + (H - PB + 18) + '" text-anchor="middle">' + Math.round(t) + "</text>";
+      }
+      xticks += '<text class="axis-text" x="' + ((PL + W - PR) / 2) + '" y="' + (H - 4) + '" text-anchor="middle">' +
+        esc(LANG === "zh" ? "月" : "months") + "</text>";
+
+      // 临界点标记
+      let marker = "";
+      if (isFinite(m.breakeven) && m.breakeven > 0 && m.breakeven <= maxX) {
+        const s = sample(m, m.breakeven);
+        const mx = X(m.breakeven), my = Y(s.own);
+        marker =
+          '<line class="marker" x1="' + mx.toFixed(1) + '" y1="' + PT + '" x2="' + mx.toFixed(1) + '" y2="' + (H - PB) + '"/>' +
+          '<circle class="marker-dot" cx="' + mx.toFixed(1) + '" cy="' + my.toFixed(1) + '" r="4.5"/>' +
+          '<text class="marker-text" x="' + (mx + 7) + '" y="' + (my - 9) + '">' + esc(t("hw.calcCrossover")) +
+            " · " + esc(t("hw.calcMonths", { n: Math.ceil(m.breakeven) })) + "</text>";
+      }
+
+      return '<svg class="calc-chart" viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + t("hw.calcChartTitle") + '">' +
+        grid + xticks + marker +
+        '<path class="line-cloud" d="' + path("cloud") + '"/>' +
+        '<path class="line-own" d="' + path("own") + '"/>' +
+        "</svg>" +
+        '<div class="calc-legend">' +
+          '<span><i style="background:var(--brand)"></i>' + t("hw.calcChartOwn") + "</span>" +
+          '<span><i style="background:var(--brand-2)"></i>' + t("hw.calcChartCloud") + "（" +
+            (LANG === "zh" ? "虚线" : "dashed") + "）</span>" +
+        "</div>";
+    }
+
+    /* ---- 渲染 ---- */
+    function render() {
+      const m = model();
+      const ownWins = m.ownTotal <= m.cloudTotal;
+      const diff = Math.abs(m.ownTotal - m.cloudTotal);
+      const ownCheaperMonthly = m.ownMonthly <= m.cloudMonthly;
+
+      const beText = !isFinite(m.breakeven) ? t("hw.calcNever") : t("hw.calcMonths", { n: Math.ceil(m.breakeven) });
+
+      // KPI
+      const kpi = $("#calcKpis");
+      if (kpi) {
+        kpi.innerHTML =
+          '<div class="calc-kpi' + (ownCheaperMonthly ? " win" : "") + '">' +
+            '<div class="kl">' + t("hw.calcOwnMonthly") + '</div>' +
+            '<div class="kv">' + esc(fmtMoney(m.ownMonthly)) + "</div>" +
+            '<div class="ks">' + (LANG === "zh" ? "电费 " : "power ") + esc(fmtMoney(m.powerMonthly)) +
+              " + " + (LANG === "zh" ? "机柜 " : "rack ") + esc(fmtMoney(m.rack)) +
+              " + " + (LANG === "zh" ? "运维 " : "ops ") + esc(fmtMoney(m.ops)) + "</div>" +
+          "</div>" +
+          '<div class="calc-kpi' + (!ownCheaperMonthly ? " win" : "") + '">' +
+            '<div class="kl">' + t("hw.calcCloudMonthly") + '</div>' +
+            '<div class="kv">' + esc(fmtMoney(m.cloudMonthly)) + "</div>" +
+            '<div class="ks">' + esc(m.hours + " h × " + fmtMoney(m.cloud)) + "</div>" +
+          "</div>" +
+          '<div class="calc-kpi">' +
+            '<div class="kl">' + t("hw.calcBreakeven") + '</div>' +
+            '<div class="kv" style="color:var(--warn)">' + esc(beText) + "</div>" +
+            '<div class="ks">' + t("hw.calcOwnTotal") + " " + esc(fmtMoney(m.ownTotal)) +
+              " · " + t("hw.calcCloudTotal") + " " + esc(fmtMoney(m.cloudTotal)) + "</div>" +
+          "</div>";
+      }
+
+      // 结论
+      const vd = $("#calcVerdict");
+      if (vd) {
+        let text, ico;
+        if (!isFinite(m.breakeven)) {
+          // 云月成本已经不高于自建月成本 → 自建永远回不了本
+          ico = "☁️";
+          text = t("hw.calcVerdictCloudNever", { c: fmtMoney(m.cloudMonthly), o: fmtMoney(m.ownMonthly) });
+        } else if (m.breakeven <= m.months) {
+          ico = "✅";
+          text = t("hw.calcVerdictOwn", { n: Math.ceil(m.breakeven), m: m.months, s: fmtMoney(diff) });
+        } else if (m.breakeven > m.months * 2) {
+          ico = "☁️";
+          text = t("hw.calcVerdictCloud", { m: m.months, n: Math.ceil(m.breakeven) });
+        } else {
+          ico = "⚖️";
+          text = t("hw.calcVerdictClose", { m: m.months, s: fmtMoney(diff) });
+        }
+        vd.innerHTML = '<span class="vi">' + ico + '</span><span class="vt">' + text +
+          (m.salvage > 0 ? '<br><span class="tiny dim">' + t("hw.calcSalvage") + " " + esc(fmtMoney(m.salvage)) + "</span>" : "") +
+          "</span>";
+      }
+
+      // 图表
+      const ch = $("#calcChart");
+      if (ch) ch.innerHTML = chart(m);
+
+      // 里程碑表格
+      const tb = $("#calcTableBody");
+      if (tb) {
+        const horizons = [3, 6, 12, 24, 36, 48].filter((x) => x <= Math.max(48, m.months)).slice(0, 6);
+        if (horizons.indexOf(m.months) === -1) horizons.push(m.months);
+        horizons.sort((a, b) => a - b);
+        tb.innerHTML = horizons.map((mo) => {
+          const s = sample(m, mo);
+          const own = s.own <= s.cloud;
+          const d = Math.abs(s.own - s.cloud);
+          return '<tr' + (mo === m.months ? ' class="is-own"' : "") + ">" +
+            '<td>' + t("hw.calcMonths", { n: mo }) + (mo === m.months ? " ★" : "") + "</td>" +
+            '<td class="num">' + esc(fmtMoney(s.own)) + "</td>" +
+            '<td class="num">' + esc(fmtMoney(s.cloud)) + "</td>" +
+            '<td class="num">' + esc(fmtMoney(d)) + '</td>' +
+            '<td><span class="calc-badge ' + (own ? "own" : "cloud") + '">' +
+              (own ? (LANG === "zh" ? "自建" : "Own") : (LANG === "zh" ? "云租" : "Rent")) +
+              " " + t("hw.calcCheaper") + "</span></td>" +
+          "</tr>";
+        }).join("");
+      }
+
+      root.dataset.ownTotal = m.ownTotal;
+      root.dataset.cloudTotal = m.cloudTotal;
+    }
+
+    /* ---- 事件 ---- */
+    F.preset.addEventListener("change", function () {
+      applyPreset(this.value);
+      render();
+    });
+    [F.purchase, F.power, F.price, F.pue, F.rack, F.ops, F.cloud, F.salvage, F.months].forEach((el) => {
+      if (el) el.addEventListener("input", render);
+    });
+    F.runMode.addEventListener("change", render);
+    if (F.hours) F.hours.addEventListener("input", render);
+
+    applyPreset(C.presets[0].id);
+    F.runMode.value = "always";
+    render();
+
+    /* ---- 云价参考表 ---- */
+    const ref = $("#calcCloudRef");
+    if (ref) {
+      ref.innerHTML = '<div class="table-wrap"><table class="data"><thead><tr>' +
+        "<th>" + t("hw.calcCloudRefName") + "</th><th>" + t("hw.calcCloudRefPrice") + "</th><th>" + t("hw.calcCloudRefNote") + "</th>" +
+        "</tr></thead><tbody>" +
+        C.cloudRef.map((r) => '<tr><td class="name-cell">' + esc(r.name) + '</td><td class="mono tiny">' + esc(r.price) +
+          '</td><td class="tiny muted">' + esc(r.note) + "</td></tr>").join("") +
+        "</tbody></table></div>";
+    }
+
+    /* ---- 未计入的因素 ---- */
+    const cav = $("#calcCaveats");
+    if (cav) {
+      cav.innerHTML = C.caveats.map((c) => "<li>" + icon("check") + "<span>" + esc(c) + "</span></li>").join("");
     }
   }
 

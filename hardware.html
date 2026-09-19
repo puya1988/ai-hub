@@ -183,6 +183,75 @@
     </div>
   </section>
 
+  <!-- ============ 租赁 vs 自建计算器 ============ -->
+  <section class="section" id="calcRoot">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:18px">
+        <div>
+          <div class="sec-eyebrow">算笔账</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">算力租赁 vs 自建：成本临界点</h2>
+          <p id="calcNote" style="max-width:80ch"></p>
+        </div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="calc-grid">
+          <div class="calc-field" style="grid-column:1/-1">
+            <label for="calcPreset">参考方案</label>
+            <select id="calcPreset"></select>
+          </div>
+          <div class="calc-field"><label for="calcPurchase">硬件采购价（元）</label><input type="number" id="calcPurchase" min="0" step="1000"></div>
+          <div class="calc-field"><label for="calcPower">整机功耗（kW）</label><input type="number" id="calcPower" min="0" step="0.1"></div>
+          <div class="calc-field"><label for="calcPrice">电价（元 / kWh）</label><input type="number" id="calcPrice" min="0" step="0.05"></div>
+          <div class="calc-field"><label for="calcPue">PUE（能源效率）</label><input type="number" id="calcPue" min="1" step="0.05"></div>
+          <div class="calc-field"><label for="calcRack">机柜与托管（元 / 月）</label><input type="number" id="calcRack" min="0" step="500"></div>
+          <div class="calc-field"><label for="calcOps">运维人力（元 / 月）</label><input type="number" id="calcOps" min="0" step="500"><span class="tiny dim" id="calcOpsHint" style="margin-top:2px"></span></div>
+          <div class="calc-field"><label for="calcCloud">云租单价（元 / 小时）</label><input type="number" id="calcCloud" min="0" step="0.5"></div>
+          <div class="calc-field"><label for="calcRunMode">运行时长</label><select id="calcRunMode"></select></div>
+          <div class="calc-field"><label for="calcHours">每月运行小时</label><input type="number" id="calcHours" min="0" step="10"></div>
+          <div class="calc-field"><label for="calcMonths">比较周期（月）</label><input type="number" id="calcMonths" min="1" max="60" step="1"></div>
+          <div class="calc-field"><label for="calcSalvage">期末残值率（%）</label><input type="number" id="calcSalvage" min="0" max="100" step="5"></div>
+        </div>
+      </div>
+
+      <div class="calc-kpis" id="calcKpis"></div>
+      <div class="calc-verdict" id="calcVerdict"></div>
+
+      <div class="grid grid-2 mt-24" style="gap:28px">
+        <div class="card">
+          <div class="sec-eyebrow">累计成本曲线</div>
+          <div id="calcChart"></div>
+        </div>
+        <div class="card">
+          <div class="sec-eyebrow">各时间点累计成本对比</div>
+          <div class="table-wrap" style="border:0">
+            <table class="data calc-table" style="min-width:0">
+              <thead><tr>
+                <th>周期</th>
+                <th class="num">自建累计</th>
+                <th class="num">云租累计</th>
+                <th class="num">差额</th>
+                <th></th>
+              </tr></thead>
+              <tbody id="calcTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-2 mt-24" style="gap:28px">
+        <div>
+          <div class="sec-eyebrow">云租单价参考</div>
+          <div id="calcCloudRef"></div>
+        </div>
+        <div>
+          <div class="sec-eyebrow">这个模型没算什么</div>
+          <ul class="hw-check" id="calcCaveats" style="grid-template-columns:1fr"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ 自检清单 ============ -->
   <section class="section" style="background:var(--surface-2);border-block:1px solid var(--border)">
     <div class="container container-wide">

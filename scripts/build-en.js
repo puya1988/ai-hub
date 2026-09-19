@@ -833,6 +833,74 @@ PAGES["hardware"] = { page: "hardware", ...page(
     </div>
   </section>
 
+  <section class="section" id="calcRoot">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:18px">
+        <div>
+          <div class="sec-eyebrow">Do the maths</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">Rent vs buy: the crossover point</h2>
+          <p id="calcNote" style="max-width:80ch"></p>
+        </div>
+      </div>
+
+      <div class="card mb-24">
+        <div class="calc-grid">
+          <div class="calc-field" style="grid-column:1/-1">
+            <label for="calcPreset">Configuration</label>
+            <select id="calcPreset"></select>
+          </div>
+          <div class="calc-field"><label for="calcPurchase">Purchase price (USD)</label><input type="number" id="calcPurchase" min="0" step="100"></div>
+          <div class="calc-field"><label for="calcPower">System power (kW)</label><input type="number" id="calcPower" min="0" step="0.1"></div>
+          <div class="calc-field"><label for="calcPrice">Electricity ($ / kWh)</label><input type="number" id="calcPrice" min="0" step="0.01"></div>
+          <div class="calc-field"><label for="calcPue">PUE (overhead factor)</label><input type="number" id="calcPue" min="1" step="0.05"></div>
+          <div class="calc-field"><label for="calcRack">Rack and hosting ($ / month)</label><input type="number" id="calcRack" min="0" step="50"></div>
+          <div class="calc-field"><label for="calcOps">Operations labour ($ / month)</label><input type="number" id="calcOps" min="0" step="100"><span class="tiny dim" id="calcOpsHint" style="margin-top:2px"></span></div>
+          <div class="calc-field"><label for="calcCloud">Cloud rate ($ / hour)</label><input type="number" id="calcCloud" min="0" step="0.1"></div>
+          <div class="calc-field"><label for="calcRunMode">Utilisation</label><select id="calcRunMode"></select></div>
+          <div class="calc-field"><label for="calcHours">Hours per month</label><input type="number" id="calcHours" min="0" step="10"></div>
+          <div class="calc-field"><label for="calcMonths">Horizon (months)</label><input type="number" id="calcMonths" min="1" max="60" step="1"></div>
+          <div class="calc-field"><label for="calcSalvage">Salvage rate (%)</label><input type="number" id="calcSalvage" min="0" max="100" step="5"></div>
+        </div>
+      </div>
+
+      <div class="calc-kpis" id="calcKpis"></div>
+      <div class="calc-verdict" id="calcVerdict"></div>
+
+      <div class="grid grid-2 mt-24" style="gap:28px">
+        <div class="card">
+          <div class="sec-eyebrow">Cumulative cost curve</div>
+          <div id="calcChart"></div>
+        </div>
+        <div class="card">
+          <div class="sec-eyebrow">Cumulative cost at each horizon</div>
+          <div class="table-wrap" style="border:0">
+            <table class="data calc-table" style="min-width:0">
+              <thead><tr>
+                <th>Horizon</th>
+                <th class="num">Own cumulative</th>
+                <th class="num">Rent cumulative</th>
+                <th class="num">Difference</th>
+                <th></th>
+              </tr></thead>
+              <tbody id="calcTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-2 mt-24" style="gap:28px">
+        <div>
+          <div class="sec-eyebrow">Cloud rate reference</div>
+          <div id="calcCloudRef"></div>
+        </div>
+        <div>
+          <div class="sec-eyebrow">What this model leaves out</div>
+          <ul class="hw-check" id="calcCaveats" style="grid-template-columns:1fr"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section" style="background:var(--surface-2);border-block:1px solid var(--border)">
     <div class="container container-wide">
       <div class="sec-head" style="margin-bottom:20px">
@@ -956,6 +1024,28 @@ PAGES["about"] = { page: "about", ...page(
         <h3 class="card-title">Changelog</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.4.0 · Rent vs buy cost calculator
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              The last open decision in hardware selection: <b>should you buy or rent?</b><br>
+              Enter purchase price, system power, electricity rate, PUE, rack hosting, operations labour,
+              cloud hourly rate and utilisation, and it computes <b>own monthly cost, rent monthly cost and
+              the payback period</b> in real time, with a recommendation.<br>
+              Includes seven presets (individual single/dual GPU, Mac Studio large memory, studio dual card,
+              enterprise 4×A100 and 8×H100 nodes, industrial IPC) and four utilisation patterns
+              (24×7, weekdays 10 h, evenings 4 h, custom), plus a cumulative cost curve with an automatic
+              crossover marker, a milestone comparison table, cloud rate references and a list of what the
+              model leaves out.<br>
+              <b>One example that makes the point:</b> an 8×H100 node pays back in 9 months at 24×7, but
+              takes 142 months at four hours an evening. Utilisation is the single biggest variable.<br>
+              <b>Two bugs fixed during development:</b> the verdict logic was inverted, so a cloud monthly
+              cost below owning incorrectly reported “buying is cheaper”; and cloud rates for the 4×A100 and
+              8×H100 presets were entered per card rather than per node, with the reference table briefly
+              listing H100 below A100. Both recalibrated.
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.3.0 · Vendors and laptop recommendations
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

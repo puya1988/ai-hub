@@ -110,6 +110,23 @@
         <h3 class="card-title">更新日志</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.4.0 · 新增「算力租赁 vs 自建」成本计算器
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              补上硬件选型里最后一个决策点：<b>到底该买还是该租</b>。<br>
+              输入采购价、整机功耗、电价、PUE、机柜托管、运维人力、云租单价、运行时长的组合，
+              实时算出<b>自建月成本、云租月成本、回本周期</b>，并给出建议。<br>
+              含 7 个预置方案（个人单卡/双卡、Mac Studio 大内存、专业双卡、企业 4×A100 / 8×H100、工业工控机）
+              与 4 种运行模式（7×24 / 工作日 10 小时 / 每晚 4 小时 / 自定义），
+              配一张累计成本曲线图（自动标注临界点）、一张里程碑对比表、云租单价参考与「本模型没算什么」清单。<br>
+              <b>一个能说明问题的例子：</b>8×H100 节点在 7×24 下 9 个月回本，换成每晚 4 小时就变成 142 个月——
+              利用率才是决定买还是租的第一变量。<br>
+              <b>开发中修正的两处：</b>① 结论判断方向反了，云月成本低于自建时会错误地输出「自建更省」；
+              ② 4×A100 / 8×H100 的云价按单卡填了，实际应按整机；云价参考表里 H100 单价一度低于 A100，已重新校准。
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.3.0 · 补上品牌供应商与笔记本推荐
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

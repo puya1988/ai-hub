@@ -578,4 +578,70 @@
       ]
     }
   };
+
+  /* ------------------------------------------------------------------
+     Rent vs buy cost calculator
+     ------------------------------------------------------------------ */
+  window.AI_DATA.hardware.calculator = {
+    note:
+      "Owning costs far more than the purchase price: electricity, rack space, operations staff and depreciation " +
+      "after three years routinely exceed the hardware itself. Renting means no capex, elastic capacity and no ops burden, " +
+      "at the cost of a higher long-run unit price. The parameters below let you find your own crossover point. " +
+      "Everything is computed locally in your browser — nothing is uploaded.",
+    defaults: {
+      months: 24,
+      hoursPerDay: 24,
+      daysPerMonth: 30,
+      salvageRate: 15
+    },
+    presets: [
+      { id: "p1", name: "Individual · single RTX 4090 24G", seg: "Individual",
+        purchase: 2800, power: 0.6, price: 0.16, pue: 1.1, rack: 0, ops: 0, cloud: 0.5, life: 4 },
+      { id: "p2", name: "Individual · dual RTX 4090 48G", seg: "Individual",
+        purchase: 7000, power: 1.2, price: 0.16, pue: 1.1, rack: 0, ops: 0, cloud: 1.0, life: 4 },
+      { id: "p3", name: "Individual · Mac Studio M3 Ultra 512G", seg: "Individual",
+        purchase: 9500, power: 0.3, price: 0.16, pue: 1.0, rack: 0, ops: 0, cloud: 1.5, life: 5 },
+      { id: "p4", name: "Studio · 2× RTX 6000 Ada 96G", seg: "Studio",
+        purchase: 35000, power: 1.4, price: 0.20, pue: 1.2, rack: 400, ops: 600, cloud: 3.0, life: 4 },
+      { id: "p5", name: "Enterprise · 4× A100 80G node", seg: "Enterprise",
+        purchase: 110000, power: 4.0, price: 0.14, pue: 1.4, rack: 800, ops: 2800, cloud: 12.0, life: 3 },
+      { id: "p6", name: "Enterprise · 8× H100 80G node", seg: "Enterprise",
+        purchase: 280000, power: 8.0, price: 0.14, pue: 1.4, rack: 1300, ops: 3200, cloud: 28.0, life: 3 },
+      { id: "p7", name: "Industrial · wide-temp IPC + one card", seg: "Industrial",
+        purchase: 12000, power: 0.35, price: 0.18, pue: 1.2, rack: 0, ops: 200, cloud: 0.5, life: 5 }
+    ],
+    labels: {
+      purchase: "Hardware purchase price",
+      power: "System power draw",
+      price: "Electricity price",
+      pue: "PUE (overhead factor)",
+      rack: "Rack space and hosting",
+      ops: "Operations labour",
+      cloud: "Cloud hourly rate",
+      salvage: "Terminal salvage rate",
+      months: "Comparison horizon",
+      runMode: "Utilisation pattern"
+    },
+    runModes: [
+      { id: "always",  name: "24×7 always on", hours: 720 },
+      { id: "work",    name: "Weekdays, 10 h", hours: 220 },
+      { id: "evening", name: "Evenings, 4 h", hours: 120 },
+      { id: "custom",  name: "Custom", hours: null }
+    ],
+    cloudRef: [
+      { name: "RTX 4090 24G", price: "$0.35 – 0.70 / h", note: "Community and specialist providers" },
+      { name: "A100 40G",     price: "$1.00 – 1.80 / h", note: "Major cloud, on-demand" },
+      { name: "A100 80G",     price: "$1.50 – 3.00 / h", note: "Reserved monthly around $1,200–2,500 per card" },
+      { name: "H100 80G",     price: "$2.50 – 4.50 / h", note: "Supply constrained; volatile pricing" },
+      { name: "8× H100 node", price: "$20 – 36 / h",     note: "Discounts usually require a long commitment" }
+    ],
+    caveats: [
+      "Not modelled: downtime losses, technology obsolescence, electrical upgrade and facility build-out, migration and porting effort",
+      "The true cost of owning is routinely underestimated — spares, monitoring, on-call, and the risk that nobody maintains it when the person leaves",
+      "Cloud rates are current market estimates. Annual commitments typically earn 30–50% off, which pushes the crossover point well to the right",
+      "Industrial and edge deployments are rarely bought to save money — they exist for latency, offline operation and keeping data on site. Do not use this model to decide those",
+      "Compliance and data-residency requirements can remove the rental option entirely; those cases are outside this model",
+      "Salvage value is estimated by straight-line depreciation. Real resale prices depend heavily on when the next generation ships"
+    ]
+  };
 })();

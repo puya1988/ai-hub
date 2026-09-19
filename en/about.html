@@ -120,6 +120,28 @@
         <h3 class="card-title">Changelog</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.4.0 · Rent vs buy cost calculator
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              The last open decision in hardware selection: <b>should you buy or rent?</b><br>
+              Enter purchase price, system power, electricity rate, PUE, rack hosting, operations labour,
+              cloud hourly rate and utilisation, and it computes <b>own monthly cost, rent monthly cost and
+              the payback period</b> in real time, with a recommendation.<br>
+              Includes seven presets (individual single/dual GPU, Mac Studio large memory, studio dual card,
+              enterprise 4×A100 and 8×H100 nodes, industrial IPC) and four utilisation patterns
+              (24×7, weekdays 10 h, evenings 4 h, custom), plus a cumulative cost curve with an automatic
+              crossover marker, a milestone comparison table, cloud rate references and a list of what the
+              model leaves out.<br>
+              <b>One example that makes the point:</b> an 8×H100 node pays back in 9 months at 24×7, but
+              takes 142 months at four hours an evening. Utilisation is the single biggest variable.<br>
+              <b>Two bugs fixed during development:</b> the verdict logic was inverted, so a cloud monthly
+              cost below owning incorrectly reported “buying is cheaper”; and cloud rates for the 4×A100 and
+              8×H100 presets were entered per card rather than per node, with the reference table briefly
+              listing H100 below A100. Both recalibrated.
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.3.0 · Vendors and laptop recommendations
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

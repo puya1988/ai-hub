@@ -15,7 +15,7 @@ window.AI_DATA = (function () {
     nameZh: "智汇",
     slogan: "一站汇聚全球人工智能资讯、模型、工具与知识",
     updated: "2026-09-19",
-    version: "1.3.0",
+    version: "1.4.0",
     lang: "zh",
     acceptLangs: ["zh", "en"],
     notice:
