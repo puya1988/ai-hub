@@ -1,0 +1,116 @@
+name: 抓取 AI 资讯
+
+# ==========================================================================
+#  定时抓取 RSS 源并提交 assets/js/news-feed.js
+#  · 默认每天 UTC 23:00（北京时间 07:00）运行一次
+#  · 也可在 Actions 页面手动触发（可指定条数、可强制覆盖）
+#  · 全部源失败时返回非零退出码 → 工作流变红，不会污染数据
+# ==========================================================================
+
+on:
+  schedule:
+    # cron 使用 UTC。要改成本地时间记得换算：
+    #   北京时间 07:00 = UTC 23:00（前一天）
+    #   北京时间 20:00 = UTC 12:00
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      max_total:
+        description: "最多保留多少条（留空则用 feeds.json 里的 max_total）"
+        required: false
+        default: ""
+      force:
+        description: "即使抓到 0 条也覆盖文件（默认保留旧数据）"
+        type: boolean
+        default: false
+
+# 需要写权限才能把结果提交回仓库
+permissions:
+  contents: write
+
+# 同一时间只跑一个抓取任务，避免两次运行互相覆盖
+concurrency:
+  group: fetch-news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    name: 抓取并提交
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          # 需要完整历史才能正常 commit / push
+          fetch-depth: 0
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          # 抓取脚本只用标准库，不需要缓存依赖
+
+      - name: 抓取 RSS
+        id: fetch
+        run: |
+          set -euo pipefail
+          ARGS="--quiet"
+          if [ -n "${{ inputs.max_total }}" ]; then
+            ARGS="$ARGS --max ${{ inputs.max_total }}"
+          fi
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          echo "运行：python3 scripts/fetch_news.py $ARGS"
+          python3 scripts/fetch_news.py $ARGS
+
+      - name: 校验生成结果
+        run: |
+          set -euo pipefail
+          node --check assets/js/news-feed.js
+          node -e '
+          global.window = {};
+          require("./assets/js/news-feed.js");
+          const F = window.AI_FEED;
+          if (!F || !Array.isArray(F.items)) { console.error("✗ AI_FEED 结构异常"); process.exit(1); }
+          const bad = F.items.filter((i) => !i.title || !i.date || !i.cat || !i.id);
+          if (bad.length) { console.error("✗ 有 " + bad.length + " 条缺少必填字段"); process.exit(1); }
+          const byLang = {};
+          F.items.forEach((i) => { byLang[i.lang || "?"] = (byLang[i.lang || "?"] || 0) + 1; });
+          console.log("✓ 校验通过：" + F.items.length + " 条，来源 " + F.sources.length + " 个");
+          console.log("  语言分布：" + JSON.stringify(byLang));
+          console.log("  抓取时间：" + F.updated);
+          const fs = require("fs");
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+            "### 抓取结果\n\n" +
+            "- 条目：**" + F.items.length + "** 条\n" +
+            "- 成功源：**" + F.sources.length + "** 个" + (F.failed.length ? "，失败 **" + F.failed.length + "** 个" : "") + "\n" +
+            "- 语言分布：" + Object.entries(byLang).map(([k, v]) => k + " " + v).join(" / ") + "\n" +
+            "- 抓取时间：" + F.updated + "\n"
+          );
+          if (F.failed.length) {
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+              "\n<details><summary>失败的源</summary>\n\n" +
+              F.failed.map((f) => "- `" + f.name + "` — " + f.error).join("\n") +
+              "\n\n</details>\n");
+          }
+          '
+
+      - name: 提交变更
+        run: |
+          set -euo pipefail
+          # 只提交抓取产物，避免把工作区里的其他改动一起带上
+          git add assets/js/news-feed.js
+          if git diff --cached --quiet; then
+            echo "### 无变更，跳过提交" >> "$GITHUB_STEP_SUMMARY"
+            echo "本次抓取没有产生新的内容。"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): 自动更新 AI 资讯 $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+          echo "### 已提交" >> "$GITHUB_STEP_SUMMARY"
+          echo "变更已推送到 ${{ github.ref_name }}。"

@@ -1,0 +1,95 @@
+name: 部署到 GitHub Pages
+
+# ==========================================================================
+#  部署整个静态站点到 GitHub Pages
+#
+#  触发时机：
+#    1. 推送到 main 分支
+#    2. 「抓取 AI 资讯」工作流完成后（因为 bot 用 GITHUB_TOKEN 推送的提交
+#       不会触发 push 事件，所以这里必须显式监听 workflow_run）
+#    3. 手动触发
+#
+#  前置设置：仓库 Settings → Pages → Build and deployment → Source
+#            选择 “GitHub Actions”
+#
+#  ⚠ 另一种更省事的做法：把 Source 设为 “Deploy from a branch”（main / 根目录），
+#    这样连这个工作流都不需要，抓取任务一提交，Pages 会自动更新。
+#    两种方式二选一即可，详见 README 的「部署」章节。
+# ==========================================================================
+
+on:
+  push:
+    branches: [main, master]
+  workflow_run:
+    workflows: ["抓取 AI 资讯"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: 构建并部署
+    runs-on: ubuntu-latest
+    # workflow_run 触发时，只在抓取任务成功的情况下继续
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          # workflow_run 事件下 github.sha 可能不是最新提交，显式指定分支
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 配置 Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: 生成 sitemap.xml 与 robots.txt
+        env:
+          # 想用自定义域名，就在仓库 Settings → Secrets and variables → Actions
+          # 的 Variables 里加一个 SITE_URL，例如 https://aihub.example.com
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          set -euo pipefail
+          if [ -n "${SITE_URL:-}" ]; then
+            BASE="$SITE_URL"
+          elif [ -n "${{ steps.pages.outputs.base_url }}" ]; then
+            BASE="${{ steps.pages.outputs.base_url }}"
+          else
+            OWNER="${GITHUB_REPOSITORY%%/*}"
+            REPO="${GITHUB_REPOSITORY##*/}"
+            if [ "$REPO" = "$OWNER.github.io" ]; then
+              BASE="https://$OWNER.github.io"
+            else
+              BASE="https://$OWNER.github.io/$REPO"
+            fi
+          fi
+          echo "站点地址：$BASE" >> "$GITHUB_STEP_SUMMARY"
+          node scripts/build-sitemap.js "$BASE"
+
+      - name: 上传站点文件
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: 部署
+        id: deployment
+        uses: actions/deploy-pages@v4
