@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-09-19 12:47
+   抓取时间：2026-09-19 23:07
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-09-19 12:47",
+    "updated": "2026-09-19 23:07",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -45,40 +45,108 @@ window.AI_FEED = {
         "link": "https://www.leiphone.com/category/industrynews/uKmCBjBhfQW9iDHy.html"
       },
       {
-        "id": "r55fcd67c8a",
+        "id": "r1e0e772676",
         "auto": true,
         "featured": false,
-        "cat": "chip",
+        "cat": "funding",
         "date": "2026-09-19",
         "source": "量子位",
         "lang": "zh",
-        "title": "陶哲轩代表SAIR Foundation宣布正式启动“开放数学模型计划”",
-        "summary": "让开放模型与可负担的算力成为数学研究的共享基石 陶哲轩代表SAIR Foundation宣布正式启动“开放数学模型计划”",
+        "title": "马斯克批量收购破产公司ing…世界首富脑子是不一样",
+        "summary": "老马想买倒闭公司数据为哪般 马斯克批量收购破产公司ing…世界首富脑子是不一样",
         "tags": [
-          "论文",
-          "算力",
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/492467.html"
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/09/492661.html"
       },
       {
-        "id": "rf2f9ccd806",
+        "id": "r5c75e0d526",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "27B模型分分钟交付网页，Qwen 3.8还是太能了",
+        "summary": "设计、前端一口气全干了，结果后端没来上班 27B模型分分钟交付网页，Qwen 3.8还是太能了",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/09/492573.html"
+      },
+      {
+        "id": "racbc4b4b02",
         "auto": true,
         "featured": false,
         "cat": "industry",
         "date": "2026-09-19",
         "source": "量子位",
         "lang": "zh",
-        "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
-        "summary": "同一预测核心，跨七类系统验证 AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+        "title": "“留给人类阻止AI的时间不多了”",
+        "summary": "AI有可能终结我们所有人 “留给人类阻止AI的时间不多了”",
         "tags": [
           "中文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/492429.html"
+        "link": "https://www.qbitai.com/2026/09/492755.html"
+      },
+      {
+        "id": "r903d848025",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "Nature：AI重生到1900，这一世抢先爱因斯坦提出光量子",
+        "summary": "AI能否提出相对论？ Nature：AI重生到1900，这一世抢先爱因斯坦提出光量子",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/492550.html"
+      },
+      {
+        "id": "r3025ea4ac6",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "千万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你",
+        "summary": "1000万，把才华送上真正的大舞台 千万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/492501.html"
+      },
+      {
+        "id": "ra040404d98",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-09-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
+        "summary": "CANN跨过拐点，华为补上软件生态 华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
+        "tags": [
+          "算力",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/492476.html"
       },
       {
         "id": "r868ce3a5fd",
@@ -151,130 +219,21 @@ window.AI_FEED = {
         "link": "https://www.infoq.cn/article/G4tlQvg2IsabE0v1RDOE?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r867b2d0f25",
+        "id": "rf46e039d70",
         "auto": true,
         "featured": false,
-        "cat": "model",
-        "date": "2026-09-18",
+        "cat": "apply",
+        "date": "2026-09-19",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "深度解读：智谱为什么要在 Infra 层搞 RSI？",
-        "summary": "电话会揭秘智谱策略，以递归式优化跑赢300亿算力成本战。 作者丨高允毅 编辑丨岑 峰 9月17日，唐杰罕见的发了一条长推，这次他聊的是最近最火的话题之一：RSI。智谱也在暗暗发力RSI，他们已经把RSI放到了Infra层面，做出一套由GLM-5.3驱动的推理基础设施。正是这套Infra系统，让 GLM-5.3-Flash，即前段时间火遍全球的匿名模型 Ox-Alpha，在发布一周内，就迅速成…",
-        "tags": [
-          "开源",
-          "论文",
-          "融资",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/yanxishe/41rW4mD2vjnpNY2o.html"
-      },
-      {
-        "id": "r450fafcf06",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-18",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布",
-        "summary": "成果中唯一聚焦算电协同全链路运营的AI技术产品 达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布",
+        "title": "鹿明机器人剧场《机器人和 TA 的朋友们》全球首演，探索“机器人+演艺”新场景",
+        "summary": "9月19日，由鹿明机器人与深圳市文旅产业发展有限公司共同打造的机器人剧场《机器人和 TA 的朋友们》在深圳市宝安区青少年宫迎来全球首场公演。 这场时长45分钟的沉浸式演出，由机器人主持全程串联，涵盖舞蹈、相声、小品、武术、DJ秀、魔术六大表演品类，多台机器人协同参演，通过系统化、专业化的舞台节目编排，实现无间断连贯演出，为观众带来一场融合科技、艺术与文化内容的现场演艺体验。 作为鹿明机器人与…",
         "tags": [
           "中文源"
         ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/492421.html"
-      },
-      {
-        "id": "r76c4c3c3c5",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-18",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部AI公司的RSI路线正在分化",
-        "summary": "点击查看原文> Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部AI公司的RSI路线正在分化",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.infoq.cn/article/CEphwKjzAe7LzbOriLcq?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r1dda612dd3",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-18",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
-        "summary": "协同布局AI基础设施 无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
-        "tags": [
-          "算力",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
+        "readTime": 7,
         "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/492426.html"
-      },
-      {
-        "id": "r909398285a",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-18",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "具身智能技术路线尚未定型，基础设施却先收敛",
-        "summary": "从一次成功到一万次稳定执行，具身智能还缺什么？ 具身智能技术路线尚未定型，基础设施却先收敛",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/492238.html"
-      },
-      {
-        "id": "rb35a9cce9a",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-18",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
-        "summary": "LimiX让模型理解数据背后的因果机制 AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/492175.html"
-      },
-      {
-        "id": "re1dd5edfab",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-18",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
-        "summary": "点击查看原文> Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK?utm_source=rss&utm_medium=article"
+        "link": "https://www.leiphone.com/category/industrynews/KQYlP3qCFGorz4hm.html"
       },
       {
         "id": "rbe6489adfe",
@@ -314,57 +273,6 @@ window.AI_FEED = {
         "link": "https://www.leiphone.com/category/weiwu/SvTVpNCuYHpbNAxA.html"
       },
       {
-        "id": "rb40fb060d9",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-18",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "New experts join Google’s AI & Economy team",
-        "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/"
-      },
-      {
-        "id": "r64b46559ea",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-18",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "Co-creating the future of fashion with Google",
-        "summary": "Jane Wade and Sergio Hudson Co-creating the future of fashion with Google",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/"
-      },
-      {
-        "id": "r2784fb2a4e",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-18",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Could AI really kill us all? Your questions, answered.",
-        "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/"
-      },
-      {
         "id": "r0e54dde7e8",
         "auto": true,
         "featured": false,
@@ -385,6 +293,24 @@ window.AI_FEED = {
         "link": "https://www.leiphone.com/category/CorporateServices/GgIqkCOAOG9HQwJD.html"
       },
       {
+        "id": "r76c4c3c3c5",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-18",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部AI公司的RSI路线正在分化",
+        "summary": "点击查看原文> Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部AI公司的RSI路线正在分化",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 86,
+        "link": "https://www.infoq.cn/article/CEphwKjzAe7LzbOriLcq?utm_source=rss&utm_medium=article"
+      },
+      {
         "id": "r796c686531",
         "auto": true,
         "featured": false,
@@ -403,6 +329,24 @@ window.AI_FEED = {
         "readTime": 7,
         "hot": 86,
         "link": "https://www.leiphone.com/category/industrynews/Jaf7iAiksJuqQ16a.html"
+      },
+      {
+        "id": "re1dd5edfab",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-18",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
+        "summary": "点击查看原文> Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK?utm_source=rss&utm_medium=article"
       },
       {
         "id": "r6081f7c5f6",
@@ -438,6 +382,57 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 84,
         "link": "https://sspai.com/post/114699"
+      },
+      {
+        "id": "rb40fb060d9",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-18",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "New experts join Google’s AI & Economy team",
+        "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/"
+      },
+      {
+        "id": "r64b46559ea",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-18",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "Co-creating the future of fashion with Google",
+        "summary": "Jane Wade and Sergio Hudson Co-creating the future of fashion with Google",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/"
+      },
+      {
+        "id": "r2784fb2a4e",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-18",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "Could AI really kill us all? Your questions, answered.",
+        "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/"
       },
       {
         "id": "r4fdbb2df0b",
@@ -505,7 +500,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/"
       },
       {
