@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-09-19 11:01
+   抓取时间：2026-09-19 08:48
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-09-19 11:01",
+    "updated": "2026-09-19 08:48",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -135,26 +135,6 @@ window.AI_FEED = {
         "readTime": 12,
         "hot": 80,
         "link": "https://www.leiphone.com/category/yanxishe/41rW4mD2vjnpNY2o.html"
-      },
-      {
-        "id": "r0e54dde7e8",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-18",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "BAT的「AI云销售」，困在MaaS内卷战中",
-        "summary": "8 月 12 日，距离月底，还有剩下不到三周时间， AI云销售张雅达已经开始频繁接到领导的电话，被追问月底的缺口准备怎么补，第三季度业绩能否完成。 这种状态已经持续了将近半年时间。 年初 2 月开战略会议，张雅达就知道今年会有一场硬仗要打，当时公司明确强调今年要重点卖模型和算力。为了让大家重视这场会议，整场会不允许任何人迟到，也不允许任何人请假。 3月，OpenClaw在国内爆火，企业对AI…",
-        "tags": [
-          "算力",
-          "多模态",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 78,
-        "link": "https://www.leiphone.com/category/CorporateServices/GgIqkCOAOG9HQwJD.html"
       },
       {
         "id": "r450fafcf06",
@@ -383,6 +363,26 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 74,
         "link": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/"
+      },
+      {
+        "id": "r0e54dde7e8",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-18",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "BAT的「AI云销售」，困在MaaS内卷战中",
+        "summary": "8 月 12 日，距离月底，还有剩下不到三周时间， AI云销售张雅达已经开始频繁接到领导的电话，被追问月底的缺口准备怎么补，第三季度业绩能否完成。 这种状态已经持续了将近半年时间。 年初 2 月开战略会议，张雅达就知道今年会有一场硬仗要打，当时公司明确强调今年要重点卖模型和算力。为了让大家重视这场会议，整场会不允许任何人迟到，也不允许任何人请假。 3月，OpenClaw在国内爆火，企业对AI…",
+        "tags": [
+          "算力",
+          "多模态",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 72,
+        "link": "https://www.leiphone.com/category/CorporateServices/GgIqkCOAOG9HQwJD.html"
       },
       {
         "id": "r796c686531",
