@@ -446,6 +446,51 @@
     return SEARCH_INDEX.length;
   }
 
+  /* ============ 硬件数据按需加载 ============
+     硬件数据约 49 KB（gzip 18 KB）。它只有两个即时消费者：
+       · 首页的选型入口卡片（initHome）
+       · 硬件页本身（initHardware / initCalculator）
+     其余页面只用在全站搜索里，所以这些页面不再同步加载，
+     改成「页面空闲时预取 + 首次搜索时兜底」，把首屏关键路径缩短。 */
+  const HW_SRC = (function () {
+    // 从 app.js 自身的 src 推导资源目录，兼容根目录页与 en/ 子目录页
+    const el = document.querySelector('script[src$="app.js"]');
+    const base = el ? el.getAttribute("src").replace(/app\.js.*$/, "") : "assets/js/";
+    return base + "hardware." + LANG + ".js";
+  })();
+
+  let hwLoadPromise = null;
+  let hwLoadTried = false;
+
+  function loadHardwareData() {
+    if (D.hardware) return Promise.resolve(true);
+    if (hwLoadPromise) return hwLoadPromise;
+    hwLoadTried = true;
+    hwLoadPromise = new Promise((resolve) => {
+      const sc = document.createElement("script");
+      sc.src = HW_SRC;
+      sc.onload = () => {
+        buildSearchIndex();          // 索引里补上硬件条目
+        resolve(!!D.hardware);
+      };
+      sc.onerror = () => {
+        // 加载失败不能让搜索崩掉，只是搜不到硬件内容
+        console.warn("[AI HUB] 硬件数据加载失败：" + HW_SRC + "，本站搜索将不含硬件条目");
+        resolve(false);
+      };
+      document.head.appendChild(sc);
+    });
+    return hwLoadPromise;
+  }
+
+  /* 空闲时预取，让用户真正搜索时数据已就绪（不占用首屏时间） */
+  function prefetchHardware() {
+    if (D.hardware || hwLoadTried) return;
+    const run = () => loadHardwareData();
+    if (window.requestIdleCallback) requestIdleCallback(run, { timeout: 3000 });
+    else setTimeout(run, 1500);
+  }
+
   /* 合并 RSS 自动抓取的数据（来自 assets/js/news-feed.js） */
   const FEED = { loaded: false, added: 0, updated: null, sources: [], failed: [] };
 
@@ -532,6 +577,10 @@
     function doSearch() {
       const q = input.value.trim().toLowerCase();
       if (!q) { renderDefault(); return; }
+      // 硬件数据尚未就绪（非硬件页按需加载中）：先出已有结果，数据到了自动刷新
+      if (!D.hardware && !hwLoadTried) {
+        loadHardwareData().then(() => { if (input.value.trim() === q) doSearch(); });
+      }
       const terms = q.split(/\s+/).filter(Boolean);
       const hits = SEARCH_INDEX.map((e) => {
         const hay = (e.title + " " + e.sub + " " + e.keys).toLowerCase();
@@ -547,8 +596,16 @@
 
       items = hits;
       active = -1;
+      // 硬件数据还在按需加载时，明确告知而不是谎报「没找到」
+      const hwPending = !D.hardware && hwLoadTried;
+      const pendingNote = hwPending
+        ? '<div class="palette-group">' + esc(t("search.loadingHw")) + '</div>' +
+          '<div class="palette-empty" style="padding:14px 20px"><span class="tiny">' + esc(t("search.loadingHwHint")) + "</span></div>"
+        : "";
       if (!hits.length) {
-        results.innerHTML = '<div class="palette-empty">' + esc(t("search.empty", { q: input.value })) + '<br><span class="tiny">' + esc(t("search.emptyHint")) + "</span></div>";
+        results.innerHTML = hwPending
+          ? pendingNote
+          : '<div class="palette-empty">' + esc(t("search.empty", { q: input.value })) + '<br><span class="tiny">' + esc(t("search.emptyHint")) + "</span></div>";
         return;
       }
       const groups = {};
@@ -562,8 +619,8 @@
           icon("arrow") + "</a>"
         ).join("");
       });
-      results.innerHTML = html;
-      $$(".palette-item", results).forEach((a) => a.addEventListener("click", close));
+      results.innerHTML = html + pendingNote;
+      $(".palette-item", results).forEach((a) => a.addEventListener("click", close));
     }
     function move(delta) {
       const els = $$(".palette-item", results);
@@ -2525,6 +2582,7 @@
     initDetail();
     initFocusTrap();
     renderFeedStatus(added);
+    prefetchHardware();          // 空闲时预取硬件数据，不阻塞首屏
     console.log("%c" + D.meta.name + " · " + D.meta.nameZh + " v" + D.meta.version, "color:#4f46e5;font-weight:bold", "\ndata: " + D.meta.updated + (added ? " (+" + added + " auto)" : ""));
   }
 

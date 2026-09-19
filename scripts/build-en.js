@@ -47,7 +47,7 @@ ${main}
 <div id="site-footer"></div>
 <script src="../assets/js/i18n.js"></script>
 <script src="../assets/js/${DATA}"></script>
-<script src="../assets/js/hardware.${LANG}.js"></script>
+${(page === "home" || page === "hardware") ? `<script src="../assets/js/hardware.${LANG}.js"></script>\n` : ""}
 <script src="../assets/js/news-feed.js"></script>
 <script src="../assets/js/app.js"></script>
 </body>
@@ -1047,6 +1047,33 @@ PAGES["about"] = { page: "about", ...page(
         <h3 class="card-title">Changelog</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.6.1 · Hardware data now loads on demand, 15% off the critical path
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              The audit found that the hardware dataset (49 KB / 17.7 KB gzipped) was loaded
+              <b>synchronously on all 10 pages</b>, while only the homepage selection cards and the
+              hardware page itself actually need it.<br>
+              <b>How it was scoped:</b> by first locating every <code class="inline">D.hardware</code>
+              reference, which confirmed just four functions touch it —
+              <code class="inline">buildSearchIndex</code> (site-wide),
+              <code class="inline">initHome</code> (homepage),
+              <code class="inline">initHardware</code> and <code class="inline">initCalculator</code>
+              (hardware page).<br>
+              <b>The approach:</b> the homepage and hardware page keep synchronous loading; the other eight
+              pages move to <b>idle prefetch with a first-search fallback</b>. Once rendering finishes,
+              <code class="inline">requestIdleCallback</code> fetches the data quietly. If a user searches
+              before that completes, the data loads immediately, results refresh automatically when it
+              arrives, and the UI shows “Loading hardware data…” rather than a false “no results”.<br>
+              <b>The result:</b> 17.7 KB gzipped (49 KB raw) saved on eight pages — a 15% shorter critical
+              path — with <b>zero functional loss</b>; search still covers hardware content and the file
+              is fetched only once per session.<br>
+              <b>Also fixed:</b> the measurement script itself used a filename string match to decide whether
+              a page loaded the data synchronously, which counted a changelog text mention as a script tag
+              and falsely reported two pages as optimised. It now matches the script tag exactly.
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.6.0 · Systematic accessibility overhaul
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

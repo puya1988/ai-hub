@@ -130,6 +130,28 @@
         <h3 class="card-title">更新日志</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.6.1 · 硬件数据改为按需加载，首屏减重 15%
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              体检时发现硬件数据文件（49 KB / gzip 17.7 KB）在<b>全部 10 个页面同步加载</b>，
+              但真正需要它的只有首页的选型入口卡片和硬件页本身。<br>
+              <b>排查过程：</b>先定位所有 <code class="inline">D.hardware</code> 的引用点，
+              确认只涉及 4 个函数——<code class="inline">buildSearchIndex</code>（全站）、
+              <code class="inline">initHome</code>（首页）、<code class="inline">initHardware</code> 与
+              <code class="inline">initCalculator</code>（硬件页）。<br>
+              <b>方案：</b>首页与硬件页保留同步加载，其余 8 个页面改为
+              <b>空闲时预取 + 首次搜索兜底</b>：页面渲染完成后用
+              <code class="inline">requestIdleCallback</code> 悄悄取回，
+              若用户抢在预取完成前搜索，则立即加载并在数据到达后自动补上结果，
+              期间显示「正在加载硬件数据…」而不是谎报「没找到」。<br>
+              <b>效果：</b>8 个页面各省 17.7 KB（gzip）、49 KB（原始），
+              关键路径减少 15%，<b>功能零损失</b>（搜索仍覆盖硬件内容，缓存后只加载一次）。<br>
+              <b>顺带修：</b>测量时发现自己的统计脚本用「文件名字符串」判断是否同步加载，
+              把更新日志里的文字提及也算成了脚本引用，误报首页与关于页已优化——已改为精确匹配脚本标签。
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.6.0 · 无障碍与可访问性系统性修复
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>
@@ -316,7 +338,6 @@ python3 -m http.server 8000
 <div id="site-footer"></div>
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/data.zh.js"></script>
-<script src="assets/js/hardware.zh.js"></script>
 <script src="assets/js/news-feed.js"></script>
 <script src="assets/js/app.js"></script>
 </body>

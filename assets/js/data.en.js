@@ -18,7 +18,7 @@ window.AI_DATA = (function () {
     nameZh: "Intelligence",
     slogan: "One place for AI news, models, tools and knowledge",
     updated: "2026-09-19",
-    version: "1.6.0",
+    version: "1.6.1",
     lang: "en",
     acceptLangs: ["en"],
     notice:
