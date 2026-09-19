@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>页面不存在 · 404 | AI HUB</title>
+<meta name="description" content="找不到你要的页面。">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="404">
+
+<a class="skip-link" href="#main">跳到主内容</a>
+
+<div id="site-header"></div>
+
+<main id="main" tabindex="-1">
+  <section class="section" style="padding-top:64px">
+    <div class="container" style="max-width:760px;text-align:center">
+      <div style="font-size:clamp(70px,14vw,130px);font-weight:800;letter-spacing:-0.05em;line-height:1;
+                  background:linear-gradient(120deg,var(--brand),var(--brand-2));-webkit-background-clip:text;background-clip:text;color:transparent">404</div>
+      <h1 style="font-size:clamp(20px,2.6vw,28px);margin-top:14px">这个页面不存在</h1>
+      <p class="muted mt-12" style="max-width:52ch;margin:14px auto 0">
+        链接可能已经失效，或者地址输错了。下面这些入口应该能帮你找到想要的内容。
+      </p>
+
+      <div class="grid grid-2 mt-32" style="text-align:left">
+        <a class="card card-hover card-click" href="index.html">
+          <h2 class="card-title">🏠 返回首页</h2>
+          <p class="small muted mt-8">资讯、模型、工具、学习路径的总入口</p>
+        </a>
+        <a class="card card-hover card-click" href="news.html">
+          <h2 class="card-title">📰 资讯中心</h2>
+          <p class="small muted mt-8">按分类浏览，或搜索关键词</p>
+        </a>
+        <a class="card card-hover card-click" href="hardware.html">
+          <h2 class="card-title">🧩 硬件配置推荐</h2>
+          <p class="small muted mt-8">个人 / 企业 / 工业选型与成本测算</p>
+        </a>
+        <a class="card card-hover card-click" href="glossary.html">
+          <h2 class="card-title">📖 术语百科</h2>
+          <p class="small muted mt-8">82 个 AI 核心词条</p>
+        </a>
+      </div>
+
+      <div class="row gap-12 mt-32" style="justify-content:center">
+        <button class="btn btn-primary" onclick="if(history.length>1){history.back()}else{location.href='index.html'}">返回上一页</button>
+        <button class="btn" id="openSearch404">搜索全站</button>
+      </div>
+
+      <p class="tiny dim mt-24">English: <a href="en/index.html" style="color:var(--brand);font-weight:650">go to the English site</a></p>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/data.zh.js"></script>
+<script src="assets/js/hardware.zh.js"></script>
+<script src="assets/js/news-feed.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+// 404 页的搜索按钮：复用全站搜索
+document.getElementById("openSearch404").addEventListener("click", function () {
+  if (window.__openSearch) window.__openSearch();
+});
+</script>
+</body>
+</html>

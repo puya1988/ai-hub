@@ -99,6 +99,7 @@ PAGES["index"] = { page: "home", ...page(
 
   <section class="section" id="news">
     <div class="container container-wide">
+      <h2 class="sr-only">Featured news</h2>
       <div id="featuredNews" class="grid grid-3"></div>
       <div class="row-between mt-32 mb-24">
         <div>
@@ -255,6 +256,7 @@ PAGES["news"] = { page: "news", ...page(
         <span class="tiny dim" style="margin-left:auto">Tip: press <code class="inline">/</code> to open site-wide search</span>
       </div>
 
+      <h2 class="sr-only">News list</h2>
       <div class="grid grid-3" id="newsList"></div>
       <div class="pager" id="newsPager"></div>
 
@@ -287,6 +289,7 @@ PAGES["models"] = { page: "models", ...page(
         <div class="result-count" id="modelCount"></div>
       </div>
 
+      <h2 class="sr-only">Selection guidance</h2>
       <div class="grid grid-3 mb-16">
         <div class="card card-pad-sm">
           <div class="badge badge-ok">Open weights</div>
@@ -374,6 +377,7 @@ PAGES["tools"] = { page: "tools", ...page(
         <span class="tiny dim" style="margin-left:auto">Prices and free tiers change often — check the vendor site</span>
       </div>
 
+      <h2 class="sr-only">Tool list</h2>
       <div class="grid grid-3" id="toolGrid"></div>
 
       <div class="grid grid-2 mt-32">
@@ -434,6 +438,7 @@ PAGES["papers"] = { page: "papers", ...page(
       </div>
       <div class="chips mb-24" id="paperTags"></div>
 
+      <h2 class="sr-only">Paper list</h2>
       <div class="grid grid-2" id="paperList"></div>
 
       <div class="sec-head mt-32">
@@ -491,6 +496,7 @@ PAGES["learn"] = { page: "learn", ...page(
         </div>
       </div>
 
+      <h2 class="sr-only">Six-stage learning path</h2>
       <div class="roadmap" id="roadmap"></div>
 
       <div class="sec-head mt-32" id="prompt">
@@ -616,6 +622,7 @@ PAGES["timeline"] = { page: "timeline", ...page(
         </div>
       </div>
 
+      <h2 class="sr-only">Historical arc and lessons</h2>
       <div class="grid-side">
         <div class="card">
           <div class="timeline" id="timelineList"></div>
@@ -952,6 +959,7 @@ PAGES["about"] = { page: "about", ...page(
         </div>
       </div>
 
+      <h2 class="sr-only">About this site</h2>
       <div class="card">
         <h3 class="card-title">What this is</h3>
         <p class="muted mt-12" style="font-size:14.5px;line-height:1.85">
@@ -1039,6 +1047,36 @@ PAGES["about"] = { page: "about", ...page(
         <h3 class="card-title">Changelog</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.6.0 · Systematic accessibility overhaul
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              A full front-end audit using measurable checks, which surfaced and fixed 18 classes of issue.<br>
+              <b>1. Colour contrast (the one that affects real use most):</b> in light mode, muted text,
+              the success/warning/danger semantic colours and three badge colours — <b>five failures against
+              WCAG AA</b>, with muted text at just 2.76:1 (the bar is 4.5:1). The palette is now split into
+              dark variants for text and bright variants for fills, plus a form-control border colour that
+              meets 3:1. <b>All 16 checks pass in dark mode.</b><br>
+              <b>2. Dialog focus management:</b> opening the detail, search or comparison overlay previously
+              left keyboard focus on the background, letting Tab wander into 70+ background focusables.
+              The full chain is now in place: focus moves in, Tab cycles inside, focus returns to the trigger
+              on close (including after in-dialog navigation), and the background is
+              <code class="inline">aria-hidden</code>. This also uncovered a leftover ESC handler that closed
+              overlays first and silently broke all of the above.<br>
+              <b>3. Heading hierarchy:</b> <b>all 20 pages</b> skipped from h1 straight to h3.
+              Three root causes (card titles directly under h1, build cards using h4, footer columns using h4)
+              are all corrected.<br>
+              <b>4. Also:</b> a keyboard skip-to-content link, <code class="inline">aria-live</code> on toasts
+              so screen readers announce them, <code class="inline">aria-hidden</code> on 42 emoji icons,
+              a label for the sort dropdown, touch targets enlarged to ≥28px, footer link padding, and
+              15 dead CSS rules removed.<br>
+              <b>5. Metadata:</b> an earlier hreflang injection script had failed silently, leaving eight pages
+              without hreflang or Open Graph tags. All 20 pages now carry hreflang triples, og tags, canonical
+              URLs and Twitter cards.<br>
+              <b>6. New:</b> a custom 404 page and an explicit notice when JavaScript is disabled.
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.5.0 · Hardware models recalibrated to 2026-09, plus calculator sliders
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

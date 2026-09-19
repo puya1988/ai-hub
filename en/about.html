@@ -33,6 +33,7 @@
         </div>
       </div>
 
+      <h2 class="sr-only">About this site</h2>
       <div class="card">
         <h3 class="card-title">What this is</h3>
         <p class="muted mt-12" style="font-size:14.5px;line-height:1.85">
@@ -120,6 +121,36 @@
         <h3 class="card-title">Changelog</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.6.0 · Systematic accessibility overhaul
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              A full front-end audit using measurable checks, which surfaced and fixed 18 classes of issue.<br>
+              <b>1. Colour contrast (the one that affects real use most):</b> in light mode, muted text,
+              the success/warning/danger semantic colours and three badge colours — <b>five failures against
+              WCAG AA</b>, with muted text at just 2.76:1 (the bar is 4.5:1). The palette is now split into
+              dark variants for text and bright variants for fills, plus a form-control border colour that
+              meets 3:1. <b>All 16 checks pass in dark mode.</b><br>
+              <b>2. Dialog focus management:</b> opening the detail, search or comparison overlay previously
+              left keyboard focus on the background, letting Tab wander into 70+ background focusables.
+              The full chain is now in place: focus moves in, Tab cycles inside, focus returns to the trigger
+              on close (including after in-dialog navigation), and the background is
+              <code class="inline">aria-hidden</code>. This also uncovered a leftover ESC handler that closed
+              overlays first and silently broke all of the above.<br>
+              <b>3. Heading hierarchy:</b> <b>all 20 pages</b> skipped from h1 straight to h3.
+              Three root causes (card titles directly under h1, build cards using h4, footer columns using h4)
+              are all corrected.<br>
+              <b>4. Also:</b> a keyboard skip-to-content link, <code class="inline">aria-live</code> on toasts
+              so screen readers announce them, <code class="inline">aria-hidden</code> on 42 emoji icons,
+              a label for the sort dropdown, touch targets enlarged to ≥28px, footer link padding, and
+              15 dead CSS rules removed.<br>
+              <b>5. Metadata:</b> an earlier hreflang injection script had failed silently, leaving eight pages
+              without hreflang or Open Graph tags. All 20 pages now carry hreflang triples, og tags, canonical
+              URLs and Twitter cards.<br>
+              <b>6. New:</b> a custom 404 page and an explicit notice when JavaScript is disabled.
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.5.0 · Hardware models recalibrated to 2026-09, plus calculator sliders
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

@@ -8,12 +8,31 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
 <script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
 <link rel="stylesheet" href="assets/css/style.css">
+<meta property="og:title" content="AI 工具导航 — 对话 / 编程 / 图像 / 视频 / Agent 精选 | AI HUB">
+<meta property="og:description" content="精选 AI 工具导航：ChatGPT、Claude、Cursor、Midjourney、ComfyUI、Dify、Ollama、Perplexity 等，按场景分类并说明用途与价格。">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI 工具导航 — 对话 / 编程 / 图像 / 视频 / Agent 精选 | AI HUB">
+<meta name="twitter:description" content="精选 AI 工具导航：ChatGPT、Claude、Cursor、Midjourney、ComfyUI、Dify、Ollama、Perplexity 等，按场景分类并说明用途与价格。">
+<link rel="alternate" hreflang="zh-CN" href="en/tools.html">
+<link rel="alternate" hreflang="en" href="en/tools.html">
+<link rel="alternate" hreflang="x-default" href="tools.html">
+<link rel="canonical" href="https://puya1988.github.io/ai-hub/tools.html">
 </head>
 <body data-page="tools">
 
+<a class="skip-link" href="#main">跳到主内容</a>
+
+<noscript>
+  <div class="container" style="padding:24px 22px">
+    <div class="notice"><b>需要 JavaScript</b><br>本站内容由 JavaScript 动态渲染。请启用 JavaScript，或直接查看源码中的数据文件 <code>assets/js/data.zh.js</code>。</div>
+  </div>
+</noscript>
+
 <div id="site-header"></div>
 
-<main>
+<main id="main" tabindex="-1">
   <section class="section-sm" style="padding-top:44px">
     <div class="container container-wide">
       <div class="sec-head" style="margin-bottom:22px">
@@ -35,6 +54,7 @@
         <span class="tiny dim" style="margin-left:auto">价格与额度随时变动，请以官网为准</span>
       </div>
 
+      <h2 class="sr-only">工具列表</h2>
       <div class="grid grid-3" id="toolGrid"></div>
 
       <!-- 选择建议 -->

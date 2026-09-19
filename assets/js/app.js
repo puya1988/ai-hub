@@ -161,6 +161,9 @@
     if (!toastWrap) {
       toastWrap = document.createElement("div");
       toastWrap.className = "toast-wrap";
+      // 让读屏软件能播报提示，否则视觉提示对看不见的用户等于不存在
+      toastWrap.setAttribute("role", "status");
+      toastWrap.setAttribute("aria-live", "polite");
       document.body.appendChild(toastWrap);
     }
     const t = document.createElement("div");
@@ -322,7 +325,7 @@
     const host = $("#site-footer");
     if (!host) return;
     const col = (title, links) =>
-      "<div><h4>" + title + "</h4><ul>" +
+      "<div><h2>" + title + "</h2><ul>" +
       links.map((l) => '<li><a href="' + l[1] + '">' + l[0] + "</a></li>").join("") +
       "</ul></div>";
 
@@ -570,17 +573,14 @@
       els[active].scrollIntoView({ block: "nearest" });
     }
 
-    function open() {
+    function open(returnTo) {
       overlay.classList.add("open");
       document.body.style.overflow = "hidden";
       input.value = "";
       renderDefault();
-      setTimeout(() => input.focus(), 30);
+      trapEnter(overlay, input, returnTo);
     }
-    function close() {
-      overlay.classList.remove("open");
-      document.body.style.overflow = "";
-    }
+    function close() { evClose(overlay); }
 
     input.addEventListener("input", doSearch);
     overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
@@ -604,8 +604,8 @@
     });
 
     const trigger = $("#openSearch");
-    if (trigger) trigger.addEventListener("click", open);
-    window.__openSearch = open;
+    if (trigger) trigger.addEventListener("click", () => open(trigger));
+    window.__openSearch = () => open(trigger);
   }
 
   /* ============================== 6. 通用渲染片段 ============================== */
@@ -1066,8 +1066,9 @@
       ov.innerHTML = html;
       ov.classList.add("open");
       document.body.style.overflow = "hidden";
+      trapEnter(ov, ov.querySelector("[data-cmp-close]"));
 
-      const close = () => { ov.classList.remove("open"); document.body.style.overflow = ""; };
+      const close = () => { evClose(ov); };
       ov.addEventListener("click", (e) => {
         if (e.target === ov || e.target.closest("[data-cmp-close]")) { close(); return; }
         if (e.target.closest("[data-cmp-copy]")) {
@@ -1446,7 +1447,7 @@
   function hwBuildCard(b) {
     return '<div class="hw-build">' +
       '<span class="hw-build-tier">' + esc(b.tier) + "</span>" +
-      "<h4>" + esc(b.name) + "</h4>" +
+      "<h3 class=\"hw-build-name\">" + esc(b.name) + "</h3>" +
       '<div class="price">' + esc(b.price) + "</div>" +
       '<dl class="hw-spec">' +
         b.spec.map((row) => "<dt>" + esc(row[0]) + "</dt><dd>" + esc(row[1]) + "</dd>").join("") +
@@ -1989,7 +1990,7 @@
           "</div>" +
           '<div class="calc-kpi">' +
             '<div class="kl">' + t("hw.calcBreakeven") + '</div>' +
-            '<div class="kv" style="color:var(--warn)">' + esc(beText) + "</div>" +
+            '<div class="kv" style="color:var(--warn-text)">' + esc(beText) + "</div>" +
             '<div class="ks">' + t("hw.calcOwnTotal") + " " + esc(fmtMoney(m.ownTotal)) +
               " · " + t("hw.calcCloudTotal") + " " + esc(fmtMoney(m.cloudTotal)) + "</div>" +
           "</div>";
@@ -2146,13 +2147,8 @@
     // 表格排序
     $$("table.data").forEach(enableTableSort);
 
-    // 关闭所有弹窗（ESC）
-    document.addEventListener("keydown", (e) => {
-      if (e.key !== "Escape") return;
-      let any = false;
-      $$(".overlay.open").forEach((o) => { o.classList.remove("open"); any = true; });
-      if (any && !$("#searchOverlay.open")) document.body.style.overflow = "";
-    });
+    // 注意：ESC 关闭弹窗统一由 initFocusTrap() 处理，
+    // 那里会同时归还焦点并恢复背景的 aria-hidden，此处不再重复监听。
 
     // 外链统一新窗口 + 安全属性
     $$('a[href^="http"]').forEach((a) => {
@@ -2190,6 +2186,88 @@
       t("news.autoTime") + "<b>" + (FEED.updated || "—") + "</b>。";
   }
 
+  /* ===================== 16.1 弹层焦点管理（无障碍） =====================
+     弹窗打开时必须：① 把焦点移进去 ② 把 Tab 困在里面 ③ 关闭后还给触发元素
+     ④ 把背景对读屏隐藏。四条缺一条，键盘和读屏用户就会迷路。 */
+  let lastFocused = null;
+
+  const FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+  function focusablesIn(root) {
+    return Array.prototype.filter.call(root.querySelectorAll(FOCUSABLE), (el) => {
+      return el.offsetParent !== null || el === document.activeElement || el.classList.contains("skip-link") === false;
+    });
+  }
+
+  /* 打开弹层前记录焦点；把除弹层外的地标设为 aria-hidden */
+  /* preferred: 打开后把焦点放到哪；returnTo: 关闭后把焦点还给谁。
+     浏览器里点击按钮会自动聚焦，但键盘/程序化触发时不会，所以显式兜底。 */
+  function trapEnter(overlay, preferred, returnTo) {
+    // 只在「从无到有」打开弹层时记录返回目标。
+    // 弹层内部二次跳转（如点相关词条）不能覆盖它，否则返回目标会被销毁、焦点丢失。
+    if (!lastFocused) {
+      const ae = document.activeElement;
+      lastFocused = returnTo || ((ae && ae !== document.body) ? ae : null);
+    }
+    overlays().forEach((o) => o.setAttribute("aria-hidden", String(o !== overlay)));
+    ["#site-header", "main", "#site-footer"].forEach((sel) => {
+      const el = $(sel);
+      if (el) el.setAttribute("aria-hidden", "true");
+    });
+    const list = focusablesIn(overlay);
+    const target = preferred || list[0] || overlay;
+    setTimeout(() => {
+      try { target.focus(); } catch (e) { /* 忽略 */ }
+    }, 30);
+  }
+
+  function trapLeave() {
+    ["#site-header", "main", "#site-footer"].forEach((sel) => {
+      const el = $(sel);
+      if (el) el.removeAttribute("aria-hidden");
+    });
+    const open = overlays().filter((o) => o.classList.contains("open"));
+    overlays().forEach((o) => {
+      if (open.indexOf(o) === -1) o.removeAttribute("aria-hidden");
+    });
+    if (lastFocused && document.contains(lastFocused)) {
+      try { lastFocused.focus(); } catch (e) { /* 忽略 */ }
+    }
+    lastFocused = null;
+  }
+
+  function overlays() { return $$(".overlay"); }
+
+  /* 弹层内的 Tab 循环 + ESC 关闭，统一在 document 上处理 */
+  function initFocusTrap() {
+    document.addEventListener("keydown", (e) => {
+      const ov = overlays().filter((o) => o.classList.contains("open")).pop();
+      if (!ov) return;
+      if (e.key === "Escape") {
+        evClose(ov);
+        return;
+      }
+      if (e.key !== "Tab") return;
+      const list = focusablesIn(ov);
+      if (!list.length) return;
+      const first = list[0], last = list[list.length - 1];
+      if (e.shiftKey && (document.activeElement === first || !ov.contains(document.activeElement))) {
+        e.preventDefault(); last.focus();
+      } else if (!e.shiftKey && (document.activeElement === last || !ov.contains(document.activeElement))) {
+        e.preventDefault(); first.focus();
+      }
+    });
+  }
+
+  /* 各弹层关闭时统一走这里，保证焦点归还 */
+  function evClose(ov) {
+    ov.classList.remove("open");
+    if (!$(".overlay.open")) {
+      document.body.style.overflow = "";
+      trapLeave();
+    }
+  }
+
   /* ============================== 16.2 内容详情弹层 ============================== */
   /* 站点只有列表页，所以每个条目都需要一个可打开的“详情”，
      否则卡片就只是好看的摆设。有外链的开外链，没有的开弹层。 */
@@ -2202,8 +2280,7 @@
   function closeDetail() {
     const ov = $("#detailOverlay");
     if (!ov) return;
-    ov.classList.remove("open");
-    if (!$(".overlay.open")) document.body.style.overflow = "";
+    evClose(ov);
   }
 
   /* 把各类数据规格化成统一的详情结构 */
@@ -2301,7 +2378,7 @@
     return null;
   }
 
-  function openDetail(kind, key) {
+  function openDetail(kind, key, returnTo) {
     const c = detailCfg(kind, key);
     if (!c) return;
 
@@ -2357,6 +2434,9 @@
 
     ov.classList.add("open");
     document.body.style.overflow = "hidden";
+    ov.setAttribute("role", "dialog");
+    ov.setAttribute("aria-modal", "true");
+    trapEnter(ov, ov.querySelector("[data-detail-close]"), returnTo);
   }
 
   /* 弹层内部交互（事件委派到 document，因为弹层是动态创建的） */
@@ -2371,7 +2451,7 @@
 
         // 相关词条切换
         const gl = e.target.closest("[data-gloss]");
-        if (gl) { openDetail("gloss", gl.dataset.gloss); return; }
+        if (gl) { openDetail("gloss", gl.dataset.gloss, gl); return; }
 
         // 加入对比
         const cp = e.target.closest("[data-detail-cmp]");
@@ -2405,7 +2485,7 @@
       const el = e.target.closest("[data-detail]");
       if (!el) return;
       if (e.target.closest("a, button, input, select")) return;   // 内部可点元素优先
-      openDetail(el.dataset.detail, el.dataset.key);
+      openDetail(el.dataset.detail, el.dataset.key, el);
     });
 
     // 键盘可达：Enter / 空格
@@ -2443,6 +2523,7 @@
     initAccordion();
     initMisc();
     initDetail();
+    initFocusTrap();
     renderFeedStatus(added);
     console.log("%c" + D.meta.name + " · " + D.meta.nameZh + " v" + D.meta.version, "color:#4f46e5;font-weight:bold", "\ndata: " + D.meta.updated + (added ? " (+" + added + " auto)" : ""));
   }

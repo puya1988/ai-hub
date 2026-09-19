@@ -8,12 +8,31 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
 <script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
 <link rel="stylesheet" href="assets/css/style.css">
+<meta property="og:title" content="关于本站 · 数据来源与免责声明 | AI HUB">
+<meta property="og:description" content="AI HUB 智汇站点说明：定位、内容板块、数据来源、更新方式、免责声明与更新日志。">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="关于本站 · 数据来源与免责声明 | AI HUB">
+<meta name="twitter:description" content="AI HUB 智汇站点说明：定位、内容板块、数据来源、更新方式、免责声明与更新日志。">
+<link rel="alternate" hreflang="zh-CN" href="en/about.html">
+<link rel="alternate" hreflang="en" href="en/about.html">
+<link rel="alternate" hreflang="x-default" href="about.html">
+<link rel="canonical" href="https://puya1988.github.io/ai-hub/about.html">
 </head>
 <body data-page="about">
 
+<a class="skip-link" href="#main">跳到主内容</a>
+
+<noscript>
+  <div class="container" style="padding:24px 22px">
+    <div class="notice"><b>需要 JavaScript</b><br>本站内容由 JavaScript 动态渲染。请启用 JavaScript，或直接查看源码中的数据文件 <code>assets/js/data.zh.js</code>。</div>
+  </div>
+</noscript>
+
 <div id="site-header"></div>
 
-<main>
+<main id="main" tabindex="-1">
   <section class="section-sm" style="padding-top:44px">
     <div class="container" style="max-width:900px">
       <div class="sec-head" style="margin-bottom:26px">
@@ -24,6 +43,7 @@
         </div>
       </div>
 
+      <h2 class="sr-only">站点说明</h2>
       <div class="card">
         <h3 class="card-title">站点定位</h3>
         <p class="muted mt-12" style="font-size:14.5px;line-height:1.85">
@@ -110,6 +130,34 @@
         <h3 class="card-title">更新日志</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.6.0 · 无障碍与可访问性系统性修复
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              一次完整的前端体检，用可测量指标逐项核查，发现并修复 18 类问题。<br>
+              <b>① 颜色对比度（最影响真实使用）：</b>浅色模式下弱化文字、
+              成功/警告/危险三种语义色、三种徽章色共 <b>5 项不达 WCAG AA</b>，
+              弱化文字仅 2.76:1（标准 4.5:1）。现已重新设计色板：文字用深色变体、
+              填充用亮色变体，并新增满足 3:1 的表单控件边框色。
+              <b>深色模式 16 项指标全部达标。</b><br>
+              <b>② 弹层焦点管理：</b>此前打开详情/搜索/对比弹层时，键盘焦点仍留在背景内容上，
+              Tab 键会跑进 70 多个背景可聚焦元素。现补齐完整链路：
+              打开时焦点移入、Tab 在弹层内循环、关闭后归还触发元素（含弹层内二次跳转）、
+              背景设 <code class="inline">aria-hidden</code>。同时修复了
+              一处遗留的 ESC 处理器抢先关闭弹层、导致上述逻辑全部失效的问题。<br>
+              <b>③ 标题层级：</b>20 个页面<b>全部存在 h1 直接跳 h3 的跳级</b>。
+              排查出三个根因（卡片标题直接在 h1 下、配置单用 h4、页脚栏目标题用 h4），现已全部修正。<br>
+              <b>④ 其他：</b>新增键盘「跳到主内容」链接、toast 增加
+              <code class="inline">aria-live</code> 供读屏播报、42 处 emoji 图标补
+              <code class="inline">aria-hidden</code>、排序下拉补标签、触控目标放大到 ≥28px、
+              页脚链接加内边距、清理 15 处死 CSS。<br>
+              <b>⑤ 元信息：</b>发现此前注入 hreflang 的脚本静默失败，
+              8 个页面缺少 hreflang 与 Open Graph 标签。现已为 20 个页面补齐
+              hreflang 三向标注、og、canonical、twitter card。<br>
+              <b>⑥ 新增：</b>自定义 404 页面、无 JavaScript 时的明确提示。
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.5.0 · 硬件型号全面校准到 2026-09 + 计算器滑杆
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>
