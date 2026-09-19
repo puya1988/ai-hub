@@ -722,6 +722,66 @@ PAGES["hardware"] = { page: "hardware", ...page(
 
   <section class="section">
     <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:18px">
+        <div>
+          <div class="sec-eyebrow">Down to actual vendors</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">Brands and vendors</h2>
+          <p>56 vendors across nine categories — compute silicon, systems and servers, workstations, laptops,
+            industrial computers, Chinese domestic options, cloud compute and buying channels.
+            Filter by category or search directly.</p>
+        </div>
+        <div class="result-count" id="hwVendorCount"></div>
+      </div>
+
+      <div class="notice mb-24">
+        <b>Decide three things before choosing a brand:</b>
+        <b>① Ecosystem</b> — the cost of moving off CUDA is still the most underestimated hidden expense;
+        <b>② Availability</b> — for export-restricted SKUs both lead time and price are uncertain;
+        <b>③ Support</b> — can you get a response within 24 hours when something breaks?
+        The list below is compiled from public information, is neither a recommendation nor an endorsement,
+        and all trademarks belong to their respective owners.
+      </div>
+
+      <div class="hw-filter">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="hwVendorSearch" placeholder="Search brand, product line or region…">
+        </div>
+        <span class="tiny dim" style="margin-left:auto">Use the external-link icon to open a vendor site</span>
+      </div>
+
+      <div class="chips mb-24" id="hwVendorCats"></div>
+      <div class="grid grid-3" id="hwVendors"></div>
+    </div>
+  </section>
+
+  <section class="section" id="hwLaptops" style="background:var(--surface-2);border-block:1px solid var(--border)">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:18px">
+        <div>
+          <div class="sec-eyebrow">Mobile</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">Laptops and mobile</h2>
+          <p id="hwLaptopNote" style="max-width:80ch"></p>
+        </div>
+      </div>
+
+      <div class="sec-eyebrow">Five things to know first</div>
+      <div class="hw-points mb-32" id="hwLaptopPoints"></div>
+
+      <div class="sec-eyebrow">Six classes of machine</div>
+      <div class="hw-builds" id="hwLaptopsList"></div>
+
+      <div class="notice mt-24">
+        <b>Three final checks before buying a laptop:</b>
+        ① measured sustained power draw in watts (not the model number, the wattage);
+        ② whether you can add memory yourself up to 64 GB (most thin-and-light machines are soldered);
+        ③ whether VRAM is 8 GB or 16 GB — this single number decides the largest model you can run.
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container-wide">
       <div class="sec-head" style="margin-bottom:20px">
         <div>
           <div class="sec-eyebrow">The first constraint</div>
@@ -896,6 +956,25 @@ PAGES["about"] = { page: "about", ...page(
         <h3 class="card-title">Changelog</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.3.0 · Vendors and laptop recommendations
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              <b>1. Brand and vendor directory (new):</b> 56 vendors across nine categories — compute
+              silicon, systems and servers, workstation brands, laptop brands, industrial computers,
+              <b>Chinese domestic options</b>, cloud compute and buying channels. Filter by category or
+              search by keyword; each entry lists region, market position, notable product lines and a
+              sourcing caveat, with a direct link to the vendor site.<br>
+              <b>2. Laptops and mobile (new):</b> starts with the three hard mobile constraints
+              (a 16 GB VRAM ceiling, power limits, thermal throttling), then gives guidance for six classes
+              of machine — thin and light, all-rounder, high-performance creator, Apple large-memory,
+              mobile workstation and rugged laptop. Each lists example models, chip, usable VRAM, sustained
+              power, indicative price and what it actually runs.<br>
+              <b>3. Also:</b> vendors without a website now get a working search link instead of dead text,
+              and category filtering toggles state rather than rebuilding the DOM.
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.2.0 · Hardware recommendation module
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

@@ -937,6 +937,52 @@ table.cmp-table tr:last-child th, table.cmp-table tr:last-child td { border-bott
 }
 .hw-time b { color: var(--warn); }
 
+/* 品牌与供应商 */
+.hw-filter {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 12px; border-radius: 14px; border: 1px solid var(--border);
+  background: var(--surface); margin-bottom: 20px;
+}
+.hw-filter .field { display: flex; align-items: center; gap: 8px; position: relative; }
+.hw-filter .field svg { position: absolute; left: 11px; width: 15px; height: 15px; color: var(--text-3); }
+.hw-filter input {
+  height: 36px; border-radius: 10px; border: 1px solid var(--border);
+  background: var(--surface-2); padding: 0 12px 0 34px; font-size: 13.5px;
+  min-width: 230px; outline: none; transition: .18s;
+}
+.hw-filter input:focus { border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-soft); }
+
+.hw-vendor { display: flex; flex-direction: column; gap: 10px; height: 100%; }
+.hw-vendor-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.hw-vendor .vname { font-weight: 750; font-size: 16px; line-height: 1.3; }
+.hw-vendor .vregion { font-size: 12px; color: var(--text-3); margin-top: 3px; }
+.hw-vendor .vtier {
+  display: inline-flex; padding: 3px 9px; border-radius: 999px; white-space: nowrap;
+  font-size: 11px; font-weight: 800; background: var(--brand-soft); color: var(--brand);
+}
+.hw-vendor .vproducts {
+  font-size: 12.5px; line-height: 1.7; color: var(--text-2);
+  padding: 9px 11px; border-radius: 9px; background: var(--surface-3);
+  border-left: 2px solid var(--brand);
+}
+.hw-vendor .vproducts b { color: var(--text-3); font-weight: 700; font-size: 11px; display: block; margin-bottom: 3px; }
+.hw-vendor .vnote { font-size: 12.8px; color: var(--text-2); line-height: 1.75; }
+.hw-vendor .vlink {
+  margin-top: auto; padding-top: 10px; border-top: 1px dashed var(--border);
+  display: flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 650; color: var(--brand);
+}
+.hw-vendor .vlink svg { width: 13px; height: 13px; }
+.hw-vendor .vlink.none { color: var(--text-3); font-weight: 600; }
+
+/* 笔记本要点 */
+.hw-points { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.hw-point {
+  border: 1px solid var(--border); border-radius: 13px; padding: 16px 18px;
+  background: var(--surface); border-top: 3px solid var(--brand-2);
+}
+.hw-point .pt { font-weight: 750; font-size: 14.5px; }
+.hw-point .pd { font-size: 13px; color: var(--text-2); line-height: 1.78; margin-top: 8px; }
+
 /* ------------------------------ 21. 响应式 ------------------------------ */
 @media (max-width: 1400px) {
   /* 导航项变多后，把搜索框收成图标并收紧间距，保证导航不折行 */
@@ -994,6 +1040,9 @@ table.cmp-table tr:last-child th, table.cmp-table tr:last-child td { border-bott
   .hw-spec dt { margin-top: 7px; }
   .hw-budget-bar { height: 26px; }
   .hw-budget-bar span { font-size: 10.5px; }
+  .hw-filter input { min-width: 0; width: 100%; }
+  .hw-filter .field { flex: 1 1 100%; }
+  .hw-vendor .vname { font-size: 15px; }
 }
 
 /* 打印 */

@@ -67,6 +67,66 @@
     </div>
   </section>
 
+  <!-- ============ 品牌与供应商 ============ -->
+  <section class="section">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:18px">
+        <div>
+          <div class="sec-eyebrow">落到具体厂商</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">品牌与供应商</h2>
+          <p>分九类整理了 56 家主流与国产方案：计算芯片、整机服务器、工作站、笔记本、工业计算机、国产化方案、云算力、采购渠道。
+            可按分类筛选或直接搜索。</p>
+        </div>
+        <div class="result-count" id="hwVendorCount"></div>
+      </div>
+
+      <div class="notice mb-24">
+        <b>选品牌前先想清三件事：</b>
+        <b>① 生态</b>——脱离 CUDA 的迁移成本至今仍是最容易被低估的隐性支出；
+        <b>② 供货</b>——受出口管制的型号，拿货周期与价格都不确定；
+        <b>③ 支持</b>——出问题时能否 24 小时内有人响应。
+        下表为公开信息整理，不构成推荐或背书，商标归各自厂商所有。
+      </div>
+
+      <div class="hw-filter">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="hwVendorSearch" placeholder="搜索品牌、产品线或地区…">
+        </div>
+        <span class="tiny dim" style="margin-left:auto">点官网图标可跳转厂商站点</span>
+      </div>
+
+      <div class="chips mb-24" id="hwVendorCats"></div>
+      <div class="grid grid-3" id="hwVendors"></div>
+    </div>
+  </section>
+
+  <!-- ============ 笔记本与移动方案 ============ -->
+  <section class="section" id="hwLaptops" style="background:var(--surface-2);border-block:1px solid var(--border)">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:18px">
+        <div>
+          <div class="sec-eyebrow">移动场景</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">笔记本与移动方案</h2>
+          <p id="hwLaptopNote" style="max-width:80ch"></p>
+        </div>
+      </div>
+
+      <div class="sec-eyebrow">上手前先知道这五件事</div>
+      <div class="hw-points mb-32" id="hwLaptopPoints"></div>
+
+      <div class="sec-eyebrow">六类机型怎么选</div>
+      <div class="hw-builds" id="hwLaptopsList"></div>
+
+      <div class="notice mt-24">
+        <b>买笔记本前最后确认三件事：</b>
+        ① 实测持续功耗释放是多少瓦（不是型号，是瓦数）；
+        ② 内存能不能自己加到 64 GB（多数轻薄本焊死）；
+        ③ 显存是 8 GB 还是 16 GB——这一项直接决定你能跑多大模型。
+      </div>
+    </div>
+  </section>
+
   <!-- ============ 显存速查 ============ -->
   <section class="section">
     <div class="container container-wide">

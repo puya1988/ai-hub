@@ -417,6 +417,20 @@
         SEARCH_INDEX.push({ type: hwType, icon: "⚖️", title: r.item, sub: r.market + " ↔ " + r.industrial, url: "hardware.html#hwCompare", keys: r.item + " " + r.market + " " + r.industrial }));
       H.vram.forEach((r) =>
         SEARCH_INDEX.push({ type: hwType, icon: "💾", title: r.size, sub: "FP16 " + r.fp16 + " · INT4 " + r.int4, url: "hardware.html#hwVram", keys: r.size + " " + r.fp16 + " " + r.int8 + " " + r.int4 + " " + r.market + " " + r.prof }));
+      // 品牌与供应商
+      (H.vendors || []).forEach((v) =>
+        SEARCH_INDEX.push({
+          type: hwType, icon: "🏷️", title: v.name, sub: v.region + " · " + v.tier,
+          url: v.url || "hardware.html#hwVendors", ext: !!v.url,
+          keys: v.name + " " + v.region + " " + v.tier + " " + v.products + " " + v.note
+        }));
+      // 笔记本机型
+      ((H.laptops && H.laptops.units) || []).forEach((u) =>
+        SEARCH_INDEX.push({
+          type: hwType, icon: "💻", title: u.name + "（" + u.tier + "）", sub: u.price + " · " + u.runs,
+          url: "hardware.html#hwLaptopsList",
+          keys: u.tier + " " + u.name + " " + u.price + " " + u.runs + " " + u.spec.map((r) => r.join(" ")).join(" ")
+        }));
     }
     SEARCH_READY = true;
     return SEARCH_INDEX.length;
@@ -1421,6 +1435,20 @@
   /* ============================== 14.5 硬件选型页 ============================== */
   const HW_COLORS = ["#4f46e5", "#06b6d4", "#12b76a", "#f79009", "#ec4899", "#8b5cf6"];
 
+  /* 配置单卡片（受众配置与笔记本机型共用） */
+  function hwBuildCard(b) {
+    return '<div class="hw-build">' +
+      '<span class="hw-build-tier">' + esc(b.tier) + "</span>" +
+      "<h4>" + esc(b.name) + "</h4>" +
+      '<div class="price">' + esc(b.price) + "</div>" +
+      '<dl class="hw-spec">' +
+        b.spec.map((row) => "<dt>" + esc(row[0]) + "</dt><dd>" + esc(row[1]) + "</dd>").join("") +
+      "</dl>" +
+      '<div class="hw-runs"><b>' + t("hw.runs") + "：</b>" + esc(b.runs) + "</div>" +
+      '<div class="note">' + esc(b.note) + "</div>" +
+    "</div>";
+  }
+
   function initHardware() {
     const root = $("#hwRoot");
     if (!root) return;
@@ -1516,17 +1544,7 @@
 
           '<div class="sec-eyebrow">' + t("hw.builds") + "</div>" +
           '<div class="hw-builds">' +
-            s.builds.map((b) =>
-              '<div class="hw-build">' +
-                '<span class="hw-build-tier">' + esc(b.tier) + "</span>" +
-                "<h4>" + esc(b.name) + "</h4>" +
-                '<div class="price">' + esc(b.price) + "</div>" +
-                '<dl class="hw-spec">' +
-                  b.spec.map((row) => "<dt>" + esc(row[0]) + "</dt><dd>" + esc(row[1]) + "</dd>").join("") +
-                "</dl>" +
-                '<div class="hw-runs"><b>' + t("hw.runs") + "：</b>" + esc(b.runs) + "</div>" +
-                '<div class="note">' + esc(b.note) + "</div>" +
-              "</div>").join("") +
+            s.builds.map(hwBuildCard).join("") +
           "</div>" +
 
           '<div class="sec-head mt-32" style="margin-bottom:16px"><div>' +
@@ -1610,6 +1628,87 @@
     const chk = $("#hwChecklist");
     if (chk) {
       chk.innerHTML = H.checklist.map((c) => "<li>" + icon("check") + "<span>" + esc(c) + "</span></li>").join("");
+    }
+
+    /* ---- 品牌与供应商：分类 + 搜索 ---- */
+    const vHost = $("#hwVendors");
+    if (vHost && H.vendors) {
+      const catHost = $("#hwVendorCats");
+      const searchEl = $("#hwVendorSearch");
+      const countEl = $("#hwVendorCount");
+      const vState = { cat: "all", q: "" };
+
+      const vFiltered = () => H.vendors.filter((v) => {
+        if (vState.cat !== "all" && v.cat !== vState.cat) return false;
+        if (vState.q) {
+          const hay = (v.name + " " + v.region + " " + v.products + " " + v.note + " " + v.tier).toLowerCase();
+          if (hay.indexOf(vState.q) === -1) return false;
+        }
+        return true;
+      });
+
+      const renderVCats = () => {
+        if (!catHost) return;
+        catHost.innerHTML = H.vendorCats.map((c) => {
+          const cnt = c.id === "all" ? H.vendors.length : H.vendors.filter((v) => v.cat === c.id).length;
+          return '<button class="chip' + (c.id === vState.cat ? " active" : "") + '" data-vcat="' + esc(c.id) + '">' +
+            esc(c.name) + '<span class="cnt">' + cnt + "</span></button>";
+        }).join("");
+      };
+
+      const renderVendors = () => {
+        const list = vFiltered();
+        if (countEl) countEl.textContent = t("hw.vendorCount", { n: list.length });
+        if (!list.length) {
+          vHost.innerHTML = '<div class="empty" style="grid-column:1/-1"><div class="em-icon">🔍</div><h3>' + t("hw.vendorNone") + "</h3></div>";
+          return;
+        }
+        vHost.innerHTML = list.map((v) =>
+          '<article class="card card-hover hw-vendor" id="vendor-' + encodeURIComponent(v.name) + '">' +
+            '<div class="hw-vendor-head">' +
+              '<div><div class="vname">' + esc(v.name) + '</div>' +
+              '<div class="vregion">' + esc(v.region) + "</div></div>" +
+              '<span class="vtier">' + esc(v.tier) + "</span>" +
+            "</div>" +
+            '<div class="vproducts"><b>' + t("hw.vendorProducts") + "</b>" + esc(v.products) + "</div>" +
+            '<div class="vnote">' + esc(v.note) + "</div>" +
+            (v.url
+              ? '<a class="vlink" href="' + esc(v.url) + '" target="_blank" rel="noopener">' + t("tools.visit") + icon("ext") + "</a>"
+              : '<a class="vlink" href="' + searchUrl(v.name + " " + v.products) + '" target="_blank" rel="noopener">' + t("detail.searchWeb") + icon("ext") + "</a>") +
+          "</article>").join("");
+      };
+
+      if (catHost) {
+        catHost.addEventListener("click", (e) => {
+          const b = e.target.closest("[data-vcat]");
+          if (!b) return;
+          vState.cat = b.dataset.vcat;
+          // 只切换选中态，不重建 chip（避免 DOM 抖动与丢失聚焦）
+          $$("[data-vcat]", catHost).forEach((x) => x.classList.toggle("active", x === b));
+          renderVendors();
+        });
+      }
+      if (searchEl) {
+        searchEl.addEventListener("input", function () {
+          vState.q = this.value.trim().toLowerCase();
+          renderVendors();
+        });
+      }
+      renderVCats();
+      renderVendors();
+    }
+
+    /* ---- 笔记本与移动方案 ---- */
+    const ltPoints = $("#hwLaptopPoints");
+    if (ltPoints && H.laptops) {
+      ltPoints.innerHTML = H.laptops.points.map((p) =>
+        '<div class="hw-point"><div class="pt">' + esc(p.title) + '</div><div class="pd">' + esc(p.desc) + "</div></div>").join("");
+    }
+    const ltNote = $("#hwLaptopNote");
+    if (ltNote && H.laptops) ltNote.textContent = H.laptops.note;
+    const ltUnits = $("#hwLaptopsList");
+    if (ltUnits && H.laptops) {
+      ltUnits.innerHTML = H.laptops.units.map(hwBuildCard).join("");
     }
 
     /* ---- 深链接：#personal 直接定位到对应受众 ---- */
