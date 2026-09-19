@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- ⚠ 本文件由 scripts/build-en.js 自动生成，请勿手工编辑；改脚本后运行 node scripts/build-en.js 重新生成 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI glossary — LLM, RAG, agent and alignment terms explained | AI HUB</title>
+<meta name="description" content="An AI glossary covering Transformer, MoE, token, context window, hallucination, RLHF, LoRA, quantisation, RAG, agents, MCP and scaling laws.">
+<meta name="author" content="AI HUB">
+<meta property="og:title" content="AI glossary — LLM, RAG, agent and alignment terms explained | AI HUB">
+<meta property="og:description" content="An AI glossary covering Transformer, MoE, token, context window, hallucination, RLHF, LoRA, quantisation, RAG, agents, MCP and scaling laws.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="zh-CN" href="../glossary.html">
+<link rel="alternate" hreflang="en" href="glossary.html">
+<link rel="alternate" hreflang="x-default" href="../glossary.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="glossary">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:22px">
+        <div>
+          <div class="sec-eyebrow">Glossary</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">AI terminology, explained</h1>
+          <p>From core concepts and architectures to training, inference optimisation, applications and safety — one sentence each, with the Chinese equivalent for cross-reference.</p>
+        </div>
+        <div class="result-count" id="glossCount"></div>
+      </div>
+
+      <div class="filter-bar">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="glossSearch" placeholder="Search terms, Chinese names or definitions…">
+        </div>
+        <div class="alpha-index" id="alphaIndex" style="margin-left:auto"></div>
+      </div>
+
+      <div class="chips mb-24" id="glossCats"></div>
+
+      <div class="grid grid-3" id="glossList"></div>
+
+      <div class="notice mt-32">
+        <b>Note:</b> definitions aim for accuracy but are necessarily simplified to build intuition fast.
+        For depth, go to the original papers and official documentation. Chinese translations of many terms
+        are not yet standardised; we use the most common convention and give the Chinese form alongside.
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data.en.js"></script>
+<script src="../assets/js/news-feed.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

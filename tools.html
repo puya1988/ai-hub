@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 工具导航 — 对话 / 编程 / 图像 / 视频 / Agent 精选 | AI HUB</title>
+<meta name="description" content="精选 AI 工具导航：ChatGPT、Claude、Cursor、Midjourney、ComfyUI、Dify、Ollama、Perplexity 等，按场景分类并说明用途与价格。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="tools">
+
+<div id="site-header"></div>
+
+<main>
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:22px">
+        <div>
+          <div class="sec-eyebrow">工具导航</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">AI 工具精选</h1>
+          <p>按使用场景分类整理，标注价格形态与关键特性，帮你少踩坑、快上手。</p>
+        </div>
+        <div class="result-count" id="toolCount"></div>
+      </div>
+
+      <div class="chips mb-16" id="toolChips"></div>
+
+      <div class="filter-bar">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="toolSearch" placeholder="搜索工具名称、厂商、用途…">
+        </div>
+        <span class="tiny dim" style="margin-left:auto">价格与额度随时变动，请以官网为准</span>
+      </div>
+
+      <div class="grid grid-3" id="toolGrid"></div>
+
+      <!-- 选择建议 -->
+      <div class="grid grid-2 mt-32">
+        <div class="card">
+          <div class="sec-eyebrow">新手路线</div>
+          <h3 class="card-title">刚接触 AI，从哪里开始？</h3>
+          <ol class="step-list mt-12">
+            <li><b>1.</b> 先用一个通用对话助手（ChatGPT / Claude / DeepSeek / 通义）熟悉提问方式；</li>
+            <li><b>2.</b> 把日常最耗时的一件事交给它，例如周报、表格公式、资料汇总；</li>
+            <li><b>3.</b> 需要查资料时换用带引用的 AI 搜索（Perplexity / NotebookLM）；</li>
+            <li><b>4.</b> 有编程需求再引入 IDE 级助手（Cursor / Copilot / 通义灵码）；</li>
+            <li><b>5.</b> 对数据隐私敏感时，改用本地部署方案（Ollama / LM Studio）。</li>
+          </ol>
+        </div>
+        <div class="card">
+          <div class="sec-eyebrow">进阶路线</div>
+          <h3 class="card-title">想把 AI 接进业务系统？</h3>
+          <ol class="step-list mt-12">
+            <li><b>1.</b> 明确场景与评测指标（准确率、延迟、单次成本）；</li>
+            <li><b>2.</b> 用 Dify / LangChain / LlamaIndex 搭原型，先验证效果；</li>
+            <li><b>3.</b> 接入向量库与重排序，构建 RAG 知识库（RAGFlow / AnythingLLM）；</li>
+            <li><b>4.</b> 加一层 AI 网关做多模型路由、限流与计费；</li>
+            <li><b>5.</b> 用 Langfuse 等工具做可观测性与持续评测，再考虑上量。</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="notice mt-24">
+        <b>免责声明：</b>本站仅做工具信息整理，与所列产品无商业关联；不保证第三方服务的可用性、安全性或输出内容的准确性。
+        使用涉及他人数据的工具前，请自行评估隐私与合规风险。
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/data.zh.js"></script>
+<script src="assets/js/news-feed.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

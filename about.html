@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>关于本站 · 数据来源与免责声明 | AI HUB</title>
+<meta name="description" content="AI HUB 智汇站点说明：定位、内容板块、数据来源、更新方式、免责声明与更新日志。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="about">
+
+<div id="site-header"></div>
+
+<main>
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container" style="max-width:900px">
+      <div class="sec-head" style="margin-bottom:26px">
+        <div>
+          <div class="sec-eyebrow">关于</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">关于 AI HUB · 智汇</h1>
+          <p>一个纯静态、零依赖、可自由修改的人工智能信息聚合站点模板。</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">站点定位</h3>
+        <p class="muted mt-12" style="font-size:14.5px;line-height:1.85">
+          AI HUB 的目标是把分散在新闻站、论文库、模型榜单、工具目录里的信息，重新按「用户想知道什么」组织起来。
+          它不是一个新闻媒体，而是一个<b>索引与导航层</b>：帮你快速找到该看什么、该用什么、该学什么。
+        </p>
+        <div class="grid grid-2 mt-24">
+          <div>
+            <div class="badge badge-brand">内容板块</div>
+            <ul class="step-list mt-12">
+              <li>资讯中心：按 9 大分类聚合行业动态</li>
+              <li>模型库：24 个主流大模型档案与对比表</li>
+              <li>工具导航：46 款 AI 工具按场景分类</li>
+              <li>研究论文：里程碑论文 + 顶会信息</li>
+              <li>学习路径：六阶段成长路线与资源</li>
+              <li>术语百科：82 个核心词条中英对照</li>
+              <li>发展史：AI 七十年关键节点时间线</li>
+            </ul>
+          </div>
+          <div>
+            <div class="badge badge-brand">技术特性</div>
+            <ul class="step-list mt-12">
+              <li>纯静态：HTML + CSS + 原生 JS，无构建步骤</li>
+              <li>零依赖：不引入任何第三方库或 CDN</li>
+              <li>自动更新：脚本抓取 RSS，无需后端服务</li>
+              <li>中英双语：<code class="inline">en/</code> 完整英文站，语言切换保留当前页面</li>
+              <li>定时部署：GitHub Actions 每日抓取 + 自动发布，无人值守</li>
+              <li>响应式：桌面 / 平板 / 手机自适应</li>
+              <li>深色模式 × 6 套配色，自由组合</li>
+              <li>全站搜索：⌘K / Ctrl+K 唤起，本地索引</li>
+              <li>模型横向对比：最多 4 个逐项对照</li>
+              <li>可直接双击 index.html 打开（无需服务器）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-24" id="source">
+        <h3 class="card-title">数据来源与更新方式</h3>
+        <p class="muted mt-12" style="font-size:14.5px;line-height:1.85">
+          本站内容按语言存放在独立文件中：中文 <code class="inline">assets/js/data.zh.js</code>，
+          英文 <code class="inline">assets/js/data.en.js</code>；界面文案统一放在
+          <code class="inline">assets/js/i18n.js</code>。页面渲染逻辑完全不包含内容，
+          因此更新资料<b>不需要改动任何 HTML 或 CSS</b>，也不会影响其他语言。
+        </p>
+        <div class="grid grid-3 mt-24">
+          <div class="card card-pad-sm">
+            <div class="step-num">1</div>
+            <b style="font-size:14px">手工维护</b>
+            <p class="small muted mt-8">直接编辑 data.js 中的数组，按现有字段格式追加条目即可。适合个人站点。</p>
+          </div>
+          <div class="card card-pad-sm">
+            <div class="step-num">2</div>
+            <b style="font-size:14px">定时抓取（已实现）</b>
+            <p class="small muted mt-8">运行 <code class="inline">python3 scripts/fetch_news.py</code> 抓取配置的 RSS 源，
+            输出 news-feed.js，配合 crontab 每日自动执行。</p>
+          </div>
+          <div class="card card-pad-sm">
+            <div class="step-num">3</div>
+            <b style="font-size:14px">接口接入</b>
+            <p class="small muted mt-8">改为 fetch 远程 JSON 接口，实现真正的实时更新，需部署到服务器。</p>
+          </div>
+        </div>
+        <p class="small dim mt-16">
+          具体字段说明与接入示例见 <code class="inline">assets/js/README-数据接入.md</code>。
+          英文站页面由 <code class="inline">node scripts/build-en.js</code> 生成，改文案请改脚本后重新生成。
+        </p>
+      </div>
+
+      <div class="card mt-24" id="disclaimer">
+        <h3 class="card-title">免责声明</h3>
+        <div class="notice mt-16">
+          <ol style="padding-left:0;display:flex;flex-direction:column;gap:10px">
+            <li><b>1. 演示数据：</b>本模板内置的资讯、模型参数、价格、评分、链接等均为<b>演示数据</b>，可能与实际情况不符。使用前请替换为真实数据，并以各厂商、机构官方发布为准。</li>
+            <li><b>2. 非投资建议：</b>本站涉及融资、估值、产业趋势的内容不构成任何投资建议。</li>
+            <li><b>3. 第三方服务：</b>工具导航中的链接指向第三方网站，本站不对其内容、可用性、安全性及输出结果负责。</li>
+            <li><b>4. 商标归属：</b>文中出现的模型名称、公司名称与商标归各自所有者所有，本站仅作信息性引用。</li>
+            <li><b>5. 版权：</b>若站内内容涉及您的权益，请联系处理，我们将及时删除或更正。</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="card mt-24" id="changelog">
+        <h3 class="card-title">更新日志</h3>
+        <div class="mt-16">
+          <div class="acc-item open">
+            <button class="acc-head">v1.1.0 · 自动更新 / 横向对比 / 多套配色
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              <b>1. RSS 自动更新：</b>新增 <code class="inline">scripts/fetch_news.py</code> 与
+              <code class="inline">scripts/feeds.json</code>，支持抓取 10 个中英文源，
+              自动清洗、去重、分类、打标签，输出 <code class="inline">assets/js/news-feed.js</code>，
+              前端自动合并并在资讯页标记为「自动」条目。<br>
+              <b>2. 模型横向对比：</b>模型库支持勾选最多 4 个模型，底部对比栏 + 逐项对照表，
+              自动高亮最优值，支持一键复制 Markdown；选择结果本地保存。<br>
+              <b>3. 多套配色：</b>新增 6 套配色主题（靖蓝 / 深海 / 翡翠 / 紫罗兰 / 落日 / 石墨），
+              与深色模式独立组合，顶栏一键切换并记忆。<br>
+              <b>4. 中英双语架构：</b>界面文案抽离到 <code class="inline">assets/js/i18n.js</code>，
+              内容数据拆分为 <code class="inline">data.zh.js</code> 与 <code class="inline">data.en.js</code>，
+              <b>新增完整英文站</b> <code class="inline">en/</code>（9 个页面，由
+              <code class="inline">scripts/build-en.js</code> 生成），顶栏可一键切换语言。
+              以后加日语、韩语只需新增一份数据文件 + 跑一次构建脚本。<br>
+              <b>5. 定时部署：</b>新增 <code class="inline">.github/workflows/</code>，
+              「抓取 AI 资讯」每天自动抓取并提交，「部署到 GitHub Pages」自动发布；
+              另有 <code class="inline">scripts/build-sitemap.js</code> 生成中英双语
+              sitemap 与 robots.txt。推到 GitHub 后即可完全无人值守。<br>
+              <b>6. 修复：</b>表格视图重新渲染后排序事件丢失；手风琴重复绑定导致点击无效；
+              部分环境下 localStorage 与 history API 报错导致主题/筛选失效。
+            </div></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head">v1.0.0 · 站点首发
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              建立 9 大内容板块：首页、资讯中心、模型库、工具导航、研究论文、学习路径、术语百科、发展史、关于。
+              实现全站搜索（⌘K）、深色模式、响应式布局、卡片/表格双视图、分类筛选与分页。
+            </div></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head">后续计划
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              英文站 / 中英双语切换；模型榜单可视化图表；用户收藏与阅读历史；
+              资讯关键词订阅与邮件推送；导出为 Markdown / PDF。
+            </div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-24">
+        <h3 class="card-title">如何使用本模板</h3>
+        <pre class="code mt-16"># 方式一：直接打开（最简单）
+双击 index.html
+
+# 方式二：本地起一个静态服务器（推荐，便于后续接接口）
+python3 -m http.server 8000
+# 然后访问 http://localhost:8000
+
+# 方式三：部署到静态托管
+# 把整个 ai-hub 目录上传到 GitHub Pages / Vercel / Netlify / 对象存储即可</pre>
+        <div class="mt-16">
+          <a class="btn btn-primary" href="index.html">返回首页</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/data.zh.js"></script>
+<script src="assets/js/news-feed.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

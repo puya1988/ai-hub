@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 术语百科 — 大模型 / RAG / Agent 名词解释 | AI HUB</title>
+<meta name="description" content="人工智能术语词典：Transformer、MoE、Token、上下文窗口、幻觉、RLHF、LoRA、量化、RAG、Agent、MCP、Scaling Law 等，中英对照一句话解释。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="glossary">
+
+<div id="site-header"></div>
+
+<main>
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:22px">
+        <div>
+          <div class="sec-eyebrow">术语百科</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">AI 术语速查词典</h1>
+          <p>覆盖基础概念、模型架构、训练方法、推理优化、应用工程与安全治理，中英对照，一句话讲明白。</p>
+        </div>
+        <div class="result-count" id="glossCount"></div>
+      </div>
+
+      <div class="filter-bar">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="glossSearch" placeholder="搜索词条中文名、英文名或释义…">
+        </div>
+        <div class="alpha-index" id="alphaIndex" style="margin-left:auto"></div>
+      </div>
+
+      <div class="chips mb-24" id="glossCats"></div>
+
+      <div class="grid grid-3" id="glossList"></div>
+
+      <div class="notice mt-32">
+        <b>说明：</b>术语释义力求准确但不可避免做了简化，用于快速建立直觉。深入理解请查阅原始论文与官方文档。
+        行业术语的中文译名尚未统一，本站采用较通行的译法，并在括号中给出对应英文缩写。
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/data.zh.js"></script>
+<script src="assets/js/news-feed.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

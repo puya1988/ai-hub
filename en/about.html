@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- ⚠ 本文件由 scripts/build-en.js 自动生成，请勿手工编辑；改脚本后运行 node scripts/build-en.js 重新生成 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — data sources, disclaimer and changelog | AI HUB</title>
+<meta name="description" content="About AI HUB: what it is, where the data comes from, how to update it, the disclaimer and the changelog.">
+<meta name="author" content="AI HUB">
+<meta property="og:title" content="About — data sources, disclaimer and changelog | AI HUB">
+<meta property="og:description" content="About AI HUB: what it is, where the data comes from, how to update it, the disclaimer and the changelog.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="zh-CN" href="../about.html">
+<link rel="alternate" hreflang="en" href="about.html">
+<link rel="alternate" hreflang="x-default" href="../about.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="about">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container" style="max-width:900px">
+      <div class="sec-head" style="margin-bottom:26px">
+        <div>
+          <div class="sec-eyebrow">About</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">About AI HUB</h1>
+          <p>A pure-static, dependency-free, freely modifiable AI information hub.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">What this is</h3>
+        <p class="muted mt-12" style="font-size:14.5px;line-height:1.85">
+          AI HUB regroups information that is normally scattered across news sites, paper archives, model
+          leaderboards and tool directories, and reorganises it around what people actually want to know.
+          It is not a newsroom — it is an <b>index and navigation layer</b> that helps you find what to
+          read, what to use and what to learn.
+        </p>
+        <div class="grid grid-2 mt-24">
+          <div>
+            <div class="badge badge-brand">Sections</div>
+            <ul class="step-list mt-12">
+              <li>News hub across 9 subject areas</li>
+              <li>Model library with 24 profiles and a comparison table</li>
+              <li>Tool directory with 48 tools by use case</li>
+              <li>Landmark papers plus conference information</li>
+              <li>Six-stage learning path with resources</li>
+              <li>Glossary of 82 core terms</li>
+              <li>Timeline of seven decades of AI</li>
+            </ul>
+          </div>
+          <div>
+            <div class="badge badge-brand">Engineering</div>
+            <ul class="step-list mt-12">
+              <li>Static: HTML + CSS + vanilla JS, no build step</li>
+              <li>Zero dependencies: no libraries, no CDNs</li>
+              <li>Auto-updating: RSS fetched by a script, no backend</li>
+              <li>Responsive across desktop, tablet and mobile</li>
+              <li>Dark mode × 6 accent themes, freely combined</li>
+              <li>Site-wide search with ⌘K / Ctrl+K</li>
+              <li>Model comparison, up to 4 side by side</li>
+              <li>Bilingual: Chinese and English datasets</li>
+              <li>Scheduled deployment: daily fetch plus auto-publish via GitHub Actions</li>
+              <li>Open index.html directly — no server needed</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-24" id="source">
+        <h3 class="card-title">Data sources and how to update them</h3>
+        <p class="muted mt-12" style="font-size:14.5px;line-height:1.85">
+          Curated content lives in one file per language —
+          <code class="inline">assets/js/data.zh.js</code> and <code class="inline">assets/js/data.en.js</code>.
+          Interface strings live in <code class="inline">assets/js/i18n.js</code>. Rendering logic never
+          contains content, so updating text requires no HTML or CSS changes.
+        </p>
+        <div class="grid grid-3 mt-24">
+          <div class="card card-pad-sm">
+            <div class="step-num">1</div>
+            <b style="font-size:14px">Manual</b>
+            <p class="small muted mt-8">Edit the arrays in the language data file, keeping the field names. Best for a personal site.</p>
+          </div>
+          <div class="card card-pad-sm">
+            <div class="step-num">2</div>
+            <b style="font-size:14px">Scheduled fetch (built in)</b>
+            <p class="small muted mt-8">Run <code class="inline">python3 scripts/fetch_news.py</code> to pull the configured feeds; schedule it with cron.</p>
+          </div>
+          <div class="card card-pad-sm">
+            <div class="step-num">3</div>
+            <b style="font-size:14px">Live API</b>
+            <p class="small muted mt-8">Switch to fetching a remote JSON endpoint for genuinely real-time updates; requires a server.</p>
+          </div>
+        </div>
+        <p class="small dim mt-16">
+          Field reference and integration examples: <code class="inline">assets/js/README-数据接入.md</code>
+          (Chinese) and <code class="inline">README.md</code>.
+        </p>
+      </div>
+
+      <div class="card mt-24" id="disclaimer">
+        <h3 class="card-title">Disclaimer</h3>
+        <div class="notice mt-16">
+          <ol style="padding-left:0;display:flex;flex-direction:column;gap:10px">
+            <li><b>1. Demo data:</b> the built-in news items, model parameters, prices, scores and links are <b>illustrative</b> and may not reflect reality. Replace them before publishing and defer to official sources.</li>
+            <li><b>2. Not investment advice:</b> anything about funding, valuations or industry trends is not investment advice.</li>
+            <li><b>3. Third-party services:</b> tool links point to external sites. We are not responsible for their content, availability, security or output.</li>
+            <li><b>4. Trademarks:</b> model and company names are trademarks of their respective owners and are referenced for identification only.</li>
+            <li><b>5. Copyright:</b> auto-fetched items store only title, summary and a link to the original; all rights remain with the publisher. If any content infringes your rights, contact us and we will remove it.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="card mt-24" id="changelog">
+        <h3 class="card-title">Changelog</h3>
+        <div class="mt-16">
+          <div class="acc-item open">
+            <button class="acc-head">v1.1.0 · Auto-update, comparison, themes, English site
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              <b>1. RSS auto-update:</b> new <code class="inline">scripts/fetch_news.py</code> and
+              <code class="inline">scripts/feeds.json</code> fetch 10 sources, clean, deduplicate, classify
+              and tag them, then emit <code class="inline">assets/js/news-feed.js</code> and label
+              the items “Auto”.<br>
+              <b>2. Model comparison:</b> select up to 4 models, get an attribute table with the best value
+              highlighted, and copy it as Markdown. Selection is stored locally.<br>
+              <b>3. Six accent themes:</b> Indigo, Ocean, Emerald, Violet, Sunset and Graphite, combinable
+              with light and dark independently.<br>
+              <b>4. Bilingual architecture:</b> UI strings moved to <code class="inline">i18n.js</code>,
+              content split into <code class="inline">data.zh.js</code> and <code class="inline">data.en.js</code>,
+              and this English site generated by <code class="inline">scripts/build-en.js</code>.<br>
+              <b>5. Scheduled deployment:</b> <code class="inline">.github/workflows/</code> adds a
+              daily fetch job plus a Pages deployment job, and
+              <code class="inline">scripts/build-sitemap.js</code> generates a bilingual sitemap and
+              robots.txt. Push to GitHub and it runs unattended.<br>
+              <b>6. Fixes:</b> sort handlers lost after re-rendering the comparison table; accordion
+              double-binding; theme and filter breakage when localStorage or the history API is unavailable.
+            </div></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head">v1.0.0 · Initial release
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              Nine sections: home, news hub, model library, tool directory, papers, learning path,
+              glossary, timeline and about. Site-wide search (⌘K), dark mode, responsive layout,
+              card and table views, category filters and pagination.
+            </div></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head">Planned
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              More languages (Japanese, Korean); charts for model leaderboards; saved bookmarks and reading
+              history; keyword subscriptions and email digests; Markdown and PDF export.
+            </div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-24">
+        <h3 class="card-title">Using this template</h3>
+        <pre class="code mt-16"># Option 1 — just open it
+open index.html
+
+# Option 2 — local static server (recommended for API work later)
+python3 -m http.server 8000
+# then visit http://localhost:8000
+
+# Option 3 — deploy
+# upload the folder to GitHub Pages, Vercel, Netlify or any object storage
+
+# Refresh the news feed
+python3 scripts/fetch_news.py
+
+# Regenerate the English pages after editing scripts/build-en.js
+node scripts/build-en.js</pre>
+        <div class="mt-16">
+          <a class="btn btn-primary" href="index.html">Back to home</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data.en.js"></script>
+<script src="../assets/js/news-feed.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

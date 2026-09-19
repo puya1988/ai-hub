@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- ⚠ 本文件由 scripts/build-en.js 自动生成，请勿手工编辑；改脚本后运行 node scripts/build-en.js 重新生成 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Model library — parameters, context, modalities compared | AI HUB</title>
+<meta name="description" content="Profiles of the leading large language and multimodal models with parameter counts, context windows, modalities, licences and indicative pricing.">
+<meta name="author" content="AI HUB">
+<meta property="og:title" content="Model library — parameters, context, modalities compared | AI HUB">
+<meta property="og:description" content="Profiles of the leading large language and multimodal models with parameter counts, context windows, modalities, licences and indicative pricing.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="zh-CN" href="../models.html">
+<link rel="alternate" hreflang="en" href="models.html">
+<link rel="alternate" hreflang="x-default" href="../models.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="models">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:22px">
+        <div>
+          <div class="sec-eyebrow">Model library</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">Large model profiles</h1>
+          <p>Parameters, context length, modalities, licence and price — the facts you need to shortlist quickly.</p>
+        </div>
+        <div class="result-count" id="modelCount"></div>
+      </div>
+
+      <div class="grid grid-3 mb-16">
+        <div class="card card-pad-sm">
+          <div class="badge badge-ok">Open weights</div>
+          <h3 class="card-title mt-12" style="font-size:15px">Data must stay in-house</h3>
+          <p class="small muted mt-8">Self-host an open model: quantise it, fine-tune it, keep data on your own infrastructure — but you own the ops and compute bill.</p>
+        </div>
+        <div class="card card-pad-sm">
+          <div class="badge badge-warn">Closed API</div>
+          <h3 class="card-title mt-12" style="font-size:15px">Best capability, fastest launch</h3>
+          <p class="small muted mt-8">Call a frontier API: higher ceiling, no operations work, but metered pricing and a data-compliance review.</p>
+        </div>
+        <div class="card card-pad-sm">
+          <div class="badge badge-brand">Hybrid</div>
+          <h3 class="card-title mt-12" style="font-size:15px">Tiered routing (recommended)</h3>
+          <p class="small muted mt-8">Send easy requests to a cheap small model and route the hard ones to a flagship. Total cost usually drops sharply.</p>
+        </div>
+      </div>
+
+      <div class="notice mb-24">
+        <b>💡 Side-by-side comparison:</b> click “<b>Compare</b>” on a card (or tick the boxes in table view)
+        to select up to <b>4</b> models. A comparison bar appears at the bottom — open it for a full
+        attribute-by-attribute table with the best value highlighted, and copy it as Markdown.
+        Your selection is remembered in this browser.
+      </div>
+
+      <div class="filter-bar">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="modelSearch" placeholder="Search models, vendors, capabilities…">
+        </div>
+        <select class="control" id="modelLicense">
+          <option value="all">All licences</option>
+          <option value="open">Open weights</option>
+          <option value="closed">Closed API</option>
+        </select>
+        <select class="control" id="modelOrg"><option value="all">All vendors</option></select>
+        <select class="control" id="modelSort">
+          <option value="score">Overall score</option>
+          <option value="name">Name</option>
+          <option value="org">Vendor</option>
+        </select>
+        <div class="row gap-6" style="margin-left:auto">
+          <button class="chip active" data-view="card">Cards</button>
+          <button class="chip" data-view="table">Table</button>
+        </div>
+      </div>
+
+      <div class="grid grid-3" id="modelGrid"></div>
+      <div class="cmp-bar" id="cmpBar" aria-live="polite"></div>
+      <div class="cmp-bar-spacer"></div>
+
+      <div class="notice mt-32">
+        <b>How to read this:</b> the “overall score” is a reference indicator (out of 100) compiled from
+        public benchmarks, community feedback and practical availability. It is not an authoritative ranking.
+        Parameters, prices and capabilities change quickly between releases — always check the official docs.
+        Model and company names are trademarks of their respective owners.
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data.en.js"></script>
+<script src="../assets/js/news-feed.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

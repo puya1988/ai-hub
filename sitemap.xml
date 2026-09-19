@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/index.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/index.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/news.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/news.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/news.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/en/news.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/news.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/news.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/models.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/models.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/models.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/models.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/en/models.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/models.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/models.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/models.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/tools.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/tools.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/tools.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/tools.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/en/tools.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/tools.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/tools.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/tools.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/papers.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/papers.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/papers.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/papers.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/en/papers.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/papers.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/papers.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/papers.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/learn.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/learn.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/learn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/learn.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/en/learn.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/learn.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/learn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/learn.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/glossary.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/glossary.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/en/glossary.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/glossary.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/timeline.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/timeline.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/timeline.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/timeline.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/en/timeline.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/timeline.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/timeline.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/timeline.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/about.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://zhupuya.github.io/ai-hub/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zhupuya.github.io/ai-hub/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://zhupuya.github.io/ai-hub/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zhupuya.github.io/ai-hub/about.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>

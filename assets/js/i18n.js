@@ -1,0 +1,454 @@
+/* ==========================================================================
+   AI HUB · 界面文案多语言表
+   --------------------------------------------------------------------------
+   内容数据（资讯 / 模型 / 工具…）在 data.<lang>.js 中，
+   界面文案（按钮、提示、标签、表头…）在这里，两者互相独立。
+   app.js 读取 <html lang="xx"> 决定用哪一套。
+
+   新增语言：复制一份 zh 的键，翻译后加在下面即可；缺的键会自动回退到 zh。
+   ========================================================================== */
+
+window.AI_I18N = {
+
+  /* ============================== 简体中文 ============================== */
+  zh: {
+    /* 站点通用 */
+    "site.subtitle": "AI Intelligence Hub",
+    "site.updatedAt": "更新于",
+    "site.dataVersion": "数据版本",
+    "site.disclaimer": "本站为静态信息聚合站点，内容含演示数据，仅供参考与学习使用；涉及产品价格、参数、政策等请以官方发布为准。",
+    "site.copyright": "本站为静态演示站点，可自由修改与二次分发。",
+    "site.footer.colContent": "内容",
+    "site.footer.colLearn": "学习",
+    "site.footer.colAbout": "关于",
+    "site.footer.news": "最新资讯",
+    "site.footer.models": "大模型库",
+    "site.footer.tools": "AI 工具导航",
+    "site.footer.glossary": "术语百科",
+    "site.footer.learn": "学习路径",
+    "site.footer.papers": "研究论文",
+    "site.footer.prompts": "提示词技巧",
+    "site.footer.timeline": "行业时间线",
+    "site.footer.about": "站点说明",
+    "site.footer.source": "数据来源",
+    "site.footer.disclaimer": "免责声明",
+    "site.footer.changelog": "更新日志",
+    "site.nav.home": "首页",
+    "site.nav.news": "资讯",
+    "site.nav.models": "模型库",
+    "site.nav.tools": "工具导航",
+    "site.nav.papers": "研究论文",
+    "site.nav.learn": "学习路径",
+    "site.nav.glossary": "术语百科",
+    "site.nav.timeline": "发展史",
+    "site.nav.about": "关于",
+
+    /* 交互提示 */
+    "toast.themeDark": "已切换到深色模式",
+    "toast.themeLight": "已切换到浅色模式",
+    "toast.accent": "配色已切换为「{name}」",
+    "toast.copied": "{what}已复制到剪贴板",
+    "toast.copyFail": "复制失败，请手动选择复制",
+    "toast.clipboardNA": "当前环境不支持剪贴板，请手动选择",
+    "toast.hint": "按 ⌘K / Ctrl+K 可随时唤起全站搜索。",
+
+    /* 搜索 */
+    "search.placeholder": "搜索资讯 / 模型 / 术语…",
+    "search.inputPlaceholder": "搜索资讯、模型、工具、术语、论文…",
+    "search.hot": "热门搜索",
+    "search.jump": "快速跳转",
+    "search.empty": "没有找到与「{q}」相关的内容",
+    "search.emptyHint": "试试更短的关键词，例如「模型」「RAG」",
+    "search.type.news": "资讯",
+    "search.type.model": "模型",
+    "search.type.tool": "工具",
+    "search.type.glossary": "术语",
+    "search.type.paper": "论文",
+    "search.type.timeline": "历史",
+
+    /* 资讯 */
+    "news.badge.hot": "热",
+    "news.badge.auto": "自动",
+    "news.editorPick": "编辑精选",
+    "news.readTime": "约 {n} 分钟",
+    "news.count": "共 {n} 条 · 第 {page}/{pages} 页",
+    "news.none": "没有匹配的资讯",
+    "news.empty": "没有找到相关资讯",
+    "news.emptyHint": "试试更换关键词或选择「全部」分类",
+    "news.searchPlaceholder": "搜索标题、摘要、标签…",
+    "news.sort.hot": "按热度排序",
+    "news.sort.new": "最新优先",
+    "news.sort.old": "最早优先",
+    "news.sort.read": "阅读时长最短",
+    "news.shortcutHint": "提示：按 {k} 可直接打开全站搜索",
+    "news.autoConnected": "已连接数据源（{n} 个），但本次没有新的条目（全部与已有内容重复或超出时间范围）。",
+    "news.autoAdded": "本次从 {sources} 个源抓取到 {added} 条新资讯（标记为「自动」，点击标题可跳转原文）{fail}。",
+    "news.autoFailed": "，{n} 个源抓取失败",
+    "news.autoNone": "未检测到自动抓取数据，当前展示本地精选内容。",
+    "news.autoLabel": "自动更新：",
+    "news.autoTime": "抓取时间：",
+    "news.autoLastTime": "上次抓取时间：",
+
+    /* 分页 */
+    "pager.prev": "上一页",
+    "pager.next": "下一页",
+
+    /* 模型 */
+    "models.count": "共 {n} 个模型",
+    "models.open": "开放权重",
+    "models.closed": "闭源 API",
+    "models.openShort": "开源",
+    "models.closedShort": "闭源",
+    "models.compare": "对比",
+    "models.compared": "已选",
+    "models.addCompare": "加入对比",
+    "models.empty": "没有匹配的模型",
+    "models.emptyHint": "请调整筛选条件",
+    "models.searchPlaceholder": "搜索模型名称、机构、能力…",
+    "models.allLicenses": "全部许可",
+    "models.allOrgs": "全部机构",
+    "models.sort.score": "综合评分",
+    "models.sort.name": "名称",
+    "models.sort.org": "机构",
+    "models.viewCard": "卡片",
+    "models.viewTable": "表格对比",
+    "models.col.compare": "对比",
+    "models.col.model": "模型",
+    "models.col.org": "机构",
+    "models.col.license": "许可",
+    "models.col.params": "参数",
+    "models.col.ctx": "上下文",
+    "models.col.modality": "模态",
+    "models.col.price": "参考价格",
+    "models.col.score": "评分",
+    "models.dl.params": "参数量",
+    "models.dl.ctx": "上下文",
+    "models.dl.modality": "模态",
+    "models.dl.price": "价格",
+
+    /* 对比 */
+    "cmp.selected": "已选 {n}/{max}",
+    "cmp.clear": "清空",
+    "cmp.go": "开始对比",
+    "cmp.title": "模型横向对比",
+    "cmp.subtitle": "绿色标注为该行最优值；共 {n} 个模型",
+    "cmp.copyMd": "复制为 Markdown",
+    "cmp.close": "关闭",
+    "cmp.best": "最优",
+    "cmp.maxWarn": "最多同时对比 {max} 个模型，请先移除一个",
+    "cmp.needTwo": "请至少选择 2 个模型",
+    "cmp.row.org": "机构",
+    "cmp.row.released": "发布时间",
+    "cmp.row.license": "许可",
+    "cmp.row.params": "参数量",
+    "cmp.row.ctx": "上下文",
+    "cmp.row.modality": "模态",
+    "cmp.row.price": "参考价格",
+    "cmp.row.strength": "核心优势",
+    "cmp.row.score": "综合评分",
+    "cmp.row.desc": "简介",
+    "cmp.row.item": "对比项",
+    "cmp.copied": "Markdown 对比表",
+    "cmp.sourceNote": "数据来源：AI HUB",
+    "cmp.note": "对比数据来自本地数据库，属于参考性指标；模型能力随版本更新变化很快，实际选型请结合自己的任务做小样本评测（建议准备 50–200 条真实用例跑一轮）。",
+
+    /* 工具 */
+    "tools.count": "共 {n} 个工具",
+    "tools.empty": "没有匹配的工具",
+    "tools.searchPlaceholder": "搜索工具名称、厂商、用途…",
+    "tools.visit": "访问官网",
+    "tools.searchSelf": "国内平台，请自行搜索",
+    "tools.all": "全部工具",
+
+    /* 论文 */
+    "papers.count": "共 {n} 篇",
+    "papers.empty": "没有匹配的论文",
+    "papers.searchPlaceholder": "搜索论文标题、作者、主题…",
+    "papers.all": "全部",
+    "papers.scholar": "Google Scholar",
+    "papers.arxiv": "arXiv 最新",
+
+    /* 术语 */
+    "glossary.count": "共 {n} 个词条",
+    "glossary.empty": "没有找到相关词条",
+    "glossary.searchPlaceholder": "搜索词条中文名、英文名或释义…",
+    "glossary.allCats": "全部分类",
+    "glossary.all": "全部",
+
+    /* 学习 */
+    "learn.related": "相关资源",
+    "learn.copyPrompt": "复制模板",
+    "learn.promptCopied": "提示词模板",
+
+    /* 首页 */
+    "home.stat.news": "资讯条目",
+    "home.stat.models": "大模型档案",
+    "home.stat.tools": "AI 工具收录",
+    "home.stat.glossary": "术语百科词条",
+    "home.newsCount": "{n} 条资讯",
+    "home.ctx": "上下文",
+    "home.viewAll": "查看全部",
+    "home.langSwitch": "语言",
+    "home.glossPicks": "大语言模型,RAG 检索增强生成,思维链,幻觉,MoE 混合专家,AI Agent,对齐,量化",
+    "home.toolPicks": "Cursor,Dify,Perplexity,Ollama,ComfyUI,NotebookLM",
+
+    /* 其它 */
+    "common.more": "查看全部",
+    "common.close": "关闭",
+    "common.backToTop": "回到顶部",
+    "common.openMenu": "打开菜单",
+    "common.searchSite": "搜索全站",
+    "common.toggleTheme": "切换主题",
+    "common.toggleAccent": "切换配色",
+    "common.accentTitle": "配色主题",
+
+    /* 配色名称 */
+    "papers.conf.name": "会议",
+    "papers.conf.full": "全称",
+    "papers.conf.area": "领域",
+    "papers.conf.time": "时间",
+    "papers.conf.rank": "等级",
+    "papers.conf.site": "官网",
+    "learn.duration": "约 {v}",
+    "learn.free": "免费",
+    "learn.paid": "付费",
+    "learn.promptCode":
+      "# 结构化提示词模板（可直接复制使用）\n" +
+      "【角色】你是一名资深的 {领域} 专家，服务于 {用户画像}。\n" +
+      "【任务】基于下面的资料，回答用户的问题。\n" +
+      "【约束】\n" +
+      "  1. 只使用【资料】中的信息作答，不得引入外部知识；\n" +
+      "  2. 资料不足以回答时，明确回复「资料中未提及」，不要猜测；\n" +
+      "  3. 每个结论后标注来源编号，例如 [1][3]；\n" +
+      "  4. 使用简体中文，先给结论，再给依据，最后给风险提示。\n" +
+      "【输出格式】严格输出 JSON：\n" +
+      "  { \"answer\": string, \"evidence\": [{\"id\": number, \"quote\": string}],\n" +
+      "    \"confidence\": 0.0~1.0, \"missing\": string[] }\n" +
+      "【示例】\n" +
+      "  输入：…（1 个高质量示例）\n" +
+      "  输出：…（与目标格式一致）\n" +
+      "【资料】\n" +
+      "  [1] {{chunk_1}}\n  [2] {{chunk_2}}\n" +
+      "【问题】{{user_query}}",
+    "accent.indigo": "靖蓝",
+    "accent.ocean": "深海",
+    "accent.emerald": "翡翠",
+    "accent.violet": "紫罗兰",
+    "accent.sunset": "落日",
+    "accent.mono": "石墨"
+  },
+
+  /* ============================== English ============================== */
+  en: {
+    "site.subtitle": "AI Intelligence Hub",
+    "site.updatedAt": "Updated",
+    "site.dataVersion": "Data version",
+    "site.disclaimer": "This is a static information-aggregation site. Content includes demo data and is for reference and learning only; product pricing, parameters and policies are subject to official announcements.",
+    "site.copyright": "Static demo site — free to modify and redistribute.",
+    "site.footer.colContent": "Content",
+    "site.footer.colLearn": "Learn",
+    "site.footer.colAbout": "About",
+    "site.footer.news": "Latest news",
+    "site.footer.models": "Model library",
+    "site.footer.tools": "AI tools",
+    "site.footer.glossary": "Glossary",
+    "site.footer.learn": "Learning path",
+    "site.footer.papers": "Research papers",
+    "site.footer.prompts": "Prompting tips",
+    "site.footer.timeline": "AI timeline",
+    "site.footer.about": "About this site",
+    "site.footer.source": "Data sources",
+    "site.footer.disclaimer": "Disclaimer",
+    "site.footer.changelog": "Changelog",
+    "site.nav.home": "Home",
+    "site.nav.news": "News",
+    "site.nav.models": "Models",
+    "site.nav.tools": "Tools",
+    "site.nav.papers": "Papers",
+    "site.nav.learn": "Learn",
+    "site.nav.glossary": "Glossary",
+    "site.nav.timeline": "Timeline",
+    "site.nav.about": "About",
+
+    "toast.themeDark": "Switched to dark mode",
+    "toast.themeLight": "Switched to light mode",
+    "toast.accent": "Accent changed to “{name}”",
+    "toast.copied": "{what} copied to clipboard",
+    "toast.copyFail": "Copy failed — please select and copy manually",
+    "toast.clipboardNA": "Clipboard unavailable here — please select and copy manually",
+    "toast.hint": "Press ⌘K / Ctrl+K anytime to open site-wide search.",
+
+    "search.placeholder": "Search news / models / glossary…",
+    "search.inputPlaceholder": "Search news, models, tools, glossary, papers…",
+    "search.hot": "Popular searches",
+    "search.jump": "Quick links",
+    "search.empty": "No results for “{q}”",
+    "search.emptyHint": "Try a shorter keyword, e.g. “model” or “RAG”",
+    "search.type.news": "News",
+    "search.type.model": "Models",
+    "search.type.tool": "Tools",
+    "search.type.glossary": "Glossary",
+    "search.type.paper": "Papers",
+    "search.type.timeline": "Timeline",
+
+    "news.badge.hot": "Hot",
+    "news.badge.auto": "Auto",
+    "news.editorPick": "Editor's pick",
+    "news.readTime": "~{n} min read",
+    "news.count": "{n} items · page {page} of {pages}",
+    "news.none": "No matching news",
+    "news.empty": "Nothing found",
+    "news.emptyHint": "Try another keyword or pick the “All” category",
+    "news.searchPlaceholder": "Search titles, summaries, tags…",
+    "news.sort.hot": "Most popular",
+    "news.sort.new": "Newest first",
+    "news.sort.old": "Oldest first",
+    "news.sort.read": "Shortest read",
+    "news.shortcutHint": "Tip: press {k} to open site-wide search",
+    "news.autoConnected": "Connected to {n} sources, but there are no new items this round (everything is duplicated or out of the time window).",
+    "news.autoAdded": "Fetched {added} new items from {sources} sources this round (tagged “Auto”, click a title to open the original){fail}.",
+    "news.autoFailed": ", {n} sources failed",
+    "news.autoNone": "No auto-fetched data detected — showing locally curated content.",
+    "news.autoLabel": "Auto-update: ",
+    "news.autoTime": "Fetched at: ",
+    "news.autoLastTime": "Last fetch: ",
+
+    "pager.prev": "Prev",
+    "pager.next": "Next",
+
+    "models.count": "{n} models",
+    "models.open": "Open weights",
+    "models.closed": "Closed API",
+    "models.openShort": "Open",
+    "models.closedShort": "Closed",
+    "models.compare": "Compare",
+    "models.compared": "Selected",
+    "models.addCompare": "Add to compare",
+    "models.empty": "No matching models",
+    "models.emptyHint": "Try adjusting the filters",
+    "models.searchPlaceholder": "Search models, vendors, capabilities…",
+    "models.allLicenses": "All licenses",
+    "models.allOrgs": "All vendors",
+    "models.sort.score": "Overall score",
+    "models.sort.name": "Name",
+    "models.sort.org": "Vendor",
+    "models.viewCard": "Cards",
+    "models.viewTable": "Table",
+    "models.col.compare": "Compare",
+    "models.col.model": "Model",
+    "models.col.org": "Vendor",
+    "models.col.license": "License",
+    "models.col.params": "Parameters",
+    "models.col.ctx": "Context",
+    "models.col.modality": "Modality",
+    "models.col.price": "Indicative price",
+    "models.col.score": "Score",
+    "models.dl.params": "Parameters",
+    "models.dl.ctx": "Context",
+    "models.dl.modality": "Modality",
+    "models.dl.price": "Price",
+
+    "cmp.selected": "{n}/{max} selected",
+    "cmp.clear": "Clear",
+    "cmp.go": "Compare now",
+    "cmp.title": "Side-by-side comparison",
+    "cmp.subtitle": "Green marks the best value in a row · {n} models",
+    "cmp.copyMd": "Copy as Markdown",
+    "cmp.close": "Close",
+    "cmp.best": "best",
+    "cmp.maxWarn": "You can compare up to {max} models — remove one first",
+    "cmp.needTwo": "Please select at least 2 models",
+    "cmp.row.org": "Vendor",
+    "cmp.row.released": "Released",
+    "cmp.row.license": "License",
+    "cmp.row.params": "Parameters",
+    "cmp.row.ctx": "Context window",
+    "cmp.row.modality": "Modalities",
+    "cmp.row.price": "Indicative price",
+    "cmp.row.strength": "Key strengths",
+    "cmp.row.score": "Overall score",
+    "cmp.row.desc": "Summary",
+    "cmp.row.item": "Attribute",
+    "cmp.copied": "Markdown comparison table",
+    "cmp.sourceNote": "Source: AI HUB",
+    "cmp.note": "Comparison data comes from the local dataset and is indicative only. Model capabilities change fast between releases — for a real decision, run a small evaluation with your own task data (50–200 real cases is a good starting point).",
+
+    "tools.count": "{n} tools",
+    "tools.empty": "No matching tools",
+    "tools.searchPlaceholder": "Search tool names, vendors, use cases…",
+    "tools.visit": "Visit website",
+    "tools.searchSelf": "Search for it yourself",
+    "tools.all": "All tools",
+
+    "papers.count": "{n} papers",
+    "papers.empty": "No matching papers",
+    "papers.searchPlaceholder": "Search titles, authors, topics…",
+    "papers.all": "All",
+    "papers.scholar": "Google Scholar",
+    "papers.arxiv": "arXiv recent",
+
+    "glossary.count": "{n} terms",
+    "glossary.empty": "No matching terms",
+    "glossary.searchPlaceholder": "Search terms, English names or definitions…",
+    "glossary.allCats": "All categories",
+    "glossary.all": "All",
+
+    "learn.related": "Related resources",
+    "learn.copyPrompt": "Copy template",
+    "learn.promptCopied": "Prompt template",
+
+    "home.stat.news": "News items",
+    "home.stat.models": "Model profiles",
+    "home.stat.tools": "AI tools",
+    "home.stat.glossary": "Glossary terms",
+    "home.newsCount": "{n} items",
+    "home.ctx": "Context",
+    "home.viewAll": "View all",
+    "home.langSwitch": "Language",
+    "home.glossPicks": "LLM,RAG,Chain-of-Thought,Hallucination,MoE,AI Agent,Alignment,Quantisation",
+    "home.toolPicks": "Cursor,Dify,Perplexity,Ollama,ComfyUI,NotebookLM",
+
+    "common.more": "View all",
+    "common.close": "Close",
+    "common.backToTop": "Back to top",
+    "common.openMenu": "Open menu",
+    "common.searchSite": "Search the site",
+    "common.toggleTheme": "Toggle theme",
+    "common.toggleAccent": "Change accent color",
+    "common.accentTitle": "Accent color",
+
+    "papers.conf.name": "Conference",
+    "papers.conf.full": "Full name",
+    "papers.conf.area": "Field",
+    "papers.conf.time": "When",
+    "papers.conf.rank": "Rank",
+    "papers.conf.site": "Website",
+    "learn.duration": "~{v}",
+    "learn.free": "Free",
+    "learn.paid": "Paid",
+    "learn.promptCode":
+      "# Structured prompt template (copy & use) \n" +
+      "[ROLE] You are a senior {domain} expert serving {audience}.\n" +
+      "[TASK] Answer the user question using ONLY the material below.\n" +
+      "[CONSTRAINTS]\n" +
+      "  1. Use only facts found in [MATERIAL]; do not add outside knowledge.\n" +
+      "  2. If the material is insufficient, reply \"Not stated in the material\" — never guess.\n" +
+      "  3. Cite the source id after every claim, e.g. [1][3].\n" +
+      "  4. Write in English. Give the conclusion first, then evidence, then caveats.\n" +
+      "[OUTPUT FORMAT] Strict JSON:\n" +
+      "  { \"answer\": string, \"evidence\": [{\"id\": number, \"quote\": string}],\n" +
+      "    \"confidence\": 0.0-1.0, \"missing\": string[] }\n" +
+      "[EXAMPLE]\n" +
+      "  Input: …(one high-quality example)\n" +
+      "  Output: …(matching the target format exactly)\n" +
+      "[MATERIAL]\n" +
+      "  [1] {{chunk_1}}\n  [2] {{chunk_2}}\n" +
+      "[QUESTION] {{user_query}}",
+    "accent.indigo": "Indigo",
+    "accent.ocean": "Ocean",
+    "accent.emerald": "Emerald",
+    "accent.violet": "Violet",
+    "accent.sunset": "Sunset",
+    "accent.mono": "Graphite"
+  }
+};

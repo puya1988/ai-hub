@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>研究论文与顶会 — Transformer / RAG / RLHF / 扩散模型 | AI HUB</title>
+<meta name="description" content="人工智能必读论文清单与顶会信息：Attention Is All You Need、GPT-3、Chain-of-Thought、LoRA、DPO、DeepSeek-R1 等里程碑工作。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="papers">
+
+<div id="site-header"></div>
+
+<main>
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:22px">
+        <div>
+          <div class="sec-eyebrow">研究前沿</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">论文与学术资源</h1>
+          <p>按时间线梳理的里程碑论文，以及 AI 领域主要学术会议信息。</p>
+        </div>
+        <div class="result-count" id="paperCount"></div>
+      </div>
+
+      <div class="filter-bar">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="paperSearch" placeholder="搜索论文标题、作者、主题…">
+        </div>
+      </div>
+      <div class="chips mb-24" id="paperTags"></div>
+
+      <div class="grid grid-2" id="paperList"></div>
+
+      <!-- 会议 -->
+      <div class="sec-head mt-32">
+        <div>
+          <div class="sec-eyebrow">学术会议</div>
+          <h2 style="font-size:22px">AI 领域主要顶会</h2>
+          <p>点击表头可排序。CCF 等级为国内学术评价参考。</p>
+        </div>
+      </div>
+      <div id="confTable"></div>
+
+      <!-- 阅读方法 -->
+      <div class="grid grid-2 mt-32">
+        <div class="card">
+          <div class="sec-eyebrow">方法论</div>
+          <h3 class="card-title">如何高效读一篇 AI 论文</h3>
+          <ol class="step-list mt-12">
+            <li><b>第一遍（5 分钟）：</b>读标题、摘要、图表、结论，回答「解决什么问题、效果如何」；</li>
+            <li><b>第二遍（30 分钟）：</b>读方法部分，搞清楚数据、模型、损失函数与实验设置；</li>
+            <li><b>第三遍（1 小时+）：</b>复现关键公式，思考假设是否成立、能否迁移到你的场景；</li>
+            <li><b>做笔记：</b>用一句话写下「核心思想 + 关键技巧 + 可借鉴点」，比抄公式有用；</li>
+            <li><b>看代码：</b>优先找官方实现或优质复现，很多细节论文里并不会写。</li>
+          </ol>
+        </div>
+        <div class="card">
+          <div class="sec-eyebrow">常用资源</div>
+          <h3 class="card-title">去哪里找论文与代码</h3>
+          <ul class="step-list mt-12">
+            <li>arXiv（预印本首选，cs.CL / cs.CV / cs.LG 板块）</li>
+            <li>Papers with Code（论文 + 实现 + 排行榜）</li>
+            <li>ACL Anthology（NLP 论文全文免费）</li>
+            <li>OpenReview（ICLR / NeurIPS 评审与讨论公开）</li>
+            <li>Google Scholar / Semantic Scholar（引用关系与相关推荐）</li>
+            <li>Hugging Face Papers（每日热门论文与讨论）</li>
+          </ul>
+          <p class="small dim mt-16">阅读时注意区分「预印本」与「已通过同行评审」的工作，结论可靠性不同。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/data.zh.js"></script>
+<script src="assets/js/news-feed.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

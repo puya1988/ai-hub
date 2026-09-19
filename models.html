@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>大模型库 — 参数 / 上下文 / 多模态能力对比 | AI HUB</title>
+<meta name="description" content="收录主流大语言模型与多模态模型档案：GPT、Claude、Gemini、Llama、DeepSeek、Qwen、Kimi、GLM、Mistral 等，含参数量、上下文长度、模态、许可与价格对比。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="models">
+
+<div id="site-header"></div>
+
+<main>
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:22px">
+        <div>
+          <div class="sec-eyebrow">模型库</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">主流大模型档案</h1>
+          <p>从参数规模、上下文长度、模态支持到许可与价格，帮助你在选型时快速建立判断。</p>
+        </div>
+        <div class="result-count" id="modelCount"></div>
+      </div>
+
+      <!-- 选型提示 -->
+      <div class="grid grid-3 mb-16">
+        <div class="card card-pad-sm">
+          <div class="badge badge-ok">开放权重</div>
+          <h3 class="card-title mt-12" style="font-size:15px">要数据不出域 / 成本可控</h3>
+          <p class="small muted mt-8">选开源模型自托管，可量化压缩、微调私有化，但需自行承担运维与算力成本。</p>
+        </div>
+        <div class="card card-pad-sm">
+          <div class="badge badge-warn">闭源 API</div>
+          <h3 class="card-title mt-12" style="font-size:15px">要最强能力 / 最快上线</h3>
+          <p class="small muted mt-8">调用大厂 API，能力上限高、无需运维，但按量计费且需评估数据合规风险。</p>
+        </div>
+        <div class="card card-pad-sm">
+          <div class="badge badge-brand">混合路线</div>
+          <h3 class="card-title mt-12" style="font-size:15px">分级路由（推荐）</h3>
+          <p class="small muted mt-8">简单任务用便宜的小模型，复杂任务路由到旗舰模型，可显著降低综合成本。</p>
+        </div>
+      </div>
+
+      <div class="notice mb-24">
+        <b>💡 横向对比：</b>点卡片右上角的「<b>对比</b>」按钮（或表格视图左侧的勾选框）最多选择 <b>4 个</b>模型，
+        底部会出现对比栏，点「开始对比」生成逐项对照表，支持一键复制为 Markdown。选择结果会保存在本地浏览器中。
+      </div>
+
+      <div class="filter-bar">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="modelSearch" placeholder="搜索模型名称、机构、能力…">
+        </div>
+        <select class="control" id="modelLicense">
+          <option value="all">全部许可</option>
+          <option value="open">开放权重</option>
+          <option value="closed">闭源 API</option>
+        </select>
+        <select class="control" id="modelOrg"><option value="all">全部机构</option></select>
+        <select class="control" id="modelSort">
+          <option value="score">综合评分</option>
+          <option value="name">名称</option>
+          <option value="org">机构</option>
+        </select>
+        <div class="row gap-6" style="margin-left:auto">
+          <button class="chip active" data-view="card">卡片</button>
+          <button class="chip" data-view="table">表格对比</button>
+        </div>
+      </div>
+
+      <div class="grid grid-3" id="modelGrid"></div>
+      <div class="cmp-bar" id="cmpBar" aria-live="polite"></div>
+      <div class="cmp-bar-spacer"></div>
+
+      <div class="notice mt-32">
+        <b>使用说明：</b>「综合评分」为本站基于公开基准、社区反馈与可用性给出的参考性指标（满分 100），
+        并非权威排名，仅供横向比较时参考。参数、价格与能力会随版本快速变化，请以官方文档为准。
+        模型名称与商标归各自所有者所有。
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/data.zh.js"></script>
+<script src="assets/js/news-feed.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

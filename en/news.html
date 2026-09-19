@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- ⚠ 本文件由 scripts/build-en.js 自动生成，请勿手工编辑；改脚本后运行 node scripts/build-en.js 重新生成 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI News — releases, industry, research and policy | AI HUB</title>
+<meta name="description" content="Aggregated AI news covering model releases, industry moves, research, policy, funding, adoption, compute and open source.">
+<meta name="author" content="AI HUB">
+<meta property="og:title" content="AI News — releases, industry, research and policy | AI HUB">
+<meta property="og:description" content="Aggregated AI news covering model releases, industry moves, research, policy, funding, adoption, compute and open source.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="zh-CN" href="../news.html">
+<link rel="alternate" hreflang="en" href="news.html">
+<link rel="alternate" hreflang="x-default" href="../news.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="news">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:22px">
+        <div>
+          <div class="sec-eyebrow">News hub</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">AI news</h1>
+          <p>Filter by category, search by keyword, sort by heat or date — find what matters quickly.</p>
+        </div>
+        <div class="result-count" id="newsCount"></div>
+      </div>
+
+      <div class="chips mb-16" id="catChips"></div>
+
+      <div class="filter-bar">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="newsSearch" placeholder="Search titles, summaries, tags…">
+        </div>
+        <select class="control" id="newsSort">
+          <option value="hot">Most popular</option>
+          <option value="new">Newest first</option>
+          <option value="old">Oldest first</option>
+          <option value="read">Shortest read</option>
+        </select>
+        <span class="tiny dim" style="margin-left:auto">Tip: press <code class="inline">/</code> to open site-wide search</span>
+      </div>
+
+      <div class="grid grid-3" id="newsList"></div>
+      <div class="pager" id="newsPager"></div>
+
+      <div class="notice mt-32" id="feedStatus"></div>
+      <div class="notice mt-16">
+        <b>About the sources:</b> items tagged “Auto” are fetched by
+        <code class="inline">scripts/fetch_news.py</code> from public RSS feeds. Only the title, summary
+        and a link to the original are stored; all rights remain with the original publisher, and clicking
+        a title opens the source. Untagged items come from the local curated dataset
+        (<code class="inline">assets/js/data.en.js</code>, demo data). If you plan to run this publicly,
+        check each source's terms first.
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data.en.js"></script>
+<script src="../assets/js/news-feed.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

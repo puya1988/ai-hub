@@ -1,0 +1,66 @@
+{
+  "_说明": [
+    "AI HUB 资讯自动抓取配置。修改后运行 python3 scripts/fetch_news.py 即可更新。",
+    "注意：抓取前请确认目标站点的 robots.txt、服务条款与版权要求；",
+    "商业用途建议购买授权或改用官方 API。only_ai=true 的源会先做关键词过滤。",
+    "user_agent: 部分站点（如 InfoQ）会屏蔽 bot 型 UA，因此默认用浏览器 UA；",
+    "           单次大批量抓取时建议改成自己的联系方式，以便对方联系。",
+    "单个 feed 也可用 user_agent 字段单独覆盖。"
+  ],
+
+  "settings": {
+    "max_per_feed": 6,
+    "max_total": 36,
+    "fresh_days": 60,
+    "timeout": 20,
+    "retries": 2,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "min_summary_len": 40
+  },
+
+  "feeds": [
+    { "name": "量子位", "url": "https://www.qbitai.com/feed", "lang": "zh", "only_ai": false },
+    { "name": "InfoQ 中文", "url": "https://www.infoq.cn/feed/ai", "lang": "zh", "only_ai": true },
+    { "name": "雷锋网", "url": "https://www.leiphone.com/feed", "lang": "zh", "only_ai": true },
+    { "name": "少数派", "url": "https://sspai.com/feed", "lang": "zh", "only_ai": true },
+    { "name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "lang": "en", "only_ai": false },
+    { "name": "MIT Tech Review AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "lang": "en", "only_ai": false },
+    { "name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml", "lang": "en", "only_ai": false },
+    { "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "lang": "en", "only_ai": true },
+    { "name": "arXiv cs.AI", "url": "http://export.arxiv.org/rss/cs.AI", "lang": "en", "only_ai": false },
+    { "name": "arXiv cs.CL", "url": "http://export.arxiv.org/rss/cs.CL", "lang": "en", "only_ai": false }
+  ],
+
+  "_分类关键词说明": "命中计数最高的分类胜出；全部未命中则归入 industry（行业动态）。",
+  "categories": {
+    "policy":  ["监管", "政策", "法案", "合规", "治理", "版权", "诉讼", "标准", "regulation", "policy", "compliance", "copyright", "lawsuit", "AI Act", "safety"],
+    "funding": ["融资", "估值", "投资", "收购", "并购", "上市", "亿美元", "亿元", "funding", "raises", "valuation", "acquisition", "acquire", "IPO", "Series"],
+    "chip":    ["芯片", "算力", "加速卡", "数据中心", "封装", "晶圆", "芯片组", "gpu", "chip", "datacenter", "data center", "nvidia", "hbm", "tpu", "silicon", "inference cost"],
+    "model":   ["发布", "模型", "多模态", "上下文", "权重", "开源模型", "版本更新", "release", "model", "multimodal", "context window", "checkpoint", "llm", "gpt", "claude", "gemini", "llama", "qwen", "deepseek"],
+    "research":["论文", "研究", "基准", "评测", "实验", "理论", "算法", "paper", "research", "benchmark", "arxiv", "study", "training method", "scaling"],
+    "opensrc": ["开源", "社区", "工具链", "框架", "权重开放", "open source", "open-source", "github", "community", "sdk", "library"],
+    "apply":   ["应用", "落地", "产品", "上线", "实践", "案例", "企业", "客户", "效率", "app", "launch", "product", "deploy", "enterprise", "customer", "workflow"],
+    "industry":["行业", "市场", "趋势", "大会", "生态", "合作", "industry", "market", "partnership"]
+  },
+
+  "_AI过滤词": "only_ai=true 的源，标题或摘要需命中其中至少一个词才会被收录。",
+  "ai_keywords": [
+    "AI", "A.I.", "人工智能", "大模型", "模型", "算法", "机器学习", "深度学习", "神经网络",
+    "生成式", "AIGC", "智能体", "Agent", "LLM", "GPT", "Claude", "Gemini", "Llama", "DeepSeek",
+    "Qwen", "Mistral", "Grok", "Copilot", "ChatGPT", "OpenAI", "Anthropic", "DeepMind",
+    "Hugging Face", "transformers", "diffusion", "RAG", "prompt", "推理", "算力", "GPU",
+    "NVIDIA", "英伟达", "训练", "微调", "token", "chatbot", "机器人", "自动驾驶"
+  ],
+
+  "_标签规则": "命中关键词则附加对应标签，便于站内检索。",
+  "tag_rules": {
+    "开源": ["开源", "open source", "open-source", "github", "权重"],
+    "论文": ["论文", "paper", "arxiv", "研究"],
+    "政策": ["监管", "政策", "法案", "合规", "regulation", "policy"],
+    "融资": ["融资", "估值", "投资", "funding", "raises"],
+    "算力": ["芯片", "算力", "GPU", "NVIDIA", "英伟达", "chip", "datacenter"],
+    "Agent": ["agent", "智能体", "workflow", "自动化"],
+    "多模态": ["多模态", "multimodal", "视频生成", "图像生成", "语音"],
+    "国产": ["国产", "中文", "百度", "阿里", "腾讯", "字节", "华为", "智谱", "月之暗面", "深度求索"]
+  }
+}

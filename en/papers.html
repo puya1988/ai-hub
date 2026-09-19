@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- ⚠ 本文件由 scripts/build-en.js 自动生成，请勿手工编辑；改脚本后运行 node scripts/build-en.js 重新生成 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research papers and conferences — Transformer, RAG, RLHF, diffusion | AI HUB</title>
+<meta name="description" content="Must-read AI papers and major conference information, from Attention Is All You Need through to modern reasoning and diffusion work.">
+<meta name="author" content="AI HUB">
+<meta property="og:title" content="Research papers and conferences — Transformer, RAG, RLHF, diffusion | AI HUB">
+<meta property="og:description" content="Must-read AI papers and major conference information, from Attention Is All You Need through to modern reasoning and diffusion work.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="zh-CN" href="../papers.html">
+<link rel="alternate" hreflang="en" href="papers.html">
+<link rel="alternate" hreflang="x-default" href="../papers.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="papers">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:22px">
+        <div>
+          <div class="sec-eyebrow">Research</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">Papers and academic resources</h1>
+          <p>The landmark papers in rough chronological order, plus where the field publishes.</p>
+        </div>
+        <div class="result-count" id="paperCount"></div>
+      </div>
+
+      <div class="filter-bar">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="paperSearch" placeholder="Search titles, authors, topics…">
+        </div>
+      </div>
+      <div class="chips mb-24" id="paperTags"></div>
+
+      <div class="grid grid-2" id="paperList"></div>
+
+      <div class="sec-head mt-32">
+        <div>
+          <div class="sec-eyebrow">Conferences</div>
+          <h2 style="font-size:22px">Where the work gets published</h2>
+          <p>Click a column header to sort.</p>
+        </div>
+      </div>
+      <div id="confTable"></div>
+
+      <div class="grid grid-2 mt-32">
+        <div class="card">
+          <div class="sec-eyebrow">Method</div>
+          <h3 class="card-title">How to read an AI paper efficiently</h3>
+          <ol class="step-list mt-12">
+            <li><b>Pass 1 (5 min):</b> title, abstract, figures, conclusion — what problem, how well does it work?</li>
+            <li><b>Pass 2 (30 min):</b> the method — data, architecture, loss, experimental setup.</li>
+            <li><b>Pass 3 (1 h+):</b> re-derive the key equations, question the assumptions, ask if it transfers to your setting.</li>
+            <li><b>Take notes:</b> one sentence on the core idea, the key trick and what you can reuse. More useful than copying formulas.</li>
+            <li><b>Read the code:</b> the official implementation or a good reproduction. Many details never make it into the paper.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <div class="sec-eyebrow">Resources</div>
+          <h3 class="card-title">Where to find papers and code</h3>
+          <ul class="step-list mt-12">
+            <li>arXiv — preprints, first stop (cs.CL / cs.CV / cs.LG)</li>
+            <li>Papers with Code — papers plus implementations and leaderboards</li>
+            <li>ACL Anthology — free NLP paper archive</li>
+            <li>OpenReview — public reviews and discussion for ICLR and NeurIPS</li>
+            <li>Google Scholar / Semantic Scholar — citations and related work</li>
+            <li>Hugging Face Papers — daily trending papers with discussion</li>
+          </ul>
+          <p class="small dim mt-16">Note the difference between a preprint and a peer-reviewed publication: the reliability of the claims is not the same.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data.en.js"></script>
+<script src="../assets/js/news-feed.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

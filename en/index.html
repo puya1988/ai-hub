@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- ⚠ 本文件由 scripts/build-en.js 自动生成，请勿手工编辑；改脚本后运行 node scripts/build-en.js 重新生成 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI HUB — AI news, models, tools and knowledge in one place</title>
+<meta name="description" content="AI HUB aggregates AI news, model profiles, a curated tool directory, landmark papers, a learning path and a glossary — all in one static site.">
+<meta name="author" content="AI HUB">
+<meta property="og:title" content="AI HUB — AI news, models, tools and knowledge in one place">
+<meta property="og:description" content="AI HUB aggregates AI news, model profiles, a curated tool directory, landmark papers, a learning path and a glossary — all in one static site.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="zh-CN" href="../index.html">
+<link rel="alternate" hreflang="en" href="index.html">
+<link rel="alternate" hreflang="x-default" href="../index.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="home">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-eyebrow">
+        <span class="dot dot-live" style="color:var(--ok)"></span>
+        Updated <b id="heroUpdated">2026-09-19</b> · <b>9</b> subject areas · <b>8</b> sections
+      </div>
+      <h1>The whole <span class="grad">AI landscape</span><br>in a single site</h1>
+      <p class="hero-lead">
+        News, model profiles, a tool directory, research papers, a learning path and a glossary —
+        everything you need to go from understanding the concepts to shipping something real.
+      </p>
+
+      <form class="hero-search" id="heroSearch" role="search">
+        <svg class="hs-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+        <input id="heroSearchInput" type="search" placeholder="Search models, tools, glossary, papers…" autocomplete="off" aria-label="Site search">
+        <button class="btn btn-primary hs-btn" type="submit">Search</button>
+      </form>
+
+      <div class="hero-tags">
+        <span class="label">Popular:</span>
+        <a class="tag-pill" href="news.html?cat=model">Releases</a>
+        <a class="tag-pill" href="models.html">Open weights</a>
+        <a class="tag-pill" href="tools.html">AI tools</a>
+        <a class="tag-pill" href="glossary.html">Glossary</a>
+        <a class="tag-pill" href="learn.html">Learning path</a>
+        <a class="tag-pill" href="papers.html">Landmark papers</a>
+      </div>
+
+      <div class="stat-bar mt-32" id="statBar"></div>
+    </div>
+  </section>
+
+  <section class="section" id="news">
+    <div class="container container-wide">
+      <div id="featuredNews" class="grid grid-3"></div>
+      <div class="row-between mt-32 mb-24">
+        <div>
+          <div class="sec-eyebrow">Latest</div>
+          <h2 style="font-size:24px">Recent highlights, ranked by heat</h2>
+        </div>
+        <a class="link-more" href="news.html">Go to the news hub
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div id="featuredSide" class="grid grid-2"></div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container container-wide">
+      <div class="sec-head">
+        <div>
+          <div class="sec-eyebrow">Subject areas</div>
+          <h2>Nine directions, one place</h2>
+          <p>From model releases to policy, from compute hardware to real-world adoption — jump straight to what you care about.</p>
+        </div>
+      </div>
+      <div id="catGrid" class="grid grid-auto-sm"></div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--surface-2);border-block:1px solid var(--border)">
+    <div class="container container-wide">
+      <div class="sec-head">
+        <div>
+          <div class="sec-eyebrow">Model library</div>
+          <h2>Capabilities at a glance</h2>
+          <p>Open weights and closed APIs side by side, with parameter counts, context length, modalities and indicative pricing.</p>
+        </div>
+        <a class="link-more" href="models.html">Open the model library
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div id="modelTop" class="grid grid-3"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container-wide">
+      <div class="sec-head">
+        <div>
+          <div class="sec-eyebrow">Tools</div>
+          <h2>Editor's picks you can use today</h2>
+          <p>Chat, coding, image, video, office, research, agents and self-hosting — organised by what you are actually trying to do.</p>
+        </div>
+        <a class="link-more" href="tools.html">Browse all tools
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div id="toolTop" class="grid grid-3"></div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--surface-2);border-block:1px solid var(--border)">
+    <div class="container container-wide">
+      <div class="sec-head">
+        <div>
+          <div class="sec-eyebrow">Learning path</div>
+          <h2>Six stages from zero to shipped</h2>
+          <p>Each stage lists the concrete skills and the resources that get you there. Follow it and you will not get lost.</p>
+        </div>
+        <a class="link-more" href="learn.html">See the full roadmap
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div id="roadPreview" class="roadmap"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container-wide">
+      <div class="sec-head">
+        <div>
+          <div class="sec-eyebrow">Glossary</div>
+          <h2>Understand the headlines faster</h2>
+          <p>One-sentence explanations with the original term, so papers and foreign coverage stop being a wall of jargon.</p>
+        </div>
+        <a class="link-more" href="glossary.html">Open the glossary
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div id="glossPreview" class="grid grid-4"></div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="card" style="padding:40px;text-align:center;background:linear-gradient(135deg,var(--brand),var(--brand-2));border:0;color:#fff">
+        <h2 style="font-size:clamp(21px,2.6vw,29px);color:#fff">Start exploring</h2>
+        <p style="margin:14px auto 26px;max-width:56ch;color:rgba(255,255,255,.88);font-size:15px">
+          Whether you are a student taking the first step, an engineer choosing a model,
+          or someone tracking the industry — there is an entry point for you.
+        </p>
+        <div class="row gap-12 wrap" style="justify-content:center">
+          <a class="btn btn-lg" style="background:#fff;color:var(--brand);border-color:transparent;font-weight:700" href="news.html">Read the latest</a>
+          <a class="btn btn-lg" style="background:rgba(255,255,255,.16);color:#fff;border-color:rgba(255,255,255,.35)" href="learn.html">Start learning</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data.en.js"></script>
+<script src="../assets/js/news-feed.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

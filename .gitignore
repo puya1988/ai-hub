@@ -1,0 +1,13 @@
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# 抓取脚本日志（crontab 场景）
+fetch.log
+
+# 本地临时文件
+*.tmp
+*.bak

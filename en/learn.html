@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- ⚠ 本文件由 scripts/build-en.js 自动生成，请勿手工编辑；改脚本后运行 node scripts/build-en.js 重新生成 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI learning path — from zero to production | AI HUB</title>
+<meta name="description" content="A structured AI learning path: maths and programming, machine learning, large model internals, RAG and agents, serving, and frontier specialisation, with courses and books.">
+<meta name="author" content="AI HUB">
+<meta property="og:title" content="AI learning path — from zero to production | AI HUB">
+<meta property="og:description" content="A structured AI learning path: maths and programming, machine learning, large model internals, RAG and agents, serving, and frontier specialisation, with courses and books.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="zh-CN" href="../learn.html">
+<link rel="alternate" hreflang="en" href="learn.html">
+<link rel="alternate" hreflang="x-default" href="../learn.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="learn">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:26px">
+        <div>
+          <div class="sec-eyebrow">Learning path</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">From zero to shipping</h1>
+          <p>Six stages with concrete skill checklists and resources. Do not skip ahead — but do not get stuck
+          in maths forever either. Building while you learn is much faster.</p>
+        </div>
+      </div>
+
+      <div class="roadmap" id="roadmap"></div>
+
+      <div class="sec-head mt-32" id="prompt">
+        <div>
+          <div class="sec-eyebrow">Prompt engineering</div>
+          <h2 style="font-size:24px">Eight principles that pay off fastest</h2>
+          <p>The highest return-on-effort skill here: no training required, and output quality improves immediately.</p>
+        </div>
+      </div>
+      <div class="grid grid-2">
+        <div id="promptList" data-single="true"></div>
+        <div>
+          <div class="card">
+            <div class="row-between mb-12">
+              <h3 class="card-title">A structured template you can copy</h3>
+              <button class="btn btn-sm" id="copyPrompt">Copy template</button>
+            </div>
+            <pre class="code" id="promptCode"></pre>
+          </div>
+          <div class="notice mt-16">
+            The template works because it does three things at once: <b>constrains the information
+            boundary</b> (use only the supplied material), <b>forces structured output</b> (JSON with a
+            schema), and <b>makes uncertainty explicit</b> (the <code class="inline">missing</code> field).
+            In a RAG system this measurably reduces hallucination and keeps downstream parsing reliable.
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-head mt-32">
+        <div>
+          <div class="sec-eyebrow">Courses</div>
+          <h2 style="font-size:24px">Structured courses</h2>
+          <p>Pick courses with programming assignments. Watching videos without writing code is not learning.</p>
+        </div>
+      </div>
+      <div class="grid grid-4" id="courseList"></div>
+
+      <div class="sec-head mt-32">
+        <div>
+          <div class="sec-eyebrow">Books</div>
+          <h2 style="font-size:24px">Textbooks worth revisiting</h2>
+        </div>
+      </div>
+      <div class="grid grid-3" id="bookList"></div>
+
+      <div class="grid grid-2 mt-32">
+        <div class="card">
+          <div class="sec-eyebrow">Pitfalls</div>
+          <h3 class="card-title">Five ways people waste time learning AI</h3>
+          <ol class="step-list mt-12">
+            <li><b>Collecting instead of building:</b> 50 bookmarked courses, no code written. Finish one.</li>
+            <li><b>Maths anxiety:</b> three months of analysis before touching a model. Learn to use it first, then fill in the theory.</li>
+            <li><b>Never running a training loop:</b> until you have, you cannot feel how much data quality dominates.</li>
+            <li><b>Ignoring engineering:</b> most of the value in a real system lives in data pipelines, evaluation and serving.</li>
+            <li><b>Chasing every release:</b> new models appear weekly, but the fundamentals — attention, optimisation, alignment — change slowly.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <div class="sec-eyebrow">Self-assessment</div>
+          <h3 class="card-title">Which stage are you at?</h3>
+          <ul class="step-list mt-12">
+            <li><b>Beginner:</b> you can call an API from Python, write stable structured prompts, and read a leaderboard.</li>
+            <li><b>Intermediate:</b> you can train a small model in PyTorch and build a RAG system with a real evaluation.</li>
+            <li><b>Proficient:</b> you can fine-tune an open model, serve it on vLLM, and tune throughput and cost.</li>
+            <li><b>Expert:</b> you can diagnose unstable training or underperformance at the root, and design an end-to-end evaluation and governance process.</li>
+          </ul>
+          <p class="small dim mt-16">Every three months, test yourself by asking “did I deliver something complete and usable?” rather than “how many courses did I finish?”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data.en.js"></script>
+<script src="../assets/js/news-feed.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

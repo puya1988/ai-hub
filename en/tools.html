@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- ⚠ 本文件由 scripts/build-en.js 自动生成，请勿手工编辑；改脚本后运行 node scripts/build-en.js 重新生成 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI tools directory — chat, coding, image, video, agents | AI HUB</title>
+<meta name="description" content="A curated AI tool directory covering chat assistants, coding, image and video generation, office, research, agents and self-hosting.">
+<meta name="author" content="AI HUB">
+<meta property="og:title" content="AI tools directory — chat, coding, image, video, agents | AI HUB">
+<meta property="og:description" content="A curated AI tool directory covering chat assistants, coding, image and video generation, office, research, agents and self-hosting.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="zh-CN" href="../tools.html">
+<link rel="alternate" hreflang="en" href="tools.html">
+<link rel="alternate" hreflang="x-default" href="../tools.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="tools">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:22px">
+        <div>
+          <div class="sec-eyebrow">Tool directory</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">Curated AI tools</h1>
+          <p>Grouped by use case, with pricing shape and key characteristics noted so you waste less time.</p>
+        </div>
+        <div class="result-count" id="toolCount"></div>
+      </div>
+
+      <div class="chips mb-16" id="toolChips"></div>
+
+      <div class="filter-bar">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          <input type="search" id="toolSearch" placeholder="Search tool names, vendors, use cases…">
+        </div>
+        <span class="tiny dim" style="margin-left:auto">Prices and free tiers change often — check the vendor site</span>
+      </div>
+
+      <div class="grid grid-3" id="toolGrid"></div>
+
+      <div class="grid grid-2 mt-32">
+        <div class="card">
+          <div class="sec-eyebrow">Getting started</div>
+          <h3 class="card-title">New to AI — where do I begin?</h3>
+          <ol class="step-list mt-12">
+            <li><b>1.</b> Start with one general assistant (ChatGPT, Claude, Gemini, DeepSeek) and get used to how you ask questions.</li>
+            <li><b>2.</b> Hand over the single most time-consuming thing you do — a weekly report, a spreadsheet formula, a pile of documents.</li>
+            <li><b>3.</b> Switch to a citation-first AI search (Perplexity, NotebookLM) when you need to verify facts.</li>
+            <li><b>4.</b> Add an IDE-level assistant (Cursor, Copilot, Windsurf) only when you have code to write.</li>
+            <li><b>5.</b> If privacy matters, move to a local setup (Ollama, LM Studio, Open WebUI).</li>
+          </ol>
+        </div>
+        <div class="card">
+          <div class="sec-eyebrow">Going further</div>
+          <h3 class="card-title">Wiring AI into a real system?</h3>
+          <ol class="step-list mt-12">
+            <li><b>1.</b> Define the use case and the evaluation metric (accuracy, latency, cost per call).</li>
+            <li><b>2.</b> Prototype with Dify, LangChain or LlamaIndex to validate the idea cheaply.</li>
+            <li><b>3.</b> Add a vector store and a reranker to build the retrieval layer (RAGFlow, AnythingLLM).</li>
+            <li><b>4.</b> Put an AI gateway in front for routing, rate limits and cost accounting.</li>
+            <li><b>5.</b> Instrument with something like Langfuse, then scale once you can measure it.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="notice mt-24">
+        <b>Disclaimer:</b> this directory is informational only and we have no commercial relationship with
+        the listed products. We do not guarantee the availability, security or output accuracy of any
+        third-party service. Evaluate privacy and compliance before sending them your data.
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data.en.js"></script>
+<script src="../assets/js/news-feed.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

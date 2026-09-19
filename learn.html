@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 学习路径 — 从零基础到工程落地 | AI HUB</title>
+<meta name="description" content="人工智能系统学习路线：数学与编程基础、机器学习与深度学习、大模型原理、RAG 与 Agent 应用开发、推理部署优化、前沿方向深耕，附课程与书单。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="learn">
+
+<div id="site-header"></div>
+
+<main>
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:26px">
+        <div>
+          <div class="sec-eyebrow">学习路径</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">从零到落地的 AI 学习地图</h1>
+          <p>六个阶段、明确的能力清单与资源推荐。不要跳步，但也别在数学上无限循环 —— 边做边补最快。</p>
+        </div>
+      </div>
+
+      <div class="roadmap" id="roadmap"></div>
+
+      <!-- 提示词工程 -->
+      <div class="sec-head mt-32" id="prompt">
+        <div>
+          <div class="sec-eyebrow">提示词工程</div>
+          <h2 style="font-size:24px">八条最实用的提示词原则</h2>
+          <p>这是投入产出比最高的一项技能：不需要训练模型，就能显著改善输出质量。</p>
+        </div>
+      </div>
+      <div class="grid grid-2">
+        <div id="promptList" data-single="true"></div>
+        <div>
+          <div class="card">
+            <div class="row-between mb-12">
+              <h3 class="card-title">可直接复制的结构化模板</h3>
+              <button class="btn btn-sm" id="copyPrompt">复制模板</button>
+            </div>
+            <pre class="code" id="promptCode"></pre>
+          </div>
+          <div class="notice mt-16">
+            这个模板的核心是：<b>限定信息边界（只用给定资料）</b> + <b>强制结构化输出（JSON）</b> + <b>显式不确定性（missing 字段）</b>。
+            在 RAG 系统中使用它能明显降低幻觉率，并让下游程序稳定解析。
+          </div>
+        </div>
+      </div>
+
+      <!-- 课程 -->
+      <div class="sec-head mt-32">
+        <div>
+          <div class="sec-eyebrow">课程推荐</div>
+          <h2 style="font-size:24px">系统课程</h2>
+          <p>优先选带编程作业的课程 —— 只看视频不写代码，等于没学。</p>
+        </div>
+      </div>
+      <div class="grid grid-4" id="courseList"></div>
+
+      <!-- 书单 -->
+      <div class="sec-head mt-32">
+        <div>
+          <div class="sec-eyebrow">书单</div>
+          <h2 style="font-size:24px">值得反复翻的教材</h2>
+        </div>
+      </div>
+      <div class="grid grid-3" id="bookList"></div>
+
+      <!-- 建议 -->
+      <div class="grid grid-2 mt-32">
+        <div class="card">
+          <div class="sec-eyebrow">实战建议</div>
+          <h3 class="card-title">学 AI 最容易踩的五个坑</h3>
+          <ol class="step-list mt-12">
+            <li><b>只收藏不实践：</b>收藏了 50 门课，一行代码没写。选一门做完即可。</li>
+            <li><b>数学焦虑：</b>花三个月啃数学分析才开始学模型。建议先会用，再回头补原理。</li>
+            <li><b>只看不调参：</b>不亲手跑一遍训练与评测，永远不知道数据质量有多关键。</li>
+            <li><b>忽视工程能力：</b>模型的 80% 价值来自数据管道、评测体系与部署优化。</li>
+            <li><b>盲目追新：</b>每周都有新模型，但底层原理（注意力、优化、对齐）变化很慢，先打基础。</li>
+          </ol>
+        </div>
+        <div class="card">
+          <div class="sec-eyebrow">能力自检</div>
+          <h3 class="card-title">判断自己到了哪个阶段</h3>
+          <ul class="step-list mt-12">
+            <li><b>入门：</b>能用 Python 调用 API，写出稳定的结构化提示词，会读模型榜单。</li>
+            <li><b>进阶：</b>能用 PyTorch 训练小模型；能独立搭建 RAG 系统并做效果评测。</li>
+            <li><b>熟练：</b>能微调开源模型；能用 vLLM 部署并优化吞吐与成本；能设计 Agent 架构。</li>
+            <li><b>专家：</b>能定位并解决训练不稳定、效果不达标等根因问题；能设计完整的评测与治理体系。</li>
+          </ul>
+          <p class="small dim mt-16">建议每三个月用「能否交付一个完整可用的东西」来检验学习成果，而不是「看完了多少课」。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/data.zh.js"></script>
+<script src="assets/js/news-feed.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
