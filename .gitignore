@@ -15,3 +15,6 @@ fetch.log
 # 图标预览图（构建产物，可用 make-icon.py 重新生成）
 assets/icon/aihub-1024.png
 assets/icon/*.iconset/
+
+# 数据时效巡检报告（构建产物，由 CI 生成）
+freshness-report.md

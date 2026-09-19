@@ -42,6 +42,7 @@ ai-hub/
 ├── hardware.html         ⭐ 硬件配置推荐：市场级/工业级 + 四类使用者 + 显存速查
 ├── en/                   ⭐ 英文站（10 个页面，由 build-en.js 生成，勿手改）
 ├── scripts/
+│   ├── check-freshness.js ⭐ 数据时效巡检（每周 CI 提醒）
 │   ├── fetch_news.py     ⭐ RSS 抓取器（纯标准库，无依赖）
 │   ├── feeds.json        源列表与分类 / 标签 / 过滤关键词配置
 │   └── build-en.js       ⭐ 英文站页面生成器
@@ -86,6 +87,15 @@ node scripts/audit-links.js
 **`app.js` 不需要任何改动。** 中英两套数据的键结构已做一致性校验
 （`news / models / tools / papers / confs / roadmap / courses / books / promptTips / glossary /
 timeline / categories / toolCats / meta / stats`）。
+
+---
+
+## 工作流一览
+
+| 工作流 | 频率 | 作用 |
+| --- | --- | --- |
+| `fetch-news.yml` | 每天 07:00 | 抓取 RSS → 校验 → 自动提交 → Pages 重新发布 |
+| `freshness.yml` | 每周一 09:00 | 巡检数据时效，过期自动开 Issue 提醒（附核对清单） |
 
 ---
 
@@ -318,6 +328,45 @@ on:
 2. 在 **Settings → Secrets and variables → Actions → Variables** 里加一个
    `SITE_URL`（例如 `https://aihub.example.com`），部署时会用它生成 sitemap；
 3. 域名服务商处按 GitHub 文档配置 A / CNAME 记录。
+
+### 数据时效巡检（每周一次）
+
+AI 硬件型号以月为单位变化，页面上的「推荐配置」一旦过时就会误导人。所以有一个独立的工作流每周检查一次：
+
+```
+每周一 09:00（北京时间）
+      │
+      ▼  [数据时效巡检]
+      │   node scripts/check-freshness.js
+      │   读取各文件里的「数据截至」字段，算出已过天数
+      ▼
+  全部新鲜 → 自动关闭已存在的提醒 Issue
+  超过阈值 → 开 Issue（或在已有 Issue 下追加评论）
+```
+
+| 巡检项 | 数据来源 | 提醒阈值 | 严重阈值 |
+| --- | --- | --- | --- |
+| 硬件型号数据 | `hardware.zh.js` / `hardware.en.js` | 30 天 | 45 天 |
+| 站点内容数据 | `data.zh.js` / `data.en.js` | 120 天 | 180 天 |
+| 自动抓取数据 | `news-feed.js` | 3 天 | 7 天 |
+
+> 第三项是个**故障探测**：这个文件由抓取任务每天更新，如果超过 3 天没变，
+> 说明抓取很可能已经失败（源挂了、网络问题、或定时任务被 GitHub 暂停）。
+
+本地手动跑：
+
+```bash
+node scripts/check-freshness.js                 # 默认阈值
+node scripts/check-freshness.js --hardware 14   # 临时收紧硬件阈值
+node scripts/check-freshness.js --json          # 输出 JSON
+```
+
+Issue 正文不只是一句「数据旧了」，而是**逐项列出该核对什么**（消费级 GPU 是否换代、
+数据中心卡是否被 Rubin 取代、云价是否仍在合理区间……），所以拿到提醒可以直接动手。
+
+阈值想改，编辑 `.github/workflows/freshness.yml` 顶部的注释与
+`scripts/check-freshness.js` 里的 `CHECKS` 数组；也可以不改代码，
+在 Actions 页面手动触发时填入临时阈值。
 
 ### 本地验证工作流
 

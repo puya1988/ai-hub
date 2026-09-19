@@ -1,0 +1,134 @@
+name: 数据时效巡检
+
+# ==========================================================================
+#  每周检查一次「数据截至」日期，过期就自动开 Issue 提醒
+#
+#  为什么需要：
+#    AI 硬件型号与价格以月为单位变化。这份数据一旦过时，
+#    页面上的「推荐配置」会变成误导性建议，比没有更糟。
+#    靠人工记着去改不现实，所以让 CI 提醒。
+#
+#  行为：
+#    · 全部新鲜        → 自动关闭已存在的提醒 Issue（如果之前开过）
+#    · 达到提醒阈值     → 开 Issue，或在已有 Issue 下追加评论
+#    · 达到严重阈值     → 同上，标题与正文标注严重程度
+#
+#  巡检项与阈值（可在本文件底部或 scripts/check-freshness.js 里调整）：
+#    · 硬件型号数据  hardware.*.js   提醒 30 天 / 严重 45 天
+#    · 站点内容数据  data.*.js       提醒 120 天 / 严重 180 天
+#    · 自动抓取数据  news-feed.js    提醒 3 天 / 严重 7 天（超过说明抓取任务挂了）
+# ==========================================================================
+
+on:
+  schedule:
+    # cron 用 UTC。每周一 UTC 01:00 = 北京时间周一 09:00
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+    inputs:
+      hardware_days:
+        description: "硬件数据提醒阈值（天），留空用默认 30"
+        required: false
+        default: ""
+      content_days:
+        description: "站点内容阈值（天），留空用默认 120"
+        required: false
+        default: ""
+      feed_days:
+        description: "抓取数据阈值（天），留空用默认 3"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: freshness-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: 巡检数据时效
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 运行巡检
+        id: check
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          ARGS="--report freshness-report.md"
+          [ -n "${{ inputs.hardware_days }}" ] && ARGS="$ARGS --hardware ${{ inputs.hardware_days }}"
+          [ -n "${{ inputs.content_days }}" ]  && ARGS="$ARGS --content ${{ inputs.content_days }}"
+          [ -n "${{ inputs.feed_days }}" ]     && ARGS="$ARGS --feed ${{ inputs.feed_days }}"
+          echo "运行：node scripts/check-freshness.js $ARGS"
+          node scripts/check-freshness.js $ARGS
+
+      - name: 写入运行摘要
+        if: always()
+        run: |
+          if [ -f freshness-report.md ]; then
+            cat freshness-report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "巡检未产生报告，请检查上一步日志。" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: 在运行页面标注状态
+        if: always()
+        run: |
+          if [ "${{ steps.check.outcome }}" = "success" ]; then
+            echo "::notice title=数据时效::全部新鲜，无需处理"
+          else
+            echo "::warning title=数据时效::有内容需要核对，详见自动创建的 Issue"
+          fi
+
+      - name: 开 / 更新 / 关闭提醒 Issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          LABEL="data-freshness"
+          TITLE="📅 数据时效提醒：有内容需要核对"
+
+          # 标签不存在时先建（已存在会报错，忽略即可）
+          gh label create "$LABEL" --color "FBCA04" \
+            --description "数据时效巡检自动维护，更新数据后会自动关闭" >/dev/null 2>&1 || true
+
+          EXISTING=$(gh issue list --label "$LABEL" --state open --limit 1 \
+            --json number --jq '.[0].number // empty')
+
+          if [ "${{ steps.check.outcome }}" = "success" ]; then
+            if [ -n "$EXISTING" ]; then
+              gh issue close "$EXISTING" \
+                --comment "✅ 本轮巡检（$(date -u '+%Y-%m-%d')）显示全部数据新鲜，自动关闭。"
+              echo "已关闭 Issue #$EXISTING"
+            else
+              echo "全部新鲜，无需开 Issue"
+            fi
+            exit 0
+          fi
+
+          if [ ! -f freshness-report.md ]; then
+            echo "::error::巡检失败且没有生成报告，无法创建 Issue"
+            exit 1
+          fi
+
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body-file freshness-report.md
+            echo "已更新 Issue #$EXISTING"
+          else
+            gh issue create --title "$TITLE" --label "$LABEL" --body-file freshness-report.md
+            echo "已创建提醒 Issue"
+          fi
