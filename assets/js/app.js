@@ -571,40 +571,48 @@
   function newsCard(n, i) {
     const hot = n.hot >= 85 ? '<span class="badge badge-danger">' + icon("flame") + t("news.badge.hot") + "</span>" : "";
     const auto = n.auto ? '<span class="badge badge-brand">' + t("news.badge.auto") + "</span>" : "";
-    const titleHtml = n.link
-      ? '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.title) + "</a>"
-      : esc(n.title);
-    const metaSrc = n.link
-      ? '<a class="src" href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.source) + icon("ext") + "</a>"
-      : '<span class="src">' + esc(n.source) + "</span>";
-    return (
-      '<article class="card card-hover news-card" id="' + esc(n.id) + '" data-cat="' + esc(n.cat) + '" data-hot="' + n.hot + '">' +
-        '<div class="news-thumb' + thumbClass(i) + '" aria-hidden="true">' + (D.categories.find((c) => c.id === n.cat) || {}).icon + "</div>" +
-        '<div class="news-head">' + catBadge(n.cat) + auto + hot + "</div>" +
-        "<h3>" + titleHtml + "</h3>" +
-        '<p class="clamp-3">' + esc(n.summary) + "</p>" +
-        '<div class="row gap-6 wrap">' + (n.tags || []).map((t) => '<span class="tiny dim">#' + esc(t) + "</span>").join("") + "</div>" +
-        '<div class="news-meta">' +
-          metaSrc + "<span>·</span><span>" + n.date + "</span>" +
-          '<span style="margin-left:auto">' + t("news.readTime", { n: n.readTime }) + "</span>" +
-        "</div>" +
-      "</article>"
-    );
+    const mark = n.link ? icon("ext") : '<span class="tiny dim">' + t("detail.viewDetail") + "</span>";
+
+    const inner =
+      '<div class="news-thumb' + thumbClass(i) + '" aria-hidden="true">' + (D.categories.find((c) => c.id === n.cat) || {}).icon + "</div>" +
+      '<div class="news-head">' + catBadge(n.cat) + auto + hot + "</div>" +
+      "<h3>" + esc(n.title) + "</h3>" +
+      '<p class="clamp-3">' + esc(n.summary) + "</p>" +
+      '<div class="row gap-6 wrap">' + (n.tags || []).map((tg) => '<span class="tiny dim">#' + esc(tg) + "</span>").join("") + "</div>" +
+      '<div class="news-meta">' +
+        '<span class="src">' + esc(n.source) + "</span><span>·</span><span>" + n.date + "</span>" +
+        '<span style="margin-left:auto">' + t("news.readTime", { n: n.readTime }) + " " + mark + "</span>" +
+      "</div>";
+
+    // 有原文链接：整卡可点，开新窗口（内部不再嵌 <a>，避免非法嵌套）
+    if (n.link) {
+      return '<a class="card card-hover news-card card-click" id="' + esc(n.id) + '" ' +
+             'href="' + esc(n.link) + '" target="_blank" rel="noopener" title="' + t("detail.readOriginal") + '">' +
+             inner + "</a>";
+    }
+    // 无原文：整卡可点，打开站内详情弹层
+    return '<article class="card card-hover news-card card-click" id="' + esc(n.id) + '" ' +
+           'data-detail="news" data-key="' + esc(n.id) + '" tabindex="0" role="button">' + inner + "</article>";
   }
 
   function featureCard(n) {
-    return (
-      '<article class="card card-feature" id="' + n.id + '">' +
-        '<div class="row gap-8 wrap"><span class="badge">🎯 ' + t("news.editorPick") + "</span>" + catBadge(n.cat) + "</div>" +
-        "<h3>" + esc(n.title) + "</h3>" +
-        "<p>" + esc(n.summary) + "</p>" +
-        '<div class="row gap-6 wrap">' + n.tags.map((t) => '<span class="badge">#' + esc(t) + "</span>").join("") + "</div>" +
-        '<div class="news-meta">' +
-          '<span class="src">' + esc(n.source) + "</span><span>·</span><span>" + n.date + "</span>" +
-          '<span style="margin-left:auto">' + t("news.readTime", { n: n.readTime }) + "</span>" +
-        "</div>" +
-      "</article>"
-    );
+    const inner =
+      '<div class="row gap-8 wrap"><span class="badge">🎯 ' + t("news.editorPick") + "</span>" + catBadge(n.cat) + "</div>" +
+      "<h3>" + esc(n.title) + "</h3>" +
+      "<p>" + esc(n.summary) + "</p>" +
+      '<div class="row gap-6 wrap">' + n.tags.map((tg) => '<span class="badge">#' + esc(tg) + "</span>").join("") + "</div>" +
+      '<div class="news-meta">' +
+        '<span class="src">' + esc(n.source) + "</span><span>·</span><span>" + n.date + "</span>" +
+        '<span style="margin-left:auto">' + t("news.readTime", { n: n.readTime }) + " " +
+          (n.link ? icon("ext") : t("detail.viewDetail")) + "</span>" +
+      "</div>";
+
+    if (n.link) {
+      return '<a class="card card-feature card-click" id="' + esc(n.id) + '" href="' + esc(n.link) +
+             '" target="_blank" rel="noopener">' + inner + "</a>";
+    }
+    return '<article class="card card-feature card-click" id="' + esc(n.id) +
+           '" data-detail="news" data-key="' + esc(n.id) + '" tabindex="0" role="button">' + inner + "</article>";
   }
 
   function sectionHead(eyebrow, title, desc, moreHref, moreText) {
@@ -707,7 +715,8 @@
         })
         .filter(Boolean);
       glossHost.innerHTML = list.map((g) =>
-        '<div class="gloss-item"><div class="gloss-term">' + esc(g.t) + '<span class="gloss-en">' + esc(g.en) + "</span></div>" +
+        '<div class="gloss-item card-click" data-detail="gloss" data-key="' + esc(g.t) + '" tabindex="0" role="button" title="' + t("detail.viewDetail") + '">' +
+        '<div class="gloss-term">' + esc(g.t) + '<span class="gloss-en">' + esc(g.en) + "</span></div>" +
         '<div class="gloss-def">' + esc(g.d) + "</div></div>"
       ).join("");
     }
@@ -917,6 +926,9 @@
         "</div>";
     }
 
+    // 供详情弹层里的「加入对比」调用
+    window.__cmpToggle = cmpToggle;
+
     grid.addEventListener("click", (e) => {
       const t = e.target.closest(".cmp-toggle");
       if (t) { e.preventDefault(); e.stopPropagation(); cmpToggle(t.dataset.cmp); }
@@ -1035,7 +1047,8 @@
 
     function cardHtml(m) {
       const on = cmpHas(m.name);
-      return '<article class="card card-hover" id="' + encodeURIComponent(m.name) + '">' +
+      return '<article class="card card-hover card-click" id="' + encodeURIComponent(m.name) + '"' +
+        ' data-detail="model" data-key="' + esc(m.name) + '" tabindex="0" role="button" title="' + t("detail.viewDetail") + '">' +
         '<div class="row-between gap-8">' +
           '<span class="badge ' + (m.license === "open" ? "badge-ok" : "badge-warn") + '">' + (m.license === "open" ? t("models.open") : t("models.closed")) + "</span>" +
           '<div class="row gap-6">' +
@@ -1063,7 +1076,8 @@
         "</tr></thead><tbody>" +
         list.map((m) =>
           '<tr><td><input type="checkbox" data-cmp-chk="' + esc(m.name) + '" aria-label="' + t("models.addCompare") + " " + esc(m.name) + '"' + (cmpHas(m.name) ? " checked" : "") + "></td>" +
-          "<td class=\"name-cell\">" + esc(m.name) + '</td><td class="muted">' + esc(m.org) + "</td>" +
+          '<td class="name-cell"><span data-detail="model" data-key="' + esc(m.name) + '" tabindex="0" role="button">' +
+            esc(m.name) + "</span></td><td class=\"muted\">" + esc(m.org) + "</td>" +
           "<td><span class=\"badge " + (m.license === "open" ? "badge-ok" : "badge-warn") + '">' + (m.license === "open" ? t("models.openShort") : t("models.closedShort")) + "</span></td>" +
           "<td class=\"mono tiny\">" + esc(m.params) + "</td><td class=\"tiny\">" + esc(m.ctx) + "</td>" +
           '<td><div class="tbl-tags">' + m.modality.map((x) => '<span class="badge">' + x + "</span>").join("") + "</div></td>" +
@@ -1134,7 +1148,8 @@
       grid.innerHTML = list.map((tl) => {
         const href = tl.url || "#";
         const ext = href.indexOf("http") === 0;
-        return '<article class="card card-hover" id="' + encodeURIComponent(tl.name) + '">' +
+        return '<article class="card card-hover card-click" id="' + encodeURIComponent(tl.name) + '"' +
+          ' data-detail="tool" data-key="' + esc(tl.name) + '" tabindex="0" role="button">' +
           '<div class="row-between"><span class="badge badge-brand">' + esc((D.toolCats.find((c) => c.id === tl.cat) || {}).name) + "</span>" +
           '<span class="tiny dim">' + esc(tl.price) + "</span></div>" +
           '<h3 class="card-title mt-12">' + esc(tl.name) + "</h3>" +
@@ -1143,7 +1158,8 @@
           '<div class="row gap-6 wrap mt-12">' + tl.tags.map((x) => '<span class="badge">' + esc(x) + "</span>").join("") + "</div>" +
           (ext
             ? '<a class="btn btn-sm mt-16" href="' + href + '" target="_blank" rel="noopener">' + t("tools.visit") + " " + icon("ext") + "</a>"
-            : '<span class="btn btn-sm mt-16" style="opacity:.55;pointer-events:none">' + t("tools.searchSelf") + '</span>') +
+            : '<a class="btn btn-sm mt-16" href="' + searchUrl(tl.name + " " + tl.by) +
+              '" target="_blank" rel="noopener">' + t("detail.searchWeb") + icon("ext") + "</a>") +
         "</article>";
       }).join("");
     }
@@ -1321,7 +1337,8 @@
       $("#glossCount").textContent = t("glossary.count", { n: list.length });
       if (!list.length) { host.innerHTML = '<div class="empty" style="grid-column:1/-1"><div class="em-icon">📖</div><h3>' + t("glossary.empty") + '</h3></div>'; return; }
       host.innerHTML = list.map((g) =>
-        '<article class="gloss-item" id="' + encodeURIComponent(g.t) + '">' +
+        '<article class="gloss-item card-click" id="' + encodeURIComponent(g.t) + '"' +
+          ' data-detail="gloss" data-key="' + esc(g.t) + '" tabindex="0" role="button" title="' + t("detail.viewDetail") + '">' +
           '<div class="gloss-term">' + esc(g.t) + '<span class="gloss-en">' + esc(g.en) + '</span><span class="badge" style="margin-left:auto">' + esc(g.c) + "</span></div>" +
           '<div class="gloss-def">' + esc(g.d) + "</div>" +
         "</article>").join("");
@@ -1339,7 +1356,8 @@
     const host = $("#timelineList");
     if (!host) return;
     host.innerHTML = D.timeline.map((tm) =>
-      '<div class="tl-item" id="' + encodeURIComponent(tm.date) + '">' +
+      '<div class="tl-item card-click" id="' + encodeURIComponent(tm.date) + '"' +
+        ' data-detail="timeline" data-key="' + esc(tm.date) + '" tabindex="0" role="button" title="' + t("detail.viewDetail") + '">' +
         '<div class="tl-date">' + esc(tm.date) + "</div>" +
         '<div class="tl-title">' + esc(tm.title) + "</div>" +
         '<div class="tl-desc">' + esc(tm.desc) + "</div>" +
@@ -1449,6 +1467,240 @@
       t("news.autoTime") + "<b>" + (FEED.updated || "—") + "</b>。";
   }
 
+  /* ============================== 16.2 内容详情弹层 ============================== */
+  /* 站点只有列表页，所以每个条目都需要一个可打开的“详情”，
+     否则卡片就只是好看的摆设。有外链的开外链，没有的开弹层。 */
+  const SEARCH_ENGINE = LANG === "zh"
+    ? "https://www.bing.com/search?q="
+    : "https://www.google.com/search?q=";
+
+  const searchUrl = (q) => SEARCH_ENGINE + encodeURIComponent(q);
+
+  function closeDetail() {
+    const ov = $("#detailOverlay");
+    if (!ov) return;
+    ov.classList.remove("open");
+    if (!$(".overlay.open")) document.body.style.overflow = "";
+  }
+
+  /* 把各类数据规格化成统一的详情结构 */
+  function detailCfg(kind, key) {
+    if (kind === "news") {
+      const n = D.news.find((x) => x.id === key);
+      if (!n) return null;
+      return {
+        badges: [catBadge(n.cat), n.auto ? '<span class="badge badge-brand">' + t("news.badge.auto") + "</span>" : "",
+                 n.hot >= 85 ? '<span class="badge badge-danger">' + icon("flame") + t("news.badge.hot") + "</span>" : ""],
+        title: n.title,
+        sub: [n.source, fmtDate(n.date), t("news.readTime", { n: n.readTime })],
+        desc: n.summary,
+        tags: n.tags || [],
+        rows: [],
+        actions: [],
+        note: n.link ? t("detail.sourceNote") : t("detail.noSource"),
+        anchor: n.id,
+        search: n.title
+      };
+    }
+    if (kind === "model") {
+      const m = D.models.find((x) => x.name === key);
+      if (!m) return null;
+      return {
+        badges: ['<span class="badge ' + (m.license === "open" ? "badge-ok" : "badge-warn") + '">' +
+                 (m.license === "open" ? t("models.open") : t("models.closed")) + "</span>",
+                 '<span class="mono tiny" style="color:var(--brand);font-weight:700">' + m.score + "</span>"],
+        title: m.name,
+        sub: [m.org, m.region, m.released],
+        desc: m.desc,
+        tags: m.strength,
+        rows: [
+          [t("cmp.row.params"), m.params],
+          [t("cmp.row.ctx"), m.ctx],
+          [t("cmp.row.modality"), m.modality.join(" / ")],
+          [t("cmp.row.price"), m.price],
+          [t("cmp.row.license"), m.license === "open" ? t("models.open") : t("models.closed")]
+        ],
+        actions: [],
+        docs: m.docs || "",
+        compare: m.name,
+        anchor: m.name,
+        search: m.name + " " + m.org
+      };
+    }
+    if (kind === "gloss") {
+      const g = D.glossary.find((x) => x.t === key);
+      if (!g) return null;
+      const related = D.glossary.filter((x) => x.c === g.c && x.t !== g.t).slice(0, 6);
+      return {
+        badges: ['<span class="badge badge-brand">' + esc(g.c) + "</span>"],
+        title: g.t,
+        sub: [g.en],
+        desc: g.d,
+        tags: [],
+        rows: [],
+        actions: [],
+        related: related,
+        anchor: g.t,
+        search: g.t + " " + g.en
+      };
+    }
+    if (kind === "timeline") {
+      const tm = D.timeline.find((x) => x.date === key);
+      if (!tm) return null;
+      return {
+        badges: ['<span class="badge badge-brand">' + esc(tm.date) + "</span>"],
+        title: tm.title,
+        sub: [],
+        desc: tm.desc,
+        tags: [],
+        rows: [],
+        actions: [],
+        anchor: tm.date,
+        search: tm.title + " AI " + tm.date
+      };
+    }
+    if (kind === "tool") {
+      const tl = D.tools.find((x) => x.name === key);
+      if (!tl) return null;
+      return {
+        badges: ['<span class="badge badge-brand">' + esc((D.toolCats.find((c) => c.id === tl.cat) || {}).name || "") + "</span>"],
+        title: tl.name,
+        sub: [tl.by, tl.price],
+        desc: tl.desc,
+        tags: tl.tags,
+        rows: [],
+        actions: [],
+        url: tl.url || "",
+        anchor: tl.name,
+        search: tl.name + " " + tl.by
+      };
+    }
+    return null;
+  }
+
+  function openDetail(kind, key) {
+    const c = detailCfg(kind, key);
+    if (!c) return;
+
+    let ov = $("#detailOverlay");
+    if (!ov) {
+      ov = document.createElement("div");
+      ov.className = "overlay";
+      ov.id = "detailOverlay";
+      document.body.appendChild(ov);
+    }
+
+    const rows = c.rows.length
+      ? '<div class="detail-section"><div class="detail-section-title">' + t("detail.specs") + "</div>" +
+        '<dl class="detail-rows">' +
+        c.rows.map((r) => "<dt>" + esc(r[0]) + "</dt><dd>" + esc(r[1]) + "</dd>").join("") +
+        "</dl></div>"
+      : "";
+
+    const tags = c.tags.length
+      ? '<div class="detail-tags">' + c.tags.map((x) => '<span class="badge badge-brand">#' + esc(x) + "</span>").join("") + "</div>"
+      : "";
+
+    const related = (c.related && c.related.length)
+      ? '<div class="detail-section"><div class="detail-section-title">' + t("detail.related") + "</div>" +
+        '<div class="detail-related">' +
+        c.related.map((g) => '<button data-gloss="' + esc(g.t) + '">' + esc(g.t) + "</button>").join("") +
+        "</div></div>"
+      : "";
+
+    const acts = [];
+    if (c.url) acts.push('<a class="btn btn-primary" href="' + esc(c.url) + '" target="_blank" rel="noopener">' + t("tools.visit") + icon("ext") + "</a>");
+    if (c.docs) acts.push('<a class="btn" href="' + esc(c.docs) + '" target="_blank" rel="noopener">' + t("detail.openDocs") + icon("ext") + "</a>");
+    if (c.search) acts.push('<a class="btn btn-ghost" href="' + searchUrl(c.search) + '" target="_blank" rel="noopener">' + t("detail.searchWeb") + icon("ext") + "</a>");
+    if (c.compare) acts.push('<button class="btn" data-detail-cmp="' + esc(c.compare) + '">' + icon("columns") + t("detail.compare") + "</button>");
+    acts.push('<button class="btn btn-ghost" data-detail-copy="' + esc(c.anchor) + '">' + icon("copy") + t("detail.copyLink") + "</button>");
+
+    ov.innerHTML =
+      '<div class="detail-panel" role="dialog" aria-modal="true" aria-label="' + esc(c.title) + '">' +
+        '<div class="detail-head">' +
+          '<button class="detail-close" data-detail-close aria-label="' + t("detail.close") + '">' + icon("close") + "</button>" +
+          '<div class="badges">' + c.badges.filter(Boolean).join("") + "</div>" +
+          '<h2 class="detail-title">' + esc(c.title) + "</h2>" +
+          (c.sub.length ? '<div class="detail-sub">' + c.sub.filter(Boolean).map(esc).join('<span class="dim">·</span>') + "</div>" : "") +
+        "</div>" +
+        '<div class="detail-body">' +
+          '<p class="detail-desc">' + esc(c.desc) + "</p>" +
+          tags + rows + related +
+          (c.note ? '<p class="detail-note">' + esc(c.note) + "</p>" : "") +
+          '<p class="detail-note">' + t("detail.hint") + "</p>" +
+        "</div>" +
+        '<div class="detail-actions">' + acts.join("") + "</div>" +
+      "</div>";
+
+    ov.classList.add("open");
+    document.body.style.overflow = "hidden";
+  }
+
+  /* 弹层内部交互（事件委派到 document，因为弹层是动态创建的） */
+  function initDetail() {
+    document.addEventListener("click", (e) => {
+      const ov = $("#detailOverlay");
+
+      // ---- 已打开的弹层内部的交互 ----
+      if (ov) {
+        // 关闭（关闭按钮 / 点遮罩空白处）
+        if (e.target.closest("[data-detail-close]") || e.target === ov) { closeDetail(); return; }
+
+        // 相关词条切换
+        const gl = e.target.closest("[data-gloss]");
+        if (gl) { openDetail("gloss", gl.dataset.gloss); return; }
+
+        // 加入对比
+        const cp = e.target.closest("[data-detail-cmp]");
+        if (cp) {
+          if (typeof window.__cmpToggle === "function") {
+            window.__cmpToggle(cp.dataset.detailCmp);
+            toast(t("models.compared"));
+          } else {
+            toast(t("models.addCompare"));
+          }
+          return;
+        }
+
+        // 复制链接
+        const cl = e.target.closest("[data-detail-copy]");
+        if (cl) {
+          const url = location.origin + location.pathname + "#" + encodeURIComponent(cl.dataset.detailCopy);
+          if (navigator.clipboard) {
+            navigator.clipboard.writeText(url).then(
+              () => toast(t("toast.copied", { what: t("detail.linkCopied") })),
+              () => toast(t("toast.copyFail")));
+          } else { toast(t("toast.clipboardNA")); }
+          return;
+        }
+
+        // 点弹层内部（非上述控件）不处理，避免穿透到后面的卡片
+        if (ov.contains(e.target)) return;
+      }
+
+      // ---- 打开条目详情 ----
+      const el = e.target.closest("[data-detail]");
+      if (!el) return;
+      if (e.target.closest("a, button, input, select")) return;   // 内部可点元素优先
+      openDetail(el.dataset.detail, el.dataset.key);
+    });
+
+    // 键盘可达：Enter / 空格
+    document.addEventListener("keydown", (e) => {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      const el = document.activeElement;
+      if (!el || !el.dataset || !el.dataset.detail) return;
+      e.preventDefault();
+      openDetail(el.dataset.detail, el.dataset.key);
+    });
+
+    // 外链统一新窗口 + 安全属性
+    $$('a[href^="http"]').forEach((a) => {
+      if (!a.target) a.target = "_blank";
+      a.rel = "noopener";
+    });
+  }
+
   /* ============================== 17. 启动 ============================== */
   function boot() {
     renderChrome();
@@ -1466,6 +1718,7 @@
     }
     initAccordion();
     initMisc();
+    initDetail();
     renderFeedStatus(added);
     console.log("%c" + D.meta.name + " · " + D.meta.nameZh + " v" + D.meta.version, "color:#4f46e5;font-weight:bold", "\ndata: " + D.meta.updated + (added ? " (+" + added + " auto)" : ""));
   }

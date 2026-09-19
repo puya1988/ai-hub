@@ -18,7 +18,7 @@ window.AI_DATA = (function () {
     nameZh: "Intelligence",
     slogan: "One place for AI news, models, tools and knowledge",
     updated: "2026-09-19",
-    version: "1.1.0",
+    version: "1.1.1",
     lang: "en",
     acceptLangs: ["en"],
     notice:
@@ -272,168 +272,192 @@ window.AI_DATA = (function () {
       license: "closed", params: "Undisclosed", ctx: "400K+ tokens", modality: ["Text", "Image", "Audio", "Code"],
       price: "$1.25–10 / M tokens", strength: ["General reasoning", "Tool use", "Multimodal understanding"],
       desc: "Flagship general-purpose family for chat and agent workloads, offered in several sizes and reasoning tiers with function calling and structured output.",
-      score: 96
+      score: 96,
+      docs: "https://platform.openai.com/docs/models"
     },
     {
       name: "Claude family", org: "Anthropic", region: "United States", released: "2025",
       license: "closed", params: "Undisclosed", ctx: "200K–1M tokens", modality: ["Text", "Image", "Code"],
       price: "$3–15 / M tokens", strength: ["Long documents", "Coding", "Safety alignment"],
       desc: "Strong on long-context document work, instruction following and code; widely used for analysis, coding assistance and enterprise knowledge Q&A.",
-      score: 94
+      score: 94,
+      docs: "https://docs.anthropic.com/en/docs/about-claude/models"
     },
     {
       name: "Gemini family", org: "Google DeepMind", region: "United States", released: "2025",
       license: "closed", params: "Undisclosed", ctx: "1M+ tokens", modality: ["Text", "Image", "Audio", "Video", "Code"],
       price: "$0.3–10 / M tokens", strength: ["Native multimodality", "Very long context", "Video understanding"],
       desc: "Natively multimodal architecture spanning on-device Nano up to flagship Pro and Ultra, with a clear edge on very long video and document inputs.",
-      score: 93
+      score: 93,
+      docs: "https://ai.google.dev/gemini-api/docs/models"
     },
     {
       name: "Llama family", org: "Meta", region: "United States", released: "2024–2025",
       license: "open", params: "1B–400B+", ctx: "128K+ tokens", modality: ["Text", "Image", "Code"],
       price: "Self-hosted / metered", strength: ["Open ecosystem", "Fine-tuning friendly", "Tooling"],
       desc: "One of the most influential open-weight families, with an enormous number of fine-tunes and derivatives, making it a common base for private deployments and research.",
-      score: 89
+      score: 89,
+      docs: "https://www.llama.com/"
     },
     {
       name: "DeepSeek-V3 / R1", org: "DeepSeek", region: "China", released: "2025",
       license: "open", params: "671B (MoE, 37B active)", ctx: "128K tokens", modality: ["Text", "Code"],
       price: "Very low (metered API)", strength: ["Reasoning", "Price-performance", "Open weights"],
       desc: "MoE architecture with a reinforcement-learning reasoning recipe, reaching frontier-class results at a fraction of the usual training and inference cost.",
-      score: 92
+      score: 92,
+      docs: "https://api-docs.deepseek.com/"
     },
     {
       name: "Qwen family", org: "Alibaba Cloud", region: "China", released: "2024–2025",
       license: "open", params: "0.5B–235B (MoE)", ctx: "130K–1M tokens", modality: ["Text", "Image", "Audio", "Code"],
       price: "Open weights / metered", strength: ["Multilingual", "Full size range", "Multimodal breadth"],
       desc: "A complete open family from tiny to flagship, with strong multilingual and coding performance; a frequent base for enterprise self-hosting.",
-      score: 90
+      score: 90,
+      docs: "https://qwenlm.github.io/"
     },
     {
       name: "Kimi family", org: "Moonshot AI", region: "China", released: "2024–2025",
       license: "open", params: "Trillion-scale MoE", ctx: "200K–2M tokens", modality: ["Text", "Code"],
       price: "Metered / subscription", strength: ["Very long context", "Writing", "Agents"],
       desc: "Known for long-document handling and strong conversational quality, with open-weight variants that score well on agent and tool-use benchmarks.",
-      score: 87
+      score: 87,
+      docs: "https://platform.moonshot.cn/docs"
     },
     {
       name: "GLM family", org: "Zhipu AI", region: "China", released: "2024–2025",
       license: "open", params: "9B–355B", ctx: "130K+ tokens", modality: ["Text", "Image", "Video", "Code"],
       price: "Open weights / metered", strength: ["Chinese alignment", "Multimodal matrix", "Domestic accelerators"],
       desc: "Covers everything from on-device models to flagships across chat, vision, video generation and code, with good support for non-NVIDIA accelerators.",
-      score: 85
+      score: 85,
+      docs: "https://open.bigmodel.cn/dev/api"
     },
     {
       name: "Mistral family", org: "Mistral AI", region: "France", released: "2024–2025",
       license: "open", params: "7B–123B (MoE)", ctx: "128K tokens", modality: ["Text", "Code"],
       price: "Open weights / metered", strength: ["Efficient small models", "EU compliance", "Function calling"],
       desc: "Known for efficient small models and open weights, holding a steady share of European enterprise and regulated deployments.",
-      score: 84
+      score: 84,
+      docs: "https://docs.mistral.ai/getting-started/models/"
     },
     {
       name: "Grok family", org: "xAI", region: "United States", released: "2024–2025",
       license: "closed", params: "Undisclosed", ctx: "130K–2M tokens", modality: ["Text", "Image", "Code"],
       price: "$3–15 / M tokens", strength: ["Real-time info", "Reasoning", "Social data"],
       desc: "Tightly integrated with a real-time information feed, emphasising freshness and reasoning for subscribers.",
-      score: 83
+      score: 83,
+      docs: "https://docs.x.ai/docs/models"
     },
     {
       name: "ERNIE family", org: "Baidu", region: "China", released: "2023–2025",
       license: "closed", params: "Undisclosed", ctx: "128K+ tokens", modality: ["Text", "Image", "Video", "Code"],
       price: "Free tier + metered", strength: ["Chinese knowledge", "Search grounding", "Ecosystem"],
       desc: "Integrated with search, productivity and cloud services, covering generation, code and multimodal capability.",
-      score: 82
+      score: 82,
+      docs: "https://cloud.baidu.com/doc/WENXINWORKSHOP/index.html"
     },
     {
       name: "Spark / Skywork", org: "iFlytek / Kunlun", region: "China", released: "2023–2025",
       license: "closed", params: "Undisclosed", ctx: "Tens of thousands of tokens", modality: ["Text", "Image", "Audio"],
       price: "Free tier + metered", strength: ["Speech", "Education", "Public sector"],
       desc: "Strong in voice interaction and vertical deployments, with deep roots in education and public services.",
-      score: 76
+      score: 76,
+      docs: "https://www.xfyun.cn/doc/spark/Web.html"
     },
     {
       name: "Hunyuan family", org: "Tencent", region: "China", released: "2024–2025",
       license: "open", params: "Undisclosed", ctx: "250K+ tokens", modality: ["Text", "Image", "Video", "3D"],
       price: "Open weights / metered", strength: ["Multimodal generation", "Social scenarios", "Open weights"],
       desc: "Spans language, image, video and 3D generation, with some weights released and tight coupling to content platforms.",
-      score: 81
+      score: 81,
+      docs: "https://cloud.tencent.com/document/product/1729"
     },
     {
       name: "Doubao family", org: "ByteDance", region: "China", released: "2024–2025",
       license: "closed", params: "Undisclosed", ctx: "250K+ tokens", modality: ["Text", "Image", "Audio", "Video"],
       price: "Very low / free tier", strength: ["Voice interaction", "Low latency", "Device-cloud"],
       desc: "Known for low cost and a polished voice experience, spanning phones, earbuds, cars and other endpoints.",
-      score: 82
+      score: 82,
+      docs: "https://www.volcengine.com/docs/82379"
     },
     {
       name: "MiniMax family", org: "MiniMax", region: "China", released: "2024–2025",
       license: "open", params: "456B (MoE)", ctx: "1M+ tokens", modality: ["Text", "Audio", "Video", "Code"],
       price: "Open weights / metered", strength: ["Long context", "Speech synthesis", "Video generation"],
       desc: "Large open-weight MoE with differentiated strength in long-form text, speech and video generation.",
-      score: 80
+      score: 80,
+      docs: "https://platform.minimaxi.com/document"
     },
     {
       name: "Step family", org: "StepFun", region: "China", released: "2024–2025",
       license: "open", params: "Hundred-billion-class MoE", ctx: "Hundreds of thousands of tokens", modality: ["Text", "Image", "Audio", "Video"],
       price: "Open weights / metered", strength: ["Multimodal", "On-device models", "Speech"],
       desc: "A broad multimodal line-up alongside strong small models aimed at on-device integration.",
-      score: 79
+      score: 79,
+      docs: "https://platform.stepfun.com/docs"
     },
     {
       name: "Command family", org: "Cohere", region: "Canada", released: "2024–2025",
       license: "open", params: "Undisclosed", ctx: "128K+ tokens", modality: ["Text", "Code"],
       price: "Metered / private deploy", strength: ["Enterprise RAG", "Multilingual", "Private deployment"],
       desc: "Optimised for enterprise retrieval and multilingual use, with an emphasis on private deployment and data isolation.",
-      score: 78
+      score: 78,
+      docs: "https://docs.cohere.com/docs/models"
     },
     {
       name: "Phi family", org: "Microsoft", region: "United States", released: "2024–2025",
       license: "open", params: "3.8B–14B", ctx: "128K tokens", modality: ["Text", "Image", "Code"],
       price: "Open weights (self-host)", strength: ["Small size", "Synthetic data", "Edge"],
       desc: "Notable for small parameter counts trained on high-quality synthetic data, well suited to constrained and edge environments.",
-      score: 77
+      score: 77,
+      docs: "https://huggingface.co/microsoft"
     },
     {
       name: "Gemma family", org: "Google", region: "United States", released: "2024–2025",
       license: "open", params: "2B–27B", ctx: "128K tokens", modality: ["Text", "Image", "Code"],
       price: "Open weights (self-host)", strength: ["Lightweight", "Multiple sizes", "Developer friendly"],
       desc: "Open-weight small models distilled from flagship technology, runnable on a single GPU or even consumer hardware.",
-      score: 78
+      score: 78,
+      docs: "https://ai.google.dev/gemma/docs"
     },
     {
       name: "Yi family", org: "01.AI", region: "China", released: "2023–2025",
       license: "open", params: "6B–34B", ctx: "200K tokens", modality: ["Text", "Image", "Code"],
       price: "Open weights / metered", strength: ["Bilingual", "Long context", "Open weights"],
       desc: "Balanced bilingual open-weight series widely used for long-context and lightweight deployment scenarios.",
-      score: 76
+      score: 76,
+      docs: "https://platform.lingyiwanwu.com/docs"
     },
     {
       name: "Stable Diffusion / FLUX", org: "Stability AI / Black Forest Labs", region: "Europe / US", released: "2022–2025",
       license: "open", params: "0.8B–12B", ctx: "—", modality: ["Image"],
       price: "Open weights (self-host)", strength: ["Text-to-image", "LoRA fine-tuning", "Controllable generation"],
       desc: "The two most common open bases for image generation, with an enormous ecosystem of derivatives and fine-tuning tools.",
-      score: 86
+      score: 86,
+      docs: "https://github.com/Stability-AI/stablediffusion"
     },
     {
       name: "Sora / Veo / Kling and peers", org: "OpenAI / Google / Kuaishou and others", region: "Global", released: "2024–2025",
       license: "closed", params: "Undisclosed", ctx: "—", modality: ["Video", "Image", "Audio"],
       price: "Subscription / metered", strength: ["Text-to-video", "Image-to-video", "Physical consistency"],
       desc: "Video generation improved quickly across duration, resolution, motion consistency and audio-visual sync.",
-      score: 84
+      score: 84,
+      docs: "https://openai.com/sora"
     },
     {
       name: "Whisper / SenseVoice and peers", org: "OpenAI / Alibaba and others", region: "Global", released: "2022–2025",
       license: "open", params: "0.03B–1.5B", ctx: "—", modality: ["Audio"],
       price: "Open weights / metered", strength: ["Speech recognition", "Multilingual", "Low-resource deploy"],
       desc: "Mature open speech models with strong multilingual transcription and real-time capability, suitable for local deployment.",
-      score: 83
+      score: 83,
+      docs: "https://github.com/openai/whisper"
     },
     {
       name: "Embedding / reranker models", org: "Multiple vendors", region: "Global", released: "2023–2025",
       license: "open", params: "0.1B–8B", ctx: "8K–32K", modality: ["Text", "Image"],
       price: "Open weights / metered", strength: ["Vector search", "Reranking", "Multilingual"],
       desc: "The components that make or break a RAG system: mapping content to vectors and reordering candidates by relevance.",
-      score: 82
+      score: 82,
+      docs: "https://huggingface.co/spaces/mteb/leaderboard"
     }
   ];
 

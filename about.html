@@ -110,6 +110,24 @@
         <h3 class="card-title">更新日志</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.1.1 · 全站内容可点击
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              <b>问题：</b>站点此前只有列表页，没有详情页——卡片只是视觉容器，点击后无处可去。
+              资讯、模型、术语、时间线四类共 400 多个条目都无法打开。<br>
+              <b>修复：</b>新增统一的<b>内容详情弹层</b>。有原文链接的条目（自动抓取的新闻）整卡可点、直开原文；
+              没有外链的条目点击后在站内打开详情，展示完整摘要、参数规格、标签与相关推荐，
+              并提供「官方文档」「搜索相关报道」「复制链接」等操作。<br>
+              <b>同时补齐：</b>24 个模型全部补上官方文档链接；缺失官网的 2 个工具补上地址，
+              并把原来不可点的假按钮改为真正可用的搜索链接。<br>
+              <b>发现并修复：</b>自动抓取的真实新闻热度只有 62–74，全部排在演示数据（74–98）后面，
+              英文站首页一度看不到任何真新闻。调整打分基准后，新抓到的条目正常进入前列。<br>
+              <b>新增工具：</b><code class="inline">scripts/audit-links.js</code> —— 一键审计全站死链与不可点击条目，
+              已覆盖中英双语 18 个页面共 420 个条目，结果为零问题。
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.1.0 · 自动更新 / 横向对比 / 多套配色
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

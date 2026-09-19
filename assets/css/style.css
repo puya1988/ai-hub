@@ -798,6 +798,56 @@ table.cmp-table tr:last-child th, table.cmp-table tr:last-child td { border-bott
 .cmp-best { color: var(--ok); font-weight: 750; }
 .cmp-bar-spacer { height: 68px; }
 
+/* -------------------- 21.2 内容详情弹层 -------------------- */
+.detail-panel {
+  max-width: 720px; margin: 0 auto; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 18px;
+  box-shadow: var(--shadow-lg); overflow: hidden;
+  animation: pop .22s cubic-bezier(.2, .9, .3, 1);
+}
+.detail-head {
+  padding: 22px 24px 18px; border-bottom: 1px solid var(--border);
+  background: var(--surface-2); position: relative;
+}
+.detail-head .badges { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+.detail-title { font-size: clamp(18px, 2.4vw, 23px); line-height: 1.4; padding-right: 40px; }
+.detail-sub { font-size: 13px; color: var(--text-3); margin-top: 9px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.detail-close {
+  position: absolute; top: 18px; right: 18px;
+  width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center;
+  color: var(--text-3); border: 1px solid var(--border); background: var(--surface);
+  transition: .16s;
+}
+.detail-close:hover { color: var(--danger); border-color: var(--danger); }
+.detail-close svg { width: 16px; height: 16px; }
+.detail-body { padding: 22px 24px; max-height: 62vh; overflow-y: auto; }
+.detail-desc { font-size: 14.5px; line-height: 1.9; color: var(--text-2); }
+.detail-tags { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 18px; }
+.detail-section { margin-top: 22px; }
+.detail-section-title {
+  font-size: 11.5px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--text-3); margin-bottom: 12px;
+}
+.detail-rows { display: grid; grid-template-columns: max-content 1fr; gap: 10px 20px; font-size: 13.6px; }
+.detail-rows dt { color: var(--text-3); }
+.detail-rows dd { margin: 0; color: var(--text); }
+.detail-actions {
+  display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+  padding: 16px 24px; border-top: 1px solid var(--border); background: var(--surface-2);
+}
+.detail-note { font-size: 12.5px; color: var(--text-3); line-height: 1.75; margin-top: 14px; }
+.detail-related { display: flex; gap: 7px; flex-wrap: wrap; }
+.detail-related button {
+  padding: 5px 11px; border-radius: 999px; font-size: 12.5px;
+  border: 1px solid var(--border); background: var(--surface-2); color: var(--text-2);
+  transition: .16s;
+}
+.detail-related button:hover { color: var(--brand); border-color: var(--brand); }
+
+/* 可点击卡片：鼠标手型 + 键盘可达 */
+[data-detail] { cursor: pointer; }
+[data-detail]:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+
 /* ------------------------------ 21. 响应式 ------------------------------ */
 @media (max-width: 1080px) {
   .main-nav { display: none; }
@@ -835,6 +885,11 @@ table.cmp-table tr:last-child th, table.cmp-table tr:last-child td { border-bott
   .section { padding: 38px 0; }
   .accent-panel { width: min(268px, calc(100vw - 32px)); }
   .cmp-bar { bottom: 12px; padding: 10px; gap: 8px; }
+  .detail-head { padding: 18px 18px 15px; }
+  .detail-body { padding: 18px; }
+  .detail-actions { padding: 14px 18px; }
+  .detail-rows { grid-template-columns: 1fr; gap: 3px 0; }
+  .detail-rows dt { margin-top: 9px; font-size: 12px; }
 }
 
 /* 打印 */

@@ -261,18 +261,22 @@ def is_ai_related(text, keywords):
 
 
 def hot_score(published, text):
-    """热度 40–95：越新越高，命中热点词加成"""
-    score = 52
+    """热度 40–95。
+
+    基准分定得比较高，是为了让【刚抓到的真新闻】能排在本地演示数据前面：
+    一个刚发布不到一周的条目，热度本来就应该比陈年精选高。
+    """
+    score = 68
     if published:
         age_h = (datetime.now(timezone.utc) - published).total_seconds() / 3600
         if age_h < 24:
-            score += 22
+            score += 22      # → 90
         elif age_h < 72:
-            score += 16
+            score += 16      # → 84
         elif age_h < 168:
-            score += 10
+            score += 10      # → 78
         elif age_h < 720:
-            score += 4
+            score += 4       # → 72
     hot_words = ["发布", "开源", "融资", "收购", "突破", "首个", "禁令", "监管", "launch",
                  "release", "open source", "raises", "acquire", "breakthrough", "ban",
                  "GPT", "Claude", "Gemini", "DeepSeek", "Llama", "Qwen", "NVIDIA"]

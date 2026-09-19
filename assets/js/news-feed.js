@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-09-19 08:48
+   抓取时间：2026-09-19 12:47
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-09-19 08:48",
+    "updated": "2026-09-19 12:47",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -41,7 +41,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 4,
-        "hot": 78,
+        "hot": 94,
         "link": "https://www.leiphone.com/category/industrynews/uKmCBjBhfQW9iDHy.html"
       },
       {
@@ -60,7 +60,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.qbitai.com/2026/09/492467.html"
       },
       {
@@ -77,8 +77,42 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.qbitai.com/2026/09/492429.html"
+      },
+      {
+        "id": "r868ce3a5fd",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-19",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "当企业 AI 从演示走向真实业务， 十几位科技领导者看到了什么？",
+        "summary": "点击查看原文> 当企业 AI 从演示走向真实业务， 十几位科技领导者看到了什么？",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/zFIHHoq5Tsj4ybQzpjq3?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r73b61760d8",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-19",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "从技术深潜到动手实战，Snowflake World Tour 技术专场让 AI 走进真实业务",
+        "summary": "点击查看原文> 从技术深潜到动手实战，Snowflake World Tour 技术专场让 AI 走进真实业务",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/mrl45Fq31U7JORZsV5re?utm_source=rss&utm_medium=article"
       },
       {
         "id": "r885baf6514",
@@ -96,7 +130,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.infoq.cn/article/brH7TRcHB9evl32KQJkY?utm_source=rss&utm_medium=article"
       },
       {
@@ -113,7 +147,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.infoq.cn/article/G4tlQvg2IsabE0v1RDOE?utm_source=rss&utm_medium=article"
       },
       {
@@ -133,7 +167,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 80,
+        "hot": 95,
         "link": "https://www.leiphone.com/category/yanxishe/41rW4mD2vjnpNY2o.html"
       },
       {
@@ -150,7 +184,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 76,
+        "hot": 92,
         "link": "https://www.qbitai.com/2026/09/492421.html"
       },
       {
@@ -168,7 +202,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 76,
+        "hot": 92,
         "link": "https://www.infoq.cn/article/CEphwKjzAe7LzbOriLcq?utm_source=rss&utm_medium=article"
       },
       {
@@ -187,7 +221,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.qbitai.com/2026/09/492426.html"
       },
       {
@@ -204,7 +238,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.qbitai.com/2026/09/492238.html"
       },
       {
@@ -221,7 +255,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.qbitai.com/2026/09/492175.html"
       },
       {
@@ -239,42 +273,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rdd06df5c80",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-18",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "微软借助 AI 单月修补超千个安全漏洞",
-        "summary": "点击查看原文> 微软借助 AI 单月修补超千个安全漏洞",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 74,
-        "link": "https://www.infoq.cn/article/eluArohETBhwjjYZRoMG?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r689b30f38e",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-18",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "被热议的RSI，39 年前就已诞生？现代人工智能之父复盘RSI的漫长探索",
-        "summary": "点击查看原文> 被热议的RSI，39 年前就已诞生？现代人工智能之父复盘RSI的漫长探索",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 74,
-        "link": "https://www.infoq.cn/article/wbpy0Kv3tB32jEPV6Cg0?utm_source=rss&utm_medium=article"
       },
       {
         "id": "rbe6489adfe",
@@ -291,7 +291,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.leiphone.com/category/weiwu/V4gtXhVreRgnCmys.html"
       },
       {
@@ -310,7 +310,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 4,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.leiphone.com/category/weiwu/SvTVpNCuYHpbNAxA.html"
       },
       {
@@ -327,7 +327,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/"
       },
       {
@@ -344,7 +344,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/"
       },
       {
@@ -361,7 +361,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 74,
+        "hot": 90,
         "link": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/"
       },
       {
@@ -381,7 +381,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 72,
+        "hot": 88,
         "link": "https://www.leiphone.com/category/CorporateServices/GgIqkCOAOG9HQwJD.html"
       },
       {
@@ -401,7 +401,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 7,
-        "hot": 70,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/industrynews/Jaf7iAiksJuqQ16a.html"
       },
       {
@@ -419,7 +419,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 68,
+        "hot": 84,
         "link": "https://sspai.com/prime/story/how-to-obtain-data-for-agent-analysis"
       },
       {
@@ -436,7 +436,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 68,
+        "hot": 84,
         "link": "https://sspai.com/post/114699"
       },
       {
@@ -454,7 +454,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 72,
+        "hot": 88,
         "link": "https://sspai.com/post/114658"
       },
       {
@@ -471,7 +471,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 68,
+        "hot": 84,
         "link": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/"
       },
       {
@@ -488,7 +488,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 68,
+        "hot": 84,
         "link": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/"
       },
       {
@@ -505,7 +505,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 68,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/"
       },
       {
@@ -522,7 +522,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 64,
+        "hot": 80,
         "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/"
       },
       {
@@ -539,7 +539,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 62,
+        "hot": 78,
         "link": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/"
       },
       {
@@ -556,7 +556,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 62,
+        "hot": 78,
         "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/"
       },
       {
@@ -573,7 +573,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 62,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/"
       },
       {
@@ -590,7 +590,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 62,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/"
       },
       {
@@ -608,7 +608,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 62,
+        "hot": 78,
         "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
       },
       {
@@ -625,7 +625,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 62,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/"
       },
       {
@@ -643,7 +643,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 62,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/"
       },
       {
@@ -661,7 +661,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 62,
+        "hot": 78,
         "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/"
       }
     ]

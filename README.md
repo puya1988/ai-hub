@@ -70,6 +70,9 @@ ai-hub/
 ```bash
 # 重新生成英文站（改完 scripts/build-en.js 后执行）
 node scripts/build-en.js
+
+# 可点击性审计：检查死链与点不动的卡片（需先 npm i -D jsdom）
+node scripts/audit-links.js
 ```
 
 ### 再加一种语言（例如日语）只需三步
@@ -88,6 +91,7 @@ timeline / categories / toolCats / meta / stats`）。
 
 | 功能 | 说明 |
 | --- | --- |
+| **内容详情弹层** | 所有卡片均可点击：有原文的整卡跳原文，无外链的打开站内详情（规格参数、相关推荐、官方文档、复制链接），支持 ESC 关闭 |
 | **中英双语** | 完整中文站 + `en/` 英文站，顶栏一键切换并保留当前页面 |
 | **RSS 自动更新** | `scripts/fetch_news.py` 抓取 10 个中英文源，自动清洗/去重/分类/打标签，前端自动合并并标记「自动」条目 |
 | **模型横向对比** | 勾选最多 4 个模型，逐项对照表 + 自动高亮最优值 + 一键复制 Markdown，选择本地保存 |

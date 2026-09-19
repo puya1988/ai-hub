@@ -120,6 +120,27 @@
         <h3 class="card-title">Changelog</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.1.1 · Everything is now clickable
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              <b>The problem:</b> the site only had list pages. Cards were visual containers with nowhere
+              to go, so more than 400 items across news, models, glossary and the timeline could not be opened.<br>
+              <b>The fix:</b> a unified <b>detail panel</b>. Items with an original link (auto-fetched news)
+              make the whole card clickable and open the source; items without one open an in-site detail
+              view with the full summary, specifications, tags and related entries, plus actions for
+              official docs, a web search and copying a link.<br>
+              <b>Also completed:</b> official documentation links for all 24 models; real websites for the
+              two tools that had none; and the dead “button” that was a non-clickable span replaced with a
+              working search link.<br>
+              <b>Found and fixed:</b> freshly fetched news scored only 62–74, ranking below the curated demo
+              data (74–98) — the English site showed no real news on its first page at all. Rebalancing the
+              scoring rubric puts new items back near the top.<br>
+              <b>New tool:</b> <code class="inline">scripts/audit-links.js</code> audits every page for dead
+              links and unclickable cards. It now covers 18 pages and 420 items with zero issues.
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.1.0 · Auto-update, comparison, themes, English site
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>

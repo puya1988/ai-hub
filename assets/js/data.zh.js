@@ -15,7 +15,7 @@ window.AI_DATA = (function () {
     nameZh: "智汇",
     slogan: "一站汇聚全球人工智能资讯、模型、工具与知识",
     updated: "2026-09-19",
-    version: "1.0.0",
+    version: "1.1.1",
     lang: "zh",
     acceptLangs: ["zh", "en"],
     notice:
@@ -271,168 +271,192 @@ window.AI_DATA = (function () {
       license: "closed", params: "未公开", ctx: "40 万+ Token", modality: ["文本", "图像", "音频", "代码"],
       price: "$1.25–10 / 百万 Token", strength: ["通用推理", "工具调用", "多模态理解"],
       desc: "面向通用任务与 Agent 场景的旗舰模型系列，提供不同尺寸与推理档位，支持函数调用与结构化输出。",
-      score: 96
+      score: 96,
+      docs: "https://platform.openai.com/docs/models"
     },
     {
       name: "Claude 系列", org: "Anthropic", region: "美国", released: "2025",
       license: "closed", params: "未公开", ctx: "20 万–100 万 Token", modality: ["文本", "图像", "代码"],
       price: "$3–15 / 百万 Token", strength: ["长文档", "代码", "安全对齐"],
       desc: "以长上下文、指令遵循与代码能力见长，广泛用于文档分析、编程助手与企业知识问答。",
-      score: 94
+      score: 94,
+      docs: "https://docs.anthropic.com/en/docs/about-claude/models"
     },
     {
       name: "Gemini 系列", org: "Google DeepMind", region: "美国", released: "2025",
       license: "closed", params: "未公开", ctx: "100 万+ Token", modality: ["文本", "图像", "音频", "视频", "代码"],
       price: "$0.3–10 / 百万 Token", strength: ["原生多模态", "超长上下文", "视频理解"],
       desc: "原生多模态架构，覆盖从端侧 Nano 到旗舰 Pro/Ultra 的完整产品线，长视频与超大文档处理优势明显。",
-      score: 93
+      score: 93,
+      docs: "https://ai.google.dev/gemini-api/docs/models"
     },
     {
       name: "Llama 系列", org: "Meta", region: "美国", released: "2024–2025",
       license: "open", params: "1B–400B+", ctx: "12.8 万 Token+", modality: ["文本", "图像", "代码"],
       price: "自托管 / 云端按量", strength: ["开源生态", "微调友好", "社区工具链"],
       desc: "最具影响力的开放权重模型系列之一，衍生微调版本数量庞大，是私有化部署与研究的常见基座。",
-      score: 89
+      score: 89,
+      docs: "https://www.llama.com/"
     },
     {
       name: "DeepSeek-V3 / R1", org: "深度求索", region: "中国", released: "2025",
       license: "open", params: "671B (MoE, 37B 激活)", ctx: "12.8 万 Token", modality: ["文本", "代码"],
       price: "极低（API 按量）", strength: ["推理能力", "性价比", "开源权重"],
       desc: "MoE 架构 + 强化学习推理路线，以显著更低的训练与推理成本达到第一梯队水平，引发行业广泛关注。",
-      score: 92
+      score: 92,
+      docs: "https://api-docs.deepseek.com/"
     },
     {
       name: "Qwen 系列", org: "阿里云通义千问", region: "中国", released: "2024–2025",
       license: "open", params: "0.5B–235B (MoE)", ctx: "13 万–100 万 Token", modality: ["文本", "图像", "音频", "代码"],
       price: "开源 / API 按量", strength: ["中文能力", "多尺寸覆盖", "多模态齐全"],
       desc: "覆盖全尺寸与多模态的开源家族，中文与代码表现优秀，被大量企业作为私有化基座模型。",
-      score: 90
+      score: 90,
+      docs: "https://qwenlm.github.io/"
     },
     {
       name: "Kimi 系列", org: "月之暗面", region: "中国", released: "2024–2025",
       license: "open", params: "万亿级 MoE", ctx: "20 万–200 万 Token", modality: ["文本", "代码"],
       price: "按量 / 订阅", strength: ["超长上下文", "中文写作", "Agent"],
       desc: "以长文本处理与中文场景体验著称，开放权重版本在 Agent 与工具调用基准上表现突出。",
-      score: 87
+      score: 87,
+      docs: "https://platform.moonshot.cn/docs"
     },
     {
       name: "GLM 系列", org: "智谱 AI", region: "中国", released: "2024–2025",
       license: "open", params: "9B–355B", ctx: "13 万+ Token", modality: ["文本", "图像", "视频", "代码"],
       price: "开源 / API 按量", strength: ["中文对齐", "多模态矩阵", "国产化适配"],
       desc: "提供从端侧小模型到旗舰的完整矩阵，覆盖对话、视觉、视频生成与代码，国产算力适配较完善。",
-      score: 85
+      score: 85,
+      docs: "https://open.bigmodel.cn/dev/api"
     },
     {
       name: "Mistral 系列", org: "Mistral AI", region: "法国", released: "2024–2025",
       license: "open", params: "7B–123B (MoE)", ctx: "12.8 万 Token", modality: ["文本", "代码"],
       price: "开源 / API 按量", strength: ["小体积高效", "欧洲合规", "函数调用"],
       desc: "以小尺寸高效率与开放权重著称，在欧洲企业私有化与合规场景中占有稳定份额。",
-      score: 84
+      score: 84,
+      docs: "https://docs.mistral.ai/getting-started/models/"
     },
     {
       name: "Grok 系列", org: "xAI", region: "美国", released: "2024–2025",
       license: "closed", params: "未公开", ctx: "13 万–200 万 Token", modality: ["文本", "图像", "代码"],
       price: "$3–15 / 百万 Token", strength: ["实时信息", "推理", "社交数据"],
       desc: "与实时信息流深度集成，强调实时性与推理能力，面向订阅用户提供多模态交互。",
-      score: 83
+      score: 83,
+      docs: "https://docs.x.ai/docs/models"
     },
     {
       name: "文心一言系列", org: "百度", region: "中国", released: "2023–2025",
       license: "closed", params: "未公开", ctx: "12.8 万+ Token", modality: ["文本", "图像", "视频", "代码"],
       price: "免费 + 按量", strength: ["中文知识", "搜索增强", "生态集成"],
       desc: "与搜索、办公、云服务深度整合的中文大模型，覆盖内容生成、代码与多模态能力。",
-      score: 82
+      score: 82,
+      docs: "https://cloud.baidu.com/doc/WENXINWORKSHOP/index.html"
     },
     {
       name: "混元系列", org: "腾讯", region: "中国", released: "2024–2025",
       license: "open", params: "未公开", ctx: "25 万+ Token", modality: ["文本", "图像", "视频", "3D"],
       price: "开源 / API 按量", strength: ["多模态生成", "社交场景", "开源"],
       desc: "覆盖语言、图像、视频与 3D 生成的模型家族，部分权重已开源，与内容生态结合紧密。",
-      score: 81
+      score: 81,
+      docs: "https://cloud.tencent.com/document/product/1729"
     },
     {
       name: "豆包系列", org: "字节跳动", region: "中国", released: "2024–2025",
       license: "closed", params: "未公开", ctx: "25 万+ Token", modality: ["文本", "图像", "音频", "视频"],
       price: "极低 / 免费额度", strength: ["语音交互", "低延迟", "端云协同"],
       desc: "以低成本和良好语音交互体验见长，覆盖手机端、耳机、汽车等多终端应用。",
-      score: 82
+      score: 82,
+      docs: "https://www.volcengine.com/docs/82379"
     },
     {
       name: "MiniMax 系列", org: "MiniMax", region: "中国", released: "2024–2025",
       license: "open", params: "456B (MoE)", ctx: "100 万+ Token", modality: ["文本", "音频", "视频", "代码"],
       price: "开源 / API 按量", strength: ["长上下文", "语音合成", "视频生成"],
       desc: "开放权重的大规模 MoE 模型，在长文本与语音、视频生成方向有差异化能力。",
-      score: 80
+      score: 80,
+      docs: "https://platform.minimaxi.com/document"
     },
     {
       name: "Step 系列", org: "阶跃星辰", region: "中国", released: "2024–2025",
       license: "open", params: "千亿级 MoE", ctx: "数十万 Token", modality: ["文本", "图像", "音频", "视频"],
       price: "开源 / API 按量", strength: ["多模态", "端侧小模型", "语音"],
       desc: "多模态方向布局完整，同时推出性能优秀的端侧小模型，适合终端设备集成。",
-      score: 79
+      score: 79,
+      docs: "https://platform.stepfun.com/docs"
     },
     {
       name: "Command 系列", org: "Cohere", region: "加拿大", released: "2024–2025",
       license: "open", params: "未公开", ctx: "12.8 万+ Token", modality: ["文本", "代码"],
       price: "按量 / 私有部署", strength: ["企业 RAG", "多语言", "私有化"],
       desc: "面向企业检索增强与多语言场景优化，强调私有化部署与数据隔离能力。",
-      score: 78
+      score: 78,
+      docs: "https://docs.cohere.com/docs/models"
     },
     {
       name: "Phi 系列", org: "Microsoft", region: "美国", released: "2024–2025",
       license: "open", params: "3.8B–14B", ctx: "12.8 万 Token", modality: ["文本", "图像", "代码"],
       price: "开源（自托管）", strength: ["小模型", "教科书级数据", "端侧"],
       desc: "以小参数量、高质量合成数据训练著称，适合端侧与资源受限环境的推理。",
-      score: 77
+      score: 77,
+      docs: "https://huggingface.co/microsoft"
     },
     {
       name: "Gemma 系列", org: "Google", region: "美国", released: "2024–2025",
       license: "open", params: "2B–27B", ctx: "12.8 万 Token", modality: ["文本", "图像", "代码"],
       price: "开源（自托管）", strength: ["轻量", "多尺寸", "开发者友好"],
       desc: "基于旗舰技术蒸馏的开放权重小模型系列，适合单卡甚至消费级硬件运行。",
-      score: 78
+      score: 78,
+      docs: "https://ai.google.dev/gemma/docs"
     },
     {
       name: "Yi 系列", org: "零一万物", region: "中国", released: "2023–2025",
       license: "open", params: "6B–34B", ctx: "20 万 Token", modality: ["文本", "图像", "代码"],
       price: "开源 / API 按量", strength: ["中英双语", "长上下文", "开源"],
       desc: "中英双语能力均衡的开放权重系列，在长上下文与轻量部署场景被广泛使用。",
-      score: 76
+      score: 76,
+      docs: "https://platform.lingyiwanwu.com/docs"
     },
     {
       name: "ERNIE / 星火 / 天工", org: "百度 / 讯飞 / 昆仑万维", region: "中国", released: "2023–2025",
       license: "closed", params: "未公开", ctx: "数万–数十万 Token", modality: ["文本", "图像", "音频"],
       price: "免费 + 按量", strength: ["中文语音", "行业知识", "国产化"],
       desc: "国产大模型阵营中的代表产品，在教育、政务、语音交互等垂直场景有较深积累。",
-      score: 75
+      score: 75,
+      docs: "https://www.xfyun.cn/doc/spark/Web.html"
     },
     {
       name: "Stable Diffusion / FLUX", org: "Stability AI / Black Forest Labs", region: "欧美", released: "2022–2025",
       license: "open", params: "0.8B–12B", ctx: "—", modality: ["图像"],
       price: "开源（自托管）", strength: ["文生图", "LoRA 微调", "可控生成"],
       desc: "开源文生图生态的核心基座，社区衍生模型与微调工具极为丰富。",
-      score: 86
+      score: 86,
+      docs: "https://github.com/Stability-AI/stablediffusion"
     },
     {
       name: "Sora / Veo / 可灵 等视频模型", org: "OpenAI / Google / 快手 等", region: "全球", released: "2024–2025",
       license: "closed", params: "未公开", ctx: "—", modality: ["视频", "图像", "音频"],
       price: "订阅 / 按量", strength: ["文生视频", "图生视频", "物理一致性"],
       desc: "视频生成模型快速迭代，在时长、分辨率、运动一致性与音画同步方面持续提升。",
-      score: 84
+      score: 84,
+      docs: "https://openai.com/sora"
     },
     {
       name: "Whisper / SenseVoice 等语音模型", org: "OpenAI / 阿里 等", region: "全球", released: "2022–2025",
       license: "open", params: "0.03B–1.5B", ctx: "—", modality: ["音频"],
       price: "开源 / API 按量", strength: ["语音识别", "多语种", "低资源部署"],
       desc: "语音识别与合成的开源基座，多语种识别与实时转写能力成熟，适合本地部署。",
-      score: 83
+      score: 83,
+      docs: "https://github.com/openai/whisper"
     },
     {
       name: "Embedding / Reranker 模型", org: "多家", region: "全球", released: "2023–2025",
       license: "open", params: "0.1B–8B", ctx: "8K–32K", modality: ["文本", "图像"],
       price: "开源 / 按量", strength: ["向量检索", "重排序", "多语种"],
       desc: "RAG 系统的关键组件，负责把文本映射为向量并做相关性重排，直接决定问答质量。",
-      score: 82
+      score: 82,
+      docs: "https://huggingface.co/spaces/mteb/leaderboard"
     }
   ];
 
@@ -467,9 +491,9 @@ window.AI_DATA = (function () {
     { name: "Midjourney", cat: "image", by: "Midjourney", desc: "艺术风格突出的文生图工具，社区与风格参考体系成熟。", tags: ["艺术", "文生图"], price: "订阅", url: "https://www.midjourney.com" },
     { name: "Stable Diffusion WebUI", cat: "image", by: "开源社区", desc: "本地文生图工作台，支持 LoRA、ControlNet 等丰富插件。", tags: ["开源", "本地"], price: "免费", url: "https://github.com/AUTOMATIC1111/stable-diffusion-webui" },
     { name: "ComfyUI", cat: "image", by: "开源社区", desc: "节点式图像/视频生成工作流，适合复杂可控的生成管线。", tags: ["节点式", "开源"], price: "免费", url: "https://github.com/comfyanonymous/ComfyUI" },
-    { name: "即梦 / 通义万相", cat: "image", by: "字节 / 阿里", desc: "国产图像与视频生成平台，中文提示词理解好。", tags: ["国产", "文生图"], price: "免费额度", url: "" },
+    { name: "即梦 / 通义万相", cat: "image", by: "字节 / 阿里", desc: "国产图像与视频生成平台，中文提示词理解好。", tags: ["国产", "文生图"], price: "免费额度", url: "https://jimeng.jianying.com/" },
     { name: "Runway", cat: "video", by: "Runway", desc: "专业视频生成与编辑套件，覆盖生成、抠像、追踪。", tags: ["视频", "创意"], price: "订阅", url: "https://runwayml.com" },
-    { name: "可灵 / 海螺", cat: "video", by: "快手 / MiniMax", desc: "国产文生视频工具，运动一致性与画质表现良好。", tags: ["国产", "文生视频"], price: "订阅", url: "" },
+    { name: "可灵 / 海螺", cat: "video", by: "快手 / MiniMax", desc: "国产文生视频工具，运动一致性与画质表现良好。", tags: ["国产", "文生视频"], price: "订阅", url: "https://klingai.kuaishou.com/" },
     { name: "ElevenLabs", cat: "video", by: "ElevenLabs", desc: "高质量语音合成与声音克隆，多语种配音。", tags: ["TTS", "克隆"], price: "免费额度 / 订阅", url: "https://elevenlabs.io" },
     { name: "Suno / Udio", cat: "video", by: "Suno / Udio", desc: "文本生成歌曲与配乐，可指定风格、情绪与结构。", tags: ["音乐", "生成"], price: "免费额度 / 订阅", url: "https://suno.com" },
     { name: "Notion AI", cat: "office", by: "Notion", desc: "笔记与知识库内的写作、总结、翻译与数据库自动化。", tags: ["笔记", "知识库"], price: "订阅", url: "https://www.notion.so/product/ai" },
