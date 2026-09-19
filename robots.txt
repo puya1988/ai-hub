@@ -7,4 +7,4 @@ Allow: /
 Disallow: /scripts/
 Disallow: /assets/js/README
 
-Sitemap: https://zhupuya.github.io/ai-hub/sitemap.xml
+Sitemap: https://puya1988.github.io/ai-hub/sitemap.xml

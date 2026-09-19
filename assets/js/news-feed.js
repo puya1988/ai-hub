@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-09-19 10:59
+   抓取时间：2026-09-19 11:01
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-09-19 10:59",
+    "updated": "2026-09-19 11:01",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -43,6 +43,42 @@ window.AI_FEED = {
         "readTime": 4,
         "hot": 78,
         "link": "https://www.leiphone.com/category/industrynews/uKmCBjBhfQW9iDHy.html"
+      },
+      {
+        "id": "r55fcd67c8a",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-09-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "陶哲轩代表SAIR Foundation宣布正式启动“开放数学模型计划”",
+        "summary": "让开放模型与可负担的算力成为数学研究的共享基石 陶哲轩代表SAIR Foundation宣布正式启动“开放数学模型计划”",
+        "tags": [
+          "论文",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 74,
+        "link": "https://www.qbitai.com/2026/09/492467.html"
+      },
+      {
+        "id": "rf2f9ccd806",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+        "summary": "同一预测核心，跨七类系统验证 AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 74,
+        "link": "https://www.qbitai.com/2026/09/492429.html"
       },
       {
         "id": "r885baf6514",
@@ -209,23 +245,6 @@ window.AI_FEED = {
         "link": "https://www.qbitai.com/2026/09/492175.html"
       },
       {
-        "id": "ra9cfa97e34",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-18",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "白天务农晚上码农，这个斐济农民跨越一万公里来拼多多取经",
-        "summary": "那些数以亿万计的，仍在等待被市场看见的小农户们。 白天务农晚上码农，这个斐济农民跨越一万公里来拼多多取经",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 74,
-        "link": "https://www.qbitai.com/2026/09/492015.html"
-      },
-      {
         "id": "re1dd5edfab",
         "auto": true,
         "featured": false,
@@ -384,23 +403,6 @@ window.AI_FEED = {
         "readTime": 7,
         "hot": 70,
         "link": "https://www.leiphone.com/category/industrynews/Jaf7iAiksJuqQ16a.html"
-      },
-      {
-        "id": "rbbb26b3a92",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-18",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "AGI最难一战，竟在医院！中国AI登上Science，医生不怕失业还催着上线",
-        "summary": "用通用AI去啃最硬的骨头，这条路走得通 AGI最难一战，竟在医院！中国AI登上Science，医生不怕失业还催着上线",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 68,
-        "link": "https://www.qbitai.com/2026/09/491875.html"
       },
       {
         "id": "r6081f7c5f6",
