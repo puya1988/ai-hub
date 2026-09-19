@@ -18,7 +18,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
-const PAGES = ["index", "news", "models", "tools", "papers", "learn", "glossary", "timeline", "about"];
+const PAGES = ["index", "news", "models", "tools", "hardware", "papers", "learn", "glossary", "timeline", "about"];
 
 /* 各页面的抓取优先级与更新频率（首页最高，about 最低） */
 const PRIORITY = {
@@ -26,6 +26,7 @@ const PRIORITY = {
   news: ["0.9", "daily"],
   models: ["0.8", "weekly"],
   tools: ["0.8", "weekly"],
+  hardware: ["0.8", "weekly"],
   glossary: ["0.7", "weekly"],
   learn: ["0.7", "monthly"],
   papers: ["0.6", "monthly"],

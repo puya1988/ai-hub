@@ -120,6 +120,26 @@
         <h3 class="card-title">Changelog</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.2.0 · Hardware recommendation module
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              Added a bilingual <a href="hardware.html">hardware recommendation</a> module organised along two axes.<br>
+              <b>1. By environment:</b> commercial versus industrial grade across 16 attributes — operating
+              temperature, supply longevity, ECC, shock, EMC, watchdog, lifecycle and price multiple — with
+              the five most commonly overlooked differences highlighted.<br>
+              <b>2. By user:</b> individual/hobbyist, professional/studio, enterprise and industrial/edge.
+              Each gets three recommended builds (GPU, CPU, memory, storage, PSU, cooling, indicative price
+              and what it actually runs) plus its own pitfalls.<br>
+              <b>Also included:</b> a VRAM cheat sheet (7 model-size tiers × FP16/INT8/INT4 × commercial and
+              professional options), eight key metrics, budget splits for four segments, seven common
+              mistakes and a 12-point pre-purchase checklist.<br>
+              <b>Engineering:</b> hardware data lives in separate <code class="inline">hardware.zh.js</code> /
+              <code class="inline">hardware.en.js</code> files because hardware needs its own update cadence.
+              Every entry is indexed in site-wide search, and the homepage links straight to each segment.
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.1.1 · Everything is now clickable
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>
@@ -215,6 +235,7 @@ node scripts/build-en.js</pre>
 <div id="site-footer"></div>
 <script src="../assets/js/i18n.js"></script>
 <script src="../assets/js/data.en.js"></script>
+<script src="../assets/js/hardware.en.js"></script>
 <script src="../assets/js/news-feed.js"></script>
 <script src="../assets/js/app.js"></script>
 </body>

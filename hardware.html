@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 硬件配置推荐 — 个人 / 专业 / 企业 / 工业，市场级与工业级对比 | AI HUB</title>
+<meta name="description" content="AI 硬件选型指南：个人、专业工作室、企业、工业边缘四类场景的推荐配置，显存需求速查表，以及市场级与工业级在宽温、供货周期、ECC、抗震、TCO 上的本质差别。">
+<meta name="keywords" content="AI硬件,GPU选型,显存,推理服务器,工业级,宽温,工控机,边缘计算,私有化部署,算力">
+<meta name="author" content="AI HUB">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="zh-CN" href="hardware.html">
+<link rel="alternate" hreflang="en" href="en/hardware.html">
+<link rel="alternate" hreflang="x-default" href="hardware.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="hardware">
+
+<div id="site-header"></div>
+
+<main>
+  <!-- ============ 标题区 ============ -->
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:18px">
+        <div>
+          <div class="sec-eyebrow">硬件选型</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">AI 硬件配置推荐</h1>
+          <p id="hwIntro" style="max-width:74ch"></p>
+        </div>
+        <div class="hw-time" id="hwUpdated"></div>
+      </div>
+
+      <div class="notice mb-32">
+        <b>时效声明：</b>硬件是本页更新最频繁的部分——显卡、内存与整机价格随时波动，型号也在快速换代。
+        以下价格为<b>参考区间</b>（人民币，含税估算），配置组合为推荐起点而非唯一答案。
+        下单前请核对实时渠道价与官方规格书，并根据实际负载做小规模压测。
+      </div>
+
+      <!-- 市场级 / 工业级 -->
+      <div class="sec-head" style="margin-bottom:18px">
+        <div>
+          <div class="sec-eyebrow">先分清环境</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">市场级 vs 工业级</h2>
+          <p>这不是「贵一点」和「便宜一点」的区别，而是两套完全不同的设计目标。
+            <span style="color:var(--warn);font-weight:700">标黄</span>的是最容易被忽略、也最致命的差异。</p>
+        </div>
+      </div>
+      <div class="hw-grade-grid mb-24" id="hwGrades"></div>
+      <div id="hwCompare"></div>
+    </div>
+  </section>
+
+  <!-- ============ 按使用者分类 ============ -->
+  <section class="section" id="hwRoot" style="background:var(--surface-2);border-block:1px solid var(--border)">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">再分清使用者</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">按使用者分类的推荐配置</h2>
+          <p>选一个身份，看对应的推荐配置、能跑什么、以及最容易踩的坑。选择会记住。</p>
+        </div>
+      </div>
+      <div class="hw-seg-tabs" id="hwTabs"></div>
+      <div id="hwPanel"></div>
+    </div>
+  </section>
+
+  <!-- ============ 显存速查 ============ -->
+  <section class="section">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">第一约束</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">显存需求速查</h2>
+          <p>先确认显存够不够，再谈算力。显存不够时模型根本加载不进去，任何调优都救不回来。</p>
+        </div>
+      </div>
+      <div id="hwVram"></div>
+    </div>
+  </section>
+
+  <!-- ============ 关键指标 ============ -->
+  <section class="section" style="background:var(--surface-2);border-block:1px solid var(--border)">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">看懂参数</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">关键指标怎么读</h2>
+          <p>八个真正影响体验的指标，以及它们各自决定什么。</p>
+        </div>
+      </div>
+      <div class="hw-metrics" id="hwMetrics"></div>
+    </div>
+  </section>
+
+  <!-- ============ 预算与误区 ============ -->
+  <section class="section">
+    <div class="container container-wide">
+      <div class="grid grid-2" style="gap:32px">
+        <div>
+          <div class="sec-head" style="margin-bottom:18px">
+            <div>
+              <div class="sec-eyebrow">钱花在哪</div>
+              <h2 style="font-size:clamp(19px,2.2vw,24px)">预算怎么分配</h2>
+              <p>同样一笔钱，花在哪里的回报差别很大。</p>
+            </div>
+          </div>
+          <div class="hw-budget" id="hwBudget"></div>
+        </div>
+        <div>
+          <div class="sec-head" style="margin-bottom:18px">
+            <div>
+              <div class="sec-eyebrow">少踩坑</div>
+              <h2 style="font-size:clamp(19px,2.2vw,24px)">七个常见误区</h2>
+              <p>这些坑几乎每个采购都会遇到一次。</p>
+            </div>
+          </div>
+          <div class="hw-mistakes" id="hwMistakes"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 自检清单 ============ -->
+  <section class="section" style="background:var(--surface-2);border-block:1px solid var(--border)">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">下单前</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">采购自检清单</h2>
+          <p>逐条过一遍，能省掉大部分返工。</p>
+        </div>
+      </div>
+      <ul class="hw-check" id="hwChecklist"></ul>
+
+      <div class="notice mt-32">
+        <b>说明：</b>本页配置建议基于公开规格与常见工程实践整理，属于参考性指南，不构成采购承诺。
+        实际选型请结合自己的模型、并发量、延迟要求与环境条件做验证。
+        产品型号与商标归各自厂商所有。
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/data.zh.js"></script>
+<script src="assets/js/hardware.zh.js"></script>
+<script src="assets/js/news-feed.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

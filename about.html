@@ -110,6 +110,24 @@
         <h3 class="card-title">更新日志</h3>
         <div class="mt-16">
           <div class="acc-item open">
+            <button class="acc-head">v1.2.0 · 新增硬件配置推荐模块
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="acc-body"><div class="acc-body-inner">
+              新增 <a href="hardware.html">硬件配置推荐</a> 模块（中英双语），按两个维度组织：<br>
+              <b>一、按使用环境分：</b>市场级 vs 工业级，16 项差异逐条对比——工作温度、供货周期、
+              ECC、抗振、EMC、看门狗、生命周期、价格倍率，其中 5 项最易被忽略的差异做了重点标注。<br>
+              <b>二、按使用者分：</b>个人 / 爱好者、专业 / 工作室、企业、工业 / 边缘四类，
+              每类给出 3 套推荐配置（含 GPU、CPU、内存、存储、电源、散热、参考价格、能跑什么），
+              以及各自的避坑提示。<br>
+              <b>另含：</b>显存需求速查表（7 档模型规模 × FP16/INT8/INT4 × 消费级与专业级方案）、
+              8 个关键指标解读、4 类预算分配比例、7 个常见误区、12 条采购自检清单。<br>
+              <b>工程上：</b>硬件数据独立为 <code class="inline">hardware.zh.js</code> /
+              <code class="inline">hardware.en.js</code>，因为硬件迭代最快、需要单独更新；
+              全部条目已编入全站搜索，首页新增选型入口卡片。
+            </div></div>
+          </div>
+          <div class="acc-item">
             <button class="acc-head">v1.1.1 · 全站内容可点击
               <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
             </button>
@@ -196,6 +214,7 @@ python3 -m http.server 8000
 <div id="site-footer"></div>
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/data.zh.js"></script>
+<script src="assets/js/hardware.zh.js"></script>
 <script src="assets/js/news-feed.js"></script>
 <script src="assets/js/app.js"></script>
 </body>

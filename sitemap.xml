@@ -74,6 +74,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://puya1988.github.io/ai-hub/hardware.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://puya1988.github.io/ai-hub/hardware.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://puya1988.github.io/ai-hub/en/hardware.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://puya1988.github.io/ai-hub/hardware.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://puya1988.github.io/ai-hub/en/hardware.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://puya1988.github.io/ai-hub/hardware.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://puya1988.github.io/ai-hub/en/hardware.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://puya1988.github.io/ai-hub/hardware.html"/>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://puya1988.github.io/ai-hub/papers.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://puya1988.github.io/ai-hub/papers.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://puya1988.github.io/ai-hub/en/papers.html"/>

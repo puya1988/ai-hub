@@ -181,13 +181,14 @@
     { href: "learn.html", label: t("site.nav.learn"), page: "learn" },
     { href: "glossary.html", label: t("site.nav.glossary"), page: "glossary" },
     { href: "timeline.html", label: t("site.nav.timeline"), page: "timeline" },
+    { href: "hardware.html", label: t("site.nav.hardware"), page: "hardware" },
     { href: "about.html", label: t("site.nav.about"), page: "about" }
   ];
 
   /* 语言切换：中文站与英文站各自的相对地址 */
   const LANG_SWITCH = LANG === "zh"
-    ? { to: "en", label: "EN", title: "English version", href: "en/index.html", map: { index: "index", news: "news", models: "models", tools: "tools", papers: "papers", learn: "learn", glossary: "glossary", timeline: "timeline", about: "about" } }
-    : { to: "zh", label: "中文", title: "中文版", href: "../index.html", map: { index: "index", news: "news", models: "models", tools: "tools", papers: "papers", learn: "learn", glossary: "glossary", timeline: "timeline", about: "about" } };
+    ? { to: "en", label: "EN", title: "English version", href: "en/index.html", map: { index: "index", news: "news", models: "models", tools: "tools", papers: "papers", learn: "learn", glossary: "glossary", timeline: "timeline", hardware: "hardware", about: "about" } }
+    : { to: "zh", label: "中文", title: "中文版", href: "../index.html", map: { index: "index", news: "news", models: "models", tools: "tools", papers: "papers", learn: "learn", glossary: "glossary", timeline: "timeline", hardware: "hardware", about: "about" } };
 
   /* 当前页在另一语言站点中的对应地址 */
   function counterpartHref() {
@@ -337,7 +338,7 @@
               '<span class="badge">' + t("site.updatedAt") + " " + D.meta.updated + "</span>" +
             "</div>" +
           "</div>" +
-          col(t("site.footer.colContent"), [[t("site.footer.news"), "news.html"], [t("site.footer.models"), "models.html"], [t("site.footer.tools"), "tools.html"], [t("site.footer.glossary"), "glossary.html"]]) +
+          col(t("site.footer.colContent"), [[t("site.footer.news"), "news.html"], [t("site.footer.models"), "models.html"], [t("site.footer.tools"), "tools.html"], [t("site.footer.glossary"), "glossary.html"], [t("site.footer.hardware"), "hardware.html"]]) +
           col(t("site.footer.colLearn"), [[t("site.footer.learn"), "learn.html"], [t("site.footer.papers"), "papers.html"], [t("site.footer.prompts"), "learn.html#prompt"], [t("site.footer.timeline"), "timeline.html"]]) +
           col(t("site.footer.colAbout"), [[t("site.footer.about"), "about.html"], [t("site.footer.source"), "about.html#source"], [t("site.footer.disclaimer"), "about.html#disclaimer"], [t("site.footer.changelog"), "about.html#changelog"]]) +
         "</div>" +
@@ -391,6 +392,32 @@
     D.timeline.forEach((tm) =>
       SEARCH_INDEX.push({ type: t("search.type.timeline"), icon: "🕰️", title: tm.title, sub: tm.date, url: "timeline.html#" + encodeURIComponent(tm.date), keys: tm.title + " " + tm.desc })
     );
+    // 硬件模块：把每个受众、每条配置、每个概念都编入索引
+    if (D.hardware) {
+      const H = D.hardware;
+      const hwType = t("hw.searchType");
+      H.segments.forEach((s) => {
+        SEARCH_INDEX.push({
+          type: hwType, icon: s.icon, title: s.name, sub: s.audience,
+          url: "hardware.html#" + s.id,
+          keys: s.name + " " + s.audience + " " + s.headline + " " + s.scenarios.join(" ")
+        });
+        s.builds.forEach((b) =>
+          SEARCH_INDEX.push({
+            type: hwType, icon: "🧩", title: b.name + "（" + s.short + "）", sub: b.price + " · " + b.runs,
+            url: "hardware.html#" + s.id,
+            keys: s.name + " " + b.name + " " + b.price + " " + b.runs + " " + b.spec.map((r) => r.join(" ")).join(" ")
+          }));
+      });
+      H.segments.forEach((s) => s.pitfalls.forEach((p) =>
+        SEARCH_INDEX.push({ type: hwType, icon: "⚠️", title: p.slice(0, 34) + (p.length > 34 ? "…" : ""), sub: s.name, url: "hardware.html#" + s.id, keys: p + " " + s.name })));
+      H.metrics.forEach((m) =>
+        SEARCH_INDEX.push({ type: hwType, icon: "📐", title: m.name, sub: m.role, url: "hardware.html#hwMetrics", keys: m.name + " " + m.role + " " + m.detail }));
+      H.gradeCompare.forEach((r) =>
+        SEARCH_INDEX.push({ type: hwType, icon: "⚖️", title: r.item, sub: r.market + " ↔ " + r.industrial, url: "hardware.html#hwCompare", keys: r.item + " " + r.market + " " + r.industrial }));
+      H.vram.forEach((r) =>
+        SEARCH_INDEX.push({ type: hwType, icon: "💾", title: r.size, sub: "FP16 " + r.fp16 + " · INT4 " + r.int4, url: "hardware.html#hwVram", keys: r.size + " " + r.fp16 + " " + r.int8 + " " + r.int4 + " " + r.market + " " + r.prof }));
+    }
     SEARCH_READY = true;
     return SEARCH_INDEX.length;
   }
@@ -700,6 +727,27 @@
     const roadHost = $("#roadPreview");
     if (roadHost) {
       roadHost.innerHTML = D.roadmap.slice(0, 3).map(roadCard).join("");
+    }
+
+    // 硬件选型入口：三张卡直连对应受众
+    const hwHost = $("#hwTeaser");
+    if (hwHost && D.hardware) {
+      const ids = ["personal", "enterprise", "industrial"];
+      const picks = ids.map((id) => D.hardware.segments.find((x) => x.id === id)).filter(Boolean);
+      hwHost.innerHTML = picks.map((seg) => {
+        const g = D.hardware.grades.find((x) => x.id === seg.grade) || D.hardware.grades[0];
+        return '<a class="card card-hover card-click" href="hardware.html#' + seg.id + '">' +
+          '<div class="row-between">' +
+            '<span class="badge" style="background:' + g.color + '1f;color:' + g.color + ';border-color:transparent">' + g.icon + " " + esc(g.name) + "</span>" +
+            '<span style="font-size:20px">' + seg.icon + "</span>" +
+          "</div>" +
+          '<h3 class="card-title mt-12">' + esc(seg.name) + "</h3>" +
+          '<div class="tiny dim mt-4">' + esc(seg.audience) + "</div>" +
+          '<p class="small muted mt-8 clamp-2">' + esc(seg.headline) + "</p>" +
+          '<div class="news-meta"><span>' + t("hw.builds") + " " + seg.builds.length + "</span>" +
+            '<span style="margin-left:auto">' + esc(seg.builds[0].price.split("–")[0].trim()) + " " + t("hw.searchType") + "</span></div>" +
+        "</a>";
+      }).join("");
     }
 
     // 术语速查
@@ -1370,6 +1418,209 @@
     }
   }
 
+  /* ============================== 14.5 硬件选型页 ============================== */
+  const HW_COLORS = ["#4f46e5", "#06b6d4", "#12b76a", "#f79009", "#ec4899", "#8b5cf6"];
+
+  function initHardware() {
+    const root = $("#hwRoot");
+    if (!root) return;
+    const H = D.hardware;
+
+    if (!H) {
+      root.innerHTML = '<div class="empty"><div class="em-icon">🧩</div><h3>' + t("hw.noData") + "</h3></div>";
+      return;
+    }
+
+    /* ---- 时效声明 ---- */
+    const upd = $("#hwUpdated");
+    if (upd) upd.innerHTML = t("hw.updated") + ' <b>' + esc(H.updated) + "</b>";
+    const intro = $("#hwIntro");
+    if (intro) intro.textContent = H.intro;
+
+    /* ---- 市场级 / 工业级 对比卡 ---- */
+    const grades = $("#hwGrades");
+    if (grades) {
+      grades.innerHTML = H.grades.map((g) =>
+        '<div class="hw-grade-card" style="--gc:' + g.color + '">' +
+          '<div class="gname">' + g.icon + " " + esc(g.name) + "</div>" +
+          '<div class="gsub">' + esc(g.sub) + "</div>" +
+          "<p>" + esc(g.desc) + "</p>" +
+          '<div class="gtags">' + g.tags.map((x) => '<span class="badge">' + esc(x) + "</span>").join("") + "</div>" +
+        "</div>").join("");
+    }
+
+    /* ---- 对比表 ---- */
+    const cmp = $("#hwCompare");
+    if (cmp) {
+      const gm = H.grades[0], gi = H.grades[1];
+      cmp.innerHTML =
+        '<div class="table-wrap"><table class="data"><thead><tr>' +
+          "<th>" + t("hw.compareItem") + "</th>" +
+          '<th>' + esc(gm.name) + " · " + esc(gm.sub) + "</th>" +
+          '<th>' + esc(gi.name) + " · " + esc(gi.sub) + "</th>" +
+        "</tr></thead><tbody>" +
+        H.gradeCompare.map((r) =>
+          '<tr' + (r.key ? ' class="hw-key-row"' : "") + ">" +
+            "<td><b>" + esc(r.item) + "</b></td>" +
+            "<td>" + esc(r.market) + "</td>" +
+            "<td>" + esc(r.industrial) + "</td>" +
+          "</tr>").join("") +
+        "</tbody></table></div>";
+    }
+
+    /* ---- 受众切换 ---- */
+    const tabs = $("#hwTabs");
+    const panel = $("#hwPanel");
+    const gradeOf = (id) => H.grades.find((g) => g.id === id) || H.grades[0];
+
+    /* 支持 #personal 这类深链接与记忆上次选择 */
+    const hashId = (location.hash || "").replace(/^#/, "");
+    let current = H.segments.some((s) => s.id === hashId)
+      ? hashId
+      : (Store.get("aihub-hw-segment") || (H.segments[0] && H.segments[0].id));
+    if (!H.segments.some((s) => s.id === current)) current = H.segments[0].id;
+
+    function renderTabs() {
+      tabs.innerHTML = H.segments.map((s) => {
+        const g = gradeOf(s.grade);
+        return '<button class="hw-seg-tab' + (s.id === current ? " active" : "") + '" data-seg="' + esc(s.id) + '">' +
+          '<span class="grade-dot" style="background:' + g.color + '" title="' + esc(g.name) + '"></span>' +
+          '<div class="ico">' + s.icon + "</div>" +
+          '<div class="nm">' + esc(s.name) + "</div>" +
+          '<div class="sub">' + esc(s.audience) + "</div>" +
+          "</button>";
+      }).join("");
+    }
+
+    function renderPanel() {
+      const s = H.segments.find((x) => x.id === current);
+      if (!s) return;
+      const g = gradeOf(s.grade);
+
+      panel.innerHTML =
+        '<div class="hw-panel">' +
+          '<div class="hw-headline"><span>' + g.icon + "</span><span>" + esc(s.headline) + "</span>" +
+            '<span class="badge" style="margin-left:auto;background:' + g.color + '1f;color:' + g.color + ';border-color:transparent">' +
+              esc(g.name) + "</span></div>" +
+
+          '<div class="grid grid-2 mb-24">' +
+            '<div class="card card-pad-sm">' +
+              '<div class="sec-eyebrow">' + t("hw.audience") + "</div>" +
+              '<p class="small muted">' + esc(s.audience) + "</p>" +
+            "</div>" +
+            '<div class="card card-pad-sm">' +
+              '<div class="sec-eyebrow">' + t("hw.scenarios") + "</div>" +
+              '<div class="row gap-6 wrap">' + s.scenarios.map((x) => '<span class="badge">' + esc(x) + "</span>").join("") + "</div>" +
+            "</div>" +
+          "</div>" +
+
+          '<div class="sec-eyebrow">' + t("hw.builds") + "</div>" +
+          '<div class="hw-builds">' +
+            s.builds.map((b) =>
+              '<div class="hw-build">' +
+                '<span class="hw-build-tier">' + esc(b.tier) + "</span>" +
+                "<h4>" + esc(b.name) + "</h4>" +
+                '<div class="price">' + esc(b.price) + "</div>" +
+                '<dl class="hw-spec">' +
+                  b.spec.map((row) => "<dt>" + esc(row[0]) + "</dt><dd>" + esc(row[1]) + "</dd>").join("") +
+                "</dl>" +
+                '<div class="hw-runs"><b>' + t("hw.runs") + "：</b>" + esc(b.runs) + "</div>" +
+                '<div class="note">' + esc(b.note) + "</div>" +
+              "</div>").join("") +
+          "</div>" +
+
+          '<div class="sec-head mt-32" style="margin-bottom:16px"><div>' +
+            '<div class="sec-eyebrow">' + t("hw.pitfalls") + "</div>" +
+          "</div></div>" +
+          '<div class="hw-mistakes">' +
+            s.pitfalls.map((p) => '<div class="hw-mistake"><div class="md" style="margin-top:0">' + esc(p) + "</div></div>").join("") +
+          "</div>" +
+        "</div>";
+    }
+
+    tabs.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-seg]");
+      if (!b) return;
+      current = b.dataset.seg;
+      Store.set("aihub-hw-segment", current);
+      renderTabs();
+      renderPanel();
+    });
+
+    renderTabs();
+    renderPanel();
+
+    /* ---- 显存速查表 ---- */
+    const vram = $("#hwVram");
+    if (vram) {
+      vram.innerHTML =
+        '<div class="table-wrap"><table class="data"><thead><tr>' +
+          "<th>" + t("hw.vramSize") + "</th><th>FP16</th><th>INT8</th><th>INT4</th>" +
+          '<th>' + t("hw.vramMarket") + "</th><th>" + t("hw.vramProf") + "</th>" +
+        "</tr></thead><tbody>" +
+        H.vram.map((r) =>
+          "<tr><td class=\"name-cell\">" + esc(r.size) + "</td>" +
+          '<td class="mono tiny">' + esc(r.fp16) + "</td>" +
+          '<td class="mono tiny">' + esc(r.int8) + "</td>" +
+          '<td class="mono tiny">' + esc(r.int4) + "</td>" +
+          '<td class="tiny">' + esc(r.market) + "</td>" +
+          '<td class="tiny">' + esc(r.prof) + "</td></tr>").join("") +
+        "</tbody></table></div>" +
+        '<div class="notice mt-16">' + esc(H.vramNote) + "</div>";
+    }
+
+    /* ---- 关键指标 ---- */
+    const metrics = $("#hwMetrics");
+    if (metrics) {
+      metrics.innerHTML = H.metrics.map((m) =>
+        '<div class="hw-metric">' +
+          '<div class="mname">' + esc(m.name) + "</div>" +
+          '<div class="mrole">' + esc(m.role) + "</div>" +
+          '<div class="mdetail">' + esc(m.detail) + "</div>" +
+        "</div>").join("");
+    }
+
+    /* ---- 预算分配条形图 ---- */
+    const budget = $("#hwBudget");
+    if (budget) {
+      budget.innerHTML = H.budget.map((b) => {
+        const seg = H.segments.find((s) => s.short === b.segment || s.name === b.segment);
+        const bars = b.alloc.map((a, i) => {
+          const style = "width:" + a[1] + "%;background:" + HW_COLORS[i % HW_COLORS.length];
+          return '<span style="' + style + '" title="' + esc(a[0]) + " " + a[1] + '">' + a[1] + "%</span>";
+        }).join("");
+        const legend = b.alloc.map((a, i) =>
+          '<span><i style="background:' + HW_COLORS[i % HW_COLORS.length] + '"></i>' + esc(a[0]) + " " + a[1] + "%</span>").join("");
+        return '<div class="hw-budget-row">' +
+          '<div class="bl">' + (seg ? seg.icon + " " : "") + esc(b.segment) + "</div>" +
+          '<div class="hw-budget-bar">' + bars + "</div>" +
+          '<div class="hw-budget-legend">' + legend + "</div>" +
+        "</div>";
+      }).join("");
+    }
+
+    /* ---- 常见误区 ---- */
+    const mis = $("#hwMistakes");
+    if (mis) {
+      mis.innerHTML = H.mistakes.map((m) =>
+        '<div class="hw-mistake"><div class="mt">' + esc(m.title) + '</div><div class="md">' + esc(m.desc) + "</div></div>").join("");
+    }
+
+    /* ---- 采购自检清单 ---- */
+    const chk = $("#hwChecklist");
+    if (chk) {
+      chk.innerHTML = H.checklist.map((c) => "<li>" + icon("check") + "<span>" + esc(c) + "</span></li>").join("");
+    }
+
+    /* ---- 深链接：#personal 直接定位到对应受众 ---- */
+    if (H.segments.some((s) => s.id === hashId)) {
+      setTimeout(() => {
+        const el = $("#hwRoot");
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 200);
+    }
+  }
+
   /* ============================== 15. 手风琴 ============================== */
   function initAccordion() {
     $$(".acc-head").forEach((h) =>
@@ -1709,7 +1960,8 @@
     initSearch();
     const map = {
       home: initHome, news: initNews, models: initModels, tools: initTools,
-      papers: initPapers, learn: initLearn, glossary: initGlossary, timeline: initTimeline
+      papers: initPapers, learn: initLearn, glossary: initGlossary, timeline: initTimeline,
+      hardware: initHardware
     };
     try {
       if (map[PAGE]) map[PAGE]();

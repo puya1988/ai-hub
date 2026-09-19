@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- ⚠ 本文件由 scripts/build-en.js 自动生成，请勿手工编辑；改脚本后运行 node scripts/build-en.js 重新生成 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI hardware recommendations — individual, professional, enterprise, industrial | AI HUB</title>
+<meta name="description" content="AI hardware sizing guide: recommended builds for individuals, studios, enterprises and industrial edge, a VRAM cheat sheet, and the real differences between commercial and industrial grade.">
+<meta name="author" content="AI HUB">
+<meta property="og:title" content="AI hardware recommendations — individual, professional, enterprise, industrial | AI HUB">
+<meta property="og:description" content="AI hardware sizing guide: recommended builds for individuals, studios, enterprises and industrial edge, a VRAM cheat sheet, and the real differences between commercial and industrial grade.">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="zh-CN" href="../hardware.html">
+<link rel="alternate" hreflang="en" href="hardware.html">
+<link rel="alternate" hreflang="x-default" href="../hardware.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%234f46e5'/%3E%3Ctext y='72' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='bold' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<script>/* 提前应用主题与配色，避免首屏闪烁 */(function(){var e=document.documentElement;try{var k=localStorage.getItem("aihub-theme");var d=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;e.setAttribute("data-theme",(k==="dark"||k==="light")?k:(d?"dark":"light"));var a=localStorage.getItem("aihub-accent");if(a&&a!=="indigo")e.setAttribute("data-accent",a);}catch(err){e.setAttribute("data-theme","light");}})();</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="hardware">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="section-sm" style="padding-top:44px">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:18px">
+        <div>
+          <div class="sec-eyebrow">Hardware</div>
+          <h1 style="font-size:clamp(24px,3vw,34px)">AI hardware recommendations</h1>
+          <p id="hwIntro" style="max-width:74ch"></p>
+        </div>
+        <div class="hw-time" id="hwUpdated"></div>
+      </div>
+
+      <div class="notice mb-32">
+        <b>Currency disclaimer:</b> hardware is the fastest-moving part of this site — GPU, memory and
+        system pricing shifts constantly and model numbers turn over quickly. Prices below are
+        <b>indicative ranges</b> (USD, excl. tax) and the builds are starting points, not the only answer.
+        Confirm current channel pricing and official specifications before ordering, and validate with a
+        small benchmark on your own workload.
+      </div>
+
+      <div class="sec-head" style="margin-bottom:18px">
+        <div>
+          <div class="sec-eyebrow">Start with the environment</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">Commercial vs industrial grade</h2>
+          <p>This is not “a bit more expensive” versus “a bit cheaper” — the two are designed against
+            completely different goals. <span style="color:var(--warn);font-weight:700">Highlighted</span>
+            rows are the differences most often overlooked and most damaging.</p>
+        </div>
+      </div>
+      <div class="hw-grade-grid mb-24" id="hwGrades"></div>
+      <div id="hwCompare"></div>
+    </div>
+  </section>
+
+  <section class="section" id="hwRoot" style="background:var(--surface-2);border-block:1px solid var(--border)">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">Then the user</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">Recommended builds by segment</h2>
+          <p>Pick a profile to see the recommended builds, what they actually run, and the mistakes to avoid. Your choice is remembered.</p>
+        </div>
+      </div>
+      <div class="hw-seg-tabs" id="hwTabs"></div>
+      <div id="hwPanel"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">The first constraint</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">VRAM cheat sheet</h2>
+          <p>Confirm VRAM first, then talk about compute. If it does not fit, the model will not load and no amount of tuning helps.</p>
+        </div>
+      </div>
+      <div id="hwVram"></div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--surface-2);border-block:1px solid var(--border)">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">Reading the specs</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">What each metric actually decides</h2>
+          <p>Eight metrics that genuinely change the experience.</p>
+        </div>
+      </div>
+      <div class="hw-metrics" id="hwMetrics"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container-wide">
+      <div class="grid grid-2" style="gap:32px">
+        <div>
+          <div class="sec-head" style="margin-bottom:18px">
+            <div>
+              <div class="sec-eyebrow">Where the money goes</div>
+              <h2 style="font-size:clamp(19px,2.2vw,24px)">How to split the budget</h2>
+              <p>The same money returns very different value depending on where it goes.</p>
+            </div>
+          </div>
+          <div class="hw-budget" id="hwBudget"></div>
+        </div>
+        <div>
+          <div class="sec-head" style="margin-bottom:18px">
+            <div>
+              <div class="sec-eyebrow">Avoid the traps</div>
+              <h2 style="font-size:clamp(19px,2.2vw,24px)">Seven common mistakes</h2>
+              <p>Almost every procurement makes at least one of these.</p>
+            </div>
+          </div>
+          <div class="hw-mistakes" id="hwMistakes"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--surface-2);border-block:1px solid var(--border)">
+    <div class="container container-wide">
+      <div class="sec-head" style="margin-bottom:20px">
+        <div>
+          <div class="sec-eyebrow">Before you order</div>
+          <h2 style="font-size:clamp(20px,2.4vw,27px)">Pre-purchase checklist</h2>
+          <p>Run through this and you avoid most rework.</p>
+        </div>
+      </div>
+      <ul class="hw-check" id="hwChecklist"></ul>
+
+      <div class="notice mt-32">
+        <b>Note:</b> these recommendations are compiled from public specifications and common engineering
+        practice. They are guidance, not a procurement commitment. Validate against your own models,
+        concurrency, latency targets and environment. Product names and trademarks belong to their
+        respective owners.
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data.en.js"></script>
+<script src="../assets/js/hardware.en.js"></script>
+<script src="../assets/js/news-feed.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>
