@@ -11,3 +11,7 @@ fetch.log
 # 本地临时文件
 *.tmp
 *.bak
+
+# 图标预览图（构建产物，可用 make-icon.py 重新生成）
+assets/icon/aihub-1024.png
+assets/icon/*.iconset/
