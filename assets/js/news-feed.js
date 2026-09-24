@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-09-23 23:06
+   抓取时间：2026-09-24 23:07
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-09-23 23:06",
+    "updated": "2026-09-24 23:07",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,193 +25,590 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "r09633644a5",
+        "id": "rc18d091546",
         "auto": true,
         "featured": false,
-        "cat": "model",
-        "date": "2026-09-23",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
-        "summary": "点击查看原文> Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 95,
-        "link": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r7ec464cb1b",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-23",
+        "cat": "research",
+        "date": "2026-09-24",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "GPT-6 Sol 降价 50% 的秘密：消失的 Terra，一场模型梯队平移",
-        "summary": "奥圣上台，梁圣危机了么？ 作者丨高允毅 编辑丨岑 峰 OpenAI 也走性价比路线了？别被它的“偷梁换柱”给骗了。今早，硅谷又热闹了，迎来双雄对决。Anthropic 推出 Claude Opus 5.5，OpenAI 紧接着推出 GPT-6 Sol 与 Luna。和以往模型更新不同的是，行业的讨论点聚焦到了“大家怎么都变便宜了”。Claude Opus 5.5 较上一代 Opus 5，成本…",
+        "title": "SeeAct AI穆尧：具身智能终局，一定是从“被训练”走向“自我进化”｜物理AI50人",
+        "summary": "机器人真正缺的，不是数据，而是经验。 作者：李秋悦编辑：吴彤那是具身智能最荒芜的时候。 没有成熟数据集，没有标准Benchmark，甚至没有一条被验证能走通的技术路线。 穆尧南下港大读博，开始研究具身智能。 2021年，穆尧进入HKUMMLab，成为该实验室创始人罗平教授和中国人工智能奠基人之一的汤晓鸥教授共同指导的学生。 “具身智能会是一个非常 Promising 的方向。”刚入组时导师们…",
         "tags": [
+          "开源",
           "论文",
-          "算力",
-          "Agent",
+          "政策",
           "中文源"
         ],
         "readTime": 12,
         "hot": 95,
-        "link": "https://www.leiphone.com/category/yanxishe/gnzWAPK52Igo0DSk.html"
+        "link": "https://www.leiphone.com/category/ai/k1XGdu6w3n7xGgKB.html"
       },
       {
-        "id": "ra16cbc2eb7",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
-        "summary": "企业AI服务迎来平台化交付时代 汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 94,
-        "link": "https://www.qbitai.com/2026/09/496493.html"
-      },
-      {
-        "id": "re78331124f",
+        "id": "r28a030385f",
         "auto": true,
         "featured": false,
         "cat": "apply",
-        "date": "2026-09-23",
+        "date": "2026-09-24",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "蚂蚁密算发布企业级可信智能云服务平台“密算一号”，启动首批定向邀测",
-        "summary": "2026云栖大会在杭州召开，在蚂蚁密算与阿里云共同承办的“密算织域 融数成智”专题论坛上，蚂蚁密算发布企业级可信智能云服务平台“密算一号”，并启动首批定向邀测。 平台以密态计算为基础，同时连接云上大模型、智能体与算力，核心能力是让企业数据在“可用不可见、可控可计量”的前提下，安全地参与跨机构合作和云上AI应用。企业可通过密算一号按需申请数据、模型和计算能力，由平台完成参与方接入、权限管理、密…",
+        "title": "坐稳RGB-Mini LED电视龙头！海信双7旗舰新品登场，原生真彩再进化",
+        "summary": "9月23日，2026海信电视召开秋季新品发布会，正式推出全新一代RGB-Mini LED影像旗舰U7T Pro、性能旗舰E7S Pro+两大双7旗舰新品，一次性落地六大行业首发技术，从背光硬件、屏幕素质、专属画质到智能系统全方位革新，彻底改写RGB-Mini LED高端大屏体验标准，海信 RGB-Mini LED 电视也真正实现常用常新，领先行业的优势再度拉大。 从行业首创到高端主流！海信重…",
         "tags": [
           "算力",
           "Agent",
           "国产",
           "中文源"
         ],
-        "readTime": 5,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/industrynews/vcFXR69YQUTL9k43.html"
+        "readTime": 7,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/smarthome/Htdf6ElXF7ZKzces.html"
       },
       {
-        "id": "re35e3894ee",
+        "id": "rd11dbc58c1",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+        "summary": "人类演示一次，机器人即可实现跨场景任务复用 GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://www.qbitai.com/2026/09/496816.html"
+      },
+      {
+        "id": "rbc83b33fbf",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "29 小时攻破浏览器，GPT-6 Astra 成为 OpenAI 首个“严重级”模型",
+        "summary": "点击查看原文> 29 小时攻破浏览器，GPT-6 Astra 成为 OpenAI 首个“严重级”模型",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r5489965aa8",
         "auto": true,
         "featured": false,
         "cat": "apply",
-        "date": "2026-09-23",
+        "date": "2026-09-24",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "从设备到场景，影像产业正在打开怎样的新边界？",
-        "summary": "SmallRig斯莫格第三届全球影像场景产业大会（2026） 9月22日，由乐其创新SmallRig联合36氪主办的第三届全球影像场景产业大会（2026，下称大会）在深圳举行。本届大会以“连接·共生·新边界”为主题，分为主旨会场和影像场景人才·未来场、影像场景产品·文创场、影像场景技术·新边界三大平行分会场，邀请影像品牌、科技企业、创作者、文创IP、产业服务、投资机构、高校及研究机构等代表，…",
+        "title": "腾势Z9S正式上市：纯电续航1100km，25.58万元起",
+        "summary": "9月23日，腾势旗下“科技豪华智能轿车”Z9S正式上市，推出闪充尊荣型、闪充旗舰型、易三方闪充性能型三款车型，面向用户“悦己、悦人、悦非凡”的不同需求。新车搭载第二代刀片电池及闪充技术，CLTC纯电续航最高1100km，官方给出“5分钟充好，9分钟充饱，零下30度只多3分钟”的补能表现。同时，易三方、AI超级智能体迪迪虾、Diva智能伙伴、天神之眼5.0及云辇-A智能空气车身控制系统等技术集…",
         "tags": [
-          "论文",
-          "融资",
-          "算力",
+          "Agent",
+          "多模态",
           "中文源"
         ],
-        "readTime": 11,
+        "readTime": 10,
         "hot": 94,
-        "link": "https://www.leiphone.com/category/industrynews/K21m19f4RE96h2ex.html"
+        "link": "https://www.leiphone.com/category/transportation/nBAYRoWBOZSuBT5D.html"
       },
       {
-        "id": "r70e127168b",
+        "id": "r6ee05e8e92",
         "auto": true,
         "featured": false,
-        "cat": "research",
-        "date": "2026-09-23",
-        "source": "arXiv cs.CL",
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：小米召开秋季新品发布会、千问发布 Qwen-Audio-3.1系列模型等",
+        "summary": "Amazfit 推出智能手表 T-Rex Dual Solar、雷蛇推出灰鲭鲨 X 游戏音箱等。查看全文",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://sspai.com/post/114913"
+      },
+      {
+        "id": "rb9d00d4a33",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-09-24",
+        "source": "arXiv cs.AI",
         "lang": "en",
-        "title": "From Tone to Trajectory: Continuous Sentiment and the Shape of Monetary Policy Communication",
-        "summary": "arXiv:2609.25034v1 Announce Type: new \nAbstract: Central bank press conferences are not merely information releases --- they are structured narratives. We study whether the shape of sentiment withi…",
+        "title": "TwinCheck: Evidence-Grounded Negative-Twin Verification for Stateful Tool Agents",
+        "summary": "arXiv:2609.26911v1 Announce Type: new \nAbstract: A single locally plausible tool call can derail an otherwise successful agent trajectory. Suspicion alone does not justify intervention, because the…",
         "tags": [
           "论文",
           "政策",
+          "融资",
           "英文源"
         ],
         "readTime": 2,
         "hot": 94,
-        "link": "https://arxiv.org/abs/2609.25034"
+        "link": "https://arxiv.org/abs/2609.26911"
       },
       {
-        "id": "raf1e8c4022",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-09-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "达卯科技完成新一轮融资，算电协同核心软件层“稀缺标的”",
-        "summary": "打造算电协同领域“Windows”级操作系统 达卯科技完成新一轮融资，算电协同核心软件层“稀缺标的”",
-        "tags": [
-          "融资",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/496494.html"
-      },
-      {
-        "id": "r8b38c697ff",
+        "id": "rdaf012732b",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-09-23",
+        "date": "2026-09-24",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Recognized but Not Produced: A Generation Benchmark for Culturally Specific Kinship Terms",
+        "summary": "arXiv:2609.26942v1 Announce Type: new \nAbstract: Current literature evaluates large language models (LLMs) on multilingual kinship understanding using multiple choice benchmarks, treating it as a r…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://arxiv.org/abs/2609.26942"
+      },
+      {
+        "id": "r1bbc7a0d1f",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
         "source": "量子位",
         "lang": "zh",
-        "title": "斑马智能发布端模型AutoOmni2.0，让元神AI更懂“我的世界”",
-        "summary": "9月23日云栖大会期间，斑马智能发布新一代全模态端侧大模型AutoOmni 2.0-23B-A3B",
+        "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
+        "summary": "1.5台6000D跑赢1台B300！ PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
         "tags": [
           "中文源"
         ],
         "readTime": 2,
         "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/496471.html"
+        "link": "https://www.qbitai.com/2026/09/496925.html"
       },
       {
-        "id": "r144b39e987",
+        "id": "rca28141735",
         "auto": true,
         "featured": false,
-        "cat": "apply",
-        "date": "2026-09-23",
-        "source": "雷锋网",
+        "cat": "opensrc",
+        "date": "2026-09-24",
+        "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "影像场景行业正在换赛道：定义影像设备的权利，正在交给千行百业的真实场景",
-        "summary": "过去一年，影像行业最值得琢磨的变化，是越来越多厂商开始用“场景”重新定义自己。 9月22日，深圳。乐其创新SmallRig联合36氪主办的第三届全球影像场景产业大会（2026）在深铁铂尔曼酒店举行，索尼、尼康、影石、荣耀、vivo、适马、蓝箭航天、极壳、朗翰科技等众多产业链上的品牌到场，主题是“连接·共生·新边界”。 与往届相比，今年现场被反复提起的，不是画质、像素，而是骑行、直播、短剧、演…",
+        "title": "世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
+        "summary": "点击查看原文> 世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
         "tags": [
-          "论文",
-          "融资",
-          "国产",
+          "开源",
           "中文源"
         ],
-        "readTime": 9,
+        "readTime": 2,
         "hot": 92,
-        "link": "https://www.leiphone.com/category/weiwu/9E7usYwuoOSNziXL.html"
+        "link": "https://www.infoq.cn/article/hrmb2p18iKEwl24OMvcv?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r5d41a18e61",
+        "id": "rfee23cead6",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
+        "summary": "点击查看原文> WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rab85e9e498",
         "auto": true,
         "featured": false,
         "cat": "apply",
-        "date": "2026-09-23",
+        "date": "2026-09-24",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "星驿付与慧徕店亮相2026云栖大会，AI生成数字商业无限可能",
-        "summary": "9月22日至24日，2026云栖大会在杭州盛大召开。云栖大会是阿里巴巴集团的年度盛会，由阿里云协同其合作伙伴与全球客户共同呈现。作为全球顶级科技盛会，大会以“智以致用”为主题，以Agentic AI为核心锚点，串起芯片、云基础设施、模型能力与模型服务、Agentic应用的完整链路，直抵生产方式深层变革。 星驿付与慧徕店作为阿里云AI战略合作伙伴，再度亮相2026云栖大会，发布墨斗云生态全景，…",
+        "title": "从105mm人像到400mm远方 Telesin发布iPhone 18大师影像套装",
+        "summary": "2026年9月21日，深圳——雷峰网获悉，Telesin泰迅正式发布面向iPhone 18 Pro系列的大师影像套装，并同步带来Classic经典版与Neo版两条产品线。新品以2X和3.5X双镜头覆盖约105mm人像与约400mm远摄，通过手柄、供电、实体操控、彩焦App和镜头配件生态，构成一套面向移动创作者的随身影像系统。 Telesin发布iPhone 18大师影像套装Classic与N…",
         "tags": [
-          "政策",
-          "算力",
-          "Agent",
           "中文源"
         ],
         "readTime": 6,
         "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/ZzpzZcKEcWjfW1ez.html"
+        "link": "https://www.leiphone.com/category/weiwu/11usdeSVZPN0BJs0.html"
+      },
+      {
+        "id": "r4cf19d6db2",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-24",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "现在不买带线控底盘的车，三年后注定会后悔",
+        "summary": "如果要找出2026年车市升温最快的技术赛道，线控底盘一定算一个。此前在2024年，线控转向首次在量产车上出现，当时行业里的共识是：好东西，但离普通人太远。2026年7月1日，由上汽集团牵头制定的线控转向国家标准《汽车转向系基本要求》（GB17675-2025）正式实施，政策闸门打开。2026年9月16日，理想i9上市，线控转向加后轮转向标配。李想专门在微博上谈起这两项配置，他的思考是，大空间…",
+        "tags": [
+          "论文",
+          "政策",
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/transportation/htudSUNPncuLmMfb.html"
+      },
+      {
+        "id": "raecde23985",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-24",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "聚焦院外管理提质增效｜《急性冠状动脉综合征患者院外长期随访管理共识》更新研讨，胸痛中心智慧全程管理行动项目正式启动",
+        "summary": "近日，第八届“儒道心学”心血管病学会议、第十届沪鲁心血管病专家论坛、第九届日照心血管峰会在山东日照召开。由葛均波院士领衔，黄恺、苏国海、李春洁等数十位心血管领域权威专家参与，会上完成两大核心动作：一是召开《急性冠状动脉综合征患者院外长期随访管理共识》更新研讨会，专家集体锚定共识修订的核心方向；二是胸痛中心智慧全程管理行动项目正式启动，以专家共识为指引推进先行落地验证。作为医疗 AI 赋能院外…",
+        "tags": [
+          "政策",
+          "Agent",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 11,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/industrynews/5c353eBnBL6ShdzV.html"
+      },
+      {
+        "id": "r0637d41a0a",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
+        "summary": "arXiv:2609.26891v1 Announce Type: new \nAbstract: Modern language-model agents are built around the \\textit{agent loop}, where the LLM is placed in an environment exposing a set of tools, and the LL…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.26891"
+      },
+      {
+        "id": "r94e293bcf8",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
+        "summary": "arXiv:2609.26913v1 Announce Type: new \nAbstract: No single Large Language Model (LLM) is uniformly reliable across queries, motivating multi-model inference systems that either route among models o…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.26913"
+      },
+      {
+        "id": "rf847a942fc",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "When Learned Context Planning Fails to Beat Strong Retrieval: A Controlled Study of Planning, Routing, and Reranking for Long-Context QA",
+        "summary": "arXiv:2609.26976v1 Announce Type: new \nAbstract: Learned context planning selects evidence atoms before an answer model reasons over them. We test whether this learned selection improves long-conte…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.26976"
+      },
+      {
+        "id": "r0e73a16b57",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning",
+        "summary": "arXiv:2609.27009v1 Announce Type: new \nAbstract: Large language models are increasingly applied to high-risk domains such as law, yet complex legal reasoning remains limited by two structural chall…",
+        "tags": [
+          "开源",
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.27009"
+      },
+      {
+        "id": "rafe514b239",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-24",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+        "summary": "懂出海，能记忆，自进化 出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+        "tags": [
+          "Agent",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/496961.html"
+      },
+      {
+        "id": "ra8c10d526c",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-24",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "时隔十年，AI大牛署名新论文",
+        "summary": "让自动驾驶“走一步想十步” 时隔十年，AI大牛署名新论文",
+        "tags": [
+          "论文",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/496834.html"
+      },
+      {
+        "id": "r2acb8d3cd9",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-24",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
+        "summary": "Stripe Managed Payments (SMP) 现已全面上线 Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/496779.html"
+      },
+      {
+        "id": "rcacc522c73",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-24",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "教机器人干活，光“刷课时”可不够！灵初这次较真数据质量",
+        "summary": "专治人机动作对不齐 教机器人干活，光“刷课时”可不够！灵初这次较真数据质量",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/496778.html"
+      },
+      {
+        "id": "r9ab24eaa43",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-24",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "云栖之后，10+阿里AI实战派将亮相QCon上海站",
+        "summary": "点击查看原文> 云栖之后，10+阿里AI实战派将亮相QCon上海站",
+        "tags": [
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/lh6Z5E9Zkr33bOeHQGky?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r4e642e2c78",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-09-24",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "数据、模型、算力越来越难分开，Data+AI 基础设施怎么进化？",
+        "summary": "点击查看原文> 数据、模型、算力越来越难分开，Data+AI 基础设施怎么进化？",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/amffXXMpr23rX3eoJDhv?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r74ab849808",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-09-24",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "GPU负责算，CPU负责干活：英特尔开始重新出牌",
+        "summary": "点击查看原文> GPU负责算，CPU负责干活：英特尔开始重新出牌",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/Zh6Xo7f31MJdQtbUTUk5?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "ra063462d53",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+        "summary": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark"
+      },
+      {
+        "id": "r83cb32d483",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-24",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse",
+        "summary": "arXiv:2609.26836v1 Announce Type: new \nAbstract: Agentic AI systems are increasingly adopting automated pipelines that integrate multiple tools. While prior research and benchmarks have studied abo…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.26836"
+      },
+      {
+        "id": "r244ee9fa4b",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Building Socio-Affective Artificial Intelligence for Interactive Multi-Agent Simulations",
+        "summary": "arXiv:2609.26927v1 Announce Type: new \nAbstract: The objective of this article is to provide design principles and a software architecture for enabling interaction between humans and multiple agent…",
+        "tags": [
+          "开源",
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.26927"
+      },
+      {
+        "id": "r90737ac6af",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-24",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Which Objectives Need a Dial? Predicting Objective Conflict and Covering Trade-offs in Steerable Pluralistic Alignment",
+        "summary": "arXiv:2609.26929v1 Announce Type: new \nAbstract: People hold diverse, sometimes conflicting values, so no single aligned model can satisfy everyone. Pluralistic alignment therefore calls for steera…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.26929"
+      },
+      {
+        "id": "r40f7b5d965",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-24",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Escaping Python Dependency Hell: A Hybrid Replay-and-Repair Pipeline for Python Dependency Resolution",
+        "summary": "arXiv:2609.26952v1 Announce Type: new \nAbstract: Dependency conflicts in Python ecosystems arise from incompatible version constraints, missing packages, and undocumented compatibility relationship…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.26952"
+      },
+      {
+        "id": "rb44b39a0ce",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-24",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
+        "summary": "arXiv:2609.26926v1 Announce Type: new \nAbstract: Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.26926"
+      },
+      {
+        "id": "ree76c6f1db",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-24",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court",
+        "summary": "arXiv:2609.26945v1 Announce Type: new \nAbstract: Judicial reasoning remains challenging for large language models (LLMs) to analyze. This paper contributes a sentence-level benchmark for evaluating…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.26945"
       },
       {
         "id": "rc64ea8f027",
@@ -229,220 +626,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp"
-      },
-      {
-        "id": "r34a2fb7bfc",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-23",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Social Influence and the Allocation of Scientific Attention in AI Populations",
-        "summary": "arXiv:2609.22408v1 Announce Type: new \nAbstract: AI systems are becoming participants in the evaluation and use of scientific research. They encounter citation counts, download statistics and lists…",
-        "tags": [
-          "论文",
-          "融资",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.22408"
-      },
-      {
-        "id": "rf8986dac50",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Training a Language Model End-to-End in Rust: An Experience Report",
-        "summary": "arXiv:2609.25008v1 Announce Type: new \nAbstract: I pretrained a language model end-to-end in Rust - alone, with no team, no PyTorch, and no Python in the training path - for $164 in rented GPU time…",
-        "tags": [
-          "论文",
-          "算力",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.25008"
-      },
-      {
-        "id": "r7d2c41fa63",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Retrieved-Span Training for Efficient Query-Focused Meeting Summarization on QMSum",
-        "summary": "arXiv:2609.25028v1 Announce Type: new \nAbstract: QMSum provides no scorer, making query-focused meeting summarization results difficult to compare. We rescore or generate 15 systems under one imple…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.25028"
-      },
-      {
-        "id": "rede18f3de3",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
-        "summary": "联想天禧AI携全场景多端产品矩阵亮相阿里云栖大会 联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
-        "tags": [
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/496609.html"
-      },
-      {
-        "id": "r12c4bde144",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "让Token生产更高效：异构混推的关键技术演进与创新实践",
-        "summary": "商汤大装置异构混推创新实践与技术演进 让Token生产更高效：异构混推的关键技术演进与创新实践",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/496578.html"
-      },
-      {
-        "id": "r5e0fa953ac",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "它石智航顶尖团队引领中国具身智能率先迈入规模化落地阶段",
-        "summary": "它石智航将继续扩大研发团队，加快布局生产基地，全面提升机器人交付能力 它石智航顶尖团队引领中国具身智能率先迈入规模化落地阶段",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/496481.html"
-      },
-      {
-        "id": "r385dc5ae42",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-23",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "人人都在造世界模型，HappyWorld‑Bench 试着给出一张统一考卷",
-        "summary": "点击查看原文> 人人都在造世界模型，HappyWorld‑Bench 试着给出一张统一考卷",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r467579a370",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-23",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "2026 年的云栖，阿里给 AI 行业递了一把新尺子",
-        "summary": "点击查看原文> 2026 年的云栖，阿里给 AI 行业递了一把新尺子",
-        "tags": [
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/zSPQbRwmS0AGpeTAhu9r?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rc09f81b2f2",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-23",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "AI 改变跨平台开发取舍，Shopify 弃用 React Native，改用 Swift 和 Kotlin",
-        "summary": "点击查看原文> AI 改变跨平台开发取舍，Shopify 弃用 React Native，改用 Swift 和 Kotlin",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/2FFH5EHF2SMusaYQhjlX?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r319baf2643",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-23",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Dropbox 升级 Riviera 平台，支持 AI 工作负载",
-        "summary": "点击查看原文> Dropbox 升级 Riviera 平台，支持 AI 工作负载",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/jJAcfJO5e0ElPhIxwwxo?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r5a24b09081",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-23",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "大语言模型：下一代 DSL 编写者",
-        "summary": "点击查看原文> 大语言模型：下一代 DSL 编写者",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/fZRdzxQYpaTS2sQSqpVk?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rc1047f19d7",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-23",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "中秋国庆自驾迎高峰，“阿宝”上新租赁车违法处理等多项交管服务",
-        "summary": "中秋、国庆假期临近，自驾游、租车出行即将迎来高峰。近日，支付宝AI版“阿宝”上新一批自驾出行服务，租赁车违法处理、交通违法处理、电子驾驶证申领、一键挪车等常用服务，用户“一句话”就可唤起“交管12123”的服务快速办理，让出游更省心。 租赁车违法处理是此次服务更新的一项重点功能。车辆已经还了，几天后才收到交通违法通知？现在，用户在“阿宝”中说“我要处理租赁车辆违章”，不用四处查找服务入口、逐…",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 3,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/EHjqgShcgcxrXo31.html"
       },
       {
         "id": "r70f04532e6",
@@ -458,7 +643,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/"
       },
       {
@@ -476,173 +661,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/"
-      },
-      {
-        "id": "r6758bb1ea4",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-23",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models",
-        "summary": "arXiv:2609.22161v1 Announce Type: new \nAbstract: Medical large language models are commonly trained on mixtures of didactic data (e.g., textbooks) and clinical data (e.g., patient records), yet how…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.22161"
-      },
-      {
-        "id": "r2fbfc8450a",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-23",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "An Affordable AI-Integrated Smart Cane for Multimodal Mobility Assistance of Visually Impaired Users",
-        "summary": "arXiv:2609.22277v1 Announce Type: new \nAbstract: Visual impairment affects over 2.2 billion people worldwide, yet conventional white canes cannot detect elevated hazards or provide semantic environ…",
-        "tags": [
-          "论文",
-          "多模态",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.22277"
-      },
-      {
-        "id": "r60979cda43",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-23",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "PAANI : On Device Visual Evidence Fusion and Explainable Guidance for River Robot Simulation",
-        "summary": "arXiv:2609.22353v1 Announce Type: new \nAbstract: Mobile river monitoring robots must interpret obstacles and water boundaries that geographic waypoints alone cannot describe. On resource constraine…",
-        "tags": [
-          "论文",
-          "政策",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.22353"
-      },
-      {
-        "id": "r56a3c4ca7f",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-09-23",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Learning 3D biophysical cell properties from 2D images and cell-population statistics",
-        "summary": "arXiv:2609.22410v1 Announce Type: new \nAbstract: Inferring 3D cellular properties from 2D microscopy is difficult when a reference instrument reports only population statistics rather than labels f…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.22410"
-      },
-      {
-        "id": "r98e4e06676",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-23",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Goal-driven Variant Categorization",
-        "summary": "arXiv:2609.22475v1 Announce Type: new \nAbstract: Process discovery rarely yields a single coherent process structure. For analysis, a common step is to cluster process variants based on structural…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.22475"
-      },
-      {
-        "id": "r20649d60fc",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "What Does 99% Accuracy Measure? A Reproducible Audit of Shortcut Learning in a Widely Used Fake News Corpus",
-        "summary": "arXiv:2609.25006v1 Announce Type: new \nAbstract: Text classifiers trained on the ISOT/Kaggle \"Fake and Real News\" corpus routinely report accuracy and F1 above 0.98, a level of performance that sit…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.25006"
-      },
-      {
-        "id": "r671e502c17",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Same Quantity, Different Answer: Numerical Representation Invariance in Language Models",
-        "summary": "arXiv:2609.25009v1 Announce Type: new \nAbstract: Numerically equivalent word problems should yield the same canonical answer whether a quantity is written as a decimal, fraction, percentage, number…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.25009"
-      },
-      {
-        "id": "rfdbac7e8df",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "A Computational Approach to Measuring Semantic Change in Sanskrit Literature",
-        "summary": "arXiv:2609.25012v1 Announce Type: new \nAbstract: Diachronic word embeddings have become the modern standard for tracking semantic change, yet they have been largely validated on modern, high-resour…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.25012"
-      },
-      {
-        "id": "r37bdd0c52e",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-22",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：OPPO Find X10 系列发布、Beats 360 头戴式耳机发布等",
-        "summary": "高通发布两款第六代骁龙 8 旗舰芯片，Claude Opus 5.5 与 GPT-6 Sol/Luna 发布等。查看全文",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 95,
-        "link": "https://sspai.com/post/114889"
       },
       {
         "id": "red00df21ed",
@@ -660,23 +680,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 86,
         "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
-      },
-      {
-        "id": "rffd5543871",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-22",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Transformers now runs llama.cpp quants",
-        "summary": "Transformers now runs llama.cpp quants",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://huggingface.co/blog/transformers-llama-cpp-quants"
       }
     ]
   };
