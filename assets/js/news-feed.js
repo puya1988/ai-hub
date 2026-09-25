@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-09-24 23:07
+   抓取时间：2026-09-25 23:07
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-09-24 23:07",
+    "updated": "2026-09-25 23:07",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,61 +25,430 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "rc18d091546",
+        "id": "r8ac46f17f4",
         "auto": true,
         "featured": false,
-        "cat": "research",
-        "date": "2026-09-24",
+        "cat": "model",
+        "date": "2026-09-25",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "SeeAct AI穆尧：具身智能终局，一定是从“被训练”走向“自我进化”｜物理AI50人",
-        "summary": "机器人真正缺的，不是数据，而是经验。 作者：李秋悦编辑：吴彤那是具身智能最荒芜的时候。 没有成熟数据集，没有标准Benchmark，甚至没有一条被验证能走通的技术路线。 穆尧南下港大读博，开始研究具身智能。 2021年，穆尧进入HKUMMLab，成为该实验室创始人罗平教授和中国人工智能奠基人之一的汤晓鸥教授共同指导的学生。 “具身智能会是一个非常 Promising 的方向。”刚入组时导师们…",
+        "title": "梁文锋狙击战：深扒那些梁文锋署名的论文有多牛",
+        "summary": "过去三年，梁圣署名了11篇论文，每篇都几乎震动世界。 作者丨高允毅 编辑丨岑 峰 当 RSI 的风吹到了 DeepSeek，这次讨论的是一个新话题“自动化沙箱”。9 月 19 日，arXiv 更新了一篇 DeepSeek 新论文《DSec：面向大规模智能体训练的高效沙箱基础设施》，论文长达 31 页，首次展示了 DeepSeek 自动化沙箱系统 —— DSec（DeepSeek Elasti…",
         "tags": [
           "开源",
           "论文",
-          "政策",
+          "算力",
           "中文源"
         ],
         "readTime": 12,
         "hot": 95,
-        "link": "https://www.leiphone.com/category/ai/k1XGdu6w3n7xGgKB.html"
+        "link": "https://www.leiphone.com/category/yanxishe/8IlKEXMO2Pxju8ke.html"
       },
       {
-        "id": "r28a030385f",
+        "id": "r46daf84a92",
         "auto": true,
         "featured": false,
         "cat": "apply",
-        "date": "2026-09-24",
+        "date": "2026-09-25",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "坐稳RGB-Mini LED电视龙头！海信双7旗舰新品登场，原生真彩再进化",
-        "summary": "9月23日，2026海信电视召开秋季新品发布会，正式推出全新一代RGB-Mini LED影像旗舰U7T Pro、性能旗舰E7S Pro+两大双7旗舰新品，一次性落地六大行业首发技术，从背光硬件、屏幕素质、专属画质到智能系统全方位革新，彻底改写RGB-Mini LED高端大屏体验标准，海信 RGB-Mini LED 电视也真正实现常用常新，领先行业的优势再度拉大。 从行业首创到高端主流！海信重…",
+        "title": "智元第20000台具身机器人交付长隆，首期超300台机器人常驻乐园。",
+        "summary": "雷峰网报道： 2026 年，具身智能行业最难回答的问题之一，是怎么落地。 这里的「落地」有两层含义：一方面，机器人得有足够稳定的量产能力，能够真的交付出去；另一方面，交付之后还得适应具体场景，在真实环境里持续工作。智元称之为「部署态」，机器人开始离开发布会和展会，进入真实的生产与服务环境。 一台机器人在舞台上完成一次高难度动作，足以成为热点；让数百台机器人每天准时上岗，在真实客流里连续工作，…",
         "tags": [
+          "论文",
           "算力",
-          "Agent",
-          "国产",
+          "多模态",
           "中文源"
         ],
-        "readTime": 7,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/smarthome/Htdf6ElXF7ZKzces.html"
+        "readTime": 12,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html"
       },
       {
-        "id": "rd11dbc58c1",
+        "id": "r08ebb2bb8d",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-09-24",
+        "date": "2026-09-25",
         "source": "量子位",
         "lang": "zh",
-        "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
-        "summary": "人类演示一次，机器人即可实现跨场景任务复用 GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+        "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
+        "summary": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
         "tags": [
           "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
-        "link": "https://www.qbitai.com/2026/09/496816.html"
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/09/497177.html"
+      },
+      {
+        "id": "r67a2e83862",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-09-25",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
+        "summary": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。 亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
+        "tags": [
+          "开源",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/09/497108.html"
+      },
+      {
+        "id": "re425019120",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-25",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
+        "summary": "arXiv:2609.28506v1 Announce Type: new \nAbstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. T…",
+        "tags": [
+          "论文",
+          "算力",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.28506"
+      },
+      {
+        "id": "r3f4972d322",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-25",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "PAWS: Policy-driven Agentic World Simulation",
+        "summary": "arXiv:2609.28547v1 Announce Type: new \nAbstract: Policy interventions propagate through public communication, institutional decisions, and stakeholder responses, yet datasets for financial multi-ag…",
+        "tags": [
+          "论文",
+          "政策",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.28547"
+      },
+      {
+        "id": "rd9564e01d3",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-25",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Pistis Technical Report",
+        "summary": "arXiv:2609.28554v1 Announce Type: new \nAbstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively,…",
+        "tags": [
+          "论文",
+          "政策",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.28554"
+      },
+      {
+        "id": "r6c32282484",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-25",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Framing by Wording, Framing by Selection: A Large-Scale Two-Dimensional Audit of French News Headlines, 2022-2025",
+        "summary": "arXiv:2609.28487v1 Announce Type: new \nAbstract: News headlines frame public issues both by what they select and by how they word it, yet computational framing work typically collapses these operat…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.28487"
+      },
+      {
+        "id": "r66dd7a5ecd",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-25",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”",
+        "summary": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/497278.html"
+      },
+      {
+        "id": "r3402bd8ddc",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-25",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
+        "summary": "Agent的手越伸越长 别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/497075.html"
+      },
+      {
+        "id": "r1784134c7f",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-25",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
+        "summary": "一场物理世界的基模实验 华为大模型双子星联手创业，要找物理世界的Scaling Law",
+        "tags": [
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/497070.html"
+      },
+      {
+        "id": "r686e327e4b",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-25",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "呃…小扎「自研Manus」刚成Meta太子，就塌房了",
+        "summary": "人工外包团队 呃…小扎「自研Manus」刚成Meta太子，就塌房了",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/497060.html"
+      },
+      {
+        "id": "r603b81edec",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-25",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
+        "summary": "点击查看原文> 当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/QQk3wiolU1VScH3u0P7T?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r575665dd01",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-25",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "抽“锦鲤”享美食！“点亮杭州 碰见好运”服务消费季活动启动",
+        "summary": "9月24日，“点亮杭州 碰见好运”服务消费季活动在西湖区天目里国际街区正式启动。活动依托支付宝”碰一下”数字支付技术，结合政府消费券发放、平台文旅权益赠送及AI互动装置抽奖等方式，为杭州市民和来杭游客打造具有本地特色的假日消费体验。 “点亮杭州 碰见好运”互动装置通过智能互动抽奖发券的新模式带动城市消费氛围。该装置配置互动灯光，象征城市万千烟火气小店和消费脉络，在城市地标中点亮杭州烟火。市民…",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 3,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/industrynews/0imdK8Mce43TQgK9.html"
+      },
+      {
+        "id": "rc98d62fd33",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-25",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+        "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or P…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/"
+      },
+      {
+        "id": "r7693af5ed9",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-25",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
+        "summary": "arXiv:2609.28475v1 Announce Type: new \nAbstract: Forecasting agents increasingly combine language-model reasoning, retrieval, ensembling, and calibration, but it remains unclear when each behavior…",
+        "tags": [
+          "开源",
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.28475"
+      },
+      {
+        "id": "rb1b38962aa",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-25",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
+        "summary": "arXiv:2609.28557v1 Announce Type: new \nAbstract: DNA sequencing pipelines, spanning quality control, alignment, variant calling, and annotation, are now reliably executed by workflow management sys…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.28557"
+      },
+      {
+        "id": "rde2cfbb74b",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-25",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "DEEPO: Dual-Entropy Enhanced Policy Optimization for Hallucination in MLLMs",
+        "summary": "arXiv:2609.28570v1 Announce Type: new \nAbstract: Reinforcement learning (RL) is widely used to sharpen reasoning in multimodal large language models (MLLMs), yet its effect on hallucination is unev…",
+        "tags": [
+          "论文",
+          "政策",
+          "多模态",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.28570"
+      },
+      {
+        "id": "rd25dd52201",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-25",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+        "summary": "arXiv:2609.28614v1 Announce Type: new \nAbstract: Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the ev…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.28614"
+      },
+      {
+        "id": "r14c861d551",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-25",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks",
+        "summary": "arXiv:2609.28673v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed as argumentative agents in persuasive dialogues, necessitating rigorous evaluation of their d…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.28673"
+      },
+      {
+        "id": "r62fabc80cf",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-25",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "An Explainable DistilBERT-BiLSTM-Attention Framework for Binary and Multi-Class Hate Speech Detection",
+        "summary": "arXiv:2609.28703v1 Announce Type: new \nAbstract: Hate speech on social media poses serious risks to social harmony, mental well-being, and public safety, making its timely and accurate detection es…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.28703"
+      },
+      {
+        "id": "r1a156285e5",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-25",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs",
+        "summary": "arXiv:2609.28727v1 Announce Type: new \nAbstract: Contextual biasing improves rare-word recognition in speech large language models (SpeechLLMs), but efficiently exploiting large bias lists remains…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.28727"
+      },
+      {
+        "id": "r9583c96c9d",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-25",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Temporal Taxation Compounds Under Post-Training Compression of Whisper Models",
+        "summary": "arXiv:2609.28739v1 Announce Type: new \nAbstract: Automatic speech recognition models are audited for demographic fairness at full precision, yet the models that ship to production have been quantiz…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.28739"
       },
       {
         "id": "rbc83b33fbf",
@@ -95,7 +464,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article"
       },
       {
@@ -114,7 +483,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 10,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.leiphone.com/category/transportation/nBAYRoWBOZSuBT5D.html"
       },
       {
@@ -131,63 +500,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
+        "hot": 88,
         "link": "https://sspai.com/post/114913"
-      },
-      {
-        "id": "rb9d00d4a33",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-09-24",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "TwinCheck: Evidence-Grounded Negative-Twin Verification for Stateful Tool Agents",
-        "summary": "arXiv:2609.26911v1 Announce Type: new \nAbstract: A single locally plausible tool call can derail an otherwise successful agent trajectory. Suspicion alone does not justify intervention, because the…",
-        "tags": [
-          "论文",
-          "政策",
-          "融资",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 94,
-        "link": "https://arxiv.org/abs/2609.26911"
-      },
-      {
-        "id": "rdaf012732b",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Recognized but Not Produced: A Generation Benchmark for Culturally Specific Kinship Terms",
-        "summary": "arXiv:2609.26942v1 Announce Type: new \nAbstract: Current literature evaluates large language models (LLMs) on multilingual kinship understanding using multiple choice benchmarks, treating it as a r…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 94,
-        "link": "https://arxiv.org/abs/2609.26942"
-      },
-      {
-        "id": "r1bbc7a0d1f",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
-        "summary": "1.5台6000D跑赢1台B300！ PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/496925.html"
       },
       {
         "id": "rca28141735",
@@ -204,7 +518,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.infoq.cn/article/hrmb2p18iKEwl24OMvcv?utm_source=rss&utm_medium=article"
       },
       {
@@ -222,7 +536,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR?utm_source=rss&utm_medium=article"
       },
       {
@@ -239,7 +553,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 6,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/weiwu/11usdeSVZPN0BJs0.html"
       },
       {
@@ -259,173 +573,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/transportation/htudSUNPncuLmMfb.html"
-      },
-      {
-        "id": "raecde23985",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-24",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "聚焦院外管理提质增效｜《急性冠状动脉综合征患者院外长期随访管理共识》更新研讨，胸痛中心智慧全程管理行动项目正式启动",
-        "summary": "近日，第八届“儒道心学”心血管病学会议、第十届沪鲁心血管病专家论坛、第九届日照心血管峰会在山东日照召开。由葛均波院士领衔，黄恺、苏国海、李春洁等数十位心血管领域权威专家参与，会上完成两大核心动作：一是召开《急性冠状动脉综合征患者院外长期随访管理共识》更新研讨会，专家集体锚定共识修订的核心方向；二是胸痛中心智慧全程管理行动项目正式启动，以专家共识为指引推进先行落地验证。作为医疗 AI 赋能院外…",
-        "tags": [
-          "政策",
-          "Agent",
-          "多模态",
-          "中文源"
-        ],
-        "readTime": 11,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/5c353eBnBL6ShdzV.html"
-      },
-      {
-        "id": "r0637d41a0a",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
-        "summary": "arXiv:2609.26891v1 Announce Type: new \nAbstract: Modern language-model agents are built around the \\textit{agent loop}, where the LLM is placed in an environment exposing a set of tools, and the LL…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.26891"
-      },
-      {
-        "id": "r94e293bcf8",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
-        "summary": "arXiv:2609.26913v1 Announce Type: new \nAbstract: No single Large Language Model (LLM) is uniformly reliable across queries, motivating multi-model inference systems that either route among models o…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.26913"
-      },
-      {
-        "id": "rf847a942fc",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "When Learned Context Planning Fails to Beat Strong Retrieval: A Controlled Study of Planning, Routing, and Reranking for Long-Context QA",
-        "summary": "arXiv:2609.26976v1 Announce Type: new \nAbstract: Learned context planning selects evidence atoms before an answer model reasons over them. We test whether this learned selection improves long-conte…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.26976"
-      },
-      {
-        "id": "r0e73a16b57",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning",
-        "summary": "arXiv:2609.27009v1 Announce Type: new \nAbstract: Large language models are increasingly applied to high-risk domains such as law, yet complex legal reasoning remains limited by two structural chall…",
-        "tags": [
-          "开源",
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.27009"
-      },
-      {
-        "id": "rafe514b239",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
-        "summary": "懂出海，能记忆，自进化 出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
-        "tags": [
-          "Agent",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/496961.html"
-      },
-      {
-        "id": "ra8c10d526c",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "时隔十年，AI大牛署名新论文",
-        "summary": "让自动驾驶“走一步想十步” 时隔十年，AI大牛署名新论文",
-        "tags": [
-          "论文",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/496834.html"
-      },
-      {
-        "id": "r2acb8d3cd9",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
-        "summary": "Stripe Managed Payments (SMP) 现已全面上线 Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/496779.html"
-      },
-      {
-        "id": "rcacc522c73",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "教机器人干活，光“刷课时”可不够！灵初这次较真数据质量",
-        "summary": "专治人机动作对不齐 教机器人干活，光“刷课时”可不够！灵初这次较真数据质量",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/496778.html"
       },
       {
         "id": "r9ab24eaa43",
@@ -442,7 +591,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/lh6Z5E9Zkr33bOeHQGky?utm_source=rss&utm_medium=article"
       },
       {
@@ -460,26 +609,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/amffXXMpr23rX3eoJDhv?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r74ab849808",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "GPU负责算，CPU负责干活：英特尔开始重新出牌",
-        "summary": "点击查看原文> GPU负责算，CPU负责干活：英特尔开始重新出牌",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/Zh6Xo7f31MJdQtbUTUk5?utm_source=rss&utm_medium=article"
       },
       {
         "id": "ra063462d53",
@@ -495,120 +626,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark"
-      },
-      {
-        "id": "r83cb32d483",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-24",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse",
-        "summary": "arXiv:2609.26836v1 Announce Type: new \nAbstract: Agentic AI systems are increasingly adopting automated pipelines that integrate multiple tools. While prior research and benchmarks have studied abo…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.26836"
-      },
-      {
-        "id": "r244ee9fa4b",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Building Socio-Affective Artificial Intelligence for Interactive Multi-Agent Simulations",
-        "summary": "arXiv:2609.26927v1 Announce Type: new \nAbstract: The objective of this article is to provide design principles and a software architecture for enabling interaction between humans and multiple agent…",
-        "tags": [
-          "开源",
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.26927"
-      },
-      {
-        "id": "r90737ac6af",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-24",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Which Objectives Need a Dial? Predicting Objective Conflict and Covering Trade-offs in Steerable Pluralistic Alignment",
-        "summary": "arXiv:2609.26929v1 Announce Type: new \nAbstract: People hold diverse, sometimes conflicting values, so no single aligned model can satisfy everyone. Pluralistic alignment therefore calls for steera…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.26929"
-      },
-      {
-        "id": "r40f7b5d965",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-24",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Escaping Python Dependency Hell: A Hybrid Replay-and-Repair Pipeline for Python Dependency Resolution",
-        "summary": "arXiv:2609.26952v1 Announce Type: new \nAbstract: Dependency conflicts in Python ecosystems arise from incompatible version constraints, missing packages, and undocumented compatibility relationship…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.26952"
-      },
-      {
-        "id": "rb44b39a0ce",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
-        "summary": "arXiv:2609.26926v1 Announce Type: new \nAbstract: Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.26926"
-      },
-      {
-        "id": "ree76c6f1db",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-24",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court",
-        "summary": "arXiv:2609.26945v1 Announce Type: new \nAbstract: Judicial reasoning remains challenging for large language models (LLMs) to analyze. This paper contributes a sentence-level benchmark for evaluating…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.26945"
       },
       {
         "id": "rc64ea8f027",
@@ -663,23 +682,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 84,
         "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/"
-      },
-      {
-        "id": "red00df21ed",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-22",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Don’t be fooled by this summer of AI hype",
-        "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had th…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
       }
     ]
   };
