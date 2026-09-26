@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-09-25 23:07
+   抓取时间：2026-09-26 23:08
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-09-25 23:07",
+    "updated": "2026-09-26 23:08",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -24,6 +24,168 @@ window.AI_FEED = {
     ],
     "failed": [],
     "items": [
+      {
+        "id": "rda7d17b545",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-26",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
+        "summary": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。 索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
+        "tags": [
+          "融资",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/09/498478.html"
+      },
+      {
+        "id": "r3fef0edd82",
+        "auto": true,
+        "featured": false,
+        "cat": "opensrc",
+        "date": "2026-09-26",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+        "summary": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？ 笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+        "tags": [
+          "开源",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/09/497624.html"
+      },
+      {
+        "id": "r883b0a200b",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-09-26",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
+        "summary": "vLLM人马创业公司团队出品 谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/09/497425.html"
+      },
+      {
+        "id": "r13e5e048f8",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-26",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
+        "summary": "还把「密钥」叫战利品 OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/09/497382.html"
+      },
+      {
+        "id": "r40d991b22e",
+        "auto": true,
+        "featured": false,
+        "cat": "opensrc",
+        "date": "2026-09-26",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
+        "summary": "点击查看原文> 阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
+        "tags": [
+          "开源",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/jJIXCaLHUvPgswTOZ1uQ?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r75e8ab1523",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-26",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+        "summary": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线。",
+        "tags": [
+          "论文",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/498271.html"
+      },
+      {
+        "id": "rcec1f7c533",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-26",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "在云栖大会，我终于看懂了米哈游千亿AI野心",
+        "summary": "大伟哥：如果做不到，一年两年之后过来打我脸 在云栖大会，我终于看懂了米哈游千亿AI野心",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/497613.html"
+      },
+      {
+        "id": "rf3b5441578",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-26",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "AI 时代，技术人靠什么赢？｜QCon上海",
+        "summary": "点击查看原文> AI 时代，技术人靠什么赢？｜QCon上海",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/C1Vuzh9fUmUL9i5wmDZf?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r0a4df7b25d",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-26",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "DoorDash 借助多 Agent LLM 系统清理 6 万个 Feature Flag",
+        "summary": "点击查看原文> DoorDash 借助多 Agent LLM 系统清理 6 万个 Feature Flag",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/gk4rWsQg09PWTFTZlJE3?utm_source=rss&utm_medium=article"
+      },
       {
         "id": "r8ac46f17f4",
         "auto": true,
@@ -61,192 +223,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html"
-      },
-      {
-        "id": "r08ebb2bb8d",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-25",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
-        "summary": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/497177.html"
-      },
-      {
-        "id": "r67a2e83862",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-25",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
-        "summary": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。 亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
-        "tags": [
-          "开源",
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/497108.html"
-      },
-      {
-        "id": "re425019120",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-25",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
-        "summary": "arXiv:2609.28506v1 Announce Type: new \nAbstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. T…",
-        "tags": [
-          "论文",
-          "算力",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.28506"
-      },
-      {
-        "id": "r3f4972d322",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-25",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "PAWS: Policy-driven Agentic World Simulation",
-        "summary": "arXiv:2609.28547v1 Announce Type: new \nAbstract: Policy interventions propagate through public communication, institutional decisions, and stakeholder responses, yet datasets for financial multi-ag…",
-        "tags": [
-          "论文",
-          "政策",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.28547"
-      },
-      {
-        "id": "rd9564e01d3",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-25",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Pistis Technical Report",
-        "summary": "arXiv:2609.28554v1 Announce Type: new \nAbstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively,…",
-        "tags": [
-          "论文",
-          "政策",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.28554"
-      },
-      {
-        "id": "r6c32282484",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-25",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Framing by Wording, Framing by Selection: A Large-Scale Two-Dimensional Audit of French News Headlines, 2022-2025",
-        "summary": "arXiv:2609.28487v1 Announce Type: new \nAbstract: News headlines frame public issues both by what they select and by how they word it, yet computational framing work typically collapses these operat…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.28487"
-      },
-      {
-        "id": "r66dd7a5ecd",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-25",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”",
-        "summary": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/497278.html"
-      },
-      {
-        "id": "r3402bd8ddc",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-25",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
-        "summary": "Agent的手越伸越长 别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/497075.html"
-      },
-      {
-        "id": "r1784134c7f",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-25",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
-        "summary": "一场物理世界的基模实验 华为大模型双子星联手创业，要找物理世界的Scaling Law",
-        "tags": [
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/497070.html"
-      },
-      {
-        "id": "r686e327e4b",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-25",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "呃…小扎「自研Manus」刚成Meta太子，就塌房了",
-        "summary": "人工外包团队 呃…小扎「自研Manus」刚成Meta太子，就塌房了",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/497060.html"
       },
       {
         "id": "r603b81edec",
@@ -262,7 +240,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/QQk3wiolU1VScH3u0P7T?utm_source=rss&utm_medium=article"
       },
       {
@@ -279,7 +257,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 3,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.leiphone.com/category/industrynews/0imdK8Mce43TQgK9.html"
       },
       {
@@ -296,176 +274,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/"
-      },
-      {
-        "id": "r7693af5ed9",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-25",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
-        "summary": "arXiv:2609.28475v1 Announce Type: new \nAbstract: Forecasting agents increasingly combine language-model reasoning, retrieval, ensembling, and calibration, but it remains unclear when each behavior…",
-        "tags": [
-          "开源",
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.28475"
-      },
-      {
-        "id": "rb1b38962aa",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-25",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
-        "summary": "arXiv:2609.28557v1 Announce Type: new \nAbstract: DNA sequencing pipelines, spanning quality control, alignment, variant calling, and annotation, are now reliably executed by workflow management sys…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.28557"
-      },
-      {
-        "id": "rde2cfbb74b",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-25",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "DEEPO: Dual-Entropy Enhanced Policy Optimization for Hallucination in MLLMs",
-        "summary": "arXiv:2609.28570v1 Announce Type: new \nAbstract: Reinforcement learning (RL) is widely used to sharpen reasoning in multimodal large language models (MLLMs), yet its effect on hallucination is unev…",
-        "tags": [
-          "论文",
-          "政策",
-          "多模态",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.28570"
-      },
-      {
-        "id": "rd25dd52201",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-25",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
-        "summary": "arXiv:2609.28614v1 Announce Type: new \nAbstract: Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the ev…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.28614"
-      },
-      {
-        "id": "r14c861d551",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-25",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks",
-        "summary": "arXiv:2609.28673v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed as argumentative agents in persuasive dialogues, necessitating rigorous evaluation of their d…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.28673"
-      },
-      {
-        "id": "r62fabc80cf",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-25",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "An Explainable DistilBERT-BiLSTM-Attention Framework for Binary and Multi-Class Hate Speech Detection",
-        "summary": "arXiv:2609.28703v1 Announce Type: new \nAbstract: Hate speech on social media poses serious risks to social harmony, mental well-being, and public safety, making its timely and accurate detection es…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.28703"
-      },
-      {
-        "id": "r1a156285e5",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-25",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs",
-        "summary": "arXiv:2609.28727v1 Announce Type: new \nAbstract: Contextual biasing improves rare-word recognition in speech large language models (SpeechLLMs), but efficiently exploiting large bias lists remains…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.28727"
-      },
-      {
-        "id": "r9583c96c9d",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-25",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Temporal Taxation Compounds Under Post-Training Compression of Whisper Models",
-        "summary": "arXiv:2609.28739v1 Announce Type: new \nAbstract: Automatic speech recognition models are audited for demographic fairness at full precision, yet the models that ship to production have been quantiz…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.28739"
-      },
-      {
-        "id": "rbc83b33fbf",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "29 小时攻破浏览器，GPT-6 Astra 成为 OpenAI 首个“严重级”模型",
-        "summary": "点击查看原文> 29 小时攻破浏览器，GPT-6 Astra 成为 OpenAI 首个“严重级”模型",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 88,
-        "link": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article"
       },
       {
         "id": "r5489965aa8",
@@ -520,24 +330,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 86,
         "link": "https://www.infoq.cn/article/hrmb2p18iKEwl24OMvcv?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rfee23cead6",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
-        "summary": "点击查看原文> WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR?utm_source=rss&utm_medium=article"
       },
       {
         "id": "rab85e9e498",
@@ -595,24 +387,6 @@ window.AI_FEED = {
         "link": "https://www.infoq.cn/article/lh6Z5E9Zkr33bOeHQGky?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r4e642e2c78",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "数据、模型、算力越来越难分开，Data+AI 基础设施怎么进化？",
-        "summary": "点击查看原文> 数据、模型、算力越来越难分开，Data+AI 基础设施怎么进化？",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.infoq.cn/article/amffXXMpr23rX3eoJDhv?utm_source=rss&utm_medium=article"
-      },
-      {
         "id": "ra063462d53",
         "auto": true,
         "featured": false,
@@ -645,7 +419,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 86,
+        "hot": 80,
         "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp"
       },
       {
@@ -662,7 +436,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/"
       },
       {
@@ -680,8 +454,213 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/"
+      },
+      {
+        "id": "red00df21ed",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-22",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "Don’t be fooled by this summer of AI hype",
+        "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had th…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 80,
+        "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
+      },
+      {
+        "id": "rffd5543871",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-22",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Transformers now runs llama.cpp quants",
+        "summary": "Transformers now runs llama.cpp quants",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 80,
+        "link": "https://huggingface.co/blog/transformers-llama-cpp-quants"
+      },
+      {
+        "id": "rb14fc63ec7",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-22",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+        "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save l…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/"
+      },
+      {
+        "id": "r085c2de194",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-22",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+        "summary": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/evaleval-aisi"
+      },
+      {
+        "id": "r452238b573",
+        "auto": true,
+        "featured": false,
+        "cat": "opensrc",
+        "date": "2026-09-22",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+        "summary": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/omlx"
+      },
+      {
+        "id": "rd0435493cf",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-22",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+        "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/"
+      },
+      {
+        "id": "rbd28f3aba4",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-21",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+        "summary": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track an…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/"
+      },
+      {
+        "id": "rd45bec168d",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-21",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+        "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/"
+      },
+      {
+        "id": "r64535341b6",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-21",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+        "summary": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an"
+      },
+      {
+        "id": "r27289b3ca0",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-21",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+        "summary": "A simple ClickFix attack is only one way to completely hijack the new agent.",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/"
+      },
+      {
+        "id": "rb40fb060d9",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-18",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "New experts join Google’s AI & Economy team",
+        "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 72,
+        "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/"
+      },
+      {
+        "id": "r64b46559ea",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-18",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "Co-creating the future of fashion with Google",
+        "summary": "Jane Wade and Sergio Hudson Co-creating the future of fashion with Google",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 72,
+        "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/"
       }
     ]
   };
