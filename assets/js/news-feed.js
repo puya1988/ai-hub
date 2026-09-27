@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-09-26 23:08
+   抓取时间：2026-09-27 23:07
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-09-26 23:08",
+    "updated": "2026-09-27 23:07",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,6 +25,129 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
+        "id": "rfe14d535ae",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-09-27",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+        "summary": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+        "tags": [
+          "融资",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/498633.html"
+      },
+      {
+        "id": "r6c6299f84b",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-27",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "量子计算走上桌面！“小盒子”跑通端到端，数据全程不出门",
+        "summary": "想让开发者“说句话就能跑量子计算” 量子计算走上桌面！“小盒子”跑通端到端，数据全程不出门",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/498605.html"
+      },
+      {
+        "id": "r61d04f684d",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-27",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "又快又能打！匿名模型玉兔模型杀上双榜第一，Coding实测全记录",
+        "summary": "中秋假期文具OpenRouter调用日榜榜首 又快又能打！匿名模型玉兔模型杀上双榜第一，Coding实测全记录",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/498584.html"
+      },
+      {
+        "id": "re4c6457d52",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-27",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "啥题啊能干崩OpenAI最强模型训练…",
+        "summary": "啥题啊能干崩OpenAI最强模型训练…",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/498546.html"
+      },
+      {
+        "id": "r5a276b0491",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-27",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
+        "summary": "点击查看原文> 谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/sQV4EomjPP0J3hM3lyF9?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rf49b71e3dc",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-27",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
+        "summary": "点击查看原文> 可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/UC6jk6tu7fWE5bDO8oQw?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rbaabc5ad2b",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-27",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "遇见AI未来：中科通量SmarCo系列产品亮相全球数字贸易博览会",
+        "summary": "9月23日至27日，第五届全球数字贸易博览会在杭州大会展中心举行。中科通量作为国内视频智能和AI智算领域的代表企业，受邀在2号主题展馆重磅亮相，全面展示其在视频AI、智能存储与算力领域的最新成果。 亮相国家级舞台，全线产品集中呈现 作为全球数字贸易领域中国唯一以数字贸易为主题的国家级、国际性、专业型展会，数贸会已成为展示全球数字贸易新技术、新产品、新生态的重要窗口。展会期间，中科通量Smar…",
+        "tags": [
+          "算力",
+          "Agent",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 7,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/industrynews/D18iwUndD8KTdpMu.html"
+      },
+      {
         "id": "rda7d17b545",
         "auto": true,
         "featured": false,
@@ -39,63 +162,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.qbitai.com/2026/09/498478.html"
-      },
-      {
-        "id": "r3fef0edd82",
-        "auto": true,
-        "featured": false,
-        "cat": "opensrc",
-        "date": "2026-09-26",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
-        "summary": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？ 笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
-        "tags": [
-          "开源",
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/497624.html"
-      },
-      {
-        "id": "r883b0a200b",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-26",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
-        "summary": "vLLM人马创业公司团队出品 谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/497425.html"
-      },
-      {
-        "id": "r13e5e048f8",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-26",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
-        "summary": "还把「密钥」叫战利品 OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/497382.html"
       },
       {
         "id": "r40d991b22e",
@@ -113,7 +181,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.infoq.cn/article/jJIXCaLHUvPgswTOZ1uQ?utm_source=rss&utm_medium=article"
       },
       {
@@ -131,25 +199,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/09/498271.html"
-      },
-      {
-        "id": "rcec1f7c533",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-26",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "在云栖大会，我终于看懂了米哈游千亿AI野心",
-        "summary": "大伟哥：如果做不到，一年两年之后过来打我脸 在云栖大会，我终于看懂了米哈游千亿AI野心",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/497613.html"
       },
       {
         "id": "rf3b5441578",
@@ -165,7 +216,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/C1Vuzh9fUmUL9i5wmDZf?utm_source=rss&utm_medium=article"
       },
       {
@@ -183,7 +234,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/gk4rWsQg09PWTFTZlJE3?utm_source=rss&utm_medium=article"
       },
       {
@@ -278,25 +329,6 @@ window.AI_FEED = {
         "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/"
       },
       {
-        "id": "r5489965aa8",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-24",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "腾势Z9S正式上市：纯电续航1100km，25.58万元起",
-        "summary": "9月23日，腾势旗下“科技豪华智能轿车”Z9S正式上市，推出闪充尊荣型、闪充旗舰型、易三方闪充性能型三款车型，面向用户“悦己、悦人、悦非凡”的不同需求。新车搭载第二代刀片电池及闪充技术，CLTC纯电续航最高1100km，官方给出“5分钟充好，9分钟充饱，零下30度只多3分钟”的补能表现。同时，易三方、AI超级智能体迪迪虾、Diva智能伙伴、天神之眼5.0及云辇-A智能空气车身控制系统等技术集…",
-        "tags": [
-          "Agent",
-          "多模态",
-          "中文源"
-        ],
-        "readTime": 10,
-        "hot": 88,
-        "link": "https://www.leiphone.com/category/transportation/nBAYRoWBOZSuBT5D.html"
-      },
-      {
         "id": "r6ee05e8e92",
         "auto": true,
         "featured": false,
@@ -310,26 +342,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 88,
+        "hot": 82,
         "link": "https://sspai.com/post/114913"
-      },
-      {
-        "id": "rca28141735",
-        "auto": true,
-        "featured": false,
-        "cat": "opensrc",
-        "date": "2026-09-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
-        "summary": "点击查看原文> 世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
-        "tags": [
-          "开源",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://www.infoq.cn/article/hrmb2p18iKEwl24OMvcv?utm_source=rss&utm_medium=article"
       },
       {
         "id": "rab85e9e498",
@@ -345,7 +359,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 6,
-        "hot": 86,
+        "hot": 80,
         "link": "https://www.leiphone.com/category/weiwu/11usdeSVZPN0BJs0.html"
       },
       {
@@ -365,26 +379,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 86,
+        "hot": 80,
         "link": "https://www.leiphone.com/category/transportation/htudSUNPncuLmMfb.html"
-      },
-      {
-        "id": "r9ab24eaa43",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "云栖之后，10+阿里AI实战派将亮相QCon上海站",
-        "summary": "点击查看原文> 云栖之后，10+阿里AI实战派将亮相QCon上海站",
-        "tags": [
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.infoq.cn/article/lh6Z5E9Zkr33bOeHQGky?utm_source=rss&utm_medium=article"
       },
       {
         "id": "ra063462d53",
@@ -400,7 +396,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark"
       },
       {
