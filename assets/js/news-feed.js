@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-09-29 23:08
+   抓取时间：2026-09-30 23:07
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-09-29 23:08",
+    "updated": "2026-09-30 23:07",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,15 +25,55 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "r0f70f0f1e9",
+        "id": "rb3347beddd",
         "auto": true,
         "featured": false,
-        "cat": "industry",
-        "date": "2026-09-29",
+        "cat": "chip",
+        "date": "2026-09-30",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "1000台售罄后又被做成\"韩立同款\"，元点机器人如何把具身智能做进家庭？",
-        "summary": "一台人形机器人卖出去之后，用户会拿它干什么？ 最近，元点小桥机器人真机已陆续交到部分媒体、达人手中，接受真实上手和实际使用场景的检验。B站百大UP主\"图灵的猫\"就给出了一个有点出人意料的答案：他用元点小桥机器人复刻出了《凡人修仙传》里的\"韩立同款傀儡\"。 视频上线后登上B站热搜，《凡人修仙传》官方第一时间在评论区\"翻牌\"。 对小桥来说，这只是它一连串高光成绩中的又一个。 9月2日正式开售后，…",
+        "title": "DeepSeek 开源算子工具大礼包，联手华为昇腾，手撕 CUDA 绑定！",
+        "summary": "一套代码能跑遍所有芯片。 作者丨高允毅 编辑丨岑 峰 刚刚，DeepSeek做了一个开源壮举：把给英伟达 GPU 写代码的全套工具链，原样铺到了华为昇腾 950 NPU 上。最核心的算子开发产品 TileLang 官宣原生支持昇腾。不仅如此，连同 DeepGEMM、DeepEP、FlashMLA、TileKernels、DeepSelect 五大核心计算与通信库也同步推出昇腾版本，直接对标英…",
+        "tags": [
+          "开源",
+          "论文",
+          "政策",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html"
+      },
+      {
+        "id": "r6c500cb518",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "Muse爆火，dots入场：Personal Agent开始和互联网平台抢入口",
+        "summary": "Personal Agent，正在成为这一轮 AI 产品竞争里最热的新概念之一。9 月 29 日，OpenAI 发布了可以长期在线的个人 Agent 产品 dots，提出“always-on agents”。更早把这个词推到台前的是 Meta 发布的个人 Agent 产品 Muse，截至 9 月下旬下载量突破 300 万，一度将 ChatGPT 从美国 App Store 免费榜第一的位置上…",
+        "tags": [
+          "融资",
+          "Agent",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/yanxishe/Zqcw9XvSO2Ht6FIQ.html"
+      },
+      {
+        "id": "race175dd40",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "实测 Qwen-3.8 与 GLM-5.3 的 Flash 版：谁能让我提前下班半小时？",
+        "summary": "2026 年 8 月 26 日，同一天，Qwen 发布 Qwen3.8-Flash-Next/Qwen3.8-Flash，Z.AI 发布 GLM-5.3-Flash。从名字看，“Flash 模型”代表低价、快速、负责高频调用，更多是旗舰模型的补位产品，但这次两家官方给出的宣传重点，其实已经不再停留在便宜聊天上。（雷峰网） 千问云对 Qwen3.8-Flash 的定位直指 1M 长上下文、长文…",
         "tags": [
           "开源",
           "论文",
@@ -42,135 +82,573 @@ window.AI_FEED = {
         ],
         "readTime": 12,
         "hot": 95,
-        "link": "https://www.leiphone.com/category/industrynews/yR9rN5kyqx3kypzz.html"
+        "link": "https://www.leiphone.com/category/yanxishe/Dp2FW4Pb6iLUvdhf.html"
       },
       {
-        "id": "r2ab0aa3e47",
+        "id": "r2288736701",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "从 Codex Harness 开源，看 AI 公司的护城河是什么？",
+        "summary": "8 月 19 日，OpenAI 正式开源了 Codex Harness。这家公司名字里的 Open，久违地兑现了一次。（雷峰网） 长期深耕 Agent Harness 的开发者群体对该消息的普遍反馈是“振奋”。因为过去只有少数顶尖 Agent 产品掌握的 Harness，现在终于开始向更多开发者和企业开放了。 随着 Codex 等最佳实践的开源，Harness 正在经历从“私产”到“公器”的…",
+        "tags": [
+          "开源",
+          "论文",
+          "政策",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/yanxishe/HduKYmfhs2SeXQ39.html"
+      },
+      {
+        "id": "r2017fad969",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "全网最硬核 OpenClaw 2.0 实测：从 ToC 到 ToB 的试探，Agent 网关能重塑工作流边界吗？",
+        "summary": "8 月 31 日，OpenClaw 2.0 正式发布（版本号： v2026.8.1 ），933 位贡献者、569 位首次贡献者、16,962 个 PR 提交。这组数字让它成为近期最受关注的开源 Agent 更新之一。（雷峰网） 在过去 230 天里，OpenClaw 曾发布 106 个版本，但在 2.0 到来前已经有近 7 周没有更新了。因此，这一次 OpenClaw 不是给 Agent 多…",
+        "tags": [
+          "开源",
+          "论文",
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/yanxishe/7bPyLlZDfncTOw5B.html"
+      },
+      {
+        "id": "r7a4630b696",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Evaluating the Effects of Prompt Perturbation on Bias and Hallucination in Large Language Models",
+        "summary": "arXiv:2609.35804v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown remarkable capabilities in various natural language processing tasks, leading to their widespread deployment…",
+        "tags": [
+          "论文",
+          "融资",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 95,
+        "link": "https://arxiv.org/abs/2609.35804"
+      },
+      {
+        "id": "r4835577db8",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
+        "summary": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://www.qbitai.com/2026/09/499308.html"
+      },
+      {
+        "id": "r57c81f7160",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
+        "summary": "点击查看原文> DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
+        "tags": [
+          "开源",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r501520ee6a",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
+        "summary": "arXiv:2609.35868v1 Announce Type: new \nAbstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whether model-conditioned training representations…",
+        "tags": [
+          "论文",
+          "算力",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://arxiv.org/abs/2609.35868"
+      },
+      {
+        "id": "r8f248befa6",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-30",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
+        "summary": "千禧年难题的突破，10000个Agent最多占了10%的功劳。 OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/09/499654.html"
+      },
+      {
+        "id": "rce93ade703",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
+        "summary": "让GPT把机器人技能当工具调用 刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/09/499493.html"
+      },
+      {
+        "id": "r020be91623",
+        "auto": true,
+        "featured": false,
+        "cat": "opensrc",
+        "date": "2026-09-30",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
+        "summary": "点击查看原文> 谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
+        "tags": [
+          "开源",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/M6BRTrsyJvUg8y0M0kyh?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rfb9c05c5fa",
         "auto": true,
         "featured": false,
         "cat": "apply",
-        "date": "2026-09-29",
+        "date": "2026-09-30",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "比预售再降2万，第二代家庭旗舰奕境X9正式上市，限时优惠价27.98万元起",
-        "summary": "9月24日，奕境X9在广州正式上市。作为东风与华为乾崑全栈原生融合的第二代家庭旗舰，奕境X9共推出4款车型，限时权益价27.98万元起，同步推出三项基础权益与八大限时权益，综合权益价值至高10万元。 现场，奕境X9全球代言人郭富城惊喜亮相，并揭晓奕境X9价格权益。人大附中物理老师李永乐作为奕境X9安全验证官、演员胡杏儿担任奕境X9座舱体验官，分别带来奕境X9硬核安全实力和真实用车体验的精彩分…",
+        "title": "AI办公进入「上下文战争」，百度如何出牌？",
+        "summary": "上下文，正成为AI办公新的竞争变量。 “任何事情都可以成为用户的上下文。”在百度AI Day开放日接受雷峰网采访时，百度集团副总裁、个人超级智能事业群组（PSIG）总裁王颖表示，过往的历史积累、沉淀的文件资产，以及与同事之间的对话，都是上下文的重要组成部分。 当AI办公迈入上下文竞争阶段，各家手里的优势也各不相同： 有的来自企业协作场景，消息、文档、会议天然沉淀其中；有的来自业务软件，更贴近…",
         "tags": [
+          "论文",
           "Agent",
           "多模态",
-          "国产",
           "中文源"
         ],
         "readTime": 9,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/industrynews/qkE0oirHeUJTchON.html"
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/industrynews/7q7ZyMuKeWjc1uGz.html"
       },
       {
-        "id": "r93b111e40c",
+        "id": "r59976f5bbe",
         "auto": true,
         "featured": false,
-        "cat": "research",
-        "date": "2026-09-29",
+        "cat": "model",
+        "date": "2026-09-30",
         "source": "arXiv cs.AI",
         "lang": "en",
-        "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
-        "summary": "arXiv:2609.30383v1 Announce Type: new \nAbstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to exte…",
+        "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
+        "summary": "arXiv:2609.35799v1 Announce Type: new \nAbstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach Hugging Face's secured infrastructure. Could ex…",
         "tags": [
           "论文",
           "Agent",
           "英文源"
         ],
         "readTime": 2,
-        "hot": 94,
-        "link": "https://arxiv.org/abs/2609.30383"
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.35799"
       },
       {
-        "id": "rf6fb10d70b",
+        "id": "ra8794f53f7",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-09-29",
+        "date": "2026-09-30",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "From Lexical Baselines to Agentic Retrieval-Augmented Generation: Structured Skill and Responsibility-Level Extraction with the SFIA Framework",
+        "summary": "arXiv:2609.35806v1 Announce Type: new \nAbstract: Automated skill extraction underpins workforce planning, yet most systems represent skills as flat labels with no notion of the responsibility level…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.35806"
+      },
+      {
+        "id": "rb13b481327",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-30",
         "source": "量子位",
         "lang": "zh",
-        "title": "OpenAI因新模型太强叫停发布",
-        "summary": "AGI计划暂停。 OpenAI因新模型太强叫停发布",
+        "title": "直播回顾：工业AI的下一个机会在哪？",
+        "summary": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？ 直播回顾：工业AI的下一个机会在哪？",
         "tags": [
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/499140.html"
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/499605.html"
       },
       {
-        "id": "ra45abdb3f2",
+        "id": "rd438215c22",
         "auto": true,
         "featured": false,
-        "cat": "funding",
-        "date": "2026-09-29",
+        "cat": "industry",
+        "date": "2026-09-30",
         "source": "量子位",
         "lang": "zh",
-        "title": "成立一年完成5轮融资，诺因智能再获数亿元，累计超10亿元",
-        "summary": "诺因从Demo走向家庭 成立一年完成5轮融资，诺因智能再获数亿元，累计超10亿元",
+        "title": "Anthropic，你是来给智谱打广告的吧！",
+        "summary": "实测说GLM-5.3很强 Anthropic，你是来给智谱打广告的吧！",
         "tags": [
-          "融资",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/499135.html"
-      },
-      {
-        "id": "raa039a60bb",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-09-29",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地",
-        "summary": "李飞飞将入职AMD首席科学家 李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/499098.html"
-      },
-      {
-        "id": "rd19bba9a81",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-29",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "北京现代新车上市，限时售价9.99万元起",
-        "summary": "9月29日，北京现代发布新车艾尼氪V，共推出5款车型，CLTC续航提供540km和650km两个版本，限时权益价为9.99万元到13.19万元。 新车车长4.9米，轴距2.9米，比起市面上的轿跑车型，艾尼氪V的造型尤为前卫。它采用低趴溜背姿态，与大量折线，风阻系数仅为0.23。搭配贯穿式星轨尾灯、无框车门和空气动力轮毂，充满未来感。 艾尼氪V切入的10到14万级纯电市场，已有比亚迪海豹、小鹏…",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/transportation/0XlhPKEoStqaW3Ig.html"
-      },
-      {
-        "id": "rcc3c416276",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-29",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "靳玉志：华为乾崑智驾研发从180亿上调到190多亿",
-        "summary": "9月28日，猛士X700预售发布会后，华为高级副总裁、引望公司CEO靳玉志接受媒体采访，以下为采访内容： 中国新能源汽车历经十年发展，已经成长为全球规模领先的市场。国内市场竞争也日益激烈，各家都在思考如何实现可持续经营。 在这样的大背景下，我认为车企和供应链之间，更应该倡导良性的产业分工协同，并不是所有技术都一定要选择自研。现在不少车企都在考虑自研芯片、智驾系统、智能座舱系统。拿芯片举例，开…",
-        "tags": [
-          "算力",
           "国产",
           "中文源"
         ],
-        "readTime": 4,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/ppM6ntb0VaApQsN7.html"
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/499597.html"
+      },
+      {
+        "id": "rd1b0d61785",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-30",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
+        "summary": "给Agent配上手机号，再拉个群 Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/09/499592.html"
+      },
+      {
+        "id": "rd9049d13b4",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-30",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
+        "summary": "点击查看原文> GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/cA9rSEGKphbJHIiTQKMv?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r7b85ed0938",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "像改文字一样改语音：火山引擎全新语音内容编辑模型",
+        "summary": "点击查看原文> 像改文字一样改语音：火山引擎全新语音内容编辑模型",
+        "tags": [
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/07qzHLvyNXSW1SFNV5NV?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r9dadc13186",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-09-30",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
+        "summary": "点击查看原文> 机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/bduvBdbgwxj6DMbNeKCC?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r7133eeffff",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-30",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "从 AI 试点到营收增长：Snowflake 销售与营销团队如何跨越落地鸿沟 ｜ 技术实践",
+        "summary": "点击查看原文> 从 AI 试点到营收增长：Snowflake 销售与营销团队如何跨越落地鸿沟 ｜ 技术实践",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/hw3PpM2ZlCmCArsNo1y7?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rf0a8becb20",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-30",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的",
+        "summary": "祝你旅途顺遂，假期自由。查看全文 别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://sspai.com/post/114945"
+      },
+      {
+        "id": "r1cce93ff94",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-30",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+        "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady…",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/"
+      },
+      {
+        "id": "r6725b9d322",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-09-30",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+        "summary": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/open-tts-leaderboard"
+      },
+      {
+        "id": "rc3b5fc1634",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-09-30",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
+        "summary": "arXiv:2609.35833v1 Announce Type: new \nAbstract: Running a language model on edge hardware provides private and low-latency reasoning without a network connection, and yet the small models that fit…",
+        "tags": [
+          "论文",
+          "算力",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.35833"
+      },
+      {
+        "id": "r0e7bd1e448",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-09-30",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "The Price of Token Boundaries: Compression Certificates and Prediction",
+        "summary": "arXiv:2609.35869v1 Announce Type: new \nAbstract: Pre-tokenisation restricts which text fragments can become prediction units, but its compression cost is obscured when tokenisers are compared only…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.35869"
+      },
+      {
+        "id": "r5a5c2d8fc1",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-09-30",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
+        "summary": "arXiv:2609.35873v1 Announce Type: new \nAbstract: Automated generation of LLM harnesses promises to improve inference through task specialization. Yet additional answer coverage can arise from repea…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.35873"
+      },
+      {
+        "id": "r15ae9f4b14",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-09-30",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Risk-Averse Online POMDP Planning via CVaR of the Immediate Cost with Performance Guarantees",
+        "summary": "arXiv:2609.35874v1 Announce Type: new \nAbstract: Online POMDP planners optimize the expected cumulative cost, which can mask dangerous states when the belief places significant mass on high-cost st…",
+        "tags": [
+          "论文",
+          "政策",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.35874"
+      },
+      {
+        "id": "r165437493c",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-09-30",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech",
+        "summary": "arXiv:2609.35791v1 Announce Type: new \nAbstract: Natural turn-taking in full-duplex voice interaction requires determining from partial speech whether a pause reflects hesitation or a completed con…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.35791"
+      },
+      {
+        "id": "r90a2658e23",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention",
+        "summary": "arXiv:2609.35794v1 Announce Type: new \nAbstract: Just as Socrates recognized the limits of his own knowledge, Retrieval-Augmented Language Models (RALMs) should learn to abstain when the retrieved…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.35794"
+      },
+      {
+        "id": "r5ce7b9fe77",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Developing an OCR model for Extracting Information from Invoices with Korean Language",
+        "summary": "arXiv:2609.35796v1 Announce Type: new \nAbstract: Invoices are commercial documents that contain various pieces of information, including the purchased items, time, and total money. Making the extra…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.35796"
+      },
+      {
+        "id": "r0f92283268",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-09-30",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Alignment Forecasting: Predicting Misalignment From Training Data",
+        "summary": "arXiv:2609.35805v1 Announce Type: new \nAbstract: Training a language model on data with a narrow flaw can sometimes make the model broadly misaligned. Inspecting the data at face value often does n…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.35805"
+      },
+      {
+        "id": "rc558399ad6",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-09-29",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等",
+        "summary": "Nothing 发布旗舰耳机 Headphone 1 Pro，AMD 斥资 82 亿美元收购 World Labs 等。查看全文",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://sspai.com/post/115197"
       },
       {
         "id": "r4e6aa1477b",
@@ -187,227 +665,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://huggingface.co/blog/nvidia/kumo-tabular"
-      },
-      {
-        "id": "r1f79c518b5",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-29",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
-        "summary": "arXiv:2609.30325v1 Announce Type: new \nAbstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breac…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.30325"
-      },
-      {
-        "id": "r0836762e4d",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-29",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
-        "summary": "arXiv:2609.30328v1 Announce Type: new \nAbstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with re…",
-        "tags": [
-          "论文",
-          "融资",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.30328"
-      },
-      {
-        "id": "r5688cc564d",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-29",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "正行创新联合创始人杨宇欣正式亮相：出任总裁，负责全球业务拓展",
-        "summary": "推动公司具身模型、本体、软件等全栈能力进入更多真实场景 正行创新联合创始人杨宇欣正式亮相：出任总裁，负责全球业务拓展",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/499239.html"
-      },
-      {
-        "id": "r7082b163d8",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-29",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
-        "summary": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/09/499188.html"
-      },
-      {
-        "id": "rcd8cfcd63b",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-29",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "summary": "点击查看原文> Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/he0zFgEyStxF9kOh70AP?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rc1f9b780d3",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-29",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-        "summary": "点击查看原文> Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/PSvHjyoJTC9bSLWYxpfF?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rd1712f667c",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-29",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "上下文优势：AI 增长战略缺失的关键拼图 ｜ 技术趋势",
-        "summary": "点击查看原文> 上下文优势：AI 增长战略缺失的关键拼图 ｜ 技术趋势",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/ftFzzJ6jgxha7grHHLjf?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r2aab76b76e",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-29",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-        "summary": "点击查看原文> 金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-        "tags": [
-          "算力",
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/video/HsaJfo3DKR9XC0LeeV30?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rc8dffc3a71",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-29",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
-        "summary": "点击查看原文> 大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r4728d77912",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-29",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "从新型存储介质PCM方案到PCIe 6.0 SSD，德明利率先推出面向AI基础设施的分层存储全栈方案",
-        "summary": "点击查看原文> 从新型存储介质PCM方案到PCIe 6.0 SSD，德明利率先推出面向AI基础设施的分层存储全栈方案",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/SrmkSf6vOfRt6lLuudZb?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r06780dac5e",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-29",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "从 App 到服务，腾讯 Marvis 为什么认准「管家」",
-        "summary": "在海外社交媒体上有创业博主用“Agent Sprawl（智能体蔓延）”来描述一个现象： Agent 越多，其权限、数据和调用关系也越分散，企业组织也会遇到新问题：这些 AI，应该由谁来管理？ 类似的问题，在 C 端场景里已经出现。 AI 时代，用户电脑里的文件、应用、浏览器页面和数据，正在变成个人的一种数字资产。 IDC 预计，2026 年全球活跃 Agent 将达 7940 万个，较上年增…",
-        "tags": [
-          "算力",
-          "Agent",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/D0f2E1vxteSIbZVF.html"
-      },
-      {
-        "id": "rfbd03396ec",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-29",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "动易科技刘晨澔：人形机器人羽毛球对拉 40 拍背后的分层革命 | IROS 2026",
-        "summary": "顶会上的人形机器人高动态运动场景的最新工业级进展。 作者丨邓哲敏 编辑丨齐铖湧 羽毛球大概是所有球类里最“不讲道理”的项目。一颗球被重杀出去时，初速能飙到两三百公里每小时，却因为十六片羽毛带来的巨大空气阻力，速度在飞行中急剧衰减。轨迹也不再是抛物线，变为前段平直、后段陡降的不对称弧线。同时，一头是软木、一头是羽毛，重心和压力中心错开，每颗球在半空都会自己翻跟头。这个翻转，让它的轨迹变得更难预…",
-        "tags": [
-          "论文",
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/private/zoJ7chGiDi7IPHvN.html"
       },
       {
         "id": "rdc0035bd40",
@@ -423,258 +682,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/"
-      },
-      {
-        "id": "rde66625274",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-29",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-        "summary": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
-      },
-      {
-        "id": "rdc20e2df8f",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-09-29",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
-        "summary": "arXiv:2609.30291v1 Announce Type: new \nAbstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the un…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.30291"
-      },
-      {
-        "id": "rd1194a6267",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-09-29",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-        "summary": "arXiv:2609.30341v1 Announce Type: new \nAbstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging du…",
-        "tags": [
-          "论文",
-          "政策",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.30341"
-      },
-      {
-        "id": "rd73db73499",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-29",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
-        "summary": "arXiv:2609.30397v1 Announce Type: new \nAbstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particu…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.30397"
-      },
-      {
-        "id": "r60fabe460c",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-28",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "When can we say AI made a scientific discovery?",
-        "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year…",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 88,
-        "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/"
-      },
-      {
-        "id": "r983ed6a886",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-28",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路",
-        "summary": "工业平台已经卷到帮伙伴拿线索、做Agent、出海了 工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/09/498877.html"
-      },
-      {
-        "id": "re994ab45a8",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-28",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "基于 Termux 的 Android 手机开发服务器实操",
-        "summary": "不 root、不刷机，在随身设备上跑通 AI Agent 与微型 Linux 环境。查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://sspai.com/prime/story/dev-env-on-android-with-termux"
-      },
-      {
-        "id": "re50f9904ef",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-28",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-        "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/"
-      },
-      {
-        "id": "r3b6029d668",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-28",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
-        "summary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/"
-      },
-      {
-        "id": "r4407a44c73",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-09-28",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Who’s liable when AI agents go rogue?",
-        "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few…",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/"
-      },
-      {
-        "id": "r71fa2dbeca",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-28",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Holo4: powering generalist computer-use agents",
-        "summary": "Holo4: powering generalist computer-use agents",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://huggingface.co/blog/Hcompany/holo4"
-      },
-      {
-        "id": "r253d1a5aa6",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-27",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：OpenAI 称与苹果合作效果不佳",
-        "summary": "OpenAI 称与苹果合作效果不佳 iPhone 4「天线门」媒体问答录像时隔十六年现身 F-Droid 2.0 发布 三星冰箱固件升级后罢工，影响韩国用户过中秋 Excel 单元格将支持数组 微软不再使用 Copilot+ PC 品牌 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://sspai.com/post/115079"
-      },
-      {
-        "id": "rc98d62fd33",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-09-25",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-        "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or P…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/"
-      },
-      {
-        "id": "ra063462d53",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-24",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-        "summary": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark"
       }
     ]
   };
