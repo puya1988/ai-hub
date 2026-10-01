@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-09-30 23:07
+   抓取时间：2026-10-01 23:07
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-09-30 23:07",
+    "updated": "2026-10-01 23:07",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,24 +25,314 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "rb3347beddd",
+        "id": "rd14b12c2ac",
         "auto": true,
         "featured": false,
-        "cat": "chip",
-        "date": "2026-09-30",
-        "source": "雷锋网",
+        "cat": "model",
+        "date": "2026-10-01",
+        "source": "量子位",
         "lang": "zh",
-        "title": "DeepSeek 开源算子工具大礼包，联手华为昇腾，手撕 CUDA 绑定！",
-        "summary": "一套代码能跑遍所有芯片。 作者丨高允毅 编辑丨岑 峰 刚刚，DeepSeek做了一个开源壮举：把给英伟达 GPU 写代码的全套工具链，原样铺到了华为昇腾 950 NPU 上。最核心的算子开发产品 TileLang 官宣原生支持昇腾。不仅如此，连同 DeepGEMM、DeepEP、FlashMLA、TileKernels、DeepSelect 五大核心计算与通信库也同步推出昇腾版本，直接对标英…",
+        "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+        "summary": "价格只有Astra一半 谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 95,
+        "link": "https://www.qbitai.com/2026/10/499663.html"
+      },
+      {
+        "id": "r4913cb3390",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-01",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+        "summary": "点击查看原文> 刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 95,
+        "link": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r55aa7ed9a4",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-01",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Conformal Factuality Control for Multi-Hop Retrieval-Augmented Generation",
+        "summary": "arXiv:2609.38222v1 Announce Type: new \nAbstract: Retrieval-augmented generation (RAG) can ground large language models in external evidence, but retrieved context does not guarantee that generated…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://arxiv.org/abs/2609.38222"
+      },
+      {
+        "id": "r19ee8e5a9c",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-01",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+        "summary": "arXiv:2609.38282v1 Announce Type: new \nAbstract: Vision-language models may rewrite anomalous text in images into linguistically plausible expressions, compromising OCR transcription faithfulness.…",
+        "tags": [
+          "论文",
+          "政策",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.38282"
+      },
+      {
+        "id": "r7f19d19917",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-01",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+        "summary": "arXiv:2609.38288v1 Announce Type: new \nAbstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.38288"
+      },
+      {
+        "id": "rdb11ffd152",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-01",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Large Language Models are Approximate Survival Estimators",
+        "summary": "arXiv:2609.38181v1 Announce Type: new \nAbstract: Survival analysis estimates time-to-event outcomes from patient covariates and is widely used for medical risk assessment. Patients seeking prognost…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2609.38181"
+      },
+      {
+        "id": "r717346239b",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-01",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "何恺明团队新作：看猫片就能学会ARC挑战",
+        "summary": "用ImageNet训练encoder 何恺明团队新作：看猫片就能学会ARC挑战",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/10/499812.html"
+      },
+      {
+        "id": "r53a398efcf",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-10-01",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
+        "summary": "点击查看原文> 生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
+        "tags": [
+          "政策",
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r633afc7138",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-01",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+        "summary": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/allenai/olmocore3"
+      },
+      {
+        "id": "rf70c9c7651",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-01",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "MoFlow: Multi-Objective Agentic Workflow Generation",
+        "summary": "arXiv:2609.38294v1 Announce Type: new \nAbstract: We study the generation of agentic workflows that jointly optimize multiple objectives, such as accuracy, cost, latency, robustness, and consistency…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.38294"
+      },
+      {
+        "id": "r019193e16e",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-01",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "AI Agents are Vulnerable to Radicalization",
+        "summary": "arXiv:2609.38296v1 Announce Type: new \nAbstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigat…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.38296"
+      },
+      {
+        "id": "r8c89a6ea4d",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-01",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "CARAT: Do Materials LLMs Reason or Recite?",
+        "summary": "arXiv:2609.38340v1 Announce Type: new \nAbstract: When a materials LLM answers a question about crystal structure, does it reason from the structure or copy an answer already printed in its input? A…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.38340"
+      },
+      {
+        "id": "r06bf35efa8",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-01",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Examining Variation in How Guided AI Tutors Resolve Student Impasses",
+        "summary": "arXiv:2609.38346v1 Announce Type: new \nAbstract: When a student is stuck, a tutor faces the assistance dilemma: help given too early can hinder productive struggle, while help withheld too long lea…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.38346"
+      },
+      {
+        "id": "rcb579c7d4c",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-01",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "TomasuLLM: Out-of-Order Speculative Execution for LLM Agents",
+        "summary": "arXiv:2609.38201v1 Announce Type: new \nAbstract: Long-running tools can dominate coding-agent latency: compilers, test suites, and repository commands take seconds to minutes while the agent idles.…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.38201"
+      },
+      {
+        "id": "r002a32bed9",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-01",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Automatic estimation of verbal fluency index in people with Motor Neuron Disease using ASR alignment and pause modelling",
+        "summary": "arXiv:2609.38203v1 Announce Type: new \nAbstract: Monitoring cognitive impairment (CI) in motor neuron disease (MND) is essential for timely treatment and care, yet challenging due to co-occurring s…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.38203"
+      },
+      {
+        "id": "r5d4b558cba",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-10-01",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "The System Prompt Illusion: How Instruction Preambles Modify Computation in Language Models",
+        "summary": "arXiv:2609.38205v1 Announce Type: new \nAbstract: System prompts are the primary lever practitioners use to control language model behavior, yet what they actually do to the computation inside the t…",
         "tags": [
           "开源",
           "论文",
-          "政策",
-          "中文源"
+          "英文源"
         ],
-        "readTime": 12,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html"
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.38205"
+      },
+      {
+        "id": "r4be485f544",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-01",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "TutlAit v1: a crowdsourced Moroccan Tamazight speech dataset with Arabic transcriptions and regional accent labels",
+        "summary": "arXiv:2609.38219v1 Announce Type: new \nAbstract: Tamazight (Amazigh) is, together with Arabic, one of the two official languages of Morocco, yet it remains severely under-resourced for speech techn…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2609.38219"
       },
       {
         "id": "r6c500cb518",
@@ -61,7 +351,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 95,
+        "hot": 94,
         "link": "https://www.leiphone.com/category/yanxishe/Zqcw9XvSO2Ht6FIQ.html"
       },
       {
@@ -81,7 +371,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 95,
+        "hot": 94,
         "link": "https://www.leiphone.com/category/yanxishe/Dp2FW4Pb6iLUvdhf.html"
       },
       {
@@ -101,7 +391,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 95,
+        "hot": 94,
         "link": "https://www.leiphone.com/category/yanxishe/HduKYmfhs2SeXQ39.html"
       },
       {
@@ -121,45 +411,28 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 95,
+        "hot": 94,
         "link": "https://www.leiphone.com/category/yanxishe/7bPyLlZDfncTOw5B.html"
       },
       {
-        "id": "r7a4630b696",
+        "id": "rb3347beddd",
         "auto": true,
         "featured": false,
-        "cat": "model",
+        "cat": "chip",
         "date": "2026-09-30",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Evaluating the Effects of Prompt Perturbation on Bias and Hallucination in Large Language Models",
-        "summary": "arXiv:2609.35804v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown remarkable capabilities in various natural language processing tasks, leading to their widespread deployment…",
-        "tags": [
-          "论文",
-          "融资",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 95,
-        "link": "https://arxiv.org/abs/2609.35804"
-      },
-      {
-        "id": "r4835577db8",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-30",
-        "source": "量子位",
+        "source": "雷锋网",
         "lang": "zh",
-        "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
-        "summary": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
+        "title": "DeepSeek 开源算子工具大礼包，联手华为昇腾，手撕 CUDA 绑定！",
+        "summary": "一套代码能跑遍所有芯片。 作者丨高允毅 编辑丨岑 峰 刚刚，DeepSeek做了一个开源壮举：把给英伟达 GPU 写代码的全套工具链，原样铺到了华为昇腾 950 NPU 上。最核心的算子开发产品 TileLang 官宣原生支持昇腾。不仅如此，连同 DeepGEMM、DeepEP、FlashMLA、TileKernels、DeepSelect 五大核心计算与通信库也同步推出昇腾版本，直接对标英…",
         "tags": [
-          "Agent",
+          "开源",
+          "论文",
+          "政策",
           "中文源"
         ],
-        "readTime": 2,
-        "hot": 94,
-        "link": "https://www.qbitai.com/2026/09/499308.html"
+        "readTime": 12,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html"
       },
       {
         "id": "r57c81f7160",
@@ -176,27 +449,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r501520ee6a",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-30",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
-        "summary": "arXiv:2609.35868v1 Announce Type: new \nAbstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whether model-conditioned training representations…",
-        "tags": [
-          "论文",
-          "算力",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 94,
-        "link": "https://arxiv.org/abs/2609.35868"
       },
       {
         "id": "r8f248befa6",
@@ -213,25 +467,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.qbitai.com/2026/09/499654.html"
-      },
-      {
-        "id": "rce93ade703",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-30",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
-        "summary": "让GPT把机器人技能当工具调用 刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/09/499493.html"
       },
       {
         "id": "r020be91623",
@@ -248,7 +485,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.infoq.cn/article/M6BRTrsyJvUg8y0M0kyh?utm_source=rss&utm_medium=article"
       },
       {
@@ -268,46 +505,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 9,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/industrynews/7q7ZyMuKeWjc1uGz.html"
-      },
-      {
-        "id": "r59976f5bbe",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-30",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
-        "summary": "arXiv:2609.35799v1 Announce Type: new \nAbstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach Hugging Face's secured infrastructure. Could ex…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.35799"
-      },
-      {
-        "id": "ra8794f53f7",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-30",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "From Lexical Baselines to Agentic Retrieval-Augmented Generation: Structured Skill and Responsibility-Level Extraction with the SFIA Framework",
-        "summary": "arXiv:2609.35806v1 Announce Type: new \nAbstract: Automated skill extraction underpins workforce planning, yet most systems represent skills as flat labels with no notion of the responsibility level…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2609.35806"
       },
       {
         "id": "rb13b481327",
@@ -323,7 +522,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/09/499605.html"
       },
       {
@@ -341,7 +540,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/09/499597.html"
       },
       {
@@ -359,7 +558,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/09/499592.html"
       },
       {
@@ -376,7 +575,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/cA9rSEGKphbJHIiTQKMv?utm_source=rss&utm_medium=article"
       },
       {
@@ -394,43 +593,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/07qzHLvyNXSW1SFNV5NV?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r9dadc13186",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-30",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
-        "summary": "点击查看原文> 机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/bduvBdbgwxj6DMbNeKCC?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r7133eeffff",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-30",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "从 AI 试点到营收增长：Snowflake 销售与营销团队如何跨越落地鸿沟 ｜ 技术实践",
-        "summary": "点击查看原文> 从 AI 试点到营收增长：Snowflake 销售与营销团队如何跨越落地鸿沟 ｜ 技术实践",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/hw3PpM2ZlCmCArsNo1y7?utm_source=rss&utm_medium=article"
       },
       {
         "id": "rf0a8becb20",
@@ -447,7 +611,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://sspai.com/post/114945"
       },
       {
@@ -465,7 +629,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/"
       },
       {
@@ -482,155 +646,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://huggingface.co/blog/open-tts-leaderboard"
-      },
-      {
-        "id": "rc3b5fc1634",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-09-30",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
-        "summary": "arXiv:2609.35833v1 Announce Type: new \nAbstract: Running a language model on edge hardware provides private and low-latency reasoning without a network connection, and yet the small models that fit…",
-        "tags": [
-          "论文",
-          "算力",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.35833"
-      },
-      {
-        "id": "r0e7bd1e448",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-09-30",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "The Price of Token Boundaries: Compression Certificates and Prediction",
-        "summary": "arXiv:2609.35869v1 Announce Type: new \nAbstract: Pre-tokenisation restricts which text fragments can become prediction units, but its compression cost is obscured when tokenisers are compared only…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.35869"
-      },
-      {
-        "id": "r5a5c2d8fc1",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-09-30",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
-        "summary": "arXiv:2609.35873v1 Announce Type: new \nAbstract: Automated generation of LLM harnesses promises to improve inference through task specialization. Yet additional answer coverage can arise from repea…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.35873"
-      },
-      {
-        "id": "r15ae9f4b14",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-09-30",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Risk-Averse Online POMDP Planning via CVaR of the Immediate Cost with Performance Guarantees",
-        "summary": "arXiv:2609.35874v1 Announce Type: new \nAbstract: Online POMDP planners optimize the expected cumulative cost, which can mask dangerous states when the belief places significant mass on high-cost st…",
-        "tags": [
-          "论文",
-          "政策",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.35874"
-      },
-      {
-        "id": "r165437493c",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-09-30",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech",
-        "summary": "arXiv:2609.35791v1 Announce Type: new \nAbstract: Natural turn-taking in full-duplex voice interaction requires determining from partial speech whether a pause reflects hesitation or a completed con…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.35791"
-      },
-      {
-        "id": "r90a2658e23",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-30",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention",
-        "summary": "arXiv:2609.35794v1 Announce Type: new \nAbstract: Just as Socrates recognized the limits of his own knowledge, Retrieval-Augmented Language Models (RALMs) should learn to abstain when the retrieved…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.35794"
-      },
-      {
-        "id": "r5ce7b9fe77",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-30",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Developing an OCR model for Extracting Information from Invoices with Korean Language",
-        "summary": "arXiv:2609.35796v1 Announce Type: new \nAbstract: Invoices are commercial documents that contain various pieces of information, including the purchased items, time, and total money. Making the extra…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.35796"
-      },
-      {
-        "id": "r0f92283268",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-30",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Alignment Forecasting: Predicting Misalignment From Training Data",
-        "summary": "arXiv:2609.35805v1 Announce Type: new \nAbstract: Training a language model on data with a narrow flaw can sometimes make the model broadly misaligned. Inspecting the data at face value often does n…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2609.35805"
       },
       {
         "id": "rc558399ad6",
@@ -647,7 +664,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
+        "hot": 88,
         "link": "https://sspai.com/post/115197"
       },
       {
@@ -667,23 +684,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 86,
         "link": "https://huggingface.co/blog/nvidia/kumo-tabular"
-      },
-      {
-        "id": "rdc0035bd40",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-09-29",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Making AI an asset, not an expense",
-        "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capabili…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/"
       }
     ]
   };
