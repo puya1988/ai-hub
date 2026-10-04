@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-10-04 02:59
+   抓取时间：2026-10-04 23:06
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-10-04 02:59",
+    "updated": "2026-10-04 23:06",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,6 +25,25 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
+        "id": "r8eb7c4bf22",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-04",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "《Dream it Possible》旋律再起，全新华为Mate 90系列踏光而来！",
+        "summary": "在10月1日的华为Mate 90系列及全场景新品发布会上，开场曲《Dream it Possible》全新版本旋律响起，瞬间把全场的记忆拉回那些与历代Mate同行的岁月。而华为Mate 90系列核心精神内核“踏光向前”，就藏在这首歌与Mate共同写下的故事里。 回头看，这首歌的每次唱响都踩在Mate的关键节点上，与品牌理念同频共振。2015年华为Mate 8发布会是起点，彼时唱的还只是普通人…",
+        "tags": [
+          "算力",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 6,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/industrynews/eqLySNuJ8LMHKrTe.html"
+      },
+      {
         "id": "rfde2e90319",
         "auto": true,
         "featured": false,
@@ -40,6 +59,41 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 92,
         "link": "https://www.qbitai.com/2026/10/501451.html"
+      },
+      {
+        "id": "rbf699b8039",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-10-04",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "AI算力硬合作，马斯克还是更相信中国制造",
+        "summary": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/10/501605.html"
+      },
+      {
+        "id": "r1f04c60681",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-04",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "最火AI岗位FDE：月薪5万，都干这些…",
+        "summary": "什么是FDE？它会一直存在吗？ 最火AI岗位FDE：月薪5万，都干这些…",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/10/501506.html"
       },
       {
         "id": "r5e640d7007",
@@ -73,7 +127,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 6,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.leiphone.com/category/industrynews/YE7qzr0QKUUwu5eL.html"
       },
       {
@@ -90,7 +144,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.qbitai.com/2026/10/501381.html"
       },
       {
@@ -107,7 +161,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 5,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/industrynews/yHRIGngfk28TJvIw.html"
       },
       {
@@ -124,44 +178,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/10/501368.html"
-      },
-      {
-        "id": "r27c480038a",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-03",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
-        "summary": "点击查看原文> 企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r4b9da68af4",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-03",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "The Agent Said It Was Done. The Database Disagreed.",
-        "summary": "The Agent Said It Was Done. The Database Disagreed.",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://huggingface.co/blog/microsoft/thinkingbox"
       },
       {
         "id": "r6615334972",
@@ -182,22 +200,40 @@ window.AI_FEED = {
         "link": "https://www.qbitai.com/2026/10/500148.html"
       },
       {
-        "id": "rdf38d0a0e2",
+        "id": "r27c480038a",
         "auto": true,
         "featured": false,
-        "cat": "model",
-        "date": "2026-10-02",
-        "source": "量子位",
+        "cat": "apply",
+        "date": "2026-10-03",
+        "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "丘成桐新论文致谢了GPT和Claude",
-        "summary": "44年前被亲自列入问题清单 丘成桐新论文致谢了GPT和Claude",
+        "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+        "summary": "点击查看原文> 企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
         "tags": [
-          "论文",
+          "Agent",
           "中文源"
         ],
         "readTime": 2,
-        "hot": 88,
-        "link": "https://www.qbitai.com/2026/10/499991.html"
+        "hot": 84,
+        "link": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r4b9da68af4",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-03",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "The Agent Said It Was Done. The Database Disagreed.",
+        "summary": "The Agent Said It Was Done. The Database Disagreed.",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://huggingface.co/blog/microsoft/thinkingbox"
       },
       {
         "id": "r61cfa6036b",
@@ -218,24 +254,6 @@ window.AI_FEED = {
         "readTime": 10,
         "hot": 88,
         "link": "https://www.leiphone.com/category/industrynews/kf23Cq1EQJfpwbcX.html"
-      },
-      {
-        "id": "r23a443f158",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-02",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
-        "summary": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择 openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/500098.html"
       },
       {
         "id": "r8606ea23af",
@@ -391,7 +409,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article"
       },
       {
@@ -410,28 +428,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r6c500cb518",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-09-30",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "Muse爆火，dots入场：Personal Agent开始和互联网平台抢入口",
-        "summary": "Personal Agent，正在成为这一轮 AI 产品竞争里最热的新概念之一。9 月 29 日，OpenAI 发布了可以长期在线的个人 Agent 产品 dots，提出“always-on agents”。更早把这个词推到台前的是 Meta 发布的个人 Agent 产品 Muse，截至 9 月下旬下载量突破 300 万，一度将 ChatGPT 从美国 App Store 免费榜第一的位置上…",
-        "tags": [
-          "融资",
-          "Agent",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 88,
-        "link": "https://www.leiphone.com/category/yanxishe/Zqcw9XvSO2Ht6FIQ.html"
       },
       {
         "id": "rb3347beddd",
