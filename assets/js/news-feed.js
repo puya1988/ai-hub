@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-10-05 23:07
+   抓取时间：2026-10-06 23:07
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-10-05 23:07",
+    "updated": "2026-10-06 23:07",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,60 +25,107 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "r20f271310a",
+        "id": "r927fb974c0",
         "auto": true,
         "featured": false,
-        "cat": "model",
-        "date": "2026-10-05",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Counterexample Generation via Per-Theorem Symbolic Verifiers: When Imitation Hurts and Reinforcement Repairs",
-        "summary": "arXiv:2610.02444v1 Announce Type: new \nAbstract: Large language models often solve a theorem forward yet fail to disprove a closely related false one: a falsification gap that supervised fine-tunin…",
+        "cat": "industry",
+        "date": "2026-10-06",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "刚刚，诺贝尔物理奖一人独揽！",
+        "summary": "南极洲甚至有一座高地以他名字命名 刚刚，诺贝尔物理奖一人独揽！",
         "tags": [
-          "开源",
-          "论文",
-          "英文源"
+          "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
-        "link": "https://arxiv.org/abs/2610.02444"
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/10/501746.html"
       },
       {
-        "id": "r12996550f8",
+        "id": "rd82ea0ed8f",
         "auto": true,
         "featured": false,
-        "cat": "model",
-        "date": "2026-10-05",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
-        "summary": "arXiv:2610.02293v1 Announce Type: new \nAbstract: HakemBench is a Turkish benchmark of typed decisions, in which the model under test reads a text, a question and a fixed set of options and returns…",
+        "cat": "industry",
+        "date": "2026-10-06",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "不er，咋陶哲轩也成AI减速派了？？",
+        "summary": "不er，咋陶哲轩也成AI减速派了？？",
         "tags": [
-          "论文",
-          "英文源"
+          "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2610.02293"
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/10/501736.html"
       },
       {
-        "id": "r0b474e179f",
+        "id": "r8efa75d54c",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-06",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "OpenAI「疯狂28天」首日，这都发了些啥啊…",
+        "summary": "OpenAI「疯狂28天」首日，这都发了些啥啊…",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/10/501726.html"
+      },
+      {
+        "id": "r99823b84a1",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-06",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+        "summary": "点击查看原文> AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r46500273fa",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-10-05",
-        "source": "arXiv cs.CL",
+        "date": "2026-10-06",
+        "source": "Hugging Face",
         "lang": "en",
-        "title": "FinDialogLens: Event Extraction over Multi-Party Dialogue for Missed-Trade Identification in Financial Chatrooms",
-        "summary": "arXiv:2610.02455v1 Announce Type: new \nAbstract: Multi-party financial chatrooms are vital for sales-and-trading professionals, but their complexity makes manual recovery of missed trades infeasibl…",
+        "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+        "summary": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
         "tags": [
-          "开源",
-          "论文",
           "英文源"
         ],
         "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2610.02455"
+        "hot": 90,
+        "link": "https://huggingface.co/blog/tiiuae/falcon-emirati"
+      },
+      {
+        "id": "rdc3ccbe051",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-06",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+        "summary": "The reports of OpenAI agents harming third-party sites keep coming.",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/"
       },
       {
         "id": "rd632bda781",
@@ -94,7 +141,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/10/501720.html"
       },
       {
@@ -112,7 +159,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/10/501705.html"
       },
       {
@@ -129,7 +176,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/10/501700.html"
       },
       {
@@ -147,7 +194,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/"
       },
       {
@@ -165,7 +212,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/"
       },
       {
@@ -182,7 +229,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/"
       },
       {
@@ -199,7 +246,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
       },
       {
@@ -217,177 +264,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
-      },
-      {
-        "id": "rdfb883daf3",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-05",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
-        "summary": "arXiv:2610.02260v1 Announce Type: new \nAbstract: Flow matching models excel at generative modeling, and many downstream applications require their samples to satisfy prescribed constraints, such as…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.02260"
-      },
-      {
-        "id": "rdfb07342b2",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-05",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
-        "summary": "arXiv:2610.02267v1 Announce Type: new \nAbstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an in…",
-        "tags": [
-          "开源",
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.02267"
-      },
-      {
-        "id": "r171ac1d7e1",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-05",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?",
-        "summary": "arXiv:2610.02281v1 Announce Type: new \nAbstract: Societal resilience research relies on access to useful and actionable data, which motivates our main research question: Can annual reports, process…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.02281"
-      },
-      {
-        "id": "rd3690e355b",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-10-05",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Keep It CALM: Analyzing the Limits of Global Unsafety in Text-to-Image Generation",
-        "summary": "arXiv:2610.02300v1 Announce Type: new \nAbstract: Training-free safeguards for text-to-image generation often rely on a reusable safety signal, such as an unsafe direction or global toxic subspace,…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.02300"
-      },
-      {
-        "id": "r2e7fbde7ab",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-05",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
-        "summary": "arXiv:2610.02330v1 Announce Type: new \nAbstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and co…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.02330"
-      },
-      {
-        "id": "ra577d096ff",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-05",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
-        "summary": "arXiv:2610.02331v1 Announce Type: new \nAbstract: Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.02331"
-      },
-      {
-        "id": "rd2a9d22147",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-05",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
-        "summary": "arXiv:2610.02425v1 Announce Type: new \nAbstract: Static evaluations credit a language model for naming the right move, but an agent must carry a plan through to a verified outcome while an opponent…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.02425"
-      },
-      {
-        "id": "r94f514ddc1",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-05",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "CUEing User Simulators: Calibrated User Embeddings for Multi-Turn Benchmarking",
-        "summary": "arXiv:2610.02460v1 Announce Type: new \nAbstract: Recent benchmarks rely on user simulators to evaluate AI agents in multi-turn interaction. While existing simulation techniques demonstrate surface…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.02460"
-      },
-      {
-        "id": "r28c1ca365e",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-05",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
-        "summary": "arXiv:2610.02472v1 Announce Type: new \nAbstract: Personalized LLM assistants must recover sparse evidence from long conversation histories across queries of varying complexity. We introduce APDMem…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.02472"
       },
       {
         "id": "r8eb7c4bf22",
@@ -407,58 +285,6 @@ window.AI_FEED = {
         "readTime": 6,
         "hot": 88,
         "link": "https://www.leiphone.com/category/industrynews/eqLySNuJ8LMHKrTe.html"
-      },
-      {
-        "id": "rfde2e90319",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-04",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
-        "summary": "专业3D模型反而更稀缺了 GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://www.qbitai.com/2026/10/501451.html"
-      },
-      {
-        "id": "rbf699b8039",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-10-04",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "AI算力硬合作，马斯克还是更相信中国制造",
-        "summary": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/501605.html"
-      },
-      {
-        "id": "r1f04c60681",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-04",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "最火AI岗位FDE：月薪5万，都干这些…",
-        "summary": "什么是FDE？它会一直存在吗？ 最火AI岗位FDE：月薪5万，都干这些…",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/501506.html"
       },
       {
         "id": "r5e640d7007",
@@ -492,7 +318,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 6,
-        "hot": 88,
+        "hot": 82,
         "link": "https://www.leiphone.com/category/industrynews/YE7qzr0QKUUwu5eL.html"
       },
       {
@@ -509,7 +335,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 5,
-        "hot": 86,
+        "hot": 80,
         "link": "https://www.leiphone.com/category/industrynews/yHRIGngfk28TJvIw.html"
       },
       {
@@ -527,7 +353,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article"
       },
       {
@@ -545,7 +371,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/microsoft/thinkingbox"
       },
       {
@@ -671,6 +497,170 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 78,
         "link": "https://huggingface.co/blog/allenai/astabrief"
+      },
+      {
+        "id": "raea0713804",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-02",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+        "summary": "AutoSynthData: Generating Training Data for Enterprise Agents",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+      },
+      {
+        "id": "r8ee1fc8b78",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-02",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+        "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
+      },
+      {
+        "id": "r4913cb3390",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-01",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+        "summary": "点击查看原文> 刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rb3347beddd",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-09-30",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "DeepSeek 开源算子工具大礼包，联手华为昇腾，手撕 CUDA 绑定！",
+        "summary": "一套代码能跑遍所有芯片。 作者丨高允毅 编辑丨岑 峰 刚刚，DeepSeek做了一个开源壮举：把给英伟达 GPU 写代码的全套工具链，原样铺到了华为昇腾 950 NPU 上。最核心的算子开发产品 TileLang 官宣原生支持昇腾。不仅如此，连同 DeepGEMM、DeepEP、FlashMLA、TileKernels、DeepSelect 五大核心计算与通信库也同步推出昇腾版本，直接对标英…",
+        "tags": [
+          "开源",
+          "论文",
+          "政策",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 84,
+        "link": "https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html"
+      },
+      {
+        "id": "rfb9c05c5fa",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-09-30",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "AI办公进入「上下文战争」，百度如何出牌？",
+        "summary": "上下文，正成为AI办公新的竞争变量。 “任何事情都可以成为用户的上下文。”在百度AI Day开放日接受雷峰网采访时，百度集团副总裁、个人超级智能事业群组（PSIG）总裁王颖表示，过往的历史积累、沉淀的文件资产，以及与同事之间的对话，都是上下文的重要组成部分。 当AI办公迈入上下文竞争阶段，各家手里的优势也各不相同： 有的来自企业协作场景，消息、文档、会议天然沉淀其中；有的来自业务软件，更贴近…",
+        "tags": [
+          "论文",
+          "Agent",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 9,
+        "hot": 80,
+        "link": "https://www.leiphone.com/category/industrynews/7q7ZyMuKeWjc1uGz.html"
+      },
+      {
+        "id": "rf0a8becb20",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-09-30",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的",
+        "summary": "祝你旅途顺遂，假期自由。查看全文 别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://sspai.com/post/114945"
+      },
+      {
+        "id": "r6725b9d322",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-09-30",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+        "summary": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/open-tts-leaderboard"
+      },
+      {
+        "id": "rc558399ad6",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-09-29",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等",
+        "summary": "Nothing 发布旗舰耳机 Headphone 1 Pro，AMD 斥资 82 亿美元收购 World Labs 等。查看全文",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 82,
+        "link": "https://sspai.com/post/115197"
+      },
+      {
+        "id": "r4e6aa1477b",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-09-29",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+        "summary": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+        "tags": [
+          "算力",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 74,
+        "link": "https://huggingface.co/blog/nvidia/kumo-tabular"
       }
     ]
   };
