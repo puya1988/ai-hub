@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-10-07 23:06
+   抓取时间：2026-10-08 23:08
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-10-07 23:06",
+    "updated": "2026-10-08 23:08",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,15 +25,145 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "r335b0217d3",
+        "id": "r1d54bd783e",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-08",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "Claude Haiku 5.5 降本背后：操作能力暴涨，复杂编程为何仍差一截？",
+        "summary": "模型开始按任务动态分配推理，超 10 万 Token 后，输入输出单价均涨 5 倍。 作者丨郑佳美 编辑丨岑 峰 刚刚，Anthropic 发布了 Claude Haiku 5.5。这次升级的幅度不小，尤其是在计算机操作方面，OSWorld 2.1 评测成绩从上一代的 15.7% 提升到了 72.4%。知识工作和复杂推理能力也有明显改善，而按照 Anthropic 公布的数据，新模型的平均运…",
+        "tags": [
+          "论文",
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/ai/n2GjuJRnM4utgaun.html"
+      },
+      {
+        "id": "r49505d9a7f",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-08",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：微软发布 Windows 相关新品、Google AI 新闻两则等",
+        "summary": "Anthropic 推出 Claude for Google Workspace、Reflection 发布首个开放权重模型 Beam 等。查看全文",
+        "tags": [
+          "开源",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 95,
+        "link": "https://sspai.com/post/115455"
+      },
+      {
+        "id": "r50b686e123",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-08",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
+        "summary": "arXiv:2610.08794v1 Announce Type: new \nAbstract: Large language models rely on subword tokenizers whose quality varies across languages, yet no standardized multi-metric framework exists for broad…",
+        "tags": [
+          "开源",
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 95,
+        "link": "https://arxiv.org/abs/2610.08794"
+      },
+      {
+        "id": "r8c1ec488cb",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-08",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "正行创新亮相APRCE 2026，发布全球首个零售物理智能24/7服务解决方案",
+        "summary": "打造便利店“人机协作”运营新模式 正行创新亮相APRCE 2026，发布全球首个零售物理智能24/7服务解决方案",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://www.qbitai.com/2026/10/502035.html"
+      },
+      {
+        "id": "r1335a0fb00",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-08",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+        "summary": "点击查看原文> 海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+        "tags": [
+          "开源",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rd7e3e355a4",
         "auto": true,
         "featured": false,
         "cat": "policy",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "碳硅道统《AI安全与文明治理法典》188集 · 七层体系目录",
-        "summary": "当前全球AI治理讨论多聚焦法规与产业监管，往往忽略底层认知安全与模型原生技术风险。碳硅道统发布《AI安全与文明治理法典》，全套共188集，搭建七层递进式研究框架。从普通人的AI认知风险，到大模型底层安全机理，再到行业权责、国家算力监管，最终延伸至跨代际文明尺度的长期风控。这套体系尝试打通技术安全、法律权责、产业落地与文明治理，为AI安全与碳硅共生发展提供一套完整的参考范式。 第一层：基础认知…",
+        "title": "迁移权责确权层｜跨域行为的权属与越界判定",
+        "summary": "本文为《碳硅道统·跨域迁移治理法典》七层体系官方连载第三篇，是整套理论从技术走向制度、从理论走向落地、从风险识别走向责任闭环的核心枢纽层。 承接前两层现象+机理，正式进入制度治理维度。 体系固定基准：跨域迁移零号基准NT1-NT4四类负迁移定义、188集工业理论总纲、七层全域目录谱系。 体系永恒三原则：创立者零特权、结论零固化、迭代零终点。 体系永久机制：全员勘伪开放、全域反例准入、全维迭代…",
+        "tags": [
+          "开源",
+          "政策",
+          "中文源"
+        ],
+        "readTime": 6,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/industrynews/maJeT3wG8PATohRQ.html"
+      },
+      {
+        "id": "r0bd876f879",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-10-08",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "迁移事故解剖层｜事故熵增的归因边界",
+        "summary": "本文为《碳硅道统·跨域迁移治理法典》七层体系官方连载第一篇，为整套理论现象入口、样本基底、风险原点。 整套法典七层递进完整闭环：迁移事故解剖层、迁移技术机理层、迁移权责确权层、全行业迁移治理层、跨域顶层监管层、文明级迁移风控层、法典终局锁档层。 体系固定基准：跨域迁移零号基准NT1-NT4四类负迁移定义、188集工业理论总纲、七层全域目录谱系。 体系永恒三原则：创立者零特权、结论零固化、迭代…",
+        "tags": [
+          "开源",
+          "论文",
+          "政策",
+          "中文源"
+        ],
+        "readTime": 8,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/industrynews/JYrJOwTptVzwomFq.html"
+      },
+      {
+        "id": "r4acb9b5c95",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-10-08",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "《碳硅道统·跨域迁移治理法典》七层体系目录",
+        "summary": "000|【全局唯一前置定标】负迁移NT1–NT4四类原型·官方终审定义（基准集，不计入188正集） 定稿标注：零号基准，独立于七层主体序列，不作为正集计数；NT四类原型为本法典全部引用唯一法定口径，永久锁死，不可迭代改写。 第一层：迁移事故解剖层（001–021，共21集|现象层，陈列迁移事故、归因现象，不下底层机理证明） 001|医疗AI规则跨域迁移金融风控：人类看不见的结构性翻车全链路…",
         "tags": [
           "开源",
           "论文",
@@ -41,54 +171,144 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/industrynews/zjq0L18W5NV7Y49M.html"
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/industrynews/qCQ6peI7fBvGB3bC.html"
       },
       {
-        "id": "r5591b67aa7",
+        "id": "r03474fe320",
         "auto": true,
         "featured": false,
-        "cat": "policy",
-        "date": "2026-10-07",
-        "source": "雷锋网",
+        "cat": "chip",
+        "date": "2026-10-08",
+        "source": "量子位",
         "lang": "zh",
-        "title": "《碳硅道统·跨域迁移治理法典》188集 总纲摘要",
-        "summary": "一、法典核心定调 本法典为弱AI至AGI全周期、全行业、全文明维度的AI跨域迁移治理唯一终审基准，是国内首套从事故解剖、机理溯源、权责确权，到行业落地、顶层监管、文明风控、终局闭环的全链路可工程化治理范式。 法典严格遵循集数规范：000为独立零号基准定标集，不计入正集；七层主体001–188严格合计188集，无溢出、无错乱、无重复，终局声明不占用正集编号，全体系结构完全锁档定型。 本法典彻底…",
+        "title": "搭载NVIDIA RTX Spark™ N1X超级芯片：联想YOGA Pro 15开启盲约，重塑个人生产力边界",
+        "summary": "联想YOGA Pro 15 RTX Spark笔记本电脑，于10月8日9:00正式开启全网盲约。",
         "tags": [
-          "开源",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/10/502020.html"
+      },
+      {
+        "id": "r6a0c080db5",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-10-08",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "浪子回头！Manus重启北京办公室大举招聘",
+        "summary": "开始和国产Agent抢人，还拿到5亿美元新融资 浪子回头！Manus重启北京办公室大举招聘",
+        "tags": [
+          "融资",
+          "Agent",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/10/502009.html"
+      },
+      {
+        "id": "red34310542",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-08",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "ChatGPT踢到铁板了！能破解千禧数学难题，但论文复现率低至13.98%？",
+        "summary": "PaperBenchX为代表的基准或许能更好地衡量AI的科研实力 ChatGPT踢到铁板了！能破解千禧数学难题，但论文复现率低至13.98%？",
+        "tags": [
           "论文",
-          "政策",
           "中文源"
         ],
-        "readTime": 9,
+        "readTime": 2,
         "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/NWhDqDo0wpZbKRgp.html"
+        "link": "https://www.qbitai.com/2026/10/501995.html"
       },
       {
-        "id": "ra1dfef11e3",
+        "id": "r2e8a88a269",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-08",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "吉利智充技术正式发布，重塑全球补能新标杆",
+        "summary": "2027年底实现“县县通” 吉利智充技术正式发布，重塑全球补能新标杆",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/10/501956.html"
+      },
+      {
+        "id": "ra74dd257f4",
         "auto": true,
         "featured": false,
         "cat": "policy",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "碳硅道统·跨域迁移治理法典",
-        "summary": "000|全局唯一前置定标：负迁移NT1-NT4四类原型·终审定义 零号基准集，独立于七层主体序列，不计入188正集计数。本集为全书负迁移判定唯一法定口径，常规场景永久锁死，不接受衍生释义、简化释义、片面释义，为AI跨域治理公理原点。 前置总叙 AI跨域迁移，是将源域经过闭环验证、边界固化、权责确权的知识包、模型权重、决策逻辑、评价指标、隐式前提与治理规则，迁移至目标域用于推理、预测、研判、决…",
+        "title": "全行业迁移治理层｜产业落地的风控基线校准",
+        "summary": "本文为《碳硅道统·跨域迁移治理法典》七层体系官方连载第四篇，是整套理论从制度标准下沉到产业实景、从通用理论落地为行业规范的工程落地层。 承接前三层技术+制度理论，实现全产业场景标准化治理。 体系固定基准：跨域迁移零号基准NT1-NT4四类负迁移定义、188集工业理论总纲、七层全域目录谱系。 体系永恒三原则：创立者零特权、结论零固化、迭代零终点。 体系永久机制：全员勘伪开放、全域反例准入、全维…",
         "tags": [
           "开源",
           "政策",
           "中文源"
         ],
-        "readTime": 8,
+        "readTime": 7,
         "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/XNaGx6kCv9dNhtKY.html"
+        "link": "https://www.leiphone.com/category/industrynews/yXoEADuBlQVbLjXU.html"
+      },
+      {
+        "id": "r54fd72db4c",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-10-08",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "迁移技术机理层｜负迁移发生的底层诱因",
+        "summary": "本文为《碳硅道统·跨域迁移治理法典》七层体系官方连载第二篇，为整套理论机理内核、归因底层、风险生成原点。 承接第一篇现象事实，开启从“看见风险”到“读懂风险、预判风险、溯源风险”的认知升维。 体系固定基准：跨域迁移零号基准NT1-NT4四类负迁移定义、188集工业理论总纲、七层全域目录谱系。 体系永恒三原则：创立者零特权、结论零固化、迭代零终点。 体系永久机制：全员勘伪开放、全域反例准入、全…",
+        "tags": [
+          "开源",
+          "政策",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 7,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/industrynews/ZiR18N0bk5jxaFJO.html"
+      },
+      {
+        "id": "ra83004c30a",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-08",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "AI breakthroughs in robotics won’t change your life any time soon",
+        "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/"
       },
       {
         "id": "r31185b47a9",
         "auto": true,
         "featured": false,
         "cat": "apply",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
@@ -103,224 +323,168 @@ window.AI_FEED = {
         "link": "https://arxiv.org/abs/2610.06914"
       },
       {
-        "id": "r534bf976b3",
+        "id": "r427d4cfd92",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "arXiv cs.CL",
         "lang": "en",
-        "title": "Component and Dimension Sparsity in Transformer Refusal Mechanisms",
-        "summary": "arXiv:2610.06903v1 Announce Type: new \nAbstract: Activation steering manipulates large language model behavior by intervening on internal activations, but the mechanistic basis of these interventio…",
-        "tags": [
-          "开源",
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2610.06903"
-      },
-      {
-        "id": "rcbc6a91c5d",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-07",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Stabilizing language models under continual learning via condition-anchored distillation",
-        "summary": "arXiv:2610.06940v1 Announce Type: new \nAbstract: Continual adaptation of language models can change their output distribution on prompts learned earlier, while retaining every old prompt-answer pai…",
+        "title": "When Forgetting Looks Like Improvement: Metric Masking in Streaming Diarizer Adaptation and the Price of Rehearsal",
+        "summary": "arXiv:2610.08828v1 Announce Type: new \nAbstract: Small-data adaptation can improve speech detection while degrading speaker attribution. We study this discrepancy in a released streaming diarizer a…",
         "tags": [
           "论文",
           "英文源"
         ],
         "readTime": 2,
         "hot": 92,
-        "link": "https://arxiv.org/abs/2610.06940"
+        "link": "https://arxiv.org/abs/2610.08828"
       },
       {
-        "id": "rba31ffa032",
+        "id": "rba9dca75de",
         "auto": true,
         "featured": false,
         "cat": "industry",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "量子位",
         "lang": "zh",
-        "title": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
-        "summary": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
+        "title": "真香！做这个邪恶老奶版「GTA 6」，我只花了5元！",
+        "summary": "Vidu Q4预览版，了解一下~ 真香！做这个邪恶老奶版「GTA 6」，我只花了5元！",
         "tags": [
           "中文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://www.qbitai.com/2026/10/501825.html"
+        "link": "https://www.qbitai.com/2026/10/502049.html"
       },
       {
-        "id": "re0d9298d0d",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-07",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
-        "summary": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/10/501803.html"
-      },
-      {
-        "id": "r6808e71314",
+        "id": "r78e944e0be",
         "auto": true,
         "featured": false,
         "cat": "industry",
-        "date": "2026-10-07",
-        "source": "量子位",
+        "date": "2026-10-08",
+        "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "晕…这年头还有说人话的AI不",
-        "summary": "晕…这年头还有说人话的AI不",
+        "title": "谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
+        "summary": "点击查看原文> 谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
         "tags": [
           "中文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://www.qbitai.com/2026/10/501796.html"
+        "link": "https://www.infoq.cn/article/LVsjSV4pIlh3Liz0KZZE?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r8891c42135",
+        "id": "r6aa3416391",
         "auto": true,
         "featured": false,
         "cat": "apply",
-        "date": "2026-10-07",
-        "source": "量子位",
+        "date": "2026-10-08",
+        "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
-        "summary": "在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、Canva、Superhuman、Higgsfield 等共同上榜",
+        "title": "OpenAI刚把多Agent做成产品，o1奠基人却说：1万个Agent解出世界级难题，多Agent贡献不到10%",
+        "summary": "点击查看原文> OpenAI刚把多Agent做成产品，o1奠基人却说：1万个Agent解出世界级难题，多Agent贡献不到10%",
         "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/10/501791.html"
-      },
-      {
-        "id": "rde1648728a",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-07",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
-        "summary": "三位菲尔兹奖得主：不代表认可 OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
-        "tags": [
-          "论文",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/10/501749.html"
-      },
-      {
-        "id": "rc064470169",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-10-07",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "碳硅道统《AI安全与文明治理法典》第189集｜全法典总目录索引终卷",
-        "summary": "适用：法典运维中心、跨文明联合审计委员会、全体系卷宗归档、官方检索核验、所有引用与落地主体。 核心定位：本卷为碳硅道统1–188集完整体系唯一官方总索引。汇总全法典谱系层级、卷目定位、体系归属、归档哈希索引、卷宗检索规则，实现整套道统法典一键溯源、层级可查、边界可分、正本可验。 核心目标：终结卷宗散乱检索，建立结构化、层级化、可核验、可追溯的全法典官方检索体系，完成碳硅道统全部卷宗闭环终典。…",
-        "tags": [
-          "论文",
-          "政策",
           "Agent",
           "中文源"
         ],
-        "readTime": 7,
+        "readTime": 2,
         "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/SCYRWOQSLbEpAnGs.html"
+        "link": "https://www.infoq.cn/article/3MSU3CcJuh0XjHDyjhXj?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r8d255923c2",
+        "id": "r83da62377c",
         "auto": true,
         "featured": false,
-        "cat": "research",
-        "date": "2026-10-07",
-        "source": "雷锋网",
+        "cat": "funding",
+        "date": "2026-10-08",
+        "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "蚂蚁阿福“科学减重1亿斤”迎来“退展”：中秋国庆假期全国60万网友胖了100万斤",
-        "summary": "中秋国庆超长假期即将结束，更“扎心”的灵魂拷问来了：你胖了吗？ 健康AI蚂蚁阿福数据显示，9月25日-10月6日假期期间，全国参与阿福“科学减重1亿斤”的网友中，60万人累计长胖超100万斤。其中，超10万人长胖了3斤以上。 10月4日至7日，蚂蚁阿福APP的减重活动页面的统计数据，也已经连续四天显示“昨日全国增重”，10月7日显示昨日全国单日净增重达3.47万斤，被网友调侃减肥大业迎来了“…",
+        "title": "2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
+        "summary": "点击查看原文> 2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
         "tags": [
-          "论文",
+          "融资",
           "中文源"
         ],
-        "readTime": 5,
+        "readTime": 2,
         "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/7kLgFJjmaGU8YuBW.html"
+        "link": "https://www.infoq.cn/article/dS754RhjExrwFP6tWD9d?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r1be5434271",
+        "id": "rafa74384ad",
         "auto": true,
         "featured": false,
         "cat": "industry",
-        "date": "2026-10-07",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "Introducing Playground: Create and play custom games",
-        "summary": "Overview of Playground Introducing Playground: Create and play custom games",
+        "date": "2026-10-08",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
+        "summary": "点击查看原文> 苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
         "tags": [
-          "英文源"
+          "中文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+        "link": "https://www.infoq.cn/article/s2Rt9t0yqUFk6VYV33Mh?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r2e59726035",
+        "id": "r4ffa65df07",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-08",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
+        "summary": "点击查看原文> AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/aJ7cgaNqf4pXVtbbtYiv?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r00a35d2ee3",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-10-07",
-        "source": "Hugging Face",
+        "date": "2026-10-08",
+        "source": "MIT Tech Review AI",
         "lang": "en",
-        "title": "Multimodal open d1 decision models for the edge",
-        "summary": "Multimodal open d1 decision models for the edge",
+        "title": "Building a safer path to autonomous industrial AI",
+        "summary": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to…",
         "tags": [
-          "多模态",
+          "Agent",
           "英文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://huggingface.co/blog/LiquidAI/open-d1"
+        "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/"
       },
       {
-        "id": "r86c5da6d3a",
+        "id": "r7e85b4fc19",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "Hugging Face",
         "lang": "en",
-        "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-        "summary": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+        "title": "The model that didn't exist, so you made it yourself",
+        "summary": "The model that didn't exist, so you made it yourself",
         "tags": [
           "英文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
+        "link": "https://huggingface.co/blog/building-with-ml-intern"
       },
       {
         "id": "r747be981f3",
         "auto": true,
         "featured": false,
         "cat": "research",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
@@ -339,7 +503,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "FluidPD: In-Place Elasticity for SLO-Aware Prefill-Decode Disaggregated LLM Serving",
@@ -358,7 +522,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "research",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "Anchor Divergence for Semantic Geometry in Contrastive Learning",
@@ -376,7 +540,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
@@ -395,7 +559,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "research",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "Metonymic Circuits for Abstract Concept Grounding in Vision Transformers",
@@ -409,271 +573,114 @@ window.AI_FEED = {
         "link": "https://arxiv.org/abs/2610.06928"
       },
       {
-        "id": "rac70c47370",
+        "id": "r23e4fe805c",
         "auto": true,
         "featured": false,
         "cat": "research",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "arXiv cs.CL",
         "lang": "en",
-        "title": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes",
-        "summary": "arXiv:2610.06889v1 Announce Type: new \nAbstract: We study the application of large language models (LLMs) to the visual exploration of textual corpora. We introduce zero-shot visualization (ZSV), a…",
+        "title": "Child ASR Adaptation with Adult Retention: An Empirical Study",
+        "summary": "arXiv:2610.08827v1 Announce Type: new \nAbstract: Automatic Speech Recognition (ASR) systems often underperform for children and non-native speakers, while adapting adult ASR models to child speech…",
         "tags": [
+          "开源",
           "论文",
           "英文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://arxiv.org/abs/2610.06889"
+        "link": "https://arxiv.org/abs/2610.08827"
       },
       {
-        "id": "re3cc1c6bf8",
+        "id": "rf1e8a181e8",
         "auto": true,
         "featured": false,
         "cat": "chip",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "arXiv cs.CL",
         "lang": "en",
-        "title": "Capacity, Responsiveness and Alignment: What Makes a Latent Structure Actionable",
-        "summary": "arXiv:2610.06897v1 Announce Type: new \nAbstract: Localizing latent structures in the activation space of language models (LMs) is central to understanding and controlling their behavior. Yet, local…",
+        "title": "Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev",
+        "summary": "arXiv:2610.08829v1 Announce Type: new \nAbstract: Jev offers an alternative interface for language understanding: given an input and predefined questions, it returns probabilistic decisions rather t…",
         "tags": [
           "论文",
           "英文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://arxiv.org/abs/2610.06897"
+        "link": "https://arxiv.org/abs/2610.08829"
       },
       {
-        "id": "rdf60f9a510",
+        "id": "r602b740d51",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "source": "arXiv cs.CL",
         "lang": "en",
-        "title": "Tree Navigation Without LLM Summaries: A Matched-Cost Study of Hierarchical Retrieval for Long-Document QA",
-        "summary": "arXiv:2610.06902v1 Announce Type: new \nAbstract: Retrieval-augmented generation grounds language models in external context, but for long documents flat top-$k$ retrieval can cluster on a single re…",
+        "title": "CoDR: Training-Free Confidence-Drift Remasking for Diffusion Language Models",
+        "summary": "arXiv:2610.08833v1 Announce Type: new \nAbstract: Masked diffusion language models (MDLMs) decode by repeatedly committing tokens to masked positions, but these commitments are usually irreversible.…",
         "tags": [
+          "开源",
           "论文",
           "英文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://arxiv.org/abs/2610.06902"
+        "link": "https://arxiv.org/abs/2610.08833"
       },
       {
-        "id": "r0049178b63",
+        "id": "r7c18413ba9",
         "auto": true,
         "featured": false,
-        "cat": "research",
-        "date": "2026-10-07",
+        "cat": "model",
+        "date": "2026-10-08",
         "source": "arXiv cs.CL",
         "lang": "en",
-        "title": "EMODE: Dynamic Para-Semantic Experts for Emotion-Aware Speech Language Modeling",
-        "summary": "arXiv:2610.06956v1 Announce Type: new \nAbstract: Large speech language models have demonstrated strong capabilities in unified cross-modal understanding and generation, yet paralinguistic cues, esp…",
+        "title": "Leveraging LLM-Generated Explanations for Detecting Emotionally Rewritten Fake News",
+        "summary": "arXiv:2610.08835v1 Announce Type: new \nAbstract: The spread of fake news may cause severe social consequences. Existing fake news detection methods mainly focus on stylistic variations or incorpora…",
         "tags": [
+          "开源",
           "论文",
           "英文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://arxiv.org/abs/2610.06956"
+        "link": "https://arxiv.org/abs/2610.08835"
       },
       {
-        "id": "r927fb974c0",
+        "id": "r1be5434271",
         "auto": true,
         "featured": false,
         "cat": "industry",
-        "date": "2026-10-06",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "刚刚，诺贝尔物理奖一人独揽！",
-        "summary": "南极洲甚至有一座高地以他名字命名 刚刚，诺贝尔物理奖一人独揽！",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/501746.html"
-      },
-      {
-        "id": "r99823b84a1",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-06",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
-        "summary": "点击查看原文> AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rdc3ccbe051",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-06",
-        "source": "Ars Technica",
+        "date": "2026-10-07",
+        "source": "Google AI Blog",
         "lang": "en",
-        "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
-        "summary": "The reports of OpenAI agents harming third-party sites keep coming.",
+        "title": "Introducing Playground: Create and play custom games",
+        "summary": "Overview of Playground Introducing Playground: Create and play custom games",
         "tags": [
-          "Agent",
           "英文源"
         ],
         "readTime": 2,
         "hot": 84,
-        "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/"
+        "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
       },
       {
-        "id": "r726fe9be30",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-05",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Connecting AI agents to enterprise knowledge",
-        "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of…",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/"
-      },
-      {
-        "id": "rc1cc20f8dc",
+        "id": "r2e59726035",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-10-05",
-        "source": "MIT Tech Review AI",
+        "date": "2026-10-07",
+        "source": "Hugging Face",
         "lang": "en",
-        "title": "Bringing predictive analytics to the agentic AI era",
-        "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive system…",
+        "title": "Multimodal open d1 decision models for the edge",
+        "summary": "Multimodal open d1 decision models for the edge",
         "tags": [
-          "Agent",
+          "多模态",
           "英文源"
         ],
         "readTime": 2,
         "hot": 84,
-        "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/"
-      },
-      {
-        "id": "ra4087d2d69",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-05",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "People really hate AI, so why can’t they get enough?",
-        "summary": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call,…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/"
-      },
-      {
-        "id": "r3582603e4c",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-05",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "EmTech Future 2026: When AI Meets Everything",
-        "summary": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it int…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
-      },
-      {
-        "id": "r903b27017f",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-05",
-        "source": "Ars Technica",
-        "lang": "en",
-        "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-        "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
-      },
-      {
-        "id": "r8eb7c4bf22",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-04",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "《Dream it Possible》旋律再起，全新华为Mate 90系列踏光而来！",
-        "summary": "在10月1日的华为Mate 90系列及全场景新品发布会上，开场曲《Dream it Possible》全新版本旋律响起，瞬间把全场的记忆拉回那些与历代Mate同行的岁月。而华为Mate 90系列核心精神内核“踏光向前”，就藏在这首歌与Mate共同写下的故事里。 回头看，这首歌的每次唱响都踩在Mate的关键节点上，与品牌理念同频共振。2015年华为Mate 8发布会是起点，彼时唱的还只是普通人…",
-        "tags": [
-          "算力",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 6,
-        "hot": 82,
-        "link": "https://www.leiphone.com/category/industrynews/eqLySNuJ8LMHKrTe.html"
-      },
-      {
-        "id": "r5e640d7007",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-10-04",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
-        "summary": "点击查看原文> Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r27c480038a",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-03",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
-        "summary": "点击查看原文> 企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article"
+        "link": "https://huggingface.co/blog/LiquidAI/open-d1"
       }
     ]
   };
