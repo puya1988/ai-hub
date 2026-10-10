@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-10-09 23:08
+   抓取时间：2026-10-10 23:07
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-10-09 23:08",
+    "updated": "2026-10-10 23:07",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,44 +25,241 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "r7f02a245b7",
+        "id": "r6fd265b3d9",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-10-09",
+        "date": "2026-10-10",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型",
-        "summary": "2026 年 10 月，AI 创投圈迎来一笔颇具戏剧感的融资。一家 10 人规模的神秘实验室，没产品、没名字，成了资本市场冰火两重天的风暴眼。一方面，业内进行着道德审判，“人品不行的公司绝对不能投”，另一方面，顶级 VC 机构五源资本和 IDG 却暗中追捧，偷偷塞了 3000 万美金，把估值推到 2 亿美元。而这家公司的创始人，正是 2024 年震动国内 AI 圈、被称作 “字节投毒实习生”…",
+        "title": "字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车",
+        "summary": "DeepSeek 的省钱杀手锏，为何成了致命盲区？ 作者丨高允毅 编辑丨岑 峰 同一个问题问 DeepSeek 两次，只是多敲了几个空格，给出的答案居然一个像“天才”，一个像“智障”。9月底，字节团队的最新论文《Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression》，直接点名了 DeepSeek V4…",
         "tags": [
           "开源",
           "论文",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html"
+      },
+      {
+        "id": "rbc32512aac",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-10",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "45分钟小定8000台，智己LS6这次成了？",
+        "summary": "这一次，智己能走出「叫好不叫座」吗？ 作者 | 王瑞昊编辑 | 李雨晨 9月10日，全新一代智己LS6正式开启预售，预售价20.99万元起，并将于9月23日正式上市。 预售开启45分钟，小订突破8000台。 这是智己“Next·2028战略”下的首款20万级纯电SUV，也是LS6迭代到第四代的产品。 LS6一直是智己的当家花旦。但对这家成立近六年的品牌来说，智己身上始终贴着一个不算好听的标签…",
+        "tags": [
+          "论文",
+          "Agent",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/transportation/ZbUAuIZ3oSpuD906.html"
+      },
+      {
+        "id": "r5a1b8a791b",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-10",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "买理想，还要不要认电池品牌？理想总裁马东辉的回应来了",
+        "summary": "MEGA电池召回事件让理想意识到掌握核心数据的重要性。 作者 | 王瑞昊编辑 | 李雨晨 “2026年以后新发布的车型，我们都希望采用自研电池。” 这不是一次试探。雷峰网获悉，目前，理想自研电池已经搭载在新款理想L8、L6和i8上；今年第四季度，新一代理想MEGA、全新理想i9以及2026款理想i6，也将陆续进入自研电池时代。从增程到纯电，六款车在一年之内完成切换。 同一款车、两个电池版本，…",
+        "tags": [
+          "论文",
+          "融资",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/transportation/KdptMsXu5w9oiUOo.html"
+      },
+      {
+        "id": "r5adeddf1b7",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-10",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
+        "summary": "点击查看原文> CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r6941ce3923",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-10-10",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
+        "summary": "点击查看原文> 金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
+        "tags": [
+          "政策",
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/SuqGY4FQ95AVzs1S0KSV?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r12a5f73bd0",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-10",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "零跑朱江明放话第二品牌要做iPhone式产品革命，哪来的自信？",
+        "summary": "第二品牌新车有一个反常识的指标：得房率超过100%。 作者 | 王瑞昊编辑 | 李雨晨 雷峰网了解到，2015年零跑成立的时候，团队一共50个人，其中41个是工程师。 十一年过去，那41个人里还有21个留在公司。今天的零跑有1万名员工，8500个在做研发，销售、人力、财务、公关全部加起来，只有1500人。 2026年8月，零跑全球交付103,129辆，上半年归母净利润2.1亿元，手里有18座…",
+        "tags": [
+          "算力",
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/transportation/2mlyhW6adiiiwwoy.html"
+      },
+      {
+        "id": "ra229569026",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-10",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "特斯拉FSD，在欧洲被打回原形",
+        "summary": "马斯克反而发文道谢？ 特斯拉FSD，在欧洲被打回原形",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/10/502467.html"
+      },
+      {
+        "id": "r3b0d061c04",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-10",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线",
+        "summary": "点击查看原文> 单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/gNdWoDM8ygkAjXfsLaBK?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r1c31f96a81",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-10",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "模型开放之后，AI能力为什么仍难以复用？",
+        "summary": "点击查看原文> 模型开放之后，AI能力为什么仍难以复用？",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "re1664c3554",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-10",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "GKE Pod 快照可缩短模型加载时间",
+        "summary": "点击查看原文> GKE Pod 快照可缩短模型加载时间",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/IAvNgDyPz2NpvfZLoDo0?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r0498cf30af",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-10-10",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "OpenAI 只用 15 天，就杀死了估值 100 亿美元的 Jev？",
+        "summary": "点击查看原文> OpenAI 只用 15 天，就杀死了估值 100 亿美元的 Jev？",
+        "tags": [
+          "融资",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/qmoRIQ1TceKfKwGlXN0S?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "racb9ab28c5",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-10",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "解读丨全系上自研电池，理想要干什么？",
+        "summary": "理想要把自研从从一项研发能力，变成一套更稳定的产业能力。 作者 | 王瑞昊编辑 | 李雨晨 9月7日15点，理想汽车给新一代MEGA用户划出了一条时间线。 在这个时间点之前锁单的用户，首批车辆仍采用宁德时代5C三元锂电池；15点之后锁单的用户，则将进入搭载理想自研5C三元锂电池的交付批次，预计11月开始交付。 就在三天前，理想汽车刚刚宣布了一笔26.5亿元的投资。 9月4日，北京理想汽车有限…",
+        "tags": [
           "融资",
           "中文源"
         ],
         "readTime": 12,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/yanxishe/BfzpShx7bKSPT4Ul.html"
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/transportation/glDqTmPAjocSjhzo.html"
       },
       {
-        "id": "r7e59abffb2",
+        "id": "r4c924cd14c",
         "auto": true,
         "featured": false,
-        "cat": "funding",
-        "date": "2026-10-09",
+        "cat": "apply",
+        "date": "2026-10-10",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "再裁员5000人！保时捷明确回归燃油车，高端车型计划涨价20%；腾讯拟发行50亿美元离岸债券，或筹钱加码AI；OpenAI全面上线GPT-6",
-        "summary": "要闻提示 再裁员5000人！保时捷明确回归燃油车，高端车型计划涨价20% 阿里巴巴蔡崇信：开源是欧洲发展 AI 的最佳选择 腾讯拟发行50亿美元离岸债券，或筹钱加码AI 超33亿元！Manus拿下国内Agent创企最大单笔融资，腾讯投了 7万人排队掏钱！小米公布澎程上市首月战报：30天锁单超70000台 字节跳动前争议实习生开发世界模型：融资近3000万美元 OpenAI面向全球所有Chat…",
+        "title": "新智驾独家丨奇瑞高层人事调整：智能化中心负责人谢保军疑似离职",
+        "summary": "内部飞书状态已显示暂停使用。 作者 | 王瑞昊编辑 | 李雨晨 雷峰网《新智驾》独家获悉，奇瑞汽车股份有限公司副总裁、智能化中心负责人谢保军疑似已离职，内部飞书状态已显示暂停使用。 雷峰网《新智驾》就此事向奇瑞汽车求证，截止发稿未作回应。 谢保军于2024年10月加入奇瑞，最初任职于旗下大卓智能，主要负责智能驾驶相关研发工作。2025年5月，奇瑞将雄狮科技、大卓智能以及研发总院相关业务整合，…",
         "tags": [
-          "开源",
-          "论文",
-          "政策",
           "中文源"
         ],
-        "readTime": 12,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/zaobao/GGmq1RiBgXY2GSVL.html"
+        "readTime": 3,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/transportation/oiSyYkdJBNF6AfVW.html"
       },
       {
         "id": "r5796db787c",
@@ -79,44 +276,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 95,
+        "hot": 90,
         "link": "https://sspai.com/post/115532"
-      },
-      {
-        "id": "rd495efc9e2",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-10-09",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "做了八年DSP，Credo怎么突然开始做光芯片了？",
-        "summary": "做了八年DSP（Digital Signal Processor，数字信号处理器）后，Credo Technology Group Holding Ltd（以下简称“Credo”）开始真正走进“光”里。 自去年10月首次推出ZeroFlap光模块产品线以来，Credo用一年时间把产品带宽从800G推向1.6T。一起扩张的，还有Credo在模块内部能够自己掌控的技术环节——最新一代全DSP模块…",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 9,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/chips/iJYPlZXgggbJ74ZB.html"
-      },
-      {
-        "id": "raf3220d5c7",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-10-09",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "文明级迁移风控层｜长周期不可逆的文明扰动识别",
-        "summary": "本文为《碳硅道统·跨域迁移治理法典》七层体系官方连载第六篇，是整套理论从国家元监管升维至文明存续尺度，从短期事件风控延伸到跨代际长周期扰动研判的底层范式层。 承接顶层监管层的制度框架，进入文明演化维度的风险审计。 体系固定基准：跨域迁移零号基准NT1-NT4四类负迁移定义、188集工业理论总纲、七层全域目录谱系。 体系永恒三原则：创立者零特权、结论零固化、迭代零终点。 体系永久机制：全员勘伪…",
-        "tags": [
-          "政策",
-          "中文源"
-        ],
-        "readTime": 7,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/industrynews/zWaIaM9e09Kmh5Rm.html"
       },
       {
         "id": "r86117a89eb",
@@ -133,119 +294,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.qbitai.com/2026/10/502364.html"
-      },
-      {
-        "id": "rada12b6210",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-09",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
-        "summary": "点击查看原文> Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
-        "tags": [
-          "论文",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rea82d63e5d",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-09",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude",
-        "summary": "点击查看原文> @ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rdd1542991d",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-10-09",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "法典终局锁档层｜体系自洽与范式边界的闭环校验",
-        "summary": "本文为《碳硅道统·跨域迁移治理法典》七层体系官方连载第七篇，整套七层链路收束闭合，完成从现象、机理、权责、产业、监管、文明，最终回归体系本身的自审勘伪闭环。 承接文明级迁移风控层长周期扰动研判，完成整套法典基线冻结、边界划定、证伪条款开放。 体系固定基准：跨域迁移零号基准NT1-NT4四类负迁移定义、188集工业理论总纲、七层全域目录谱系。 体系永恒三原则：创立者零特权、结论零固化、迭代零终…",
-        "tags": [
-          "开源",
-          "政策",
-          "中文源"
-        ],
-        "readTime": 7,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/wA8jx0ARGdT19yrC.html"
-      },
-      {
-        "id": "r7c5b0577f8",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-10-09",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "跨域顶层监管层｜监管者自身的跨域审计规则",
-        "summary": "本文为《碳硅道统·跨域迁移治理法典》七层体系官方连载第五篇，是整套理论从企业合规升维到公共治理、从行业自律升维到国家制度、从被动治理升维到元监管的顶层范式层。 解决全球AI治理终极制度盲区：监管不自审、规则不自勘。 体系固定基准：跨域迁移零号基准NT1-NT4四类负迁移定义、188集工业理论总纲、七层全域目录谱系。 体系永恒三原则：创立者零特权、结论零固化、迭代零终点。 体系永久机制：全员勘…",
-        "tags": [
-          "政策",
-          "中文源"
-        ],
-        "readTime": 6,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/aemAabCklwZCGjIm.html"
-      },
-      {
-        "id": "r5027a68a1c",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-10-09",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
-        "summary": "arXiv:2610.10635v1 Announce Type: new \nAbstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, int…",
-        "tags": [
-          "论文",
-          "融资",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2610.10635"
-      },
-      {
-        "id": "r5c3012cf7b",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-09",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch",
-        "summary": "arXiv:2610.10592v1 Announce Type: new \nAbstract: Historical Polish is well documented as a language but annotated in machine-readable form only to about a million words for the period this paper co…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2610.10592"
       },
       {
         "id": "r0d0b4ef4b7",
@@ -261,7 +311,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/10/502426.html"
       },
       {
@@ -279,7 +329,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/10/502422.html"
       },
       {
@@ -296,7 +346,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/10/502411.html"
       },
       {
@@ -314,94 +364,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/10/502359.html"
-      },
-      {
-        "id": "r97df9fabea",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-09",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "灵巧操作头号玩家：Sharpa把指尖「触觉」进化到全面「体感」",
-        "summary": "机器人摆脱展会、舞台Demo，产生真实商业价值，究竟需要哪些东西？ 灵巧操作头号玩家：Sharpa把指尖「触觉」进化到全面「体感」",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/10/502330.html"
-      },
-      {
-        "id": "r07670ea19d",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-09",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "黄仁勋为微软站台：没有 Windows 就不会有英伟达，Satya 当场“讨市值”",
-        "summary": "点击查看原文> 黄仁勋为微软站台：没有 Windows 就不会有英伟达，Satya 当场“讨市值”",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/dQy1xkMRuPVj1Xh7Pohu?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r6bb56248ee",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-09",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的",
-        "summary": "点击查看原文> OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/IRqoPz4cNONlNFBolD9V?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r186164c488",
-        "auto": true,
-        "featured": false,
-        "cat": "opensrc",
-        "date": "2026-10-09",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "AI 落地，此刻发生 ｜1024 模力工场 AI 社区日，首批报名开启",
-        "summary": "点击查看原文> AI 落地，此刻发生 ｜1024 模力工场 AI 社区日，首批报名开启",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/RicHewwNF5jacSMQNy6O?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r308d95e8b3",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-09",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "全球最大独立 AI 原生影视公司，开始打破工具与制片厂的边界",
-        "summary": "点击查看原文> 全球最大独立 AI 原生影视公司，开始打破工具与制片厂的边界",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/ZxZMY50COGlUNHLSAEUo?utm_source=rss&utm_medium=article"
       },
       {
         "id": "r8eaf614887",
@@ -417,7 +381,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/"
       },
       {
@@ -434,7 +398,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
       },
       {
@@ -452,195 +416,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://huggingface.co/blog/allenai/impactful-scheduling"
-      },
-      {
-        "id": "r9480dd80bc",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-09",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
-        "summary": "arXiv:2610.10541v1 Announce Type: new \nAbstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. I…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.10541"
-      },
-      {
-        "id": "rf8c0518846",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-09",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-        "summary": "arXiv:2610.10549v1 Announce Type: new \nAbstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and…",
-        "tags": [
-          "开源",
-          "论文",
-          "政策",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.10549"
-      },
-      {
-        "id": "rdaa6ebed13",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-09",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
-        "summary": "arXiv:2610.10590v1 Announce Type: new \nAbstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forg…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.10590"
-      },
-      {
-        "id": "r32cc07345c",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-10-09",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-        "summary": "arXiv:2610.10611v1 Announce Type: new \nAbstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance sc…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.10611"
-      },
-      {
-        "id": "ree250df4f5",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-10-09",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
-        "summary": "arXiv:2610.10629v1 Announce Type: new \nAbstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor review…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.10629"
-      },
-      {
-        "id": "r81702387f9",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-09",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
-        "summary": "arXiv:2610.10550v1 Announce Type: new \nAbstract: Personalizing text-to-image diffusion models from a few reference images requires preserving subject identity while following prompts that describe…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.10550"
-      },
-      {
-        "id": "rd97dae88ca",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-09",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
-        "summary": "arXiv:2610.10650v1 Announce Type: new \nAbstract: Work zones are critical yet hazardous components of transportation infrastructure, requiring carefully designed Transportation Management Plans (TMP…",
-        "tags": [
-          "开源",
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.10650"
-      },
-      {
-        "id": "r39e1af0bea",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-09",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Cognitive Thermometers: Machine Learning and Logical Complexity",
-        "summary": "arXiv:2610.10724v1 Announce Type: new \nAbstract: How does the human mind represent semantic categories? Why do natural languages favor certain meanings over others? Prior explanations have relied o…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.10724"
-      },
-      {
-        "id": "re232d13f62",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-09",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Lossy Compressive Text Autoencoders",
-        "summary": "arXiv:2610.10738v1 Announce Type: new \nAbstract: Our work explores learning a compressed latent representation of text, at the intersection of data compression and representation learning. We propo…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.10738"
-      },
-      {
-        "id": "rbe1b14b6a0",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-09",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Clarify, Then Focus: Statement Normalization for Conversation Analytics at Scale",
-        "summary": "arXiv:2610.10758v1 Announce Type: new \nAbstract: Enterprise conversation analytics asks many questions of millions of interactions. Each question can require reconstructing what people mean and ide…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.10758"
       },
       {
         "id": "r49505d9a7f",
@@ -676,6 +453,217 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 86,
         "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/"
+      },
+      {
+        "id": "r00a35d2ee3",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-08",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "Building a safer path to autonomous industrial AI",
+        "summary": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to…",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/"
+      },
+      {
+        "id": "r7e85b4fc19",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-08",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "The model that didn't exist, so you made it yourself",
+        "summary": "The model that didn't exist, so you made it yourself",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://huggingface.co/blog/building-with-ml-intern"
+      },
+      {
+        "id": "r1be5434271",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-07",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "Introducing Playground: Create and play custom games",
+        "summary": "Overview of Playground Introducing Playground: Create and play custom games",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+      },
+      {
+        "id": "r2e59726035",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-07",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Multimodal open d1 decision models for the edge",
+        "summary": "Multimodal open d1 decision models for the edge",
+        "tags": [
+          "多模态",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/LiquidAI/open-d1"
+      },
+      {
+        "id": "r077cc4401d",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-07",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Introducing Falcon ASR",
+        "summary": "Introducing Falcon ASR",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/tiiuae/falcon-asr"
+      },
+      {
+        "id": "r86c5da6d3a",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-07",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+        "summary": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
+      },
+      {
+        "id": "rdc3ccbe051",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-06",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+        "summary": "The reports of OpenAI agents harming third-party sites keep coming.",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/"
+      },
+      {
+        "id": "r726fe9be30",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-05",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "Connecting AI agents to enterprise knowledge",
+        "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of…",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/"
+      },
+      {
+        "id": "rc1cc20f8dc",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-05",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "Bringing predictive analytics to the agentic AI era",
+        "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive system…",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/"
+      },
+      {
+        "id": "r903b27017f",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-05",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+        "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+      },
+      {
+        "id": "r4b9da68af4",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-03",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "The Agent Said It Was Done. The Database Disagreed.",
+        "summary": "The Agent Said It Was Done. The Database Disagreed.",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 72,
+        "link": "https://huggingface.co/blog/microsoft/thinkingbox"
+      },
+      {
+        "id": "ra705ecdfaa",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-02",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "The latest AI news we announced in September 2026",
+        "summary": "A video showing the September AI updates",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 72,
+        "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
       }
     ]
   };
