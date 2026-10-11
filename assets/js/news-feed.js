@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-10-10 23:07
+   抓取时间：2026-10-11 23:07
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-10-10 23:07",
+    "updated": "2026-10-11 23:07",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -24,6 +24,111 @@ window.AI_FEED = {
     ],
     "failed": [],
     "items": [
+      {
+        "id": "r2b5aadd99f",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-11",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+        "summary": "初代4o的API快照进入停用倒计时 下架8个月，GPT-4o的拯救行动居然还在继续",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/10/502550.html"
+      },
+      {
+        "id": "r5dfbb43872",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-11",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
+        "summary": "Grok Bot我养不起，ds bot不得高低尝尝咸淡？ DeepSeek Bot来了！民间版，DSH装个插件就能用",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/10/502544.html"
+      },
+      {
+        "id": "rd2f642597f",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-11",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "王的猜想，刚刚扩展到四维",
+        "summary": "王的猜想，刚刚扩展到四维",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/10/502584.html"
+      },
+      {
+        "id": "r38242fa2eb",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-10-11",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "硅谷AI现状：谁有算力谁是爹",
+        "summary": "马斯克连横A社，硅谷VC开始囤GPU 硅谷AI现状：谁有算力谁是爹",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/10/502585.html"
+      },
+      {
+        "id": "reb8a08c24c",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-11",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "利用 AI 代码智能体优化软件架构的五种方法",
+        "summary": "点击查看原文> 利用 AI 代码智能体优化软件架构的五种方法",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/soRObi5sjdTTUM95zLJK?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "ra2178f21cc",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-11",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+        "summary": "点击查看原文> AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article"
+      },
       {
         "id": "r6fd265b3d9",
         "auto": true,
@@ -41,7 +146,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 95,
+        "hot": 94,
         "link": "https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html"
       },
       {
@@ -61,7 +166,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.leiphone.com/category/transportation/ZbUAuIZ3oSpuD906.html"
       },
       {
@@ -81,8 +186,25 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.leiphone.com/category/transportation/KdptMsXu5w9oiUOo.html"
+      },
+      {
+        "id": "rb7598384d1",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-10",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "超清双2亿，掌中电影机，荣耀Magic9 系列正式发布，售价4499元起",
+        "summary": "2026年9月28日，荣耀（HONOR）在北京举办荣耀Magic盛典暨荣耀Magic9 系列新品发布会",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 86,
+        "link": "https://www.qbitai.com/2026/10/502496.html"
       },
       {
         "id": "r5adeddf1b7",
@@ -99,27 +221,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r6941ce3923",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-10-10",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
-        "summary": "点击查看原文> 金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
-        "tags": [
-          "政策",
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.infoq.cn/article/SuqGY4FQ95AVzs1S0KSV?utm_source=rss&utm_medium=article"
       },
       {
         "id": "r12a5f73bd0",
@@ -137,25 +240,25 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/transportation/2mlyhW6adiiiwwoy.html"
       },
       {
-        "id": "ra229569026",
+        "id": "rb138f4b645",
         "auto": true,
         "featured": false,
-        "cat": "industry",
+        "cat": "apply",
         "date": "2026-10-10",
         "source": "量子位",
         "lang": "zh",
-        "title": "特斯拉FSD，在欧洲被打回原形",
-        "summary": "马斯克反而发文道谢？ 特斯拉FSD，在欧洲被打回原形",
+        "title": "西门子将亮相2026工博会：以软硬协同的工业全栈能力，推动物理AI加速落地",
+        "summary": "西门子将以更集中、更场景化的方式，展示其工业全栈能力 西门子将亮相2026工博会：以软硬协同的工业全栈能力，推动物理AI加速落地",
         "tags": [
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/10/502467.html"
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/10/502541.html"
       },
       {
         "id": "r3b0d061c04",
@@ -171,7 +274,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/gNdWoDM8ygkAjXfsLaBK?utm_source=rss&utm_medium=article"
       },
       {
@@ -188,7 +291,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article"
       },
       {
@@ -205,26 +308,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/IAvNgDyPz2NpvfZLoDo0?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r0498cf30af",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-10-10",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "OpenAI 只用 15 天，就杀死了估值 100 亿美元的 Jev？",
-        "summary": "点击查看原文> OpenAI 只用 15 天，就杀死了估值 100 亿美元的 Jev？",
-        "tags": [
-          "融资",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/qmoRIQ1TceKfKwGlXN0S?utm_source=rss&utm_medium=article"
       },
       {
         "id": "racb9ab28c5",
@@ -241,7 +326,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.leiphone.com/category/transportation/glDqTmPAjocSjhzo.html"
       },
       {
@@ -258,7 +343,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 3,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.leiphone.com/category/transportation/oiSyYkdJBNF6AfVW.html"
       },
       {
@@ -278,94 +363,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 90,
         "link": "https://sspai.com/post/115532"
-      },
-      {
-        "id": "r86117a89eb",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-09",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "字节找到了DeepSeek时强时弱的原因",
-        "summary": "答不答得对，得看Token站位 字节找到了DeepSeek时强时弱的原因",
-        "tags": [
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://www.qbitai.com/2026/10/502364.html"
-      },
-      {
-        "id": "r0d0b4ef4b7",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-09",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "TRAE终于把Code和Work合并了",
-        "summary": "大写的方便 TRAE终于把Code和Work合并了",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/502426.html"
-      },
-      {
-        "id": "r4f91da1de7",
-        "auto": true,
-        "featured": false,
-        "cat": "opensrc",
-        "date": "2026-10-09",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
-        "summary": "联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/502422.html"
-      },
-      {
-        "id": "re759add5c7",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-09",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "0.2秒急停、秒级重规划！因果智能走进真实世界",
-        "summary": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间 0.2秒急停、秒级重规划！因果智能走进真实世界",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/502411.html"
-      },
-      {
-        "id": "ra6c98d3d9c",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-09",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "《柳叶刀》研究表明：AI 有望改善医患关系",
-        "summary": "Google 研究成果首次登上《柳叶刀》主刊 《柳叶刀》研究表明：AI 有望改善医患关系",
-        "tags": [
-          "论文",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/502359.html"
       },
       {
         "id": "r8eaf614887",
@@ -420,24 +417,6 @@ window.AI_FEED = {
         "link": "https://huggingface.co/blog/allenai/impactful-scheduling"
       },
       {
-        "id": "r49505d9a7f",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-08",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：微软发布 Windows 相关新品、Google AI 新闻两则等",
-        "summary": "Anthropic 推出 Claude for Google Workspace、Reflection 发布首个开放权重模型 Beam 等。查看全文",
-        "tags": [
-          "开源",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://sspai.com/post/115455"
-      },
-      {
         "id": "ra83004c30a",
         "auto": true,
         "featured": false,
@@ -451,7 +430,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 86,
+        "hot": 80,
         "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/"
       },
       {
@@ -469,7 +448,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/"
       },
       {
@@ -486,7 +465,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/building-with-ml-intern"
       },
       {
@@ -664,6 +643,24 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 72,
         "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
+      },
+      {
+        "id": "r8ee1fc8b78",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-02",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+        "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 72,
+        "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
       }
     ]
   };
