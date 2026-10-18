@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-10-17 23:10
+   抓取时间：2026-10-18 23:12
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-10-17 23:10",
+    "updated": "2026-10-18 23:12",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,6 +25,62 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
+        "id": "rec1147e02c",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-18",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "2026湾芯展圆满落幕：3天展期，近8万平方米展区迎来超15.67万人次专业观众",
+        "summary": "10月16日，2026湾区半导体产业生态博览会（湾芯展WESEMiBAY）在深圳会展中心（福田）圆满收官。本届展会规模与能级实现跨越式提升，3天展期，近8万平方米展区迎来超15.67万人次专业观众，多位院士、150位顶尖学者同台论道，超500位产业领袖与一线技术精英共赴盛会，来自20余个国家和地区的1000余家海内外优质企业参展，超3000件年度首发新品集中亮相，40余场高规格论坛串联起从技…",
+        "tags": [
+          "融资",
+          "算力",
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 10,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/chips/DnZbjQYkyrBmdOAJ.html"
+      },
+      {
+        "id": "r689cf45fd8",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-18",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
+        "summary": "点击查看原文> Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
+        "tags": [
+          "开源",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rcd3106c915",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-18",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
+        "summary": "点击查看原文> “AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article"
+      },
+      {
         "id": "r9dac56abbb",
         "auto": true,
         "featured": false,
@@ -38,7 +94,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.qbitai.com/2026/10/504067.html"
       },
       {
@@ -57,7 +113,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.qbitai.com/2026/10/503935.html"
       },
       {
@@ -74,7 +130,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.qbitai.com/2026/10/503910.html"
       },
       {
@@ -92,7 +148,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.infoq.cn/article/uGNQwpOt5GGAKm2XlEZC?utm_source=rss&utm_medium=article"
       },
       {
@@ -110,7 +166,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 3,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/industrynews/JjzV775vQhP9EgGN.html"
       },
       {
@@ -128,7 +184,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/10/503965.html"
       },
       {
@@ -145,7 +201,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/10/503893.html"
       },
       {
@@ -162,7 +218,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/JMZ6WUx4a4cVqAwhwviU?utm_source=rss&utm_medium=article"
       },
       {
@@ -181,7 +237,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 3,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.leiphone.com/category/transportation/F3nQwjeqDO0BtrQ0.html"
       },
       {
@@ -225,24 +281,6 @@ window.AI_FEED = {
         "link": "https://www.leiphone.com/category/yanxishe/Vr0JmbkUeZV5D9Qz.html"
       },
       {
-        "id": "r23024725e0",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-16",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
-        "summary": "点击查看原文> 范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
-        "tags": [
-          "开源",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://www.infoq.cn/article/VZPlIIdGRg062mgwJe5y?utm_source=rss&utm_medium=article"
-      },
-      {
         "id": "ra638b93ede",
         "auto": true,
         "featured": false,
@@ -259,26 +297,6 @@ window.AI_FEED = {
         "readTime": 6,
         "hot": 86,
         "link": "https://www.leiphone.com/category/industrynews/LDt2TEiUf3wgi2Os.html"
-      },
-      {
-        "id": "r0bd1378b71",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-16",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "中控技术接入千问办公，打造流程工业领域AI Native标杆企业",
-        "summary": "10月16日，中控技术股份有限公司（以下简称“中控技术”）正式接入千问办公，将Agent落地营销全链路。后续，千问办公还将优化中控技术的采购、供应链、财务、人力、研发等场景工作流，共建流程工业领域AI Native标杆企业。 图示 中控技术和千问办公签约现场 中控技术成立于1999年，是以工业数据为基础、AI大模型为核心、全场景智能体为触手的工业AI平台型公司，基于“技术+场景+生态”的立体…",
-        "tags": [
-          "政策",
-          "Agent",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 4,
-        "hot": 86,
-        "link": "https://www.leiphone.com/category/industrynews/8IM46Vzpf7IFumo7.html"
       },
       {
         "id": "rbd49cbdfe4",
@@ -348,23 +366,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 84,
         "link": "https://www.infoq.cn/article/xQLd004RGWrzFhwqBOyC?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rcfea1b0b9f",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-16",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "AI 生成的代码，怎么才能进得了工程体系？",
-        "summary": "点击查看原文> AI 生成的代码，怎么才能进得了工程体系？",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.infoq.cn/article/8iKz8xNQvxDfeuxH1QLA?utm_source=rss&utm_medium=article"
       },
       {
         "id": "r508800ae27",
@@ -448,7 +449,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
       },
       {
@@ -466,7 +467,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/meta-muse-spark-open"
       },
       {
@@ -483,7 +484,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/flux-3"
       },
       {
