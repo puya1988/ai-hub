@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-10-25 00:46
+   抓取时间：2026-10-26 00:57
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-10-25 00:46",
+    "updated": "2026-10-26 00:57",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,6 +25,41 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
+        "id": "rf5c740b009",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-25",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
+        "summary": "点击查看原文> 四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
+        "tags": [
+          "开源",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rcb80a24087",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-25",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：iFixit 拆解 iPhone Duo，肯定可维修性但指出内屏隐患",
+        "summary": "派早报：iFixit 拆解 iPhone Duo，肯定可维修性但指出内屏隐患 Spotify 将要求家庭组成员定期扫码验证 Arc 浏览器宣布下线 央广总台澄清「国补停止」说法 谷歌建设虚拟电厂，付费激励电网用户省电留给 AI iTunes Store 重受歌手青睐 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://sspai.com/post/117460"
+      },
+      {
         "id": "ra09e6f819d",
         "auto": true,
         "featured": false,
@@ -39,7 +74,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 5,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.leiphone.com/category/industrynews/ykWM8XAjpHi0biY1.html"
       },
       {
@@ -59,7 +94,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.leiphone.com/category/industrynews/RRFr9U8GKWjNNxfH.html"
       },
       {
@@ -77,7 +112,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 3,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/industrynews/WOl6u17gkYoV3PVr.html"
       },
       {
@@ -97,7 +132,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/industrynews/nwy00TZXQdwJcSka.html"
       },
       {
@@ -121,58 +156,24 @@ window.AI_FEED = {
         "link": "https://www.leiphone.com/category/zaobao/IlrVRbBiK9Klcuj1.html"
       },
       {
-        "id": "rdc586b02ec",
+        "id": "r324c9db487",
         "auto": true,
         "featured": false,
-        "cat": "model",
+        "cat": "industry",
         "date": "2026-10-23",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "Kimi K3.1 泄露：3D 成本仅有 GPT-6 Astra 的 1/14！横扫海外视觉三巨头",
-        "summary": "15 分钟交付工业级可交互3D 资产，重写视觉大模型的“理科生法则” 作者丨高允毅 编辑丨岑 峰 刚刚，Kimi 官方发布了一段“极具暗示性”的先导片，各种高能科学画面与粒子特效快速切换，有眼尖的网友已经捕捉到画面中的彩蛋“Kimi K3.1”。Kimi K3.1 要来了？这次它带着极强的视觉效果来了，有网友指出官方视频就是 Kimi K3.1 做的。 图注：眼尖的网友在画面中找到了亮点“K…",
+        "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
+        "summary": "10 月 23 日，以 “ AI is Profitable ” 为主题的 2026 TGC 科技增长大会于广州召开。 面向AI for Work数万亿美元级蓝海市场，全球领先的AI营销科技公司钛动科技，在会上正式发布行业首个 Pro Agent ——Navos Pro。Navos Pro以 Professional、Proactive、Profitable 三大核心属性构建产品内核，让结果…",
         "tags": [
-          "开源",
-          "论文",
+          "融资",
           "算力",
+          "Agent",
           "中文源"
         ],
-        "readTime": 12,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/yanxishe/PZo9w14YeFSo4jmf.html"
-      },
-      {
-        "id": "r331628c3dd",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-23",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：Insta360 发布 Insta360 Mic，Anthropic 推出 Claude Duet 等",
-        "summary": "少数派的近期动态和少数派一起，在海口明日公园来一场创造之约吧。活动详情iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章终于吃到了那颗梦寐以求的小药丸：我的A ...查看全文",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 88,
-        "link": "https://sspai.com/post/117104"
-      },
-      {
-        "id": "rd0755d04fb",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-23",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-        "summary": "点击查看原文> 奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo?utm_source=rss&utm_medium=article"
+        "readTime": 8,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/industrynews/sf7R7WgzGyvZwKLa.html"
       },
       {
         "id": "r59dd317bd9",
@@ -299,6 +300,23 @@ window.AI_FEED = {
         "link": "https://huggingface.co/blog/allenai/litpivot"
       },
       {
+        "id": "r331628c3dd",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-23",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：Insta360 发布 Insta360 Mic，Anthropic 推出 Claude Duet 等",
+        "summary": "少数派的近期动态和少数派一起，在海口明日公园来一场创造之约吧。活动详情iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章终于吃到了那颗梦寐以求的小药丸：我的A ...查看全文",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 82,
+        "link": "https://sspai.com/post/117104"
+      },
+      {
         "id": "rfb80132a2d",
         "auto": true,
         "featured": false,
@@ -312,7 +330,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/torch-neuronx-model-support"
       },
       {
@@ -330,7 +348,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 88,
+        "hot": 82,
         "link": "https://www.qbitai.com/2026/10/504832.html"
       },
       {
@@ -348,7 +366,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 86,
+        "hot": 80,
         "link": "https://www.qbitai.com/2026/10/504879.html"
       },
       {
@@ -365,7 +383,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.qbitai.com/2026/10/504841.html"
       },
       {
@@ -382,7 +400,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.qbitai.com/2026/10/504800.html"
       },
       {
@@ -399,7 +417,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
       },
       {
@@ -417,7 +435,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
       },
       {
@@ -434,7 +452,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
       },
       {
@@ -452,7 +470,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/"
       },
       {
@@ -470,7 +488,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/microsoft/thinkingbox-training"
       },
       {
@@ -487,7 +505,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
       },
       {
@@ -644,23 +662,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 74,
         "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
-      },
-      {
-        "id": "r1be5434271",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-07",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "Introducing Playground: Create and play custom games",
-        "summary": "Overview of Playground Introducing Playground: Create and play custom games",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 72,
-        "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
       }
     ]
   };
