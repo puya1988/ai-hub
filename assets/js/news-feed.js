@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-10-27 01:48
+   抓取时间：2026-10-28 01:59
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-10-27 01:48",
+    "updated": "2026-10-28 01:59",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,63 +25,447 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "r88c98f7582",
+        "id": "rce03ce81d2",
         "auto": true,
         "featured": false,
-        "cat": "apply",
-        "date": "2026-10-26",
+        "cat": "industry",
+        "date": "2026-10-28",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "在AI时代如何提升软件工程能力",
+        "summary": "点击查看原文> 在AI时代如何提升软件工程能力",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/Qwr9oqOSAdmi1YibHVWr?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r4f9de20a76",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-10-27",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "趋境科技完成 B 轮融资，半年实现超十倍速增长，加速高品质 AI Token 规模化交付",
-        "summary": "近日，雷峰网获悉，高品质 AI Token 生产服务商趋境科技（Approaching.AI）完成 B 轮融资，本轮融资金额超13亿人民币；今年内已累计募得24亿人民币。多项核心经营指标在半年内实现超十倍速增长，持续获得产业和资本的高度认可。 本轮融资由浙财创新、萧山资本、工银投资、中关村科学城、星连资本及钱江世纪城共同领投。云创资本、湖南高新纵横、建投华科、申万创新投、中信聚信、珠海科技产…",
+        "title": "长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求；Anthropic公开上市申请，最快11月中旬上市；周畅被曝离职？接近字节人士回应",
+        "summary": "要闻提示 1.长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求 2.Seedance 核心研发负责人周畅被曝离职？接近字节人士否认 3.李楠谈iPhone Duo屏幕开裂问题：本质是苹果和供应链生疏了 4.道歉也翻车？小鹏经理Etta道歉视频疑似用AI生成 5.奥迪中国四环标和字母标正式分家 6.会员使用K3.1 Pro时出现限流及不必要的额度消耗，Kimi致歉并宣布补偿 7.突发！Anth…",
         "tags": [
           "开源",
           "论文",
-          "融资",
+          "政策",
           "中文源"
         ],
         "readTime": 12,
         "hot": 95,
-        "link": "https://www.leiphone.com/category/yanxishe/upPcOw2EaMaw2Otv.html"
+        "link": "https://www.leiphone.com/category/zaobao/9LHYVcJC8iwgwnhk.html"
       },
       {
-        "id": "rdc731bf4ff",
+        "id": "r7a5c219441",
         "auto": true,
         "featured": false,
-        "cat": "model",
-        "date": "2026-10-26",
-        "source": "雷锋网",
+        "cat": "industry",
+        "date": "2026-10-27",
+        "source": "量子位",
         "lang": "zh",
-        "title": "DeepSeek 开源看家算子的同一周，AI 超过了它",
-        "summary": "国产大模型的竞争，正从模型层延伸到算力层：再强的模型，最终都要基于算子在芯片上执行。同一个模型、同一块芯片，换一套更优的算子，有时会带来数倍的性能提升。算子的效率决定了同样的显卡能跑多快，也决定了每个 token 的价格。 DeepSeek 近日全面开源推理框架 DeepInfer。继模型权重和 FlashMLA、DeepGEMM 等算子库之后，他们把模型运行的链路开放了。其中的 Flash…",
+        "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
+        "summary": "10 月 23 日，以 “ AI is Profitable ” 为主题的 2026 TGC 科技增长大会于广州召开。",
         "tags": [
-          "开源",
-          "算力",
-          "国产",
+          "Agent",
           "中文源"
         ],
-        "readTime": 3,
+        "readTime": 2,
         "hot": 94,
-        "link": "https://www.leiphone.com/category/industrynews/IaMw7vRrTCadlbCY.html"
+        "link": "https://www.qbitai.com/2026/10/505580.html"
       },
       {
-        "id": "r29a50b804d",
+        "id": "rb5722bf4d8",
         "auto": true,
         "featured": false,
         "cat": "apply",
-        "date": "2026-10-26",
+        "date": "2026-10-27",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "Muse之后，灵光2.0让Personal Agent接手中国式日常",
+        "summary": "机票和酒店订好，还是忍不住隔几天查查价格。降了，算算退改费用，看要不要重订；没降，过两天再看。花不了多少时间，却总得惦记着。 为了追剧开了会员，剧看完就没再打开，自动续费却一直没停。直到某天翻账单，才发现又扣了几个月的钱。 这些事务单次处理并不复杂，却一直需要反复关注。过去，AI可以帮忙查一次价格、分析一份账单，跟进工作仍然留给用户。现在，灵光想把这部分也接过去。 10月27日，蚂蚁集团发布…",
+        "tags": [
+          "Agent",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/industrynews/PubkEap5yOtdT59V.html"
+      },
+      {
+        "id": "r050ce872ae",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-27",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "超1800支参赛队伍创纪录，蚂蚁灵波具身模型挑战赛即将决赛",
+        "summary": "10月27日，由蚂蚁灵波科技主办的首届“蚂蚁灵波具身大模型挑战赛”线上初赛正式落下帷幕。官方数据显示：大赛共吸引了海内外1855支队伍、3252位选手报名。参赛者来自13个国家，覆盖648 个知名高校、科研院所以及头部科技企业及具身智能公司，其中包含 41个海外高校和单位，首届大赛就创下行业最大规模。据悉，线下总决赛将于11月14至16日在上海张江以48小时真机黑客松的形式举行。 1855支…",
+        "tags": [
+          "开源",
+          "论文",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 6,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/industrynews/g4nk653U5p12RMpR.html"
+      },
+      {
+        "id": "r600158fbbd",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-27",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Entity-Aware Evaluation of OCR Systems for Historical Document Transcription",
+        "summary": "arXiv:2610.33004v1 Announce Type: new \nAbstract: Optical Character Recognition (OCR) is essential for digitizing historical archives, yet standard evaluation metrics such as Character Error Rate (C…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://arxiv.org/abs/2610.33004"
+      },
+      {
+        "id": "r735e079239",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-27",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "OpenESM: Energy-Steered Models Are Scalable Foundation Learners",
+        "summary": "arXiv:2610.33005v1 Announce Type: new \nAbstract: Energy-based models have shown promising properties for domain-specific tasks but remain challenging in modeling general-purpose scenarios. To bridg…",
+        "tags": [
+          "开源",
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://arxiv.org/abs/2610.33005"
+      },
+      {
+        "id": "r2277c537fc",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-27",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "TypeSafe AI发布Jev：一种只返回类型化概率而非文本的决策模型",
+        "summary": "点击查看原文> TypeSafe AI发布Jev：一种只返回类型化概率而非文本的决策模型",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/3o7gwgKJt2SbH8AhdpkU?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r165e56185a",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-27",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "千问办公接入乐奇AI眼镜，一句话发起任务",
+        "summary": "10月27日，在乐奇AI眼镜新品发布会上，乐奇Rokid和千问办公宣布达成合作，千问办公正式接入乐奇AI眼镜。用户在“Rokid AI”App里的智能体商店添加“千问办公”，绑定千问办公账号后，就可以戴上眼镜用语音唤起千问办公、下发任务，并在眼镜端查看结果。 比如，用户直接说：“千问办公，帮我调研一下AI眼镜的行业现状。”千问办公收到指令后就会开始执行，完成后交付产出，用户在眼镜上就能直接查…",
+        "tags": [
+          "论文",
+          "Agent",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 3,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/industrynews/NDbYUsVKbYZZxXil.html"
+      },
+      {
+        "id": "r58325310fb",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-10-27",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "10月28日见！华为畅享 100 系列三款新品蓄势待发：满分配置抢先看",
+        "summary": "距离10月28日华为双十一焕新季·全场景新品发布会越来越近，华为畅享系列的新一代产品也逐渐揭开面纱。10月27日，随着华为畅享 100 系列三款单品海报陆续释出，这一系列在外观设计、核心配置与日常体验方面的看点进一步明朗。据了解，华为畅享 100 系列已于10月23日开启预订，此次新品包括华为畅享 100、华为畅享 100 Pro及华为畅享 100 Pro Max三款机型，围绕麒麟8系芯片、…",
+        "tags": [
+          "算力",
+          "多模态",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 6,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/industrynews/GABZR4IV17tSEHlt.html"
+      },
+      {
+        "id": "rb0fb923ecb",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-27",
         "source": "arXiv cs.AI",
         "lang": "en",
-        "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
-        "summary": "arXiv:2610.31789v1 Announce Type: new \nAbstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, a…",
+        "title": "Optimal Correction Sets for Provable Redress of Contestable Causal Discovery",
+        "summary": "arXiv:2610.33138v1 Announce Type: new \nAbstract: Constraint-based causal discovery relies on conditional-independence (CI) tests that may conflict in finite samples, leaving no causal graph that sa…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2610.33138"
+      },
+      {
+        "id": "rfd21ad7464",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-27",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "GLM-5.5 要来了？唐杰最新论文，曝出智谱神秘模型",
+        "summary": "图像生成正确率 54%，文字问答仅 14.57%。 作者丨郑佳美 编辑丨岑 峰 智谱内部的 GLM-Omni，先在一篇论文里露了面。这篇研究由清华大学与智谱 AI 联合完成，唐杰担任通讯作者。模型名称刚刚出现在论文中，社交平台上就有人把它与 GLM-5.5 联系起来。虽然论文并没有披露版本对应关系，但给出了 GLM-Omni 的技术底座，以及它在统一视觉理解和图像生成方面的一组实验结果。参考…",
+        "tags": [
+          "论文",
+          "多模态",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 11,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/ai/LjPPo6aqhHUrRMFg.html"
+      },
+      {
+        "id": "rffc67eb073",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-27",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+        "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line af…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/"
+      },
+      {
+        "id": "r6c7f2177a8",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-27",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Build specialized multimodal models with LFM3",
+        "summary": "Build specialized multimodal models with LFM3",
+        "tags": [
+          "多模态",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/LiquidAI/lfm3"
+      },
+      {
+        "id": "r3a7e89b7ed",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-27",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Can we trust LLMs to judge whether a research idea is novel?",
+        "summary": "Can we trust LLMs to judge whether a research idea is novel?",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/allenai/novelty-bench"
+      },
+      {
+        "id": "r531c705ef7",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-27",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Inverse Modeling for Laser Pulse Shape Design in Inertial Confinement Fusion",
+        "summary": "arXiv:2610.33096v1 Announce Type: new \nAbstract: The achievement of practical fusion energy remains one of the most pressing unsolved scientific challenges, with immense implications for carbon-fre…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2610.33096"
+      },
+      {
+        "id": "r5ca74018b3",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-27",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "IRON-Meme: A Benchmark for Structured Understanding of Identities and Roles in Online Meme Narratives",
+        "summary": "arXiv:2610.33097v1 Announce Type: new \nAbstract: As polarization grows on social media, understanding how political memes shape online narratives has become increasingly important. Previous researc…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2610.33097"
+      },
+      {
+        "id": "r29e621bfff",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-27",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Prospect Theory in Large Language Models: A Meta-Analysis of Loss Aversion, Diminishing Sensitivity, and Probability Weighting",
+        "summary": "arXiv:2610.33103v1 Announce Type: new \nAbstract: Prospect theory splits risky choice into three parts: loss aversion, measured by the relative weight of losses to gains, $\\lambda$ (e.g., $\\lambda =…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2610.33103"
+      },
+      {
+        "id": "r1fddc9fcfb",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-10-27",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Artificial Intelligence in Mechanical Engineering: Foundations, Opportunities, Challenges, and Responsibilities",
+        "summary": "arXiv:2610.33105v1 Announce Type: new \nAbstract: Artificial intelligence (AI) is reshaping mechanical engineering (ME), from modeling, simulation, and optimization to diagnostics, design, and techn…",
         "tags": [
           "论文",
           "Agent",
           "英文源"
         ],
         "readTime": 2,
-        "hot": 94,
-        "link": "https://arxiv.org/abs/2610.31789"
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2610.33105"
+      },
+      {
+        "id": "r357f257873",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-27",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Conformance as a Distribution: Delegation Contracts, Error Budgets, and the Allocation of Evaluation Authority in Use-Based AI Regulation",
+        "summary": "arXiv:2610.33112v1 Announce Type: new \nAbstract: Use-based AI regulation assigns obligations by deployment risk but lacks an evidentiary object to carry them. A benchmark score is a property of a m…",
+        "tags": [
+          "论文",
+          "政策",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2610.33112"
+      },
+      {
+        "id": "rb527827099",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-27",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Whispering Wisely: Smart Subset Selection for ASR Fine-Tuning",
+        "summary": "arXiv:2610.32997v1 Announce Type: new \nAbstract: Automatic Speech Recognition (ASR) models such as OpenAIs Whisper have substantially improved speech recognition quality but remain expensive to fin…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2610.32997"
+      },
+      {
+        "id": "rfe26592c1d",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-27",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "From Writing Advice to Manuscript Governance: A Constrained-Transformation Framework for Academic Revision",
+        "summary": "arXiv:2610.33001v1 Announce Type: new \nAbstract: Academic revision presents a governance problem when legitimate writing objectives conflict. Writing-process and social-science research show that r…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2610.33001"
+      },
+      {
+        "id": "re7db555bb2",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-27",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Linear-Time Context Compression with State-Space Encoding",
+        "summary": "arXiv:2610.33006v1 Announce Type: new \nAbstract: Transformer-based large language models (LLMs) impose substantial computation and memory costs as context sizes increase, motivating methods that co…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2610.33006"
+      },
+      {
+        "id": "r0e630527df",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-27",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Knowledge-Guided LLM for Intent-Driven Service Orchestration in Integrated Terrestrial and Non-Terrestrial 6G Networks",
+        "summary": "arXiv:2610.33007v1 Announce Type: new \nAbstract: Natural-language service intents in integrated terrestrial and non-terrestrial (TN/NTN) 6G networks can be incomplete, ambiguous, or inconsistent, m…",
+        "tags": [
+          "论文",
+          "政策",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2610.33007"
       },
       {
         "id": "re578523c4a",
@@ -98,104 +482,95 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.infoq.cn/article/2svt5BbWUOHbADdo0UZo?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r0071338f37",
+        "id": "r03d47d2bee",
         "auto": true,
         "featured": false,
-        "cat": "apply",
+        "cat": "funding",
         "date": "2026-10-26",
-        "source": "雷锋网",
+        "source": "量子位",
         "lang": "zh",
-        "title": "即梦推出 “短剧工作室”，打造更全能的 AI 内容创作平台",
-        "summary": "10月26日，即梦AI上线全新功能“短剧工作室”。作为即梦面向短剧创作场景推出的一站式AI工具，“短剧工作室”将剧本整理、角色与场景管理、分镜生成、视频制作及后期调整等全流程整合到同一个平台中，让创作者不必在多个平台间来回切换。 据悉，“短剧工作室”部分功能整合了小云雀短剧Agent的同款能力。有行业分析认为，此次能力整合，有助于即梦发挥既有优势，打造更加全能好用的内容创作平台。 即梦短剧工…",
+        "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
+        "summary": "地球最富兄妹俩堂堂来袭！7名联创仍紧握50.1%总投票权 刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
         "tags": [
-          "Agent",
           "中文源"
         ],
-        "readTime": 5,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/x7VWhGaTdbidkwsa.html"
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/10/505551.html"
       },
       {
-        "id": "rd110ec5565",
+        "id": "rc8eaa3db47",
         "auto": true,
         "featured": false,
-        "cat": "research",
+        "cat": "industry",
         "date": "2026-10-26",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
-        "summary": "arXiv:2610.31810v1 Announce Type: new \nAbstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pi…",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验",
+        "summary": "10月23日至25日，以“见证超能发生”为主题的“天禧AI × 观猹大会”在杭州茶叶博览会会议会展中心启幕。",
         "tags": [
-          "开源",
-          "论文",
-          "Agent",
-          "英文源"
+          "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2610.31810"
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/10/505539.html"
       },
       {
-        "id": "r8dfd0053a3",
+        "id": "re9766abf0f",
         "auto": true,
         "featured": false,
-        "cat": "model",
+        "cat": "chip",
         "date": "2026-10-26",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
-        "summary": "arXiv:2610.31846v1 Announce Type: new \nAbstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today's agents recover from a mistake on…",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "OpenAI开始断网训练最强模型：“安全起见”",
+        "summary": "模型开始利用GPU缓存聊天？ OpenAI开始断网训练最强模型：“安全起见”",
         "tags": [
-          "论文",
-          "政策",
-          "Agent",
-          "英文源"
+          "算力",
+          "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2610.31846"
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/10/505529.html"
       },
       {
-        "id": "r07435c9af7",
+        "id": "r227230ff22",
         "auto": true,
         "featured": false,
-        "cat": "model",
+        "cat": "industry",
         "date": "2026-10-26",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
-        "summary": "arXiv:2610.31882v1 Announce Type: new \nAbstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (L…",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "A社联创演讲：AI奇点已来",
+        "summary": "所谓奇点，或许是AI跃过人类的那个点。 A社联创演讲：AI奇点已来",
         "tags": [
-          "论文",
-          "Agent",
-          "英文源"
+          "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2610.31882"
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/10/505521.html"
       },
       {
-        "id": "r931c4e9a7f",
+        "id": "r7d1746cc4a",
         "auto": true,
         "featured": false,
-        "cat": "model",
+        "cat": "chip",
         "date": "2026-10-26",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "The Schema Coherence Inventory: Measuring Whether an Assigned Belief Organizes a Language Model's Cognition",
-        "summary": "arXiv:2610.31683v1 Announce Type: new \nAbstract: Persona-conditioned language models are used as simulated patients and affective agents, but there is no validated way to ask whether a belief assig…",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "NeoLab第一个商业模式：转售GPU",
+        "summary": "从冲刺AGI到转售GPU。 NeoLab第一个商业模式：转售GPU",
         "tags": [
-          "论文",
-          "Agent",
-          "英文源"
+          "算力",
+          "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2610.31683"
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/10/505478.html"
       },
       {
         "id": "rcdc252ab55",
@@ -211,7 +586,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/b32Mw2zaPrxyJ6ChePD5?utm_source=rss&utm_medium=article"
       },
       {
@@ -229,7 +604,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg?utm_source=rss&utm_medium=article"
       },
       {
@@ -247,44 +622,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/NrUkJExfuuFOICsjVYbb?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r3d8fc5cb36",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-26",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "从 Agent 工程化到任务交付，解读 AI 走向生产的关键挑战｜QCon 上海 2026 圆满收官",
-        "summary": "点击查看原文> 从 Agent 工程化到任务交付，解读 AI 走向生产的关键挑战｜QCon 上海 2026 圆满收官",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/0C1Wgt7N9NzM6KjHSFeA?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r7ea3e2f6b4",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-26",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "腾讯绿泡泡短剧小程序月活过亿，10月首周周活环比增长44.1%",
-        "summary": "从知情人士处获悉，根据QuestMobile的数据，截至今年8月，腾讯绿泡泡短剧小程序月活跃用户规模已过亿级，达1.43亿。10月首周周活跃用户达8968万，较9月首周提升44.1%。自7月正式更名以来，该产品周活跃用户规模约三个月内逼近9000万。 根据DataEye监测，10月1日至7日绿泡泡短剧累计投放素材4.3万组，日均投放量较节前一周增长57%，内容供给与投放投入同步加码。从增长驱…",
-        "tags": [
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/c4JSGcwzPuRrggOC.html"
       },
       {
         "id": "r425a0b109b",
@@ -300,7 +639,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/"
       },
       {
@@ -317,7 +656,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
       },
       {
@@ -335,346 +674,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
-        "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/"
-      },
-      {
-        "id": "rb22be80e49",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-26",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
-        "summary": "arXiv:2610.31701v1 Announce Type: new \nAbstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B g…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.31701"
-      },
-      {
-        "id": "rae8405f8fd",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-26",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Patronizing and Condescending Language Detection in English and Mandarin",
-        "summary": "arXiv:2610.31808v1 Announce Type: new \nAbstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negati…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.31808"
-      },
-      {
-        "id": "rfe206ae09e",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-26",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
-        "summary": "arXiv:2610.31678v1 Announce Type: new \nAbstract: Many LLM studies compare how models respond to different follow-up prompts. For example, one prompt may neutrally ask a model to reconsider, while a…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.31678"
-      },
-      {
-        "id": "r019d3666cd",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-26",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "MisconceptDialogue: Evaluation Criteria Shape Measured Success in LLM Math Tutoring",
-        "summary": "arXiv:2610.31679v1 Announce Type: new \nAbstract: Large language models are increasingly used as math tutors, raising two questions: can a single LLM detect a student's error, diagnose the underlyin…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.31679"
-      },
-      {
-        "id": "r2de2b5ceee",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-26",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Rethinking Structured Generation: Can Graph-Based Reasoning Resolve Ambiguity?",
-        "summary": "arXiv:2610.31681v1 Announce Type: new \nAbstract: Structured generation is typically formulated as a deterministic mapping from input to a single structured output. This assumption is fundamentally…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.31681"
-      },
-      {
-        "id": "rdce245220b",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-26",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Multi modal perceived conversation success prediction for spontaneous autistic and non-autistic dyadic interactions",
-        "summary": "arXiv:2610.31682v1 Announce Type: new \nAbstract: Conversation success is important for communication, social bonds, and well-being and is often reduced in autistic-neurotypical conversations. Previ…",
-        "tags": [
-          "论文",
-          "多模态",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.31682"
-      },
-      {
-        "id": "rc420e41a85",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-26",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework",
-        "summary": "arXiv:2610.31684v1 Announce Type: new \nAbstract: Knowledge Graphs (KGs) have been popularized during the last few decades and are increasingly constructed and consumed by Large Language Models (LLM…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.31684"
-      },
-      {
-        "id": "rf5c740b009",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-25",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
-        "summary": "点击查看原文> 四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
-        "tags": [
-          "开源",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 88,
-        "link": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rcb80a24087",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-25",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：iFixit 拆解 iPhone Duo，肯定可维修性但指出内屏隐患",
-        "summary": "iFixit 拆解 iPhone Duo，肯定可维修性但指出内屏隐患 Spotify 将要求家庭组成员定期扫码验证 Arc 浏览器宣布下线 央广总台澄清「国补停止」说法 谷歌建设虚拟电厂，付费激励电网用户省电留给 AI iTunes Store 重受歌手青睐 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
         "hot": 84,
-        "link": "https://sspai.com/post/117460"
-      },
-      {
-        "id": "ra09e6f819d",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-24",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "支付宝AI支付发起年度黑客松大赛，邀开发者把AI创意变成生意",
-        "summary": "从 Vibe Coding 到 Skill、Agent，AI 正打开新一轮创业窗口：一个人也能打造应用，一项技能也能成为产品。随着创作与开发门槛降低，新的机会正在浮现——让自己做出的 AI 产品，成为用户愿意付费的生意。 面向这股浪潮，10月24日，支付宝AI支付联合观猹发起“PAYATHON 2026”年度黑客松，邀请开发者带着应用、Skill 或 Agent 参赛：接入支付，把创意推向真…",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 5,
-        "hot": 88,
-        "link": "https://www.leiphone.com/category/industrynews/ykWM8XAjpHi0biY1.html"
-      },
-      {
-        "id": "rb1e309b6e4",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-24",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "“更懂你、会办事”，支付宝携手科大讯飞升级智能座舱服务",
-        "summary": "10月21日，支付宝车载助手亮相科大讯飞智能汽车产品技术发布会，宣布与讯飞星火智慧座舱战略合作升级，正式启动「讯宝计划」，推动智能座舱从信息交互向生活服务延伸，让车主在车内即可办理更多日常事物。 四大生活服务场景将落地，覆盖出行高频需求 发布会上，支付宝车载助手接入星火智慧座舱3.0的合作成果正式亮相。依托讯飞汽车 Master Agent 的统一调度，双方围绕车主出行生活需求，将推出四大服…",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 3,
-        "hot": 86,
-        "link": "https://www.leiphone.com/category/industrynews/WOl6u17gkYoV3PVr.html"
-      },
-      {
-        "id": "rcec499bdb9",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "科大讯飞首发星辰TaaS平台，让Token真正成为千行百业的生产力",
-        "summary": "10月22日，2026科大讯飞全球1024开发者节在北京国家会议中心开幕 科大讯飞首发星辰TaaS平台，让Token真正成为千行百业的生产力",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.qbitai.com/2026/10/505083.html"
-      },
-      {
-        "id": "rc1aff32aba",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "企业AI需要两个世界模型",
-        "summary": "特赞想让企业Agent真正懂业务 企业AI需要两个世界模型",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.qbitai.com/2026/10/505032.html"
-      },
-      {
-        "id": "reb24733d46",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "一张5090跑起34B实时世界模型，国产玩家拿下英伟达大奖！",
-        "summary": "房间秒变草原，抬手就能下雪 一张5090跑起34B实时世界模型，国产玩家拿下英伟达大奖！",
-        "tags": [
-          "算力",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.qbitai.com/2026/10/504931.html"
-      },
-      {
-        "id": "r05d9a6da41",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "国产5B生图模型海外突然爆火，4天超百万下载",
-        "summary": "国产5B生图模型海外突然爆火，4天超百万下载",
-        "tags": [
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.qbitai.com/2026/10/504930.html"
-      },
-      {
-        "id": "r7bf3a082be",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
-        "summary": "让AI真正走进真实世界 南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.qbitai.com/2026/10/504915.html"
-      },
-      {
-        "id": "rbdde8fdec2",
-        "auto": true,
-        "featured": false,
-        "cat": "opensrc",
-        "date": "2026-10-23",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "iRTE2026：声网CEO赵斌提出五级对话能力框架，实时互动迈入对话 AGI 时代",
-        "summary": "10月23日，iRTE2026实时智能大会在北京举行。 iRTE2026：声网CEO赵斌提出五级对话能力框架，实时互动迈入对话 AGI 时代",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.qbitai.com/2026/10/504913.html"
-      },
-      {
-        "id": "ra63b80fa1f",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-23",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-        "summary": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://huggingface.co/blog/allenai/litpivot"
-      },
-      {
-        "id": "rfb80132a2d",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-23",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Does Your Model Run on AWS Trainium? Look It Up",
-        "summary": "Does Your Model Run on AWS Trainium? Look It Up",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://huggingface.co/blog/torch-neuronx-model-support"
+        "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/"
       }
     ]
   };
