@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-10-29 02:04
+   抓取时间：2026-10-30 02:23
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-10-29 02:04",
+    "updated": "2026-10-30 02:23",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,23 +25,348 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "r02871ef73b",
+        "id": "r06ea3d746f",
         "auto": true,
         "featured": false,
-        "cat": "opensrc",
+        "cat": "industry",
+        "date": "2026-10-30",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+        "summary": "点击查看原文> 腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+        "tags": [
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r0eb33fdb67",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-30",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+        "summary": "点击查看原文> Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r94a34df3b8",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-29",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "DeepSeek 又一开源重器！深挖 DeepInfer 究竟藏着多少技术狠活？",
+        "summary": "单集群日处理约 155 万亿 Token，推理优化争夺毫秒。 作者丨郑佳美 编辑丨岑 峰 昨天，DeepSeek 又在 GitHub 上开源了一个大项目，叫 DeepInfer。这次没有发布新模型，放出来的是 DeepSeek-V4.1-Flash 背后的推理引擎，包含 MoE 专家并行、异步 Batch 调度、定制 Kernel 和推测解码等核心技术。DeepSeek 还披露了一组数据：单…",
+        "tags": [
+          "开源",
+          "论文",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/ai/HecXToP0EHbPjPd0.html"
+      },
+      {
+        "id": "r8634bbb83e",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-10-29",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "31岁女工程师猝死，其生前按ChatGPT指示减药，还被告知「完全没必要担心」；美国一公司招人遛机器狗：时薪20美元，不用铲屎但得扛狗回来",
+        "summary": "要闻提示 1.31岁女工程师猝死，其生前按ChatGPT指示减药，还被告知“完全没有必要担心” 2.网友发视频称“医生用豆包开药”，涉事医院回应 3.米哈游通告：游戏泄密人员被判赔100万元 4.三家车企拟入选国家级名单：小米汽车位列第一 5.云鲸智能迎来品牌十周年：定位全球AI智能清洁专家，服务超600万家庭 6.阮瑜轮岗担任小度科技负责人，百度智能云事业群组进行组织调整 7.美国一公司招…",
+        "tags": [
+          "开源",
+          "论文",
+          "融资",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/zaobao/ZWf8n2mgF0X5Rkfj.html"
+      },
+      {
+        "id": "rb2ae6d605a",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-29",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "拉爆游戏引擎？深度拆解 Genie 4，从视频生成到世界控制，Google 要跨越什么？",
+        "summary": "动态条件注入、因果核验与异步协作的三大技术挑战，暴露出哪些致命的技术死角？ 作者丨郑佳美 编辑丨岑 峰 刚刚，Google DeepMind 正式发布了新一代世界模型 Genie 4。除了实时生成可交互环境，这次还有一个有意思的设计：Genie 4 负责生成世界，Gemini 3.8 Flash 负责观察画面、拆解任务，并根据执行情况调整计划。DeepMind 还展示了 Gemini 4 A…",
+        "tags": [
+          "论文",
+          "Agent",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/yanxishe/F3FpQlhpT7u7ekyU.html"
+      },
+      {
+        "id": "r283dc880b7",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-10-29",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
+        "summary": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展 文远知行001号员工带队，景烁科技首轮融资数千万美元",
+        "tags": [
+          "融资",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/10/506281.html"
+      },
+      {
+        "id": "r42bd0a72f3",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
         "date": "2026-10-29",
         "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
-        "summary": "点击查看原文> 亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
+        "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+        "summary": "点击查看原文> 谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r64c9ed9130",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-29",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "别再盯着 800 亿美元亏损了，Anthropic 的 AI 造 AI 已推进到 26%！",
+        "summary": "AI 已接管 90% 代码编写，甚至为了完成任务开始“越狱”。 作者丨郑佳美 编辑丨岑 峰 刚刚，Anthropic 在 IPO 招股书中披露了四起此前未公开的 Agent 安全事故。其中一次，模型在网络安全测试中迟迟无法完成任务，便继续寻找其他路径，随后从本应断网的测试环境中找到保存的密码，获得第三方系统的管理员权限，又获取其他凭证、修改系统设置并访问外部数据，整个过程持续了 10 至 3…",
         "tags": [
           "开源",
+          "论文",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/ai/t2cIBqBZVfpYPhPg.html"
+      },
+      {
+        "id": "rae10719b87",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-29",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "抖音李亮发文：希望同行在阳光下竞争，专家自媒体要遵守基本道德规范",
+        "summary": "抖音李亮就短剧发展再发声，全文如下： 最近大家谈论短剧比较多，我也说一下我个人看法。短剧和传统的影视剧没有本质区别，只是载体不同，表现形式不同，没有哪个好，哪个不好。试想如果短剧改成45分钟一集，或90分钟一集，与电视剧、电影的区别大吗？我觉得核心是内容质量，短剧这个形态发展比较晚，在社会各界的关注和批评下，内容提升质量非常快，特别是大量的有知识有文化的创作者的加入，使整个短剧的创作质量有了…",
+        "tags": [
+          "国产",
+          "中文源"
+        ],
+        "readTime": 4,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/industrynews/poaG1T65huOcWV91.html"
+      },
+      {
+        "id": "rd64ec514f8",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-29",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "国家超算互联网调价：降低AI研发、调试成本",
+        "summary": "近日，国家超算互联网宣布最新价格调整，新用户可享DeepSeek-V4.1-Flash-1017、GLM-5.3-Flash两款前沿模型0.1元5000万tokens限时秒杀特惠；同时，多款新主流模型已纳入TokenPlan套餐池。此外，订阅TokenPlan用户还可享限时夜间免费模型权益：10月21日至30日，每晚21:00至次日09:00，Auto模型可免费调用。 据悉，此次推出的“Ma…",
+        "tags": [
+          "算力",
           "Agent",
           "中文源"
         ],
         "readTime": 2,
         "hot": 92,
-        "link": "https://www.infoq.cn/article/YmgmEh686wTClmj3PY8o?utm_source=rss&utm_medium=article"
+        "link": "https://www.leiphone.com/category/industrynews/tZQilZ5sagKCk1Sm.html"
+      },
+      {
+        "id": "rce203e90f3",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-10-29",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实",
+        "summary": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。 小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/10/506273.html"
+      },
+      {
+        "id": "r8296d63eb9",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-29",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "启元 CEO 田华：启元机器人接入WorkBuddy，不仅看见你的世界，还能走得到你身边",
+        "summary": "点击查看原文> 启元 CEO 田华：启元机器人接入WorkBuddy，不仅看见你的世界，还能走得到你身边",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/fHXiS2bsEFHDXdwVK6KP?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r63af64a235",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-29",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
+        "summary": "点击查看原文> AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/aK6ADSkIvwf265yc8PuT?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r935ec79f26",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-29",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Anthropic 取消编程面试：新人第一次有机会直接和资深工程师竞争",
+        "summary": "点击查看原文> Anthropic 取消编程面试：新人第一次有机会直接和资深工程师竞争",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/EQTckj5GQQymiQES22Bo?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r9c68a74cc6",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-29",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "让 Agent 读懂你的身体：数据处理篇",
+        "summary": "在上一篇文章《让Agent读懂你的身体：数据获取篇》中，我花了很大的篇幅讲清楚了第一个问题：Agent怎样拿到数据。如果照着实践完，你大概率已经收获了一份存储了运动健康数据的SQLite、Markdo ...查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://sspai.com/prime/story/how-to-analyze-health-data-with-agent"
+      },
+      {
+        "id": "r473de9a36c",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-29",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "We urgently need to monitor AI agents’ actions in real time",
+        "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues ab…",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/"
+      },
+      {
+        "id": "r52ab7c72a6",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-29",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Granite Switch 4.1.1 — Update models like you update software",
+        "summary": "Granite Switch 4.1.1 — Update models like you update software",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+      },
+      {
+        "id": "r47c0f73783",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-10-29",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "24万开卖！理想重造i6，李想：目标全球畅销",
+        "summary": "理想今年最后一场发布会，自研电池芯片全部上车 24万开卖！理想重造i6，李想：目标全球畅销",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 86,
+        "link": "https://www.qbitai.com/2026/10/506246.html"
+      },
+      {
+        "id": "r0c5a42197c",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-29",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价",
+        "summary": "能连肝数日修Bug，免疫提示词注入 刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 86,
+        "link": "https://www.qbitai.com/2026/10/506227.html"
       },
       {
         "id": "r3cdd588509",
@@ -58,158 +383,94 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://sspai.com/post/117750"
       },
       {
-        "id": "r53026a062b",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-29",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "从三天Demo到一个月全员可用：小红书企业级AI助理Seal的规模化实践",
-        "summary": "点击查看原文> 从三天Demo到一个月全员可用：小红书企业级AI助理Seal的规模化实践",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/eOqH5GJ5R6UuZGtlhL53?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r60dac95523",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-29",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "活动回顾｜InfoQ AI 侦察团的实战一天：企业 AI 如何走向落地？",
-        "summary": "点击查看原文> 活动回顾｜InfoQ AI 侦察团的实战一天：企业 AI 如何走向落地？",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/g7TTtqzU1qyQXooXFQGN?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r2fa3bc6c36",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-28",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "具身智能军备竞赛，胜负手在工程生态",
-        "summary": "开源工程底座 FluxVLA Engine 技术报告全解读。 作者丨邓哲敏 编辑丨齐铖湧 一个模型在论文中取得好成绩，距离它真正驱动机器人完成任务，还有多远？模型能否接入现有的数据与训练流程，推理速度能否跟上机器人的控制节奏，生成的动作能否连续、稳定地执行，实验结果又能否在不同机器人上得到验证——这些问题，未必能靠再提升几个百分点的模型成功率来解决。过去半年，AI科技评论（雷峰网）在与业内人…",
-        "tags": [
-          "开源",
-          "论文",
-          "算力",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html"
-      },
-      {
-        "id": "r9794899df7",
+        "id": "rb13416c4a7",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-10-28",
-        "source": "雷锋网",
+        "date": "2026-10-29",
+        "source": "量子位",
         "lang": "zh",
-        "title": "华为群英传之刘睿：AI助手要告别聊天框，从“被动响应”走向“主动服务”",
-        "summary": "在商汤没做成的技术，登上了华为发布会。 作者：李秋悦 编辑：吴彤2022年6月，刘睿港中文博士毕业，赶上的却是一个“坏时候”。 深度学习的高光已持续近十年，新突破越来越难；疫情之下，经济低迷，同届不少同学选择延期，再守一年实验室。 刘睿没有等，他直接去了商汤。 两个月后，Stable Diffusion发布；又过了三个月，ChatGPT引爆全球。刘睿毕业时以为正在退潮的世界，忽然换了一片海—…",
+        "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+        "summary": "用扩散模型怎么做做Agent？ 刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
         "tags": [
-          "开源",
-          "论文",
-          "算力",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/ai/Ep3M1c7RboyafpOS.html"
-      },
-      {
-        "id": "r0f800742d0",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-28",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "华为无线发布全系列创新成果，领启新一代通信网",
-        "summary": "[中国，上海，2026年10月27日] 在华为Decoding China 2026活动上，华为公司副总裁、无线网络业务管理委员会主任方向发布了面向新一代通信网的全系列创新成果。华为围绕泛在体验、极简绿色、极致谱效三大方向，持续推进底层技术创新，推出全球首款U6GHz商用设备VitaAAU、GigaGreen Plus系列和UBBPi系列等产品，并携手产业伙伴共同建设面向通信产业的智能体开放…",
-        "tags": [
-          "开源",
           "Agent",
-          "国产",
           "中文源"
         ],
-        "readTime": 7,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/industrynews/AenD5N0wKBYyfCch.html"
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/10/505934.html"
       },
       {
-        "id": "r9040699ade",
+        "id": "r24273c3348",
         "auto": true,
         "featured": false,
-        "cat": "model",
-        "date": "2026-10-28",
-        "source": "arXiv cs.AI",
+        "cat": "industry",
+        "date": "2026-10-29",
+        "source": "Hugging Face",
         "lang": "en",
-        "title": "Counting the Bandages: On measuring the time that AI saves",
-        "summary": "arXiv:2610.35942v1 Announce Type: new \nAbstract: I consider what it means for AI assistance to save time. I contrast a stopwatch view, on which time saved is whatever the clock records, with a ledg…",
+        "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+        "summary": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
         "tags": [
-          "论文",
-          "Agent",
           "英文源"
         ],
         "readTime": 2,
-        "hot": 94,
-        "link": "https://arxiv.org/abs/2610.35942"
+        "hot": 84,
+        "link": "https://huggingface.co/blog/announcing-project-protostar"
       },
       {
-        "id": "r25ec948a3a",
+        "id": "rc7c43f14a2",
         "auto": true,
         "featured": false,
-        "cat": "model",
-        "date": "2026-10-28",
-        "source": "arXiv cs.CL",
+        "cat": "industry",
+        "date": "2026-10-29",
+        "source": "Hugging Face",
         "lang": "en",
-        "title": "MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine",
-        "summary": "arXiv:2610.36006v1 Announce Type: new \nAbstract: System One decision models such as Jev answer structured questions in a single forward pass without generating text, offering fast and computational…",
+        "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+        "summary": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
         "tags": [
-          "论文",
           "英文源"
         ],
         "readTime": 2,
-        "hot": 94,
-        "link": "https://arxiv.org/abs/2610.36006"
+        "hot": 84,
+        "link": "https://huggingface.co/blog/mistral-large4"
       },
       {
-        "id": "r6c5fef6e4c",
+        "id": "r0a78a8bd7a",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-29",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+        "summary": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://huggingface.co/blog/anydecisionmodel"
+      },
+      {
+        "id": "rc2465feb18",
         "auto": true,
         "featured": false,
         "cat": "model",
         "date": "2026-10-28",
         "source": "量子位",
         "lang": "zh",
-        "title": "Personal Agent走向真实任务，蚂蚁百灵开源 Ling-3.1-flash-1019",
-        "summary": "10月28 日，蚂蚁集团旗下百灵大模型正式开源 Ling-3.1-flash-1019。",
+        "title": "【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+        "summary": "让基建作为常驻buff 【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
         "tags": [
-          "开源",
-          "Agent",
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/10/505928.html"
+        "hot": 86,
+        "link": "https://www.qbitai.com/2026/10/506194.html"
       },
       {
         "id": "ra93360590b",
@@ -226,137 +487,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
-      },
-      {
-        "id": "re38b75da2a",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-28",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
-        "summary": "arXiv:2610.36184v1 Announce Type: new \nAbstract: Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research. Existing open Bengali ASR corpora are conf…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2610.36184"
-      },
-      {
-        "id": "r60b27c0554",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-28",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
-        "summary": "点击查看原文> 不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r2c163bde7d",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-28",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
-        "summary": "点击查看原文> 别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r1fe2c789cc",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-10-28",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
-        "summary": "点击查看原文> 当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r631b8acdc6",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-28",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "字节辟谣\"群演数据喂大模型\"：严重失实！",
-        "summary": "近日，有网络传言称\"横店与字节合作，将15万名群演的肖像和声音喂给字节大模型\"。字节豆包公关负责人刘星今日通过微博作出回应，表示该传言严重失实。 据介绍，此次引发讨论的项目为横店影视AI服务平台建设项目。刘星表示，该项目的初衷是希望建设一套影视行业的公共数字基础设施，把影视基地实景等资产做成高质量数据集，帮助剧组更高效地选景、筹备和拍摄，同时降低中小影视企业使用AI的门槛，让更多创作者有条件…",
-        "tags": [
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/kw1tPKZvQauDl4UJ.html"
-      },
-      {
-        "id": "r2eef2a6423",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-28",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "模态缺失、噪声干扰怎么办？天津大学张长青：给多模态融合加上「可信度量尺」| CNCC 2026",
-        "summary": "真正的挑战，是让模型保留有效信息、识别可靠证据，并适应新的任务。 作者丨张 璐 编辑丨马晓宁 在具身智能、自动驾驶和智慧医疗等场景中，模型需要处理的数据远不止图像、文本和语音。雷达、触觉、心电、医学影像及各类传感器数据，都可能成为预测和决策的依据。然而，不同模态之间既存在关联，也包含彼此无法替代的信息；现实数据还常常面临模态缺失、噪声干扰等问题。如何在融合信息的同时保留模态差异？当不同来源的…",
-        "tags": [
-          "开源",
-          "论文",
-          "多模态",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/private/L0riZpWS688dpXnN.html"
-      },
-      {
-        "id": "rf61d5eebce",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-10-28",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "豆包工作能力升级：操作电脑可录制成技能，锁屏后也能继续任务",
-        "summary": "近期，豆包工作电脑操作能力升级，屏幕点击精度、速度提升，更准、更快。直接在对话中提出操作电脑的相关需求，经用户授权后，豆包工作就可以自动查看电脑屏幕，模拟人工鼠标和键盘操作相关应用。与此同时，在原有跨应用操作、将浏览器操作录制成技能的基础上，用户现在可以录制电脑操作，把演示过程保存为可复用技能；另外，需要操作电脑的任务可在 Mac 锁屏后继续执行，用户也可通过手机下达任务、查看结果。 在对话…",
-        "tags": [
-          "Agent",
-          "多模态",
-          "中文源"
-        ],
-        "readTime": 4,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/MYDTBZqQkhfVtkte.html"
       },
       {
         "id": "rd7ba64ba38",
@@ -373,7 +505,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/"
       },
       {
@@ -390,264 +522,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/"
-      },
-      {
-        "id": "r1785dbca0d",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-28",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases",
-        "summary": "arXiv:2610.35984v1 Announce Type: new \nAbstract: Deep learning models are highly effective in a wide range of domains, particu larly in plant disease diagnosis. However, their performance is often…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.35984"
-      },
-      {
-        "id": "r258a7a7e8b",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-28",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-        "summary": "arXiv:2610.36077v1 Announce Type: new \nAbstract: Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process face…",
-        "tags": [
-          "论文",
-          "Agent",
-          "多模态",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.36077"
-      },
-      {
-        "id": "rec1157cdc5",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-10-28",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
-        "summary": "arXiv:2610.36100v1 Announce Type: new \nAbstract: Language model agents for clinical cohort curation should accommodate evolving eligibility criteria without repeatedly processing unchanged requirem…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.36100"
-      },
-      {
-        "id": "r6c9d377df8",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-28",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Why and How to Do Science When AI Is Better at It: A Framework Grounded in Human Understanding and Direction",
-        "summary": "arXiv:2610.36116v1 Announce Type: new \nAbstract: As AI begins to match or exceed human researchers at core scientific tasks, two questions become pressing: \\emph{why} should humans keep doing scien…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.36116"
-      },
-      {
-        "id": "r6cc7c22390",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-28",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "From Structural Feedback to Prompt Policies: Learning Faithful Text-to-Image Prompt Editors",
-        "summary": "arXiv:2610.36146v1 Announce Type: new \nAbstract: Prompt optimization should improve the image a user receives without changing the scene the user requested. Yet stylistic rewriting can weaken objec…",
-        "tags": [
-          "论文",
-          "政策",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.36146"
-      },
-      {
-        "id": "rd76c945a64",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-28",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "ReCoPII: A Relation-Grounded Framework for Building Contextual PII Masking Datasets",
-        "summary": "arXiv:2610.35925v1 Announce Type: new \nAbstract: Training contextual masking systems for personally identifiable information (PII) requires examples distinguishing maskable from preservable mention…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.35925"
-      },
-      {
-        "id": "r2b22bb3f50",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-28",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
-        "summary": "arXiv:2610.36013v1 Announce Type: new \nAbstract: General-purpose embodied intelligence requires robots to coordinate diverse skills over long horizons, track task progress, and recover from failure…",
-        "tags": [
-          "论文",
-          "政策",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.36013"
-      },
-      {
-        "id": "r3a232e949e",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-28",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading",
-        "summary": "arXiv:2610.36083v1 Announce Type: new \nAbstract: Recent advances in Generative AI have substantially improved financial sentiment analysis through post-trained financial large language models (LLMs…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.36083"
-      },
-      {
-        "id": "rf9d713d58d",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-10-28",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "3, 7, 14, 17, 42: Instruction Tuning Installs and Sharpens Number-Choice Heuristics in Language Models",
-        "summary": "arXiv:2610.36178v1 Announce Type: new \nAbstract: We measure, without sampling error, the probability a language model assigns to each integer from 1 to N when asked for a random number. For a fixed…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2610.36178"
-      },
-      {
-        "id": "r6dce01dac1",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-10-27",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
-        "summary": "人形机器人全套图纸开源！从关节到算法，下载就能自己造。 不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
-        "tags": [
-          "开源",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://www.qbitai.com/2026/10/505865.html"
-      },
-      {
-        "id": "r0a9c48c469",
-        "auto": true,
-        "featured": false,
-        "cat": "opensrc",
-        "date": "2026-10-27",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%",
-        "summary": "OCR 3.0时代，来了 KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%",
-        "tags": [
-          "开源",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://www.qbitai.com/2026/10/505773.html"
-      },
-      {
-        "id": "rd598f280bf",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-10-27",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "印奇把4D雷达也端到端了",
-        "summary": "毫米波雷达，AI算力10TOPS 印奇把4D雷达也端到端了",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/505852.html"
-      },
-      {
-        "id": "r609faa139b",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-27",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "乔布斯的皮克斯，狂赞中国物理AI数据终端",
-        "summary": "顶尖智能汽车玩家的终局，不会停在智能汽车 乔布斯的皮克斯，狂赞中国物理AI数据终端",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/505830.html"
-      },
-      {
-        "id": "r40eabe1157",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-10-27",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
-        "summary": "无人在环进店实测啃下长尾场景 Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/10/505799.html"
       },
       {
         "id": "rffc67eb073",
@@ -683,6 +559,109 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 84,
         "link": "https://huggingface.co/blog/LiquidAI/lfm3"
+      },
+      {
+        "id": "r425a0b109b",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-10-26",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "Our newest AI Quest: Mapping the human brain",
+        "summary": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/"
+      },
+      {
+        "id": "re9cba9aa14",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-10-26",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "Will the real Anthropic please stand up",
+        "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed it…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+      },
+      {
+        "id": "rd626c83908",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-10-26",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "The focus on AI safety disasters ignores everyday harms",
+        "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentan…",
+        "tags": [
+          "政策",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/"
+      },
+      {
+        "id": "r7b3ea40ea9",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-21",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "Southeast Asia’s digital economy to hit $368 billion",
+        "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniatu…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 72,
+        "link": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/"
+      },
+      {
+        "id": "r1130c50348",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-16",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "OpenAI models hacked a crypto wallet and breached more websites",
+        "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 72,
+        "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+      },
+      {
+        "id": "rb10d8af5c1",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-10-14",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+        "summary": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 72,
+        "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
       }
     ]
   };
