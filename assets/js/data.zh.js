@@ -505,6 +505,7 @@ window.AI_DATA = (function () {
     { name: "NotebookLM", cat: "research", by: "Google", desc: "上传资料构建专属知识库，生成摘要、问答与音频概览。", tags: ["知识库", "播客"], price: "免费", url: "https://notebooklm.google.com" },
     { name: "Elicit / Consensus", cat: "research", by: "Elicit / Consensus", desc: "面向学术文献的检索与综述助手，可提取结论与样本量。", tags: ["学术", "文献"], price: "免费额度", url: "https://elicit.com" },
     { name: "SciSpace", cat: "research", by: "SciSpace", desc: "论文阅读助手，解释公式与术语，支持与 PDF 对话。", tags: ["论文", "PDF"], price: "免费额度", url: "https://typeset.io" },
+    { name: "DisconfirmAI", cat: "research", by: "tumingke0", desc: "面向投资研究的阅读与研究平台。建立确信前先找可能推翻观点的反面证据，含公开信源阅读、财报研究、条件雷达与投资框架。", tags: ["投资", "研究"], price: "免费 / 订阅", url: "https://disconfirmai.com/zh" },
     { name: "Dify", cat: "agent", by: "开源社区", desc: "开源 LLM 应用开发平台，可视化编排 RAG 与 Agent 流程。", tags: ["开源", "低代码"], price: "免费 / 私有部署", url: "https://dify.ai" },
     { name: "Coze / 扣子", cat: "agent", by: "字节跳动", desc: "零代码搭建智能体与工作流，可发布到多平台。", tags: ["Bot", "工作流"], price: "免费额度", url: "https://www.coze.cn" },
     { name: "n8n / Zapier", cat: "agent", by: "n8n / Zapier", desc: "自动化工作流平台，串联上千种应用并接入 AI 节点。", tags: ["自动化", "集成"], price: "免费 / 订阅", url: "https://n8n.io" },
