@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-11-08 02:01
+   抓取时间：2026-11-09 02:19
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-11-08 02:01",
+    "updated": "2026-11-09 02:19",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -24,6 +24,114 @@ window.AI_FEED = {
     ],
     "failed": [],
     "items": [
+      {
+        "id": "r28c4b61b70",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-09",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "从“能写代码”到“能交付”：腾讯轻量云 LoopForge 多 Agent 编排实践｜AICon北京",
+        "summary": "点击查看原文> 从“能写代码”到“能交付”：腾讯轻量云 LoopForge 多 Agent 编排实践｜AICon北京",
+        "tags": [
+          "Agent",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/wUArox9MHiAoyWPgRxpp?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r10f86b56e8",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-09",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Agent 越用越多，企业为何仍不够 AI Native？",
+        "summary": "点击查看原文> Agent 越用越多，企业为何仍不够 AI Native？",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r0da1e5141a",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-08",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "腾讯的 Agent 布局，不止 WorkBuddy",
+        "summary": "大家对腾讯Agent的认识，还不够完整。 作者丨胡敏 编辑丨刘伟 今年上半年，但凡聊腾讯 AI，那必然会聊到 Workbuddy，这个产品在前三季度彻彻底底出圈了。它在某种程度上，也改变了市场对于腾讯 AI 的看法。 但如果只看到WorkBuddy，那么大家对于腾讯 Agent 的认识，可能还是不完整的。 腾讯集团高级执行副总裁、云与智慧产业事业群CEO汤道生在刚过去的腾讯全球数字生态大会上…",
+        "tags": [
+          "开源",
+          "Agent",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/industrynews/oxR5pn9S7tI1IfF5.html"
+      },
+      {
+        "id": "r1eb3c3df68",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-08",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
+        "summary": "点击查看原文> 顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "ra81836a858",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-08",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "资本正在撤离“世界模型”",
+        "summary": "没有永远的夏天 资本正在撤离“世界模型”",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/508466.html"
+      },
+      {
+        "id": "r69a1748be9",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-08",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
+        "summary": "点击查看原文> AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article"
+      },
       {
         "id": "r8903336796",
         "auto": true,
@@ -59,6 +167,26 @@ window.AI_FEED = {
         "link": "https://www.infoq.cn/article/gOcDmZM2MPAQhWtNb6IJ?utm_source=rss&utm_medium=article"
       },
       {
+        "id": "rad9fe9e5be",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-08",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "终端侧AI：从单点应用走向智能体体验",
+        "summary": "发言人：高通公司AI产品技术中国区负责人 万卫星 2026年11月7日，上海 终端侧AI发展到了什么阶段？ 终端侧AI经过过去3至4年的发展，正在迎来一个比较重要的变化节点。 从应用来看，终端侧AI并不是从大模型开始的。影像其实是AI较早在终端落地的领域之一。近年来手机拍照效果不断提升，背后就有终端侧AI技术的推动。如今，终端侧AI已经进一步拓展到简单问答、聊天、图像生成与处理，以及文本处理…",
+        "tags": [
+          "算力",
+          "Agent",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 10,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/chips/aOKsujJpdDvRKj5S.html"
+      },
+      {
         "id": "r3d39bbeb59",
         "auto": true,
         "featured": false,
@@ -75,8 +203,44 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 11,
-        "hot": 95,
+        "hot": 90,
         "link": "https://www.leiphone.com/category/industrynews/X7HwwQTEXJhiVVzK.html"
+      },
+      {
+        "id": "r3a0faabd86",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-07",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+        "summary": "AI写代码太快，基础设施跟不上了 GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+        "tags": [
+          "开源",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 86,
+        "link": "https://www.qbitai.com/2026/11/508449.html"
+      },
+      {
+        "id": "rf140f39bf6",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-07",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "OpenAI新融资到账110亿美元，不及原计划一半",
+        "summary": "融资缩水，硅谷投资人也谨慎了 OpenAI新融资到账110亿美元，不及原计划一半",
+        "tags": [
+          "融资",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 86,
+        "link": "https://www.qbitai.com/2026/11/508344.html"
       },
       {
         "id": "re42c904e7e",
@@ -93,8 +257,25 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.qbitai.com/2026/11/508264.html"
+      },
+      {
+        "id": "r639d728bb8",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-07",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "为了去AI味，人类开始主动写烂文章了……",
+        "summary": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/11/508330.html"
       },
       {
         "id": "ra815a2f6b4",
@@ -111,42 +292,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/11/508244.html"
-      },
-      {
-        "id": "rbb37ab8a22",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-07",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
-        "summary": "RSI不可能无限快 Jeff Dean李飞飞最新对谈：全是RSI非共识",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/508196.html"
-      },
-      {
-        "id": "r051a96a1d9",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-07",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
-        "summary": "点击查看原文> CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article"
       },
       {
         "id": "r9a6119aa96",
@@ -189,147 +336,6 @@ window.AI_FEED = {
         "link": "https://www.leiphone.com/category/weiwu/dpUYWHZif8UtQpLA.html"
       },
       {
-        "id": "r9cb5be0619",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-06",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "李佳琦卖出万份Token，天猫的AI生意才刚开场",
-        "summary": "Token正在成为AI时代的“流量包”。（雷峰网雷峰网雷峰网） 11月2日晚，李佳琦直播间上架AI千问办公的Token算力，开播半小时，售出10万份千问办公个人会员月卡，累计约2万亿Token。 这次千问办公CEO陈宇森也来到直播间现场，雷峰网此前了解到，这位阿里最年轻的事业部CEO，业内普遍评价他能力很强，具备出色的产品sense、表达能力和商业认知都超出大部分阿里的资深老员工，“登味”极…",
-        "tags": [
-          "算力",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 9,
-        "hot": 88,
-        "link": "https://www.leiphone.com/category/industrynews/h454rlPtg41JIuFd.html"
-      },
-      {
-        "id": "rf4de602254",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-06",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：国务院办公厅发布 2027 年部分节假日放假安排等",
-        "summary": "OpenAI 推出 Images 2.6 模型，Nothing CMF Speaker S/M 音箱国行上市等。查看全文",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://sspai.com/post/118587"
-      },
-      {
-        "id": "rb45dc57c56",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-06",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
-        "summary": "Dario刚喊减速… A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/11/508184.html"
-      },
-      {
-        "id": "r6260f65f36",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-06",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
-        "summary": "PPIO 沙箱，把“云电脑”做成开箱即用的 API 为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/11/508174.html"
-      },
-      {
-        "id": "r409db216b4",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-06",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
-        "summary": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相 阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/11/508170.html"
-      },
-      {
-        "id": "re641080571",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-06",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
-        "summary": "点击查看原文> Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.infoq.cn/article/lGoA1ZSw6ojeh68GVlBl?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r64baf43ee2",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-06",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
-        "summary": "点击查看原文> DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.infoq.cn/article/upfROwtEl8R75H24D13J?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rb283eb3769",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-06",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
-        "summary": "点击查看原文> 从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.infoq.cn/article/azhgYaRTIjsSSVfA8AaU?utm_source=rss&utm_medium=article"
-      },
-      {
         "id": "r680f29acf8",
         "auto": true,
         "featured": false,
@@ -346,26 +352,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 84,
         "link": "https://www.leiphone.com/category/industrynews/Ii6W43GghzJA7V1u.html"
-      },
-      {
-        "id": "r93714cba1e",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-06",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "办了33年的ACM MM，重新划定研究范围",
-        "summary": "随着AI的发展，多媒体的研究边界在进一步拓宽。 作者丨张 驰 编辑丨马晓宁 今年11月10日，国际多媒体领域顶级学术会议 ACM Multimedia（ACM MM）将在巴西里约热内卢举行。届时雷峰网也前往大会现场，带来第一手的报道。欢迎扫描文末二维码入群与我们交流。 与往年相比，这届会议有一个容易重大的变化，征稿主题被重新划分了。 在去年底，ACM MM学术指导委员会投票通过新的研究主题体…",
-        "tags": [
-          "论文",
-          "Agent",
-          "多模态",
-          "中文源"
-        ],
-        "readTime": 6,
-        "hot": 84,
-        "link": "https://www.leiphone.com/category/academic/XWkCJB9bbcRr9Ioe.html"
       },
       {
         "id": "reae39caf6a",
@@ -420,23 +406,6 @@ window.AI_FEED = {
         "link": "https://huggingface.co/blog/allenai/toyblocks"
       },
       {
-        "id": "r8f1eb4aea4",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-06",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-        "summary": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://huggingface.co/blog/open-asr-leaderboard-liva"
-      },
-      {
         "id": "rf69d229740",
         "auto": true,
         "featured": false,
@@ -455,6 +424,40 @@ window.AI_FEED = {
         "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/"
       },
       {
+        "id": "rf4de602254",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-06",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：国务院办公厅发布 2027 年部分节假日放假安排等",
+        "summary": "OpenAI 推出 Images 2.6 模型，Nothing CMF Speaker S/M 音箱国行上市等。查看全文",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 80,
+        "link": "https://sspai.com/post/118587"
+      },
+      {
+        "id": "r8f1eb4aea4",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-06",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+        "summary": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+      },
+      {
         "id": "r49f57794df",
         "auto": true,
         "featured": false,
@@ -468,7 +471,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 86,
+        "hot": 80,
         "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
       },
       {
@@ -486,27 +489,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 86,
-        "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
-      },
-      {
-        "id": "rba884f2cd8",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-11-05",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等",
-        "summary": "少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章国行Apple智能上手：这些功能已经 ...查看全文",
-        "tags": [
-          "政策",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
         "hot": 80,
-        "link": "https://sspai.com/post/118498"
+        "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
       },
       {
         "id": "r9efc366cf6",
@@ -663,6 +647,23 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 78,
         "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/"
+      },
+      {
+        "id": "r65ee64d23a",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-10-30",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+        "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 72,
+        "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
       }
     ]
   };
