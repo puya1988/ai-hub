@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-11-11 02:29
+   抓取时间：2026-11-12 03:34
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-11-11 02:29",
+    "updated": "2026-11-12 03:34",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,6 +25,623 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
+        "id": "r16cbe7a14d",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-12",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "突发！黄仁勋被曝与高管有新婚外情，英伟达启动罢免，猎头已物色其接班人；百度发布文心全新开源模型；余承东官宣华为子品牌「星芒」",
+        "summary": "要闻提示 1.突发！黄仁勋被曝与高管有新婚外情，英伟达董事会启动罢免，猎头已物色其接班人 2.奔驰 CEO 康林松：在中国，“车要大，非常大，大得惊人” 3.百度文心发布 ERNIE 5.5 Flash Preview 模型，编程能力为新模型一大亮点 4.控制权僵局现转机！安世CEO称愿重整中国业务：若永久分拆需补偿闻泰科技 5.字节跳动发力智能体赛道，计划推出类似 Meta Muse 的…",
+        "tags": [
+          "开源",
+          "论文",
+          "融资",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/zaobao/eX3oZsWdbpVbMcto.html"
+      },
+      {
+        "id": "rd6dbf2ef0b",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-12",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "黄仁勋被指控涉嫌欺诈股东！若离婚，妻子或可分走5000亿元；女子称90分钟被星巴克提醒下单5次：让她倍感困扰；京东两大事业群正式成立",
+        "summary": "要闻提示 1.黄仁勋被指控涉嫌欺诈股东！若离婚，妻子或可分走5000亿元 2.女子称90分钟被星巴克提醒下单5次：让她倍感困扰 3.京东科技被曝架构调整，正式拆分“云科技”与“金融科技”两大板块 4.董明珠回应格力电器业绩下滑：因为铜在涨价，宁可损失几十亿利润，也不降低产品品质 5.阿里巴巴：已正式申请平头哥独立上市 6.无界动力算法模型负责人加入哈啰Robotaxi 7.字节跳动元老、今日…",
+        "tags": [
+          "论文",
+          "融资",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/zaobao/W5Fdqyrusc1z9snM.html"
+      },
+      {
+        "id": "re774e21822",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-12",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
+        "summary": "点击查看原文> 谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r03aa322cfe",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-12",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "“双十一”机器人在物流仓“埋头苦干”：昆腾动力开启具身智能规模化获客与交付阶段",
+        "summary": "跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/11/509281.html"
+      },
+      {
+        "id": "rc1b1d878f6",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-12",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Token越烧越多，利润却没涨：李彦宏要重新设计企业组织",
+        "summary": "点击查看原文> Token越烧越多，利润却没涨：李彦宏要重新设计企业组织",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/JPf7ud6wuk9fYmUDoMjo?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r50248c44cf",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-12",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
+        "summary": "点击查看原文> InfoQ 2026 年趋势报告：AI、ML与数据工程",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/7Pecd1CshYIMvCTeBhrm?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rf6b0b82718",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-12",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "让系统接管底层算法：HarmonyOS 7 FAST Kit 的性能与接入实践",
+        "summary": "点击查看原文> 让系统接管底层算法：HarmonyOS 7 FAST Kit 的性能与接入实践",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/kIw9Wp2uSgCwrsgicIZ0?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r8fa7dfc006",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-12",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "从“搜到知识”到“理解约束”：差旅 Agent 的业务语义、偏好图谱与上下文工程实践｜AICon北京",
+        "summary": "点击查看原文> 从“搜到知识”到“理解约束”：差旅 Agent 的业务语义、偏好图谱与上下文工程实践｜AICon北京",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/V5Fwpg9gOBefx6xADcdd?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r4ef101b95f",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-11",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "和大疆抢食，这家公司做了台桌面摄影机器人",
+        "summary": "一个美食创作者想把镜头从餐桌全景慢慢推到一碗面上。这个动作不难，难的是他没有第二个人帮他推，也没有空间在桌上架一条滑轨。最后他切了一个固定机位，画面清楚，但缺少呼吸感。 这张桌子，是今天很多内容创作的真实现场。产品测评、美食、美妆、直播、带货，大量拍摄都发生在几平方米之内。 设备其实已经不差：手机能拍4K，口袋云台能稳住画面，相机的画质早已溢出大多数人的需求。可一旦镜头需要“动起来”，需要推…",
+        "tags": [
+          "论文",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/weiwu/7us3N77Jwt0jzWda.html"
+      },
+      {
+        "id": "r3b1f3ac9ce",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "阿里云获中国游戏云市场整体和六项细分第一",
+        "summary": "近日，国际数据公司（IDC）最新发布的《中国游戏云市场跟踪研究，2026H1》报告显示，2026年上半年阿里云以37%的市场份额位居整体市场第一，并在基础设施IaaS+CDN、基础设施IaaS+解决方案、基础设施IaaS、解决方案、通用云平台、云游戏平台六大细分市场获得第一。其中，在游戏云基础设施市场，阿里云占比达40%；在游戏云解决方案市场，阿里云占比达44%。 围绕游戏研发、运营与出海，…",
+        "tags": [
+          "论文",
+          "算力",
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 4,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/industrynews/JfRMJsIb0HJvjdrl.html"
+      },
+      {
+        "id": "rd9f7fae21a",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "灵光2.0上线两周，累计托管事务量突破300万",
+        "summary": "11月11日，蚂蚁集团旗下个人AI助理灵光公布最新数据：自10月27日灵光2.0上线以来，累计托管事务量突破300万项，累计执行任务超过1100万次。 这是灵光2.0上线以来又一次披露事务托管数据。11月5日，灵光曾公布，上线一周已托管超过116万项事务，累计执行任务超过360万次，用户规模突破2000万。 与用户规模、对话次数等传统AI产品指标不同，事务托管量衡量的是用户有多少件事交由AI…",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 4,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/industrynews/588lnnPVveccwufm.html"
+      },
+      {
+        "id": "r69f4915e8d",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Tracing Psychometric Inference in Large Language Models",
+        "summary": "arXiv:2611.12937v1 Announce Type: new \nAbstract: Do large language models represent psychological constructs internally, or do they only generate outputs that resemble psychometric structure? We ad…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://arxiv.org/abs/2611.12937"
+      },
+      {
+        "id": "rfdf3595198",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+        "summary": "模型即将开源 纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+        "tags": [
+          "开源",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/11/509224.html"
+      },
+      {
+        "id": "r9c3fbd0fc8",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
+        "summary": "点击查看原文> 谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rc9dba85b40",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+        "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+        "tags": [
+          "多模态",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      },
+      {
+        "id": "rbdd059b110",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "LandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding",
+        "summary": "arXiv:2611.12936v1 Announce Type: new \nAbstract: Intelligent landslide detection is essential for disaster prevention. However, existing models primarily focus on isolated visual tasks, require ext…",
+        "tags": [
+          "开源",
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2611.12936"
+      },
+      {
+        "id": "r745be38692",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-11",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "上海造、香港连，中国AI加速走向全球",
+        "summary": "WAIC把中国AI的年度日历排满了 上海造、香港连，中国AI加速走向全球",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/509214.html"
+      },
+      {
+        "id": "r9900e96852",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-11",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了",
+        "summary": "复刻一个物理世界 机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/509203.html"
+      },
+      {
+        "id": "rf304e7aac8",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-11",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
+        "summary": "价格、门槛全打穿 双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/509146.html"
+      },
+      {
+        "id": "r5766bf75ee",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-11",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "从“卖Token”到“卖结果” | 科技有「联想」沙龙激辩Token经济三大议题",
+        "summary": "10月30日，“科技有「联想」·Token畅想曲”线下沙龙在京举行。 从“卖Token”到“卖结果” | 科技有「联想」沙龙激辩Token经济三大议题",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/509088.html"
+      },
+      {
+        "id": "r4692807eed",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-11",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "双十一换机正当时：华为Mate X7购机好礼，降低折叠旗舰换新门槛",
+        "summary": "双十一临近尾声，手机市场换新热潮持续走高。不少华为老用户面临换新抉择：手中的华为直板机虽可正常使用，但电池已需一天两充，夜景拍摄时常模糊，多应用同开切换偶尔卡顿……如果换新直板旗舰，仅能收获影像、性能的小幅提升，日常用起来几乎没有区别，新鲜感三天就没了。想要获得显著的体验跃升，折叠屏是不错的选择，其独有的大屏交互形态拥有直板机型无法比拟的优势；只是万元价位门槛、后续养护成本等顾虑，仍让不少用…",
+        "tags": [
+          "Agent",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 7,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/industrynews/C6UjjlUlmA70WLVq.html"
+      },
+      {
+        "id": "rffc4b50179",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-11",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+        "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
+      },
+      {
+        "id": "r2e8ae4b8ec",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-11",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+        "summary": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/"
+      },
+      {
+        "id": "ra5065ad4dd",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+        "summary": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/qvac/botpsy"
+      },
+      {
+        "id": "r742e931d60",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+        "summary": "arXiv:2611.12933v1 Announce Type: new \nAbstract: Closed-loop autonomous experimentation can accelerate scientific discovery, but implementation effort limits accessibility. Agentic systems may lowe…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.12933"
+      },
+      {
+        "id": "r94dec7e2c3",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-11",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
+        "summary": "arXiv:2611.12934v1 Announce Type: new \nAbstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change…",
+        "tags": [
+          "论文",
+          "Agent",
+          "多模态",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.12934"
+      },
+      {
+        "id": "r0801051b70",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Train on prefill, monitor at decode: Using sparse autoencoders for topic monitoring",
+        "summary": "arXiv:2611.12935v1 Announce Type: new \nAbstract: Topic monitoring is the task of labelling the topic of each token in a model's response during generation. Activation-based monitors that run at gen…",
+        "tags": [
+          "开源",
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.12935"
+      },
+      {
+        "id": "rc4eb362ff4",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
+        "summary": "arXiv:2611.12938v1 Announce Type: new \nAbstract: We study when and how multimodal input improves knowledge graph question answering (KGQA) in large vision--language models. Using a controlled evalu…",
+        "tags": [
+          "论文",
+          "多模态",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.12938"
+      },
+      {
+        "id": "rf0208f901d",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-11",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "From Relevant Posts to Attributable Spans: Explicit Symptom Evidence for Depression Questionnaire Inference",
+        "summary": "arXiv:2611.12900v1 Announce Type: new \nAbstract: Longitudinal social-media histories offer an opportunity to assess depression, potentially supporting the inference of standardized depression quest…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.12900"
+      },
+      {
+        "id": "rc3a4a87bcc",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+        "summary": "arXiv:2611.12901v1 Announce Type: new \nAbstract: Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement.…",
+        "tags": [
+          "论文",
+          "多模态",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.12901"
+      },
+      {
+        "id": "ra48a34a6b6",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting",
+        "summary": "arXiv:2611.12902v1 Announce Type: new \nAbstract: Time series from real-world systems are often accompanied by text, such as a report on an event that affects them. Two common tasks on these series…",
+        "tags": [
+          "论文",
+          "多模态",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.12902"
+      },
+      {
+        "id": "r6440a8b365",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-11",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "SELD: Detecting Silent Evidence Loss in Context Compression beyond the Answer",
+        "summary": "arXiv:2611.12903v1 Announce Type: new \nAbstract: Context compression is now routine for language models with long inputs, but a compressed context is useful only if it keeps the evidence for the an…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.12903"
+      },
+      {
+        "id": "r3c98e661d0",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-11",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Actionable Feedback: Improving Model Capabilities from User Edit Data on Clinical Documentation",
+        "summary": "arXiv:2611.12904v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly being deployed in clinical documentation workflows, where clinicians review and edit their outputs bef…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.12904"
+      },
+      {
+        "id": "rba0cd4e127",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "arXiv cs.CL",
+        "lang": "en",
+        "title": "Brasilidade: Measuring Brazilian Identity for Large Language Models",
+        "summary": "arXiv:2611.12906v1 Announce Type: new \nAbstract: This work presents a new benchmark that aims to address the limitations of current methods for evaluating LLMs in Brazilian Portuguese. We introduce…",
+        "tags": [
+          "开源",
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.12906"
+      },
+      {
         "id": "r244740fa2a",
         "auto": true,
         "featured": false,
@@ -38,636 +655,25 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
+        "hot": 88,
         "link": "https://sspai.com/post/118905"
       },
       {
-        "id": "rabe8008a9b",
+        "id": "r2c8321e0df",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-10",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "Fable 5.2 “撞车”蚂蚁灵波触觉模型，CEO 朱兴：两类模型协同将加速具身产业成熟",
-        "summary": "11 月 10 日，Claude Fable 5.2 发布同日，蚂蚁灵波科技开源触觉基础模型 LingBot-Touch。一款面向数字世界的通用大模型，一款面向物理操作闭环的具身基础模型，同一天走进公众视野。 这两条技术路线的关系，正是当下具身智能行业讨论的焦点。在蚂蚁灵波看来，通用大模型与具身基础模型更接近 1+1＞2 的协同关系：前者增强对任务和环境的理解与推理，后者补齐物理感知与闭环操…",
-        "tags": [
-          "开源",
-          "政策",
-          "算力",
-          "中文源"
-        ],
-        "readTime": 9,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/industrynews/Qhv28gnFkgFPCbXV.html"
-      },
-      {
-        "id": "r2e3cc693a3",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-10",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "吉利星愿上市两年，刷新全球最快百万销量速度纪录",
-        "summary": "11月6日，吉利银河全球用户音乐嘉年华暨吉利星愿百万达成宠粉权益发布会，在杭州举行。上市24个月，吉利星愿累计销量突破100万辆，不到一分钟售出一辆，成为全球最快达成百万销量的新能源汽车，以现象级爆款姿态改写了全球纯电小车市场的竞争格局。 面向百万用户的信赖与期待，吉利星愿发布STAR限定系列新版型——STAR Ace与STAR Chill，限时权益价8.88万元；同时“百万达成宠粉权益”也…",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 7,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/transportation/B2THcx5nSUHfjI4N.html"
-      },
-      {
-        "id": "r730cbba2fd",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-10",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站",
-        "summary": "11月6日，四维图新在上海举办2026 EVOLUTION创想大会。CEO 程鹏全面解读穿越 “极点” 的破局方向，以数据与算力为基，答行业焦点之问，并正式公布向移动智能体领域拓展的战略布局。 数据之战，先拿好合规这张入场券 \"过去十年，中国新能源赢在电池；未来十年，中国汽车要赢在数据。\"程鹏的判断直指行业下一个核心战场——数据已成为汽车智能化的\"第二战场\"，而用好数据的前提，是合规。 监管…",
-        "tags": [
-          "政策",
-          "算力",
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 9,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/industrynews/dZrtBnDtC720JWGW.html"
-      },
-      {
-        "id": "r63183696b2",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-10",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "从众筹爆款到现货开售，妙动科技Beni机器人开创影像新视角",
-        "summary": "2026 年 11 月 10 日，消费级机器人公司妙动科技宣布，旗下全球首款多地形跟拍机器人 Beni 正式开启现货发售：标准套装售价 4999 元、探索套装售价 5799 元，国内用户可通过京东商城购买，即买即发货。 一个月前，Beni 刚以筹资超 500 万美元、全球 7926 名支持者的成绩，创下Kickstarter 平台消费级机器人众筹金额历史第一的纪录。今天，它已从“众筹爆款”进…",
-        "tags": [
-          "融资",
-          "Agent",
-          "多模态",
-          "中文源"
-        ],
-        "readTime": 10,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/industrynews/Hh7kHix5gWd00cEC.html"
-      },
-      {
-        "id": "re8e2b26dc6",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-10",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "Google Cloud launches Gemini for healthcare.",
-        "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 94,
-        "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
-      },
-      {
-        "id": "r47f7921514",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
-        "summary": "arXiv:2611.08639v1 Announce Type: new \nAbstract: Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ fo…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 94,
-        "link": "https://arxiv.org/abs/2611.08639"
-      },
-      {
-        "id": "r8e5b97ad29",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-10",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "从芯片到千比特整机，超导量子计算还有一场硬仗",
-        "summary": "近亿元融资刚刚落袋 从芯片到千比特整机，超导量子计算还有一场硬仗",
-        "tags": [
-          "融资",
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/509017.html"
-      },
-      {
-        "id": "r2063a6c803",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型",
-        "summary": "11月10日，蚂蚁灵波科技开源触觉基础模型LingBot-Touch 从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型",
-        "tags": [
-          "开源",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/508996.html"
-      },
-      {
-        "id": "rec1eebb810",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-10",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "成立四个月，融资过亿美金：TensorWorld物原科技要跑通“物理真实”路线",
-        "summary": "TensorWorld物原科技在一个月内已拿到过亿美元融资 成立四个月，融资过亿美金：TensorWorld物原科技要跑通“物理真实”路线",
-        "tags": [
-          "融资",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/508991.html"
-      },
-      {
-        "id": "rcb01bbba6d",
-        "auto": true,
-        "featured": false,
-        "cat": "opensrc",
-        "date": "2026-11-10",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "Token卷到触觉了！机器人终于有了通用手感",
-        "summary": "蚂蚁灵波开源LingBot-Touch Token卷到触觉了！机器人终于有了通用手感",
-        "tags": [
-          "开源",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/508919.html"
-      },
-      {
-        "id": "r0ebc276d58",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
-        "summary": "点击查看原文> 成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.infoq.cn/article/Ou4l4aD7zvUzXWXsWJfY?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r3232d6dedf",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了",
-        "summary": "点击查看原文> DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.infoq.cn/article/Y7lTO7Q1M8oN5JhxhirK?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r1fcb12a79a",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-10",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "阿里巴巴：已正式申请平头哥独立上市",
-        "summary": "11月10日晚，阿里巴巴集团发布公告：已向香港联交所交表，申请旗下子公司平头哥独立上市。上市完成后，平头哥仍将是阿里巴巴子公司。 公告显示，2026年9月11日，平头哥已向香港联交所递交上市申请，拟通过H股在香港联交所主板独立上市。据悉，IPO具体规模尚未最终确定。 截至2026年4月，平头哥真武系列AI芯片累计出货量达56万片。平头哥上市安排，将有助于市场更清晰定价阿里巴巴核心业务价值，并…",
-        "tags": [
-          "融资",
-          "算力",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/dew7AYBxkGAYilZj.html"
-      },
-      {
-        "id": "r82997c90ec",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "Gemini Intelligence: New features, on more devices",
-        "summary": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
-      },
-      {
-        "id": "ra70e80874f",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-10",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-        "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
-      },
-      {
-        "id": "r9ac988f739",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Structuring Survey Histories for LLM Digital Twins: A Controlled Study of Background, Decision Procedure, and Evaluation Profiles",
-        "summary": "arXiv:2611.08730v1 Announce Type: new \nAbstract: LLM-based digital twins aim to predict how individuals would respond in new settings from representations of their prior responses. Existing evidenc…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2611.08730"
-      },
-      {
-        "id": "r43338936a0",
-        "auto": true,
-        "featured": false,
-        "cat": "opensrc",
-        "date": "2026-11-10",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
-        "summary": "让每一次任务，都成为下一次进步的起点 Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/508998.html"
-      },
-      {
-        "id": "rc1a87c93bc",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-10",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "达卯科技与浦东环保能源战略合作，黎明智算中心算电协同平台启动",
-        "summary": "加速东部城市型智算中心向E-AIDC演进 达卯科技与浦东环保能源战略合作，黎明智算中心算电协同平台启动",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/508985.html"
-      },
-      {
-        "id": "rd5dacf3baf",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定",
-        "summary": "点击查看原文> 接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/juu2R26yD8B6ABUEQuWB?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r50812cde84",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-10",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "近 700 亿美元 IPO 定价突然撤回！Anthropic 最快今天路演，下周冲刺上市",
-        "summary": "点击查看原文> 近 700 亿美元 IPO 定价突然撤回！Anthropic 最快今天路演，下周冲刺上市",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/8tquwes1yGbmTeyOjOId?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r38723a77f9",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-10",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "给 AI 腾内存？Discord 抛弃Electron，省70%内存还秒开：Windows应用该跟进了",
-        "summary": "点击查看原文> 给 AI 腾内存？Discord 抛弃Electron，省70%内存还秒开：Windows应用该跟进了",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/MQTTu6dgGxHBZm1wOLPI?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r27148b9027",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-10",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "面向 AI Native 的数据库技术演进 | 腾讯云数据库 DBTalk",
-        "summary": "点击查看原文> 面向 AI Native 的数据库技术演进 | 腾讯云数据库 DBTalk",
-        "tags": [
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/video/W1VS3q3eMAosMwrHb1k4?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rb14564ec27",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-10",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "灵光接入什么值得买，AI助理开始帮用户“盯好价”",
-        "summary": "从商品推荐到价格追踪，个人AI助理进一步深入日常消费场景。 11月10日消息，蚂蚁集团旗下个人AI助理灵光接入消费内容平台「什么值得买」，将商品信息、消费决策支持等服务进一步纳入灵光。 此次接入是灵光持续扩展开放服务生态的又一动作。此前，灵光已陆续接入支付宝、钉钉、飞书、米家、微信读书、哈啰打车等40个连接器服务，能力覆盖工作、出行、家庭管理和日常生活等多个场景。 「什么值得买」长期积累了商…",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 4,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/Z3dOHYCNYfPNwijf.html"
-      },
-      {
-        "id": "r5a44d8868a",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-10",
-        "source": "Ars Technica",
-        "lang": "en",
-        "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-        "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
-      },
-      {
-        "id": "r280458757b",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-10",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
-        "summary": "arXiv:2611.08643v1 Announce Type: new \nAbstract: Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research,…",
-        "tags": [
-          "论文",
-          "政策",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2611.08643"
-      },
-      {
-        "id": "rd27d050e16",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Compression of Emotion in Language Model Representations",
-        "summary": "arXiv:2611.08683v1 Announce Type: new \nAbstract: Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. Howe…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2611.08683"
-      },
-      {
-        "id": "r3f338574fc",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-10",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Contextuality and Contradictions: Exploring Real-World Identifications of AI-Generated Writing",
-        "summary": "arXiv:2611.08704v1 Announce Type: new \nAbstract: As AI-generated content spreads into nearly every domain of human interaction, practices and discourses of AI detection, both formal and informal, h…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2611.08704"
-      },
-      {
-        "id": "r7b78d1135c",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "RL-ATTACK: A Generalized Black-Box Adversarial Attack on Language Models via Reinforcement Learning",
-        "summary": "arXiv:2611.08711v1 Announce Type: new \nAbstract: Large language models (LLMs) exhibit vulnerabilities to adversarial perturbations that can induce unintended responses. These vulnerabilities can be…",
-        "tags": [
-          "开源",
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2611.08711"
-      },
-      {
-        "id": "rf1a5a836ea",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：火山引擎发布 Seedream 5.5，苹果研究团队用仿真训练人形机器人等",
-        "summary": "少数派的近期动态我们已开设专页，汇总展示「优秀作者评选」奖项及结果。「优秀作者评选」是编辑部自2023年起实行的机制，于每季度结束后，评选该季度贡献突出的现有作者，以及涌现出的有潜力新作者。获奖者会获 ...查看全文",
-        "tags": [
-          "论文",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://sspai.com/post/118854"
-      },
-      {
-        "id": "rc830d5e960",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-10",
+        "date": "2026-11-11",
         "source": "Hugging Face",
         "lang": "en",
-        "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-        "summary": "Pay for Hugging Face Hub with your Google Cloud Account",
+        "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+        "summary": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
         "tags": [
           "英文源"
         ],
         "readTime": 2,
         "hot": 84,
-        "link": "https://huggingface.co/blog/hub-gcp-marketplace"
-      },
-      {
-        "id": "ra809cf1ef0",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Decision Models in Hugging Face",
-        "summary": "Decision Models in Hugging Face",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://huggingface.co/blog/decision"
-      },
-      {
-        "id": "r1c9474b1e3",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-11-09",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "The backlash about data centers might really just be about electricity",
-        "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
-      },
-      {
-        "id": "r2178727fc6",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-11-09",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-        "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelos…",
-        "tags": [
-          "政策",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
-      },
-      {
-        "id": "r6907328c02",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-09",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Innovating with AI in the special chemicals industry",
-        "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific ex…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/"
-      },
-      {
-        "id": "r73068ebbf1",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-09",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-        "summary": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+        "link": "https://huggingface.co/blog/token-pooling"
       }
     ]
   };
