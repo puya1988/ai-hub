@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-11-13 03:06
+   抓取时间：2026-11-14 02:53
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-11-13 03:06",
+    "updated": "2026-11-14 02:53",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,39 +25,414 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "re42db61f4e",
+        "id": "re074f6660f",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-14",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
+        "summary": "点击查看原文> 从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/eTz8pt2LoALMvzvxj4aa?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "ra87c198592",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-14",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
+        "summary": "点击查看原文> AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rd0c3935ba7",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-13",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人",
+        "summary": "八年研究，两个落地系统，超六万GitHub Stars。 作者丨李秋悦 编辑丨吴 彤 一支女团跳舞，镜头不必再听导演安排，观众甚至能看到拍摄时不存在的机位。传统MV拍摄，摄影机架在哪里，观众看到的就是哪个角度。现在用多台摄像机同时记录舞者动作，再重建出一个三维动态场景，镜头可以任意调换位置；从队形正面绕到侧面，穿过舞者之间，甚至换一个从未真正架设过的机位，重新观看刚才的表演。 今年10月，韩…",
+        "tags": [
+          "开源",
+          "论文",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html"
+      },
+      {
+        "id": "rc8b7b1bfa3",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-11-13",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "独家丨港大孵化的半导体材料公司，融资数千万",
+        "summary": "一个发表于《Nature》的技术，能在三步剥出晶圆级薄膜，公司获耀途独家投资。 作者丨陈玘凡 编辑丨吴优 雷峰网·鲸犀独家获悉，半导体材料公司钻耐科思科技（DiamNEX）已完成数千万元新一轮融资，由耀途资本独家投资。 钻耐科思（DiamNEX）成立于2025年，由香港大学孵化，专注于金刚石半导体和量子技术的研发、生产与商业化应用。创始人褚智勤是港大电机与计算机工程系副教授、副系主任，在金刚…",
+        "tags": [
+          "论文",
+          "融资",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 4,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/weiwu/DewyIGiyxQl09nUM.html"
+      },
+      {
+        "id": "r0401b4edbe",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-13",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+        "summary": "250名国内顶尖三甲医院医生联合评测 中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/11/509796.html"
+      },
+      {
+        "id": "ra73b355fcc",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-13",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路",
+        "summary": "比亚迪正在把规模优势转化为技术与品牌价值 从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/11/509716.html"
+      },
+      {
+        "id": "r136c13120e",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-13",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "9.99万的ID.ERA 5X，大众开始用中国效率打价格战",
+        "summary": "从过去全球技术导入中国，转向中国本土研发定义产品，并反哺全球，大众在华的研发模式迎来的关键转身，集中在一款新车型中。 11月12日，上汽大众ID.ERA 5X正式上市，限时权益价9.99万起，共推出四款配置。定位都市纯电SUV，瞄准年轻用户与家庭市场。 作为一款主打高性价比的紧凑型纯电SUV，上汽大众ID.ERA 5X是德系品质与中国智能共同发力的代表。 新车车长4560mm，但轴距达到 2…",
+        "tags": [
+          "算力",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 6,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/transportation/vNdfiZqSJgLMJc3M.html"
+      },
+      {
+        "id": "rb5416e2e23",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-13",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "在快 AI 时代，我是怎么把 Mole 做成一款「慢产品」的？",
+        "summary": "距离写完上一篇在少数派发的《从开源清理工具到付费Mac应用，用户教会了我如何做产品》已经过去两个多月。这段时间里，Mole从1.13一路发到了1.19，加上了AI工具清理和系统数据清理，Windows ...查看全文",
+        "tags": [
+          "开源",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://sspai.com/post/118512"
+      },
+      {
+        "id": "r4c30cee3bd",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-13",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+        "summary": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+      },
+      {
+        "id": "rb5e7f2290f",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-13",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
+        "summary": "一个时代结束了 黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/509995.html"
+      },
+      {
+        "id": "r57830ab7e2",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-13",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
+        "summary": "12.9 北京，来MEET2027现场 MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/509827.html"
+      },
+      {
+        "id": "r207dde97a3",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-13",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订",
+        "summary": "比亚迪第1900万辆新能源汽车在西安工厂正式下线 比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/509730.html"
+      },
+      {
+        "id": "rcd97298a1b",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-13",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "比亚迪与神州租车首批闪充车及闪充站投放仪式顺利举行，战略合作落地兑现，闪充中国再次提速",
+        "summary": "2026年11月10日，比亚迪与神州租车首批闪充车及闪充站投放仪式在山东济南隆重举办",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/509710.html"
+      },
+      {
+        "id": "r0ebc15e7c9",
         "auto": true,
         "featured": false,
         "cat": "apply",
         "date": "2026-11-13",
         "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "GFlow：面向游戏设计的多 Agent 协作与验证实践｜AICon北京",
-        "summary": "点击查看原文> GFlow：面向游戏设计的多 Agent 协作与验证实践｜AICon北京",
+        "title": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
+        "summary": "点击查看原文> 从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
         "tags": [
           "Agent",
           "中文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://www.infoq.cn/article/dkQAAL0SSdhIq1h61eKx?utm_source=rss&utm_medium=article"
+        "link": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r5da270296f",
+        "id": "rdc1e43d05d",
         "auto": true,
         "featured": false,
-        "cat": "model",
+        "cat": "apply",
         "date": "2026-11-13",
         "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
-        "summary": "点击查看原文> 谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
+        "title": "智能互动 Agent 在快手商业场景的落地实践",
+        "summary": "点击查看原文> 智能互动 Agent 在快手商业场景的落地实践",
         "tags": [
+          "Agent",
           "中文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://www.infoq.cn/article/joYjCTbwWFSkbACK5lje?utm_source=rss&utm_medium=article"
+        "link": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r24ebd1513e",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-13",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
+        "summary": "点击查看原文> 容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rcbba7279c7",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-11-13",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Docker 呼吁通过隔离与治理保障智能体安全",
+        "summary": "点击查看原文> Docker 呼吁通过隔离与治理保障智能体安全",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r4aba576179",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-13",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "独家｜燧原科技首席生态官李星宇离职",
+        "summary": "作者｜包永刚 编辑｜刘伟 雷峰网独家获悉，燧原科技首席生态官李星宇已于近日离职。他离职后已入读港大-北大联合DBA博士项目，但尚未披露下一步职业计划。 李星宇拥有超过20年的半导体行业从业经验，工作经历涵盖云端AI计算芯片、自动驾驶AI芯片、智能座舱芯片等领域。 加入燧原科技之前，他曾在地平线任职8年，担任生态发展与战略规划副总裁，是地平线创始管理团队成员。更早之前，他曾任职于恩智浦半导体。…",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/chips/G6AiPuplIGyPkaQL.html"
+      },
+      {
+        "id": "r1554786aad",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-13",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "海尔热水器双11战报：京东天猫双平台销量TOP1",
+        "summary": "随着双11落幕，热水器市场也结束了新一轮换新热潮。从近两年的用户需求来看，热水器不再只看重热水供给，而是更加关注使用安全、沐浴水质与维保省心，家庭用水的健康化、场景化、智能化成为选购核心标尺。激烈角逐之中，海尔热水器脱颖而出，拿下京东、天猫双平台热水器销量 TOP1，电热、燃热双线领跑，用亮眼战绩印证市场对海尔全屋用水方案的认可。 这份成绩的背后，是海尔持续深耕AI智慧用水场景，瞄准家庭用水…",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 4,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/industrynews/pDERNZsb2r8U4vS5.html"
+      },
+      {
+        "id": "rd95b5ab8ed",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-13",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "中金公司与蚂蚁集团达成战略合作 共探AI赋能财富管理",
+        "summary": "11月13日，中国国际金融股份有限公司（简称“中金公司”）与蚂蚁科技集团股份有限公司（简称“蚂蚁集团”）签署战略合作协议。 双方将结合中金公司在专业投研、金融服务等方面的积累，以及蚂蚁集团在人工智能、行业生态、客户运营等方面的优势，围绕金融大模型技术创新、AI赋能财富管理、客户全生命周期服务等领域开展合作，共同探索“AI+金融”创新路径。 中金公司党委副书记、副董事长、总裁王曙光（右二），蚂…",
+        "tags": [
+          "论文",
+          "融资",
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 6,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/industrynews/U7WtbV9kyb90UuZ0.html"
+      },
+      {
+        "id": "r9919ac1188",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-13",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
+        "summary": "AI 改变的不是科研写作本身，而是我们完成科研写作时的工作方式。查看全文 研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
+        "tags": [
+          "论文",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://sspai.com/post/118153"
+      },
+      {
+        "id": "r5509f93a79",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-13",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+        "summary": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+      },
+      {
+        "id": "r6feff27ee6",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-13",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "XYBench: Helping with the problem behind the question",
+        "summary": "XYBench: Helping with the problem behind the question",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/allenai/xybench"
       },
       {
         "id": "r6044171cc6",
@@ -74,144 +449,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://sspai.com/post/118966"
-      },
-      {
-        "id": "rb4b73016dd",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-12",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "姚期智杨植麟首次联手给 AI 出的博士级题目，Kimi 多画出了「关键一条边」",
-        "summary": "Kimi 刷新 629 条边图论参考纪录，只多加了1条边，为什么数学界等了这么多年？ 作者丨郑佳美 编辑丨岑 峰 给 124 个点连线，不能出现三角形，也不能出现四边形。此前的参考记录是 629 条——数学界认为这已经接近极限。而Kimi K3 构造出了 630 条边的图，并通过程序验证。多1条边，听起来不多。但在组合数学里，你每试图多塞进一条边，都需要在全图 124 个点之间重新完成一次精…",
-        "tags": [
-          "论文",
-          "Agent",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/ai/3vRqaeAILJdgRlhL.html"
-      },
-      {
-        "id": "r0462a0c584",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-12",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "智驾下半场：千里一手卷模型，一手卷量产",
-        "summary": "当所有人拿着同一张地图，拼的是谁走得更远、谁走得更稳。 作者 | 姜 奕编辑 | 王瑞昊 智驾行业最大的悬念曾经是技术路线的选择：端到端、VLA、世界模型的讨论此起彼伏。2026年，随着黄仁勋提出物理AI概念，行业争论迅速收敛，模型要真正理解物理世界，成为检验智驾的共识。 新一轮的竞争由此拉开序幕：比拼的不再是单点技术突破，而是体系化的落地能力。 千里智驾CEO陈奇在2026年世界互联网大会…",
-        "tags": [
-          "开源",
-          "政策",
-          "融资",
-          "中文源"
-        ],
-        "readTime": 10,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/transportation/15g9g1m5Ij7LVRSe.html"
-      },
-      {
-        "id": "rb7fa6e1ffb",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-12",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "清华曹婷：具身今年才追自进化，我们已在这条路上走很远了 | 世界模型 50 人",
-        "summary": "这三个问题不解决，数据终究会成为具身最大卡点，一位前微软亚研科学家的“提前量”。 作者丨邓哲敏 编辑丨齐铖湧 今年初秋，Skild S1、Generalist GEN-1.5、RoboTTT 等工作密集亮相，不约而同将上下文学习（ICL）带入机器学习领域。AI科技评论（雷峰网）注意到，国内一支团队也在同一时间发布了能够实现上下文学习的世界模型，领头羊是清华大学智能产业研究院（AIR）教授曹婷…",
-        "tags": [
-          "开源",
-          "论文",
-          "融资",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/ai/YcIBZiMtehhzYJsR.html"
-      },
-      {
-        "id": "re774e21822",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-12",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
-        "summary": "点击查看原文> 谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 94,
-        "link": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r06a3baaf70",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-12",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "10个月融资20轮，第三方AI Infra为何越有争议越抢手？",
-        "summary": "海外Neocloud（新云厂商）的融资模式遭到质疑，国内第三方AI Infra企业的融资却在加速。 上月，无问芯穹、清程极智、趋境科技相继宣布完成新一轮融资。雷峰网梳理八家国内第三方AI Infra企业的融资历程发现，2026年前10个月，这些企业累计完成了20轮融资。 海外市场上，华尔街开始拿出计算器，算建设数据中心要花多少钱、借来的钱能不能还上。那些昂贵的GPU产生的折旧成本，未来能否由…",
-        "tags": [
-          "开源",
-          "融资",
-          "算力",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/chips/ouA8GvSp9LIhZPmp.html"
-      },
-      {
-        "id": "r7fc493f56d",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-12",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
-        "summary": "「CAD拆解」 多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
-        "tags": [
-          "开源",
-          "多模态",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/509440.html"
-      },
-      {
-        "id": "re3d77b1c4d",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-12",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "懂组织、高可靠、自进化，库库企业版如何覆盖超60万组织？",
-        "summary": "﻿11月12日，百度世界2026在北京召开。大会上，百度文库、百度网盘联合推出的库库再次升级，扎根本土、服务全球个人和组织，构建库库日常、库库办公、库库企业版和库库海外版KOOKO等在内的全球产品矩阵。截至目前，库库全球月活用户已达5000万。 面向个人用户，百度网盘和库库将专业知识、个人资产与长期记忆结合，帮助用户完成高交付质量、高水平审美的文档和内容创作，提供贴近全场景需求的主动服务，覆…",
-        "tags": [
-          "论文",
-          "融资",
-          "算力",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/Nzg2vNxG99TT4bob.html"
       },
       {
         "id": "r43af0a6841",
@@ -227,7 +466,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
       },
       {
@@ -245,163 +484,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
-      },
-      {
-        "id": "rcff349584b",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-12",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
-        "summary": "银河智学首席科学家邓澍军博士发表主题演讲 从通用大模型到学习过程智能，AI如何真正进入课堂？",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/509404.html"
-      },
-      {
-        "id": "re38447bc4c",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-12",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
-        "summary": "全世界都在踩刹车，达里奥一个人踩油门 Anthropic启动IPO路演，估值已缩水6000亿美元",
-        "tags": [
-          "融资",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/509381.html"
-      },
-      {
-        "id": "re7a46f275f",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-12",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "马斯克Grok泄露自家机密！SpaceX特斯拉工资绩效全曝光",
-        "summary": "Grok在让人破绷这件事上，从来不会让人失望。 马斯克Grok泄露自家机密！SpaceX特斯拉工资绩效全曝光",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/509355.html"
-      },
-      {
-        "id": "r455cde96d2",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-12",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "让AI真正懂业务：璇玑如何成为企业AI的语义基础设施",
-        "summary": "企业 AI 的难题，不只是模型够不够强 让AI真正懂业务：璇玑如何成为企业AI的语义基础设施",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/509349.html"
-      },
-      {
-        "id": "r5b67e154ef",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-12",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "马斯克已准备好聘请黄仁勋",
-        "summary": "老黄出轨认错、再曝婚外恋 马斯克已准备好聘请黄仁勋",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/509334.html"
-      },
-      {
-        "id": "re38604f46c",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-12",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
-        "summary": "点击查看原文> 智能体 AI 架构中记忆、知识与上下文的系统化方案",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rc1b1d878f6",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-12",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Token越烧越多，利润却没涨：李彦宏要重新设计企业组织",
-        "summary": "点击查看原文> Token越烧越多，利润却没涨：李彦宏要重新设计企业组织",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/JPf7ud6wuk9fYmUDoMjo?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r50248c44cf",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-12",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
-        "summary": "点击查看原文> InfoQ 2026 年趋势报告：AI、ML与数据工程",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/7Pecd1CshYIMvCTeBhrm?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rd0ca184820",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-12",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "15连冠！海尔双11再获全网第一",
-        "summary": "2026年双11大促落下帷幕。家电行业竞争逻辑正在转变，告别单纯的价格比拼，转向品牌能力与用户体验的综合较量。 截至11月11日24时，海尔拿下了全网第一，实现十五连冠。这份成绩背后，不仅有整体份额持续稳居大家电行业第一，还是多品类、多渠道、品牌店播成交额等多个维度的全面领跑。 亮眼战绩并非偶然，源于海尔智家长期在技术能力与用户体验上的持续深耕。依托技术沉淀，AI已经贯穿用户下单、安装、使用…",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 6,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/h1DNbnHTUjHsMd3c.html"
       },
       {
         "id": "rbfa733eb55",
@@ -417,7 +501,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
       },
       {
@@ -508,23 +592,6 @@ window.AI_FEED = {
         "link": "https://huggingface.co/blog/qvac/botpsy"
       },
       {
-        "id": "r2c8321e0df",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-11",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-        "summary": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://huggingface.co/blog/token-pooling"
-      },
-      {
         "id": "r82997c90ec",
         "auto": true,
         "featured": false,
@@ -538,7 +605,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 86,
+        "hot": 80,
         "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
       },
       {
@@ -555,7 +622,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 86,
+        "hot": 80,
         "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
       },
       {
@@ -573,42 +640,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
-      },
-      {
-        "id": "rc830d5e960",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-10",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-        "summary": "Pay for Hugging Face Hub with your Google Cloud Account",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://huggingface.co/blog/hub-gcp-marketplace"
-      },
-      {
-        "id": "ra809cf1ef0",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Decision Models in Hugging Face",
-        "summary": "Decision Models in Hugging Face",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://huggingface.co/blog/decision"
       },
       {
         "id": "r1c9474b1e3",
@@ -626,41 +659,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 78,
         "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
-      },
-      {
-        "id": "r2178727fc6",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-11-09",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-        "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelos…",
-        "tags": [
-          "政策",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
-      },
-      {
-        "id": "r6907328c02",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-09",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Innovating with AI in the special chemicals industry",
-        "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific ex…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/"
       }
     ]
   };
