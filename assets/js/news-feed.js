@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-11-14 02:53
+   抓取时间：2026-11-15 02:21
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-11-14 02:53",
+    "updated": "2026-11-15 02:21",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,6 +25,115 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
+        "id": "r0a398d6721",
+        "auto": true,
+        "featured": false,
+        "cat": "policy",
+        "date": "2026-11-15",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
+        "summary": "点击查看原文> GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r167b43475c",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-15",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
+        "summary": "点击查看原文> 闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rdc585c4d6a",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-14",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "百度词元所发布首日：供应商暴增超100家，客户新增超1000家",
+        "summary": "11月14日，从百度获悉，百度词元所发布首日，新增申请入驻的供应商已超过100家，新增超过1000家客户接入。 词元所在11月12日举行的百度世界2026上正式发布，百度创始人李彦宏将其称为“大模型的交易所”。据介绍，词元所一端汇聚模型和模型提供商，另一端服务企业和个人，让用户便捷地找到、购买和使用可信的模型Token。 词元所主打验真与征信两大能力：模型入平台前需通过模型指纹比对、模型能力…",
+        "tags": [
+          "算力",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 3,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/industrynews/cqPXhF38rM4VcVa7.html"
+      },
+      {
+        "id": "r27168577c8",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-14",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "summary": "arXiv:2611.14681v1 Announce Type: new \nAbstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributio…",
+        "tags": [
+          "开源",
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 95,
+        "link": "https://arxiv.org/abs/2611.14681"
+      },
+      {
+        "id": "rf7248d47a0",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-14",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+        "summary": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了 「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/11/510232.html"
+      },
+      {
+        "id": "r7b2bcc1f65",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-14",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "突发！DeepSeek开放全家桶API",
+        "summary": "官方App功能均可自由组合调用 突发！DeepSeek开放全家桶API",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/11/510003.html"
+      },
+      {
         "id": "re074f6660f",
         "auto": true,
         "featured": false,
@@ -40,6 +149,114 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 92,
         "link": "https://www.infoq.cn/article/eTz8pt2LoALMvzvxj4aa?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r0441ca96c9",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-14",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+        "summary": "arXiv:2611.14544v1 Announce Type: new \nAbstract: Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2611.14544"
+      },
+      {
+        "id": "r99b51a6a83",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-14",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+        "summary": "arXiv:2611.14654v1 Announce Type: new \nAbstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides…",
+        "tags": [
+          "论文",
+          "融资",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://arxiv.org/abs/2611.14654"
+      },
+      {
+        "id": "ra8d4070e54",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-14",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
+        "summary": "马斯克也签名了 英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/510297.html"
+      },
+      {
+        "id": "rf3786debd8",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-14",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
+        "summary": "童年的纸飞机，现在终于飞回我手里～ 程序员集体沉迷折纸飞机！最长滞空31.2秒",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/510150.html"
+      },
+      {
+        "id": "r59694249db",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-14",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "绿电进Token出！联想重新定义词元工厂",
+        "summary": "年产2000万亿Token，成本狂降70% 绿电进Token出！联想重新定义词元工厂",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/510094.html"
+      },
+      {
+        "id": "rde3cb0a574",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-14",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "中专生拍出《哈利·波特》爆款！欧美明星、好莱坞制片人集体点赞",
+        "summary": "狂揽3000万播放量 中专生拍出《哈利·波特》爆款！欧美明星、好莱坞制片人集体点赞",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/510013.html"
       },
       {
         "id": "ra87c198592",
@@ -59,6 +276,62 @@ window.AI_FEED = {
         "link": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article"
       },
       {
+        "id": "r7d85934f7f",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-14",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+        "summary": "arXiv:2611.14736v1 Announce Type: new \nAbstract: Observational causal discovery often leaves causal di- rections unresolved or unstable. Large language mod- els (LLMs) can provide semantic informat…",
+        "tags": [
+          "论文",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.14736"
+      },
+      {
+        "id": "r9104a9b823",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-14",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+        "summary": "arXiv:2611.14765v1 Announce Type: new \nAbstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that create…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.14765"
+      },
+      {
+        "id": "r81ca8d3cc7",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-14",
+        "source": "arXiv cs.AI",
+        "lang": "en",
+        "title": "Rational Use of Time for Social Coordination in Humans and AI",
+        "summary": "arXiv:2611.14766v1 Announce Type: new \nAbstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration o…",
+        "tags": [
+          "论文",
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arxiv.org/abs/2611.14766"
+      },
+      {
         "id": "rd0c3935ba7",
         "auto": true,
         "featured": false,
@@ -75,7 +348,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html"
       },
       {
@@ -95,42 +368,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 4,
-        "hot": 94,
+        "hot": 88,
         "link": "https://www.leiphone.com/category/weiwu/DewyIGiyxQl09nUM.html"
-      },
-      {
-        "id": "r0401b4edbe",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-13",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
-        "summary": "250名国内顶尖三甲医院医生联合评测 中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/509796.html"
-      },
-      {
-        "id": "ra73b355fcc",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-13",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路",
-        "summary": "比亚迪正在把规模优势转化为技术与品牌价值 从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/509716.html"
       },
       {
         "id": "r136c13120e",
@@ -148,7 +387,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 6,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/transportation/vNdfiZqSJgLMJc3M.html"
       },
       {
@@ -166,7 +405,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://sspai.com/post/118512"
       },
       {
@@ -183,77 +422,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
-      },
-      {
-        "id": "rb5e7f2290f",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-13",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
-        "summary": "一个时代结束了 黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/509995.html"
-      },
-      {
-        "id": "r57830ab7e2",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-13",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
-        "summary": "12.9 北京，来MEET2027现场 MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/509827.html"
-      },
-      {
-        "id": "r207dde97a3",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-13",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订",
-        "summary": "比亚迪第1900万辆新能源汽车在西安工厂正式下线 比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/509730.html"
-      },
-      {
-        "id": "rcd97298a1b",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-13",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "比亚迪与神州租车首批闪充车及闪充站投放仪式顺利举行，战略合作落地兑现，闪充中国再次提速",
-        "summary": "2026年11月10日，比亚迪与神州租车首批闪充车及闪充站投放仪式在山东济南隆重举办",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/509710.html"
       },
       {
         "id": "r0ebc15e7c9",
@@ -270,7 +440,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article"
       },
       {
@@ -288,44 +458,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r24ebd1513e",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-13",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
-        "summary": "点击查看原文> 容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rcbba7279c7",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-11-13",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Docker 呼吁通过隔离与治理保障智能体安全",
-        "summary": "点击查看原文> Docker 呼吁通过隔离与治理保障智能体安全",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article"
       },
       {
         "id": "r4aba576179",
@@ -342,7 +476,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.leiphone.com/category/chips/G6AiPuplIGyPkaQL.html"
       },
       {
@@ -359,28 +493,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 4,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.leiphone.com/category/industrynews/pDERNZsb2r8U4vS5.html"
-      },
-      {
-        "id": "rd95b5ab8ed",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-13",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "中金公司与蚂蚁集团达成战略合作 共探AI赋能财富管理",
-        "summary": "11月13日，中国国际金融股份有限公司（简称“中金公司”）与蚂蚁科技集团股份有限公司（简称“蚂蚁集团”）签署战略合作协议。 双方将结合中金公司在专业投研、金融服务等方面的积累，以及蚂蚁集团在人工智能、行业生态、客户运营等方面的优势，围绕金融大模型技术创新、AI赋能财富管理、客户全生命周期服务等领域开展合作，共同探索“AI+金融”创新路径。 中金公司党委副书记、副董事长、总裁王曙光（右二），蚂…",
-        "tags": [
-          "论文",
-          "融资",
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 6,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/U7WtbV9kyb90UuZ0.html"
       },
       {
         "id": "r9919ac1188",
@@ -397,42 +511,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://sspai.com/post/118153"
-      },
-      {
-        "id": "r5509f93a79",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-13",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-        "summary": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
-      },
-      {
-        "id": "r6feff27ee6",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-13",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "XYBench: Helping with the problem behind the question",
-        "summary": "XYBench: Helping with the problem behind the question",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://huggingface.co/blog/allenai/xybench"
       },
       {
         "id": "r6044171cc6",
@@ -451,6 +531,40 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 84,
         "link": "https://sspai.com/post/118966"
+      },
+      {
+        "id": "r5509f93a79",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-13",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+        "summary": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+      },
+      {
+        "id": "r6feff27ee6",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-13",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "XYBench: Helping with the problem behind the question",
+        "summary": "XYBench: Helping with the problem behind the question",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://huggingface.co/blog/allenai/xybench"
       },
       {
         "id": "r43af0a6841",
@@ -518,7 +632,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/3d-lora-finetuning"
       },
       {
@@ -536,7 +650,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 86,
+        "hot": 80,
         "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
       },
       {
@@ -553,112 +667,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
-      },
-      {
-        "id": "r2e8ae4b8ec",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-11",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-        "summary": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/"
-      },
-      {
-        "id": "ra5065ad4dd",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-11",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-        "summary": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://huggingface.co/blog/qvac/botpsy"
-      },
-      {
-        "id": "r82997c90ec",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-10",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "Gemini Intelligence: New features, on more devices",
-        "summary": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 80,
-        "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
-      },
-      {
-        "id": "ra70e80874f",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-10",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-        "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 80,
-        "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
-      },
-      {
-        "id": "r5a44d8868a",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-10",
-        "source": "Ars Technica",
-        "lang": "en",
-        "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-        "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
-      },
-      {
-        "id": "r1c9474b1e3",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-11-09",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "The backlash about data centers might really just be about electricity",
-        "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
       }
     ]
   };
