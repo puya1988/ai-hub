@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-11-15 02:21
+   抓取时间：2026-11-16 02:32
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-11-15 02:21",
+    "updated": "2026-11-16 02:32",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -24,6 +24,24 @@ window.AI_FEED = {
     ],
     "failed": [],
     "items": [
+      {
+        "id": "r48ca03fc25",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-16",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Super Agent 进群：今年11.11，多了个会主动干活的“数字人队长”",
+        "summary": "点击查看原文> Super Agent 进群：今年11.11，多了个会主动干活的“数字人队长”",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/myl5Mcw3iyCYv3ZJ3hwQ?utm_source=rss&utm_medium=article"
+      },
       {
         "id": "r0a398d6721",
         "auto": true,
@@ -43,6 +61,23 @@ window.AI_FEED = {
         "link": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article"
       },
       {
+        "id": "ra14dd5611d",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-15",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+        "summary": "点击查看原文> Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article"
+      },
+      {
         "id": "r167b43475c",
         "auto": true,
         "featured": false,
@@ -60,6 +95,25 @@ window.AI_FEED = {
         "link": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article"
       },
       {
+        "id": "r5d5d891d49",
+        "auto": true,
+        "featured": false,
+        "cat": "chip",
+        "date": "2026-11-15",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：逾十万人次联署要求黄仁勋复职",
+        "summary": "逾十万人次联署要求黄仁勋复职 Microsoft 365 服务在 19 小时全球宕机后恢复 国产前沿模型携带 Blackwell GPU 特征 线缆更换导致全美飞机停飞 流媒体用户抱怨更难找到想看作品 特斯拉 Cybercab 订阅协议包含苛刻条款 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+        "tags": [
+          "算力",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://sspai.com/post/119119"
+      },
+      {
         "id": "rdc585c4d6a",
         "auto": true,
         "featured": false,
@@ -75,28 +129,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 3,
-        "hot": 95,
+        "hot": 90,
         "link": "https://www.leiphone.com/category/industrynews/cqPXhF38rM4VcVa7.html"
-      },
-      {
-        "id": "r27168577c8",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-14",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Together Compiler: Continual Compilation for AI Inference",
-        "summary": "arXiv:2611.14681v1 Announce Type: new \nAbstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributio…",
-        "tags": [
-          "开源",
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 95,
-        "link": "https://arxiv.org/abs/2611.14681"
       },
       {
         "id": "rf7248d47a0",
@@ -113,7 +147,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.qbitai.com/2026/11/510232.html"
       },
       {
@@ -130,7 +164,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.qbitai.com/2026/11/510003.html"
       },
       {
@@ -147,47 +181,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.infoq.cn/article/eTz8pt2LoALMvzvxj4aa?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r0441ca96c9",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-14",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
-        "summary": "arXiv:2611.14544v1 Announce Type: new \nAbstract: Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2611.14544"
-      },
-      {
-        "id": "r99b51a6a83",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-14",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
-        "summary": "arXiv:2611.14654v1 Announce Type: new \nAbstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides…",
-        "tags": [
-          "论文",
-          "融资",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://arxiv.org/abs/2611.14654"
       },
       {
         "id": "ra8d4070e54",
@@ -204,7 +199,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/11/510297.html"
       },
       {
@@ -221,7 +216,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/11/510150.html"
       },
       {
@@ -238,7 +233,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/11/510094.html"
       },
       {
@@ -255,7 +250,7 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.qbitai.com/2026/11/510013.html"
       },
       {
@@ -272,64 +267,8 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r7d85934f7f",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-14",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
-        "summary": "arXiv:2611.14736v1 Announce Type: new \nAbstract: Observational causal discovery often leaves causal di- rections unresolved or unstable. Large language mod- els (LLMs) can provide semantic informat…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2611.14736"
-      },
-      {
-        "id": "r9104a9b823",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-14",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
-        "summary": "arXiv:2611.14765v1 Announce Type: new \nAbstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that create…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2611.14765"
-      },
-      {
-        "id": "r81ca8d3cc7",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-14",
-        "source": "arXiv cs.AI",
-        "lang": "en",
-        "title": "Rational Use of Time for Social Coordination in Humans and AI",
-        "summary": "arXiv:2611.14766v1 Announce Type: new \nAbstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration o…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://arxiv.org/abs/2611.14766"
       },
       {
         "id": "rd0c3935ba7",
@@ -426,42 +365,6 @@ window.AI_FEED = {
         "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
       },
       {
-        "id": "r0ebc15e7c9",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-13",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
-        "summary": "点击查看原文> 从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rdc1e43d05d",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-13",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "智能互动 Agent 在快手商业场景的落地实践",
-        "summary": "点击查看原文> 智能互动 Agent 在快手商业场景的落地实践",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article"
-      },
-      {
         "id": "r4aba576179",
         "auto": true,
         "featured": false,
@@ -515,24 +418,6 @@ window.AI_FEED = {
         "link": "https://sspai.com/post/118153"
       },
       {
-        "id": "r6044171cc6",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-13",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：英伟达 CEO 黄仁勋宣布辞职等",
-        "summary": "2026 年金摇杆奖获奖名单公布，Apex Compute 推出跨平台 AI 帧生成技术 ANR 等。查看全文",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://sspai.com/post/118966"
-      },
-      {
         "id": "r5509f93a79",
         "auto": true,
         "featured": false,
@@ -567,6 +452,24 @@ window.AI_FEED = {
         "link": "https://huggingface.co/blog/allenai/xybench"
       },
       {
+        "id": "r6044171cc6",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-13",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：英伟达 CEO 黄仁勋宣布辞职等",
+        "summary": "2026 年金摇杆奖获奖名单公布，Apex Compute 推出跨平台 AI 帧生成技术 ANR 等。查看全文",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://sspai.com/post/118966"
+      },
+      {
         "id": "r43af0a6841",
         "auto": true,
         "featured": false,
@@ -580,7 +483,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 86,
+        "hot": 80,
         "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
       },
       {
@@ -598,7 +501,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 86,
+        "hot": 80,
         "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
       },
       {
@@ -615,7 +518,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
       },
       {
@@ -669,6 +572,93 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 78,
         "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
+      },
+      {
+        "id": "r2e8ae4b8ec",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-11",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+        "summary": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/"
+      },
+      {
+        "id": "ra5065ad4dd",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-11",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+        "summary": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/qvac/botpsy"
+      },
+      {
+        "id": "r82997c90ec",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-10",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "Gemini Intelligence: New features, on more devices",
+        "summary": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 80,
+        "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
+      },
+      {
+        "id": "ra70e80874f",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-10",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+        "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 80,
+        "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+      },
+      {
+        "id": "r5a44d8868a",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-10",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+        "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
       }
     ]
   };
