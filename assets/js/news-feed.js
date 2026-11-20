@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-11-19 03:57
+   抓取时间：2026-11-20 03:51
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-11-19 03:57",
+    "updated": "2026-11-20 03:51",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,53 +25,69 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "r47d78c3be2",
+        "id": "r58eae85298",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-19",
+        "date": "2026-11-20",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "英伟达临时CEO称将不再向中国出货H200芯片；一天之内173名管理人员被免，宗馥莉大规模「动刀」；英特尔被曝再度裁员，波及全球IT员工",
-        "summary": "要闻提示 1.英特尔被曝再度裁员，波及全球IT员工 2.英伟达临时CEO称将不再向中国出货H200芯片，外交部回应 3.权志龙母公司将推机器人女团，与宇树合作的K-pop演唱会12月首演 4.宗馥莉再掀人事风暴：173名管理人员被免职 5.最高涨560元！大疆两款手持云台相机涨价 6.腾讯第三季度营收2073亿元，WorkBuddy日活超千万 7.张朝阳再度回应搜狐“躺平”：大模型投入太大，…",
+        "title": "商汤20%资源投入背后的逻辑：林达华谈拼手速与长期竞争力",
+        "summary": "Scaling Law在空间智能这里失效了？ 作者丨周蕾 编辑丨岑峰 今年初字节的Seedance 2.0发布时，“电影级别”的出片质量让不少从业者倍感兴奋和震撼，新的创作蓝图正在他们面前徐徐展开——但对商汤的Seko团队来说，那是一段“迷茫”的日子。 商汤联合创始人、首席科学家林达华在最近一次访谈中回忆，那段时间他去见投资人、参加行业会议，被问到的几乎总是同一个问题：你们的Seko和See…",
         "tags": [
           "开源",
           "论文",
-          "政策",
+          "融资",
           "中文源"
         ],
         "readTime": 12,
         "hot": 95,
-        "link": "https://www.leiphone.com/category/zaobao/wMg9SCFKwT7JSsGq.html"
+        "link": "https://www.leiphone.com/category/ai/0u1BjHIMazUFuNZc.html"
       },
       {
-        "id": "r66a5ddb7c2",
+        "id": "r4294d468dd",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-19",
+        "date": "2026-11-20",
         "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "Bug0 发布 QA Agent，利用缓存的 Playwright 回放实现回归测试自动化",
-        "summary": "点击查看原文> Bug0 发布 QA Agent，利用缓存的 Playwright 回放实现回归测试自动化",
+        "title": "谷歌发布用于机器人控制、仿真和策略优化的 Gemini 4 Argon",
+        "summary": "点击查看原文> 谷歌发布用于机器人控制、仿真和策略优化的 Gemini 4 Argon",
         "tags": [
-          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 94,
+        "link": "https://www.infoq.cn/article/S4LH5Z9zcbLokm5uNSKR?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rb98287e522",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-20",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
+        "summary": "Google Play 将强制要求应用适配折叠屏，微软宣布 Microsoft To Do 将于明年 6 月全面停用等。查看全文",
+        "tags": [
           "中文源"
         ],
         "readTime": 2,
         "hot": 92,
-        "link": "https://www.infoq.cn/article/eO0w7sdaGClvppFqwt5j?utm_source=rss&utm_medium=article"
+        "link": "https://sspai.com/post/119311"
       },
       {
-        "id": "r452af58b22",
+        "id": "r23f56f90b3",
         "auto": true,
         "featured": false,
         "cat": "chip",
-        "date": "2026-11-19",
+        "date": "2026-11-20",
         "source": "量子位",
         "lang": "zh",
-        "title": "范式下场做基模了！国产算力全链路训练，双模型同步亮相",
-        "summary": "语言模型单张3090卡即可运行 范式下场做基模了！国产算力全链路训练，双模型同步亮相",
+        "title": "具身机器人进入真机时代，华为云CloudRobo开始组队发力了",
+        "summary": "一批卡可以轮流服务多家公司，一次适配也能让更多团队受益。算力不必家家从头买，工程上的坑也不用家家重新踩。",
         "tags": [
           "算力",
           "国产",
@@ -79,91 +95,76 @@ window.AI_FEED = {
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/511071.html"
+        "link": "https://www.qbitai.com/2026/11/511426.html"
       },
       {
-        "id": "re35ea4cc7a",
+        "id": "re2dee75133",
         "auto": true,
         "featured": false,
-        "cat": "industry",
-        "date": "2026-11-19",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "初中毕业烘焙师，1 人搓出单集千万播放科幻剧，中国AI长片杀疯了！",
-        "summary": "国产AI工具实现「一个人就是一个剧组」 初中毕业烘焙师，1 人搓出单集千万播放科幻剧，中国AI长片杀疯了！",
-        "tags": [
-          "国产",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/510947.html"
-      },
-      {
-        "id": "r7e5703dd16",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-19",
+        "cat": "model",
+        "date": "2026-11-20",
         "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "从可用到好用：Agent 的观测、评估与持续优化｜AICon北京",
-        "summary": "点击查看原文> 从可用到好用：Agent 的观测、评估与持续优化｜AICon北京",
+        "title": "火山引擎 Agent-Native 团队的上下文管理实践｜AICon北京",
+        "summary": "点击查看原文> 火山引擎 Agent-Native 团队的上下文管理实践｜AICon北京",
         "tags": [
           "Agent",
           "中文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://www.infoq.cn/article/u8eHrtbbchlNRkP94ALh?utm_source=rss&utm_medium=article"
+        "link": "https://www.infoq.cn/article/YTGHxcabs0RI3btLIUxm?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "ra2127c3311",
+        "id": "r950c126fce",
         "auto": true,
         "featured": false,
-        "cat": "apply",
-        "date": "2026-11-18",
+        "cat": "model",
+        "date": "2026-11-19",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元",
-        "summary": "11月18日，豆包官方宣布，上线仅三个月的豆包工作日活跃用户数（DAU）突破 800 万，企业客户年度经常性收入（ARR）突破 20 亿元。 豆包工作是豆包面向生产力场景推出的 AI 产品及品牌，自8月25日正式发布以来，持续更新专业办公能力。11月16日，豆包工作上线 “工作台” 功能，首批覆盖金融、医疗、教育、创意设计等 21 个专业场景，预先配置相应技能和工具，用户也可创建、保存和分享…",
+        "title": "Google 杀入 Jev 核心赛道：Gemini Decision 1 五项基准领先两项落后",
+        "summary": "Jev 拿下的 75 亿美元估值曾被质疑是一场泡沫。现在 Google 用一款多模态决策模型告诉市场：这不是泡沫，是赛道。 作者丨郑佳美 编辑丨岑 峰 谷歌正式入场了。 刚刚，谷歌发布 Gemini Decision 1，正式向 两个月前引爆决策模型品类的 TypeSafe Jev发起挑战。 和 Jev 一样，这款模型不生成任何文本，只计算供程序直接驱动 Agent 执行的候选项概率和置信度…",
         "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/industrynews/cC8dbvo5f5k5tgnE.html"
-      },
-      {
-        "id": "r675e8a8826",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-18",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "对话“中国主板教父”吴福禄",
-        "summary": "对话“中国主板教父”吴福禄（上）： 黄仁勋是“江湖高手”，而“带头大哥”也触礁了 “我的名字在华强北的上空盘旋了十年。” 1993年7月，日本住友化工厂发生爆炸。西安交大毕业的吴福禄，从报纸上一则豆腐块大小的报道里隐约嗅出了一个信号：内存可能要缺货涨价。他兴奋得整夜没合眼，反复盘算着怎么把大学时最拿手的博弈论操盘方法，应用到内存的市场里。 当时，他手头没钱，靠的是在赛格电子市场混了多年的人脉…",
-        "tags": [
-          "论文",
-          "政策",
           "融资",
+          "Agent",
+          "多模态",
           "中文源"
         ],
         "readTime": 12,
         "hot": 95,
-        "link": "https://www.leiphone.com/category/industrynews/YCL7IapyaOICHlBN.html"
+        "link": "https://www.leiphone.com/category/ai/wctgzdX4CN2RVxCm.html"
       },
       {
-        "id": "r3870ee58b3",
+        "id": "r1680891b35",
         "auto": true,
         "featured": false,
-        "cat": "apply",
-        "date": "2026-11-18",
+        "cat": "funding",
+        "date": "2026-11-19",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "纽娲机器人创始人杨睿刚：自动驾驶踩过的数据坑，机器人还会再踩一遍丨物理 AI 50 人",
-        "summary": "做了十多年自动驾驶之后，杨睿刚决定把下一次创业的方向，从高速公路转向居民社区。 在此之前，他曾在美国高校研究三维视觉，后来加入百度研究院，负责机器人与自动驾驶实验室，又担任嬴彻科技CTO，推动自动驾驶重卡前装量产。从研究算法到让几十吨重的卡车真正跑上高速公路，他经历了自动驾驶从技术探索走向商业化的过程。 2024年，杨睿刚开始筹备第二次创业。彼时，人形机器人已经成为具身智能行业最受关注的方向…",
+        "title": "诺亦腾机器人入选 The Information 2026 全球最具潜力50家初创企业榜单",
+        "summary": "核心要点（Key Facts） · 在 The Information 于 11 月 11 日发布的“2026 全球最具潜力 50 家初创企业”榜单中，诺亦腾机器人（Noitom Robotics）位列亚洲分区第一。 · 根据榜单披露，诺亦腾机器人目前估值已超 5 亿美元，累计股权融资逾 5000 万美元，年营收突破 1000 万美元。 · 诺亦腾机器人致力于生产供机器人学习的人类数据。公司…",
+        "tags": [
+          "论文",
+          "融资",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 7,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/ai/AfdiA9NBN3TJrgDL.html"
+      },
+      {
+        "id": "rfb003537a1",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-19",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "田渊栋创业合伙人：通往 AGI 最快的路，只能是 AI 造 AI | CoRL 2026",
+        "summary": "Recursive 联创 Jeff Clune ：“QD、开放式、AI 生成算法，我觉得它们就是下一代伟大的 AI。” 作者丨邓哲敏 编辑丨齐铖湧 11 月 12 日，CoRL 2026 最后一天。主会已经结束，32 场 Workshop 密集进行，其中一场聚焦持续自进化（Continually Self-Improving），英属哥伦比亚大学教授、Uber AI Labs 创始成员 Jef…",
         "tags": [
           "论文",
           "融资",
@@ -172,14 +173,14 @@ window.AI_FEED = {
         ],
         "readTime": 12,
         "hot": 94,
-        "link": "https://www.leiphone.com/category/transportation/GLv3yGaPGK64teuS.html"
+        "link": "https://www.leiphone.com/category/private/wIgMWmjlB5GTKg6e.html"
       },
       {
         "id": "rdb39abf07f",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.CL",
         "lang": "en",
         "title": "CrisisBench: an evaluation suite for crisis counseling AI",
@@ -193,116 +194,64 @@ window.AI_FEED = {
         "link": "https://arxiv.org/abs/2611.21622"
       },
       {
-        "id": "r81c4736ff5",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-18",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
-        "summary": "氖人寻味！ Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/510922.html"
-      },
-      {
-        "id": "read3bcf4b9",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-18",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "GPT-6.2难产！OpenAI怕了",
-        "summary": "OpenAI也终于活成了2022年谷歌的样子 GPT-6.2难产！OpenAI怕了",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/510914.html"
-      },
-      {
-        "id": "r498743310e",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-18",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "全球首个医疗健康AI独立评测与分析平台InclusionMed正式上线",
-        "summary": "近日，全球首个医疗健康 AI 独立评测与分析平台InclusionMed 正式上线",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/510916.html"
-      },
-      {
-        "id": "r1a5c66fd60",
+        "id": "r2b8589752a",
         "auto": true,
         "featured": false,
         "cat": "apply",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "“无人机外卖”加速出海，迪拜居民在家门口收到“空中外卖”",
-        "summary": "中国超大规模创新试验场孕育出的前沿技术，正在为全球市场提供高质量发展活力。无人机外卖、工业机器人……越来越多中国成熟的技术正加速走向世界各地，为当地的技术创新和发展壮大提供强劲动能。 ▲美团无人机第四代索降机型 M-Drone 4L 在迪拜完成海外首次亮相（资料图） 迪拜时间11月18日，美团无人机第四代索降机型 M-Drone 4L 完成海外首次亮相：无人机悬停空中，通过缆索将订单精准送达…",
+        "title": "阿里财报：国际站GMV持续双位数增长，Accio付费企业数翻倍",
+        "summary": "11月19日，阿里巴巴发布2027财年第二季度财报。阿里全球B2B业务呈现跨境出海与AI商业化双线高速增长：阿里国际站GMV持续保持双位数增长；全球电商AI工作台Accio付费企业数达到10万，较上一季度增长100%。 海外需求仍是第一条增长曲线，尤其是北美和欧洲买家下单踊跃。本财年前两个季度，阿里国际站交易GMV增长均超过20%。进入四季度外贸旺季，阿里国际站更是迎来“双11开门红”，11…",
         "tags": [
+          "国产",
           "中文源"
         ],
-        "readTime": 5,
+        "readTime": 4,
         "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/SGCHiaZaK40MbNz8.html"
+        "link": "https://www.leiphone.com/category/industrynews/c9oojTZh4VSNL1dX.html"
       },
       {
-        "id": "r6b23e0c0a1",
+        "id": "r2b7a855205",
         "auto": true,
         "featured": false,
-        "cat": "chip",
-        "date": "2026-11-18",
+        "cat": "apply",
+        "date": "2026-11-19",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "黄仁勋归期悬而未决，买GPU的人已经不敢下单",
-        "summary": "“现在都不敢订期货。”在深圳负责GPU采购的程麟，用一句话概括了今年的处境。 从突然辞任，到传出回归，再到本人公开表达重返意愿、董事会却在财报电话会上明确表示无意让其复职——短短五天里，围绕黄仁勋去留的消息几度反转。 多方信源此前也向雷峰网表示，黄仁勋短期内很难重新执掌英伟达。 但对于依赖英伟达GPU开展生意的中国算力服务商而言，眼下更现实的问题是：即便黄仁勋回来了，高端GPU还能不能买到？…",
+        "title": "阿里云外部收入增长64%，增速创近六年新高",
+        "summary": "11月19日晚间，阿里巴巴集团发布最新季度业绩，阿里云外部客户收入同比增长64%，较上一季度的45%显著加快，刷新近六年来的增速高点。季度内，AI相关产品收入连续第13个季度实现三位数增长，驱动阿里云收入增长再创新高。",
         "tags": [
-          "政策",
-          "融资",
-          "算力",
+          "国产",
           "中文源"
         ],
-        "readTime": 12,
+        "readTime": 2,
         "hot": 92,
-        "link": "https://www.leiphone.com/category/chips/WHSLCH74nrSJW6OE.html"
+        "link": "https://www.leiphone.com/category/industrynews/GlHj8MIKX7YGLxU3.html"
       },
       {
-        "id": "r92ac76d20f",
+        "id": "rc64b7dc273",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "Google AI Blog",
         "lang": "en",
-        "title": "The Gemini app is now available on lower-memory Android devices.",
-        "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+        "title": "Introducing Tool Retrieval in the Gemini API",
+        "summary": "Gemini spark on a space background Introducing Tool Retrieval in the Gemini API",
         "tags": [
           "英文源"
         ],
         "readTime": 2,
         "hot": 92,
-        "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+        "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
       },
       {
         "id": "r92f31a52ca",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
@@ -322,7 +271,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.CL",
         "lang": "en",
         "title": "RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs",
@@ -340,7 +289,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "funding",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.CL",
         "lang": "en",
         "title": "Sleep2Word: Peripheral-to-EEG Translation via Duration-Aware Wordization",
@@ -358,7 +307,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.CL",
         "lang": "en",
         "title": "Limite 1B - Violetto: Technical Report",
@@ -372,183 +321,185 @@ window.AI_FEED = {
         "link": "https://arxiv.org/abs/2611.21646"
       },
       {
-        "id": "rd832230f42",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-18",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "思维链一作Jason Wei离职！怎么去Meta待一年都跑路",
-        "summary": "入职Meta刚满一年出头，竟然直接提桶跑路了！ 思维链一作Jason Wei离职！怎么去Meta待一年都跑路",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/510811.html"
-      },
-      {
-        "id": "r00954aabc1",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-18",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Agent 驱动 MaaS 新范式，如何让模型能力随需而用？",
-        "summary": "点击查看原文> Agent 驱动 MaaS 新范式，如何让模型能力随需而用？",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/video/xsEfht2OwBZQBvWVHSIb?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r69150a647e",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-18",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "从 AI 试点到规模化生产：Snowflake 驻场前沿工程师如何助力企业实现 AI 落地 ｜ 技术趋势",
-        "summary": "点击查看原文> 从 AI 试点到规模化生产：Snowflake 驻场前沿工程师如何助力企业实现 AI 落地 ｜ 技术趋势",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/ZukzUBeu7k74T9UGCkfh?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "re8fbe6a432",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-18",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "如何让 Agent 从“能跑起来”到“可规模化、可信赖地持续生产”？",
-        "summary": "点击查看原文> 如何让 Agent 从“能跑起来”到“可规模化、可信赖地持续生产”？",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/video/uzyzSB9HkO1wwi5w4w9F?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r3f7a45a62a",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-18",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "业务本体：面向 AI 与数据分析，统一规范业务概念与指标口径 ｜ 技术趋势",
-        "summary": "点击查看原文> 业务本体：面向 AI 与数据分析，统一规范业务概念与指标口径 ｜ 技术趋势",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/GSGpEUU4dCdppTCmaOSy?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rf78d901484",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-18",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "The AI Hype Index: AI is everywhere",
-        "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you m…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
-      },
-      {
-        "id": "r8fe487e072",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-18",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "This smell startup says its AI nose is as good as a human’s",
-        "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
-      },
-      {
-        "id": "ra4689c3da4",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-18",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-        "summary": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
-      },
-      {
-        "id": "rd4dca6a43f",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-18",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Why your fine-tuning job takes longer than the FLOPs say",
-        "summary": "Why your fine-tuning job takes longer than the FLOPs say",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
-      },
-      {
-        "id": "r0260bd2817",
+        "id": "rc1e48d3517",
         "auto": true,
         "featured": false,
         "cat": "funding",
-        "date": "2026-11-18",
-        "source": "Hugging Face",
+        "date": "2026-11-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "影视飓风、Manus、影石、OPPO……极客公园创新大会 2027 嘉宾阵容更新！",
+        "summary": "「Revaluation 价值，另有答案」 影视飓风、Manus、影石、OPPO……极客公园创新大会 2027 嘉宾阵容更新！",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/511258.html"
+      },
+      {
+        "id": "r751c9adfff",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了",
+        "summary": "媒体均分登顶历史第一，细节多到爆炸 GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/511180.html"
+      },
+      {
+        "id": "r43aaccedac",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "SenseNova U1 Pro获Design Arena双榜中国第一、全球第六",
+        "summary": "商汤科技日日新 SenseNova U1 Pro 在图片生成与图片编辑两大榜单中均登顶中国第一",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/511179.html"
+      },
+      {
+        "id": "r43ef2d4fa9",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "好清晰！最新国产AI画的8K图，放这么大大大大也不糊！",
+        "summary": "Kling Image 4.0 好清晰！最新国产AI画的8K图，放这么大大大大也不糊！",
+        "tags": [
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/511092.html"
+      },
+      {
+        "id": "ra361f66643",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-19",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "AI基建大潮方兴未艾，联想集团最佳财季诞生！",
+        "summary": "全球AI生态链领先企业联想集团今日公布截至2026/27财年第二季度业绩 AI基建大潮方兴未艾，联想集团最佳财季诞生！",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/511088.html"
+      },
+      {
+        "id": "rcd41181e61",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-19",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Sam Altman罕见发声：我不担心Anthropic先上市，市场上不缺投资者",
+        "summary": "点击查看原文> Sam Altman罕见发声：我不担心Anthropic先上市，市场上不缺投资者",
+        "tags": [
+          "融资",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/Mf3Zbm9JF3RWbkvjMKYZ?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r378638608f",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-19",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "模型刚接进业务，CEO又要换新：红帽如何接住企业AI落地难题？",
+        "summary": "点击查看原文> 模型刚接进业务，CEO又要换新：红帽如何接住企业AI落地难题？",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/6xqcZfMgJ99ZQiGFbjym?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r0116f2d2d7",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-19",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "杀入Agent主场之后：两年内部分替代自回归，扩散智能的底气从何而来？| 专访",
+        "summary": "点击查看原文> 杀入Agent主场之后：两年内部分替代自回归，扩散智能的底气从何而来？| 专访",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/rtBT5s1opGGazFgQi0YS?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r631cfef603",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-19",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Agent 实干派：从人人可用到全栈工程进化 | InfoQ 小编探班",
+        "summary": "点击查看原文> Agent 实干派：从人人可用到全栈工程进化 | InfoQ 小编探班",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/video/Cfrl4QYhD3dHMuhGt6hw?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rb7f685c640",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-19",
+        "source": "Google AI Blog",
         "lang": "en",
-        "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-        "summary": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+        "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+        "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
         "tags": [
           "英文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
+        "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/"
       },
       {
         "id": "r6f7fdc583e",
         "auto": true,
         "featured": false,
         "cat": "research",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
@@ -566,7 +517,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "research",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR",
@@ -585,7 +536,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "research",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
@@ -604,14 +555,13 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "research",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "Language Models Can Rewrite Their Own Weights",
-        "summary": "arXiv:2611.21885v1 Announce Type: new \nAbstract: Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation…",
+        "summary": "arXiv:2611.21885v2 Announce Type: new \nAbstract: A language model is trained once and frozen. Making it better takes another training run, or a prompt, a harness or extra computation at inference t…",
         "tags": [
           "论文",
-          "算力",
           "英文源"
         ],
         "readTime": 2,
@@ -623,7 +573,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.AI",
         "lang": "en",
         "title": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
@@ -641,7 +591,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.CL",
         "lang": "en",
         "title": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
@@ -660,7 +610,7 @@ window.AI_FEED = {
         "auto": true,
         "featured": false,
         "cat": "research",
-        "date": "2026-11-18",
+        "date": "2026-11-19",
         "source": "arXiv cs.CL",
         "lang": "en",
         "title": "FieldGuide: A Corpus Map for Token-Efficient Agentic Document Exploration",
@@ -673,6 +623,57 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 90,
         "link": "https://arxiv.org/abs/2611.21647"
+      },
+      {
+        "id": "r92ac76d20f",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-18",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "The Gemini app is now available on lower-memory Android devices.",
+        "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 86,
+        "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+      },
+      {
+        "id": "rf78d901484",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-18",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "The AI Hype Index: AI is everywhere",
+        "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you m…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
+      },
+      {
+        "id": "r8fe487e072",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-18",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "This smell startup says its AI nose is as good as a human’s",
+        "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 84,
+        "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
       }
     ]
   };
