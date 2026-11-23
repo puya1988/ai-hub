@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-11-22 02:47
+   抓取时间：2026-11-23 03:29
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-11-22 02:47",
+    "updated": "2026-11-23 03:29",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -24,6 +24,148 @@ window.AI_FEED = {
     ],
     "failed": [],
     "items": [
+      {
+        "id": "re9fd1b1009",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-23",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
+        "summary": "点击查看原文> Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
+        "tags": [
+          "融资",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r2840e2a774",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-22",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局",
+        "summary": "要闻提示 1.OpenAI被曝入局智能手机赛道，富士康获组装订单 2.特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件 3.DeepSeek千亿融资落地，31家出资方入股梁文锋搭建的持股平台 4.马斯克自称“中国超级粉丝”：首次到访深圳被震撼，特斯拉将继续在华提高产量 5.字节跳动拟追加5亿美元微软云服务合同 6.西祠胡同创始人响马突发心梗：到急诊几分钟后心脏骤停，现已回家静养…",
+        "tags": [
+          "论文",
+          "政策",
+          "融资",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html"
+      },
+      {
+        "id": "rabd81a62be",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-22",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+        "summary": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/11/511870.html"
+      },
+      {
+        "id": "rdb666e3e05",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-22",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：Anthropic 研究员宣称用 Claude 证明黎曼猜想",
+        "summary": "Anthropic 研究员宣称用 Claude 证明黎曼猜想 OpenAI 公布反蒸馏举措 黄仁勋据称将攻击下属作为管理方式 GTA 6 首日销售额近 40 亿美元 特斯拉升级 FSD，推出实景渲染功能 AMD 股票被做空 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+        "tags": [
+          "论文",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://sspai.com/post/119418"
+      },
+      {
+        "id": "r3ce9a2dd21",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-22",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
+        "summary": "用葡萄糖发电控制血糖。 Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/511904.html"
+      },
+      {
+        "id": "r09d91a5810",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-22",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "财务团队的 AI 蓝图",
+        "summary": "点击查看原文> 财务团队的 AI 蓝图",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/video/UUqekkOQ8haEXZ792UjU?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r9abef85e79",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-22",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "打造 AI 优先的销售与营销运营体系",
+        "summary": "点击查看原文> 打造 AI 优先的销售与营销运营体系",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/video/mihBFvImttvJlSFUqC49?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rc79724afd0",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-22",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "智能体企业新前沿：驱动高效智能",
+        "summary": "点击查看原文> 智能体企业新前沿：驱动高效智能",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article"
+      },
       {
         "id": "r3a2349a5fe",
         "auto": true,
@@ -76,44 +218,27 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 12,
-        "hot": 95,
+        "hot": 90,
         "link": "https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html"
       },
       {
-        "id": "rd996f9d917",
+        "id": "r1f35482147",
         "auto": true,
         "featured": false,
         "cat": "model",
         "date": "2026-11-21",
         "source": "量子位",
         "lang": "zh",
-        "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
-        "summary": "专为本地部署而生 刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+        "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+        "summary": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
         "tags": [
-          "开源",
           "Agent",
+          "国产",
           "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
-        "link": "https://www.qbitai.com/2026/11/511570.html"
-      },
-      {
-        "id": "r1d2979fc0d",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-21",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
-        "summary": "还实现可变形物体操控全球首通 GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/511779.html"
+        "hot": 88,
+        "link": "https://www.qbitai.com/2026/11/511841.html"
       },
       {
         "id": "r0f6aaf7326",
@@ -130,99 +255,59 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 6,
-        "hot": 92,
+        "hot": 86,
         "link": "https://www.leiphone.com/category/industrynews/cjpukqhxIgaEYhyQ.html"
       },
       {
-        "id": "r91d7067d0a",
+        "id": "r22f8965efe",
         "auto": true,
         "featured": false,
-        "cat": "model",
+        "cat": "industry",
         "date": "2026-11-21",
         "source": "量子位",
         "lang": "zh",
-        "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
-        "summary": "还透露了不少训练背后的秘诀 姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+        "title": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
+        "summary": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
         "tags": [
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/511757.html"
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/11/511855.html"
       },
       {
-        "id": "ra29a9a28ee",
+        "id": "r82f5076a5d",
         "auto": true,
         "featured": false,
         "cat": "industry",
         "date": "2026-11-21",
-        "source": "InfoQ 中文",
+        "source": "量子位",
         "lang": "zh",
-        "title": "智能体 AI 架构：当前挑战与未来机遇",
-        "summary": "点击查看原文> 智能体 AI 架构：当前挑战与未来机遇",
+        "title": "中国计算，走出新的登峰之路",
+        "summary": "中国计算，走出新的登峰之路",
         "tags": [
-          "Agent",
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article"
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/11/511849.html"
       },
       {
-        "id": "rd709331520",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-21",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
-        "summary": "点击查看原文> TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r70130da59b",
+        "id": "r48b800c6c1",
         "auto": true,
         "featured": false,
         "cat": "industry",
         "date": "2026-11-21",
-        "source": "InfoQ 中文",
+        "source": "量子位",
         "lang": "zh",
-        "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
-        "summary": "点击查看原文> Entire Git Forge：面向编码智能体重构 Git 协作方式",
+        "title": "全网疯传！Grok一姐教你如何月提交3000个PR",
+        "summary": "全网疯传！Grok一姐教你如何月提交3000个PR",
         "tags": [
-          "Agent",
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r03e68c8b1c",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-20",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "解读丨智能戒指红海之外，Elah Ring 正在深入美国腹地",
-        "summary": "斯坦福毕业生做的 Elah Ring，要当美国百姓的“Personal Faith Agent”。作者丨陈玘凡 编辑丨吴优 斯坦福周边没有密集的商圈与高楼，和车程半小时的旧金山城区氛围差别明显。校园占地 8180 英亩，大片山丘林地，建筑低矮，很容易让人产生孤独感。 2014 年，Everblessed 创始人温立来到这里，攻读流体力学与水文硕士。 初来乍到，每周最轻松愉快的时候，就是周六晚…",
-        "tags": [
-          "政策",
-          "融资",
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/weiwu/ptAnAiMGqEOX65EI.html"
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/11/511830.html"
       },
       {
         "id": "ra9387130e3",
@@ -243,23 +328,6 @@ window.AI_FEED = {
         "link": "https://www.leiphone.com/category/weiwu/zv5a8TgwqnZmROX5.html"
       },
       {
-        "id": "r93ccfa8f1c",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-20",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
-        "summary": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://www.qbitai.com/2026/11/511727.html"
-      },
-      {
         "id": "r1120ce3755",
         "auto": true,
         "featured": false,
@@ -275,77 +343,6 @@ window.AI_FEED = {
         "readTime": 6,
         "hot": 86,
         "link": "https://www.leiphone.com/category/industrynews/SiETkjl6gqYBSCz4.html"
-      },
-      {
-        "id": "rb98287e522",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-20",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
-        "summary": "Google Play 将强制要求应用适配折叠屏，微软宣布 Microsoft To Do 将于明年 6 月全面停用等。查看全文",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://sspai.com/post/119311"
-      },
-      {
-        "id": "r6987de93b4",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-20",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "米哈游发了个VLA论文",
-        "summary": "8B参数，50小时自主运行 米哈游发了个VLA论文",
-        "tags": [
-          "论文",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/11/511740.html"
-      },
-      {
-        "id": "r88e4d81bf6",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-20",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
-        "summary": "美国AI音乐平台Suno宣布推出视觉创作工具Visuals 美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
-        "tags": [
-          "多模态",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.qbitai.com/2026/11/511722.html"
-      },
-      {
-        "id": "rb1e1cde1e3",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-20",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "财报再亮眼也没用！黄仁勋想回去，英伟达董事会偏不让",
-        "summary": "点击查看原文> 财报再亮眼也没用！黄仁勋想回去，英伟达董事会偏不让",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://www.infoq.cn/article/3xzCDJBbDREm4EJFJWrH?utm_source=rss&utm_medium=article"
       },
       {
         "id": "r520d29eeb7",
@@ -382,40 +379,6 @@ window.AI_FEED = {
         "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
       },
       {
-        "id": "r5c462a3c9c",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-20",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-        "summary": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://huggingface.co/blog/inkling2mini"
-      },
-      {
-        "id": "rfeaad85531",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-20",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-        "summary": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://huggingface.co/blog/harness-adapters-at-scale"
-      },
-      {
         "id": "r36d6aadf23",
         "auto": true,
         "featured": false,
@@ -433,6 +396,57 @@ window.AI_FEED = {
         "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
       },
       {
+        "id": "rb98287e522",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-20",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
+        "summary": "Google Play 将强制要求应用适配折叠屏，微软宣布 Microsoft To Do 将于明年 6 月全面停用等。查看全文",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 80,
+        "link": "https://sspai.com/post/119311"
+      },
+      {
+        "id": "r5c462a3c9c",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-20",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+        "summary": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/inkling2mini"
+      },
+      {
+        "id": "rfeaad85531",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-20",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+        "summary": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://huggingface.co/blog/harness-adapters-at-scale"
+      },
+      {
         "id": "rc64b7dc273",
         "auto": true,
         "featured": false,
@@ -446,7 +460,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 86,
+        "hot": 80,
         "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
       },
       {
@@ -463,7 +477,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/"
       },
       {
@@ -636,25 +650,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 78,
         "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/"
-      },
-      {
-        "id": "r03832e3f35",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-11-16",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "The open-source movement wants Jensen Huang back",
-        "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of N…",
-        "tags": [
-          "开源",
-          "算力",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 80,
-        "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/"
       }
     ]
   };
