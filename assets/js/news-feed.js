@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-11-24 06:42
+   抓取时间：2026-11-25 05:12
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-11-24 06:42",
+    "updated": "2026-11-25 05:12",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,223 +25,332 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "rc70dafdaaf",
+        "id": "rb7a29c9508",
         "auto": true,
         "featured": false,
-        "cat": "apply",
-        "date": "2026-11-24",
+        "cat": "chip",
+        "date": "2026-11-25",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "豆包工作下调多款模型消耗倍率，超八成日常任务免费用",
-        "summary": "近日，豆包工作宣布接入多款第三方大模型，并同步推出多项优惠计划。其中，用户日常使用频率较高的 DeepSeek V4.1 Flash 和豆包 2.1 Lite 两款模型，额度消耗倍率已下调至 0.01。相关实测数据显示，借助倍率调整与部分模型低消耗任务免费机制，超过八成日常办公任务可通过豆包工作免费完成。 据介绍，豆包工作正式发布以来已陆续出台多项优惠举措。符合条件的新用户可领取 30 天体…",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 3,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/industrynews/SWU1FnevSoIn4MNM.html"
-      },
-      {
-        "id": "r617ecb5adf",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-24",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "英伟达恢复黄仁勋CEO职务！黄仁勋重返公司总部，受到数百名员工迎接；DeepSeek最新估值或达6078亿元；蚂蚁开源医疗AI模型家族丨雷峰早报",
-        "summary": "要闻提示 1.英伟达恢复黄仁勋CEO职务！黄仁勋重返公司总部，受到数百名员工迎接 2.DeepSeek最新估值或达6078亿元 3.送100台iPhone Duo被质疑内定！影视飓风Tim：很难自证，但这点信誉还是有的 4.智谱发布新一代大模型GLM-5.4 5.从多模态理解到疾病风险预测，蚂蚁开源医疗AI模型家族 6.雷军：小米澎程系列车主提车后，纯电行驶里程占比大约9成 7.马斯克被曝在…",
+        "title": "CCF HPC 2026访谈：HPC与AI需求推动算力走向系统协同",
+        "summary": "过去两年，从 ChatGPT 到国内外各路大模型百舸争流，AI 从只会聊天的机器人，一路长成了能看图、能听声、能剪视频的多面手。短剧、内容创作、智能客服、企业办公……应用场景越铺越开，模型规模越做越大，训练和推理的胃口也随之水涨船高。可当所有人都意识到\"算力就是新的水电\"时，一个更棘手的问题浮出水面：算力从哪里来？又能不能以可负担的成本拿到手？ 10 月的 CCF 全国高性能计算学术大会（C…",
         "tags": [
           "开源",
-          "论文",
-          "融资",
+          "政策",
+          "算力",
           "中文源"
         ],
         "readTime": 12,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/zaobao/Ao31dQuXPBTU7qpK.html"
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/chips/yHCLu9wEjr4z9AgA.html"
       },
       {
-        "id": "r9a779d0c27",
+        "id": "r39c47df86f",
         "auto": true,
         "featured": false,
-        "cat": "model",
-        "date": "2026-11-24",
-        "source": "量子位",
+        "cat": "opensrc",
+        "date": "2026-11-25",
+        "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
-        "summary": "中国AI数据平台加速崛起 蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+        "title": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
+        "summary": "点击查看原文> 谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
         "tags": [
           "开源",
+          "Agent",
           "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
-        "link": "https://www.qbitai.com/2026/11/512330.html"
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/YAc2TqCHc09kAFF1A7BS?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r2635fb4260",
+        "id": "r4f8d6b7832",
         "auto": true,
         "featured": false,
         "cat": "model",
-        "date": "2026-11-24",
-        "source": "雷锋网",
+        "date": "2026-11-25",
+        "source": "少数派",
         "lang": "zh",
-        "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
-        "summary": "11 月 24 日，文心 5.5 Flash Preview（ERNIE 5.5 Flash Preview）正式开源，采用 Apache 2.0 协议面向全球开源社区开放。开发者可在 Hugging Face、ModelScope 平台获取模型权重与配套资源，进行本地部署与二次开发，支持 vLLM、SGLang 等主流推理框架进行部署。 文心 5.5 Flash Preview总参数量达…",
+        "title": "派早报：华为发布 Mate X8 与 MateBook Fold S、微软将推出自研驱动等",
+        "summary": "豆包 AI 个人助理「小豆」开启公测，Teenage Engineering 推出复古 CD 播放器 EP / BC-1 等。查看全文",
         "tags": [
-          "开源",
           "国产",
           "中文源"
         ],
         "readTime": 2,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/industrynews/X2LHtIreyiO6depw.html"
+        "hot": 92,
+        "link": "https://sspai.com/post/119527"
       },
       {
-        "id": "rf6d19c3304",
+        "id": "r4e211095c2",
         "auto": true,
         "featured": false,
-        "cat": "model",
-        "date": "2026-11-24",
-        "source": "雷锋网",
+        "cat": "industry",
+        "date": "2026-11-25",
+        "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "蚂蚁开源医疗健康预测模型，根据睡眠数据可预测未来六年150种疾病风险",
-        "summary": "AI在医疗健康领域的应用，正在从疾病识别、健康咨询向更长期的健康风险预测延伸。11月24日，蚂蚁百灵宣布开源医疗健康预测模型 LingSante Pulse，可通过理解人体日常产生的生理信号，预测未来六年内150种疾病表型的发生风险。 不同于传统模型主要针对某一种生理信号或特定疾病进行训练，LingSante Pulse能够统一处理脑电图、心电图、光电脉搏波、肌电图等多种生理信号，并适应不同…",
+        "title": "Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
+        "summary": "点击查看原文> Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
         "tags": [
-          "开源",
-          "论文",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/cgiP7vstrXKH94L1zj76?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rea9f580bd9",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-25",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "用 Super-agent 的理念，拆解 Octop 团队模式",
+        "summary": "点击查看原文> 用 Super-agent 的理念，拆解 Octop 团队模式",
+        "tags": [
           "Agent",
           "中文源"
         ],
-        "readTime": 3,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/industrynews/lVVGnHDROrkdwJLp.html"
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/xJVcbBYI4m86a9TIA6HH?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r00a93c062f",
+        "id": "rd99a0691af",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-25",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
+        "summary": "点击查看原文> Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
+        "tags": [
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/XpM5q7sE88iSlxNsRrVu?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r9874fd546e",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-25",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "千问Go全面开放免费代打电话服务，支持订餐厅、找快递、寻失物",
+        "summary": "11月25日，千问Go全面开放代打电话服务，人人都能免费拥有一个帮自己打电话的专属AI助手。告知千问拨打对象和通话需求，用户授权后，千问即可代为联系餐厅预订包间、向酒店查询遗失物品、联系快递员确认配送进度等，并反馈沟通结果。此外，千问还支持定时代打电话。 据了解，千问代打电话需经用户授权，通话中会主动表明AI助手身份，并设有外呼安全防护机制，对存在风险的请求进行筛查和拦截。",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/industrynews/L9rc3Khgc8pFgYtD.html"
+      },
+      {
+        "id": "rc06c63c9b7",
         "auto": true,
         "featured": false,
         "cat": "apply",
         "date": "2026-11-24",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "公积金智能化应用创新案例发布，支付宝参与共建",
-        "summary": "11月20日，由中国建设报社主办的住房公积金智能化应用创新实践交流座谈会在江苏苏州举行。会上发布了《住房公积金智能化应用创新案例集》，汇集北京、苏州等17个地方的典型实践，其中10个案例采用支付宝民生办事AI全场景解决方案，涵盖政策咨询、办事引导、对话式业务办理等多个应用场景。 人工智能正加速进入政务服务领域，如何让AI与办事场景深度融合，是住房公积金行业关注的重点。会上，支付宝介绍了在政务…",
+        "title": "蚂蚁OceanBase交出六年政企成绩单：服务22个省级数字政府、三分之一央企核心系统",
+        "summary": "随着人工智能加速进入政务与央国企核心业务，数据底座不仅要稳定承载关键系统，也开始支撑生产级AI应用。 11月24日，蚂蚁OceanBase在北京举办AI数据大会，正式发布湖库一体的OceanLake AI数据平台，并披露2026年经营进展。2026年，OceanBase专有云金融和政企客户总数增长50%，其中政企客户数首次与金融客户数持平，成为专有云业务的重要增长力量。 目前，OceanBa…",
         "tags": [
+          "论文",
           "政策",
           "Agent",
           "中文源"
         ],
-        "readTime": 4,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/industrynews/ICe6gznRO80vcMxl.html"
+        "readTime": 11,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/industrynews/b7Pw487MPHsDMSyR.html"
       },
       {
-        "id": "re6827ef4a9",
+        "id": "r9b7e48f12f",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-24",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "百度智能云等发起香港前沿科技产业发展联盟，助力具身智能企业拓展全球市场",
+        "summary": "11月23日，第十六届香港国际金融论坛暨第七届领航“9+2”粤港澳大湾区发展论坛举办。作为论坛重要活动，香港国际具身智能领袖峰会同期举行，并正式发布香港前沿科技产业发展联盟。该联盟由百度智能云、香港特区政府商务及经济发展局、香港特区政府创新科技署、投资家网，以及智平方、零次方、众擎、地瓜机器人、帕西尼、贝塔无限、零次方、破壳、亮源新创、松应、智动未来等企业共同发起，将依托大湾区产业基础和香港…",
+        "tags": [
+          "融资",
+          "算力",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 6,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/industrynews/uFuwhvMHGUY0Qeu0.html"
+      },
+      {
+        "id": "ra1be4dac98",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-24",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "从「卖向全球」到「扎根全球」，奇瑞怎么把增长做久？",
+        "summary": "“如果把这个剔除之外，应该达到170多亿元。” 近期，在一场小范围沟通会上，奇瑞汽车管理层透露汇率波动对利润造成了影响。前三季度，奇瑞有31.71亿元汇兑净损失。去年同期，这一项还是29.74亿元净收益，一来一回差了61.45亿元。 这导致，奇瑞前三季度的归母净利润为139.63亿元，同比下降2.8%。 雷峰网注意到，归母净利润降了些，但把奇瑞放到同行里看，它的利润表现依然靠前。前三季度，奇…",
+        "tags": [
+          "论文",
+          "政策",
+          "算力",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 94,
+        "link": "https://www.leiphone.com/category/transportation/DQjM3IyKu5bVltcG.html"
+      },
+      {
+        "id": "rd4dedd0262",
+        "auto": true,
+        "featured": false,
+        "cat": "opensrc",
+        "date": "2026-11-24",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
+        "summary": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
+        "tags": [
+          "开源",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/11/512354.html"
+      },
+      {
+        "id": "r3c5a9b967b",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-24",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
+        "summary": "11月19日，方程豹钛9上市，售价27.99万元起 八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.qbitai.com/2026/11/512348.html"
+      },
+      {
+        "id": "rbc6b977778",
         "auto": true,
         "featured": false,
         "cat": "model",
         "date": "2026-11-24",
-        "source": "少数派",
+        "source": "InfoQ 中文",
         "lang": "zh",
-        "title": "派早报：黄仁勋重回英伟达，荣耀发布荣耀 700 系列新机等",
-        "summary": "少数派的近期动态我们已开设专页，汇总展示「优秀作者评选」奖项及结果。「优秀作者评选」是编辑部自2023年起实行的机制，于每季度结束后，评选该季度贡献突出的现有作者，以及涌现出的有潜力新作者。获奖者会获 ...查看全文",
+        "title": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
+        "summary": "点击查看原文> OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
+        "tags": [
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r55a5dccb17",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-24",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "传统大厂的智驾，困在了组织里",
+        "summary": "一位传统车厂高管曾向雷峰网回忆，疫情期间，他所任职的车厂负责人去了一趟苏州博世。 那时车企都在忙着保供。按照他的记忆，这位CEO级的负责人为了一项主动安全系统的供应，在那里守了几天，最后既没见到负责人，也没能保供成功。 走出博世时，他长叹一口气：“到底谁是甲方，谁是乙方。” 他记住了这件事，这件事也让这家传统车厂下定决心：最关键的东西，一定要自己做。 传统车厂做智驾，故事往往就从这样的决心开…",
+        "tags": [
+          "论文",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 92,
+        "link": "https://www.leiphone.com/category/transportation/Q7xf6JUVu3HScTsH.html"
+      },
+      {
+        "id": "r94929ea07e",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-24",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "How Gemini is changing the game for Golden State's organization and fans.",
+        "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
+      },
+      {
+        "id": "ra97f23c9ef",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-24",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "Google Cloud 出海峰会报名开启",
+        "summary": "2027 Google Cloud 出海峰会将于 1 月 14 日在北京中关村国际创新中心举行",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/512370.html"
+      },
+      {
+        "id": "rb0da4cdc22",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-24",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
+        "summary": "端侧老炮辛米尔，打通物理AI规模化落地之路 业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
         "tags": [
           "算力",
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
-        "link": "https://sspai.com/post/119460"
-      },
-      {
-        "id": "r76908e8097",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
-        "summary": "12.9 北京，来MEET2027现场 报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
         "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/512329.html"
+        "link": "https://www.qbitai.com/2026/11/512362.html"
       },
       {
-        "id": "rf113dd84d3",
+        "id": "r45bfc0b547",
         "auto": true,
         "featured": false,
         "cat": "industry",
         "date": "2026-11-24",
         "source": "量子位",
         "lang": "zh",
-        "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
-        "summary": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/512305.html"
-      },
-      {
-        "id": "ra5cf694217",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "“得Agent开发者，得天下”，70+技术大咖共探AI技术演进与生态变革，2026奇点智能技术大会圆满收官！",
-        "summary": "「2026 奇点智能技术大会」与「2026 C++ 及系统软件技术大会」在北京万达文华酒店成功举办。",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/512297.html"
-      },
-      {
-        "id": "r0e04f3046a",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "具身行业，终于等来了自己的通用智能时刻",
-        "summary": "行业苦等多年的预训练通用智能，终于有了答案 具身行业，终于等来了自己的通用智能时刻",
+        "title": "巴新总理见证，仰望U8交付巴布亚新几内亚市场",
+        "summary": "2026年11月18日，中国深圳——APEC会议期间，比亚迪仰望U8正式交付巴布亚新几内亚市场",
         "tags": [
           "中文源"
         ],
         "readTime": 2,
         "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/512264.html"
-      },
-      {
-        "id": "r4714f94486",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "老黄回归现场盛况空前！员工人山人海夹道欢迎，“哪里领入职电脑”",
-        "summary": "离职员工：我可能走早了 老黄回归现场盛况空前！员工人山人海夹道欢迎，“哪里领入职电脑”",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/512252.html"
+        "link": "https://www.qbitai.com/2026/11/512343.html"
       },
       {
         "id": "r7b4dda1f99",
@@ -261,109 +370,93 @@ window.AI_FEED = {
         "link": "https://www.infoq.cn/article/iRm9lBSQj0OCvDdgLQrO?utm_source=rss&utm_medium=article"
       },
       {
-        "id": "r778f621397",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
-        "summary": "点击查看原文> 谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rd6bc70bf80",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "数据分析的下一站：智能体分析",
-        "summary": "点击查看原文> 数据分析的下一站：智能体分析",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/video/Q0rXqh3OmSAhcePiDjh2?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r292a9d93c1",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "超越试点：销售管理者的 AI 转型行动指南",
-        "summary": "点击查看原文> 超越试点：销售管理者的 AI 转型行动指南",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/video/UU3P37LW5IE6Xg4O0cSN?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r44c070028a",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
-        "summary": "点击查看原文> Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/vaEUVvWD9AIaFXZhzSMH?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r4bf3bccce7",
+        "id": "r89edf1e19f",
         "auto": true,
         "featured": false,
         "cat": "apply",
         "date": "2026-11-24",
-        "source": "InfoQ 中文",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "Raising the stakes for enterprise networks with AI modernization",
+        "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is…",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/"
+      },
+      {
+        "id": "rdb0ccf412d",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-24",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+        "summary": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+      },
+      {
+        "id": "r3976e4ab69",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-24",
+        "source": "Ars Technica",
+        "lang": "en",
+        "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+        "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+      },
+      {
+        "id": "re6827ef4a9",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-24",
+        "source": "少数派",
         "lang": "zh",
-        "title": "从批量生成到业务可用：电商 AI 剪辑的工程取舍与实践复盘｜AICon北京",
-        "summary": "点击查看原文> 从批量生成到业务可用：电商 AI 剪辑的工程取舍与实践复盘｜AICon北京",
+        "title": "派早报：黄仁勋重回英伟达，荣耀发布荣耀 700 系列新机等",
+        "summary": "少数派的近期动态我们已开设专页，汇总展示「优秀作者评选」奖项及结果。「优秀作者评选」是编辑部自2023年起实行的机制，于每季度结束后，评选该季度贡献突出的现有作者，以及涌现出的有潜力新作者。获奖者会获 ...查看全文",
+        "tags": [
+          "算力",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 86,
+        "link": "https://sspai.com/post/119460"
+      },
+      {
+        "id": "r76908e8097",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-24",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
+        "summary": "12.9 北京，来MEET2027现场 报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
         "tags": [
           "中文源"
         ],
         "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/YMYl4DVNr1pRKD8ITfaW?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r1f311b40a8",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-23",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "科研成果 | 智能计算实验室方承煜同学成果被NeurIPS2026接收｜NeurIPS 2026",
-        "summary": "来源：THUSIGSICLAB 文章链接：https://mp.weixin.qq.com/s/AadX6xpxE2gywQDMF4dyQQ 论文题目：PRISM: Rethinking Atmospheric Scattering Reconstruction as a Unified Understanding and Restoration Model for Real-world D…",
-        "tags": [
-          "论文",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/private/wwE4LOG5RjKsajCu.html"
+        "hot": 84,
+        "link": "https://www.qbitai.com/2026/11/512329.html"
       },
       {
         "id": "r3661cd274c",
@@ -379,7 +472,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
       },
       {
@@ -396,7 +489,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/"
       },
       {
@@ -413,44 +506,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://huggingface.co/blog/allenai/robotrack"
-      },
-      {
-        "id": "r1b1204274c",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Know Your Context Bank: Repairing Inconsistency and Measuring Generalization in Context-Aware Text-to-SQL",
-        "summary": "arXiv:2611.26775v1 Announce Type: new \nAbstract: Text-to-SQL systems increasingly rely on context banks: curated collections of example queries, metric definitions, and domain knowledge that tell a…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://arxiv.org/abs/2611.26775"
-      },
-      {
-        "id": "re4c4735e65",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Search From the Start: Search-Native Pretraining for Language Models",
-        "summary": "arXiv:2611.26809v1 Announce Type: new \nAbstract: Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remains predominantly focused on pr…",
-        "tags": [
-          "论文",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://arxiv.org/abs/2611.26809"
       },
       {
         "id": "r1dd9657978",
@@ -469,101 +526,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 84,
         "link": "https://huggingface.co/blog/agentic-evals"
-      },
-      {
-        "id": "ra528afc842",
-        "auto": true,
-        "featured": false,
-        "cat": "research",
-        "date": "2026-11-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
-        "summary": "arXiv:2611.26747v1 Announce Type: new \nAbstract: Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing t…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://arxiv.org/abs/2611.26747"
-      },
-      {
-        "id": "r5211a24855",
-        "auto": true,
-        "featured": false,
-        "cat": "policy",
-        "date": "2026-11-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
-        "summary": "arXiv:2611.26756v1 Announce Type: new \nAbstract: We show that reinforcement learning (RL) in reasoning tasks can succeed even when the supervised fine-tuning (SFT) data is severely corrupted. In a…",
-        "tags": [
-          "论文",
-          "政策",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://arxiv.org/abs/2611.26756"
-      },
-      {
-        "id": "r9ca0afaf50",
-        "auto": true,
-        "featured": false,
-        "cat": "chip",
-        "date": "2026-11-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "What Helps Language-Model Agents Review Violent Video? A Controlled Comparison with a Human Evidence Reference",
-        "summary": "arXiv:2611.26776v1 Announce Type: new \nAbstract: Systems that flag violent video for a human operator can now be built from language models without training, by combining perception models and lett…",
-        "tags": [
-          "论文",
-          "算力",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://arxiv.org/abs/2611.26776"
-      },
-      {
-        "id": "rbc59e85894",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-23",
-        "source": "arXiv cs.CL",
-        "lang": "en",
-        "title": "MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution",
-        "summary": "arXiv:2611.26806v1 Announce Type: new \nAbstract: Medical agents built on large language models (LLMs) have advanced rapidly, yet most stay fixed once deployed and do not keep using their experience…",
-        "tags": [
-          "论文",
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://arxiv.org/abs/2611.26806"
-      },
-      {
-        "id": "rdb666e3e05",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-22",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：Anthropic 研究员宣称用 Claude 证明黎曼猜想",
-        "summary": "Anthropic 研究员宣称用 Claude 证明黎曼猜想 OpenAI 公布反蒸馏举措 黄仁勋据称将攻击下属作为管理方式 GTA 6 首日销售额近 40 亿美元 特斯拉升级 FSD，推出实景渲染功能 AMD 股票被做空 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
-        "tags": [
-          "论文",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://sspai.com/post/119418"
       },
       {
         "id": "r2cf822cfc2",
@@ -666,6 +628,40 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 78,
         "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/"
+      },
+      {
+        "id": "r92ac76d20f",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-18",
+        "source": "Google AI Blog",
+        "lang": "en",
+        "title": "The Gemini app is now available on lower-memory Android devices.",
+        "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 80,
+        "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+      },
+      {
+        "id": "rf78d901484",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-18",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "The AI Hype Index: AI is everywhere",
+        "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you m…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 78,
+        "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
       }
     ]
   };
