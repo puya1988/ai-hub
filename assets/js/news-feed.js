@@ -2,13 +2,13 @@
    AI HUB · 自动更新数据（RSS 抓取产物）
    --------------------------------------------------------------------------
    ⚠ 本文件由 scripts/fetch_news.py 自动生成，请勿手工编辑。
-   抓取时间：2026-11-25 05:12
+   抓取时间：2026-11-26 04:40
    成功源：10 个    失败源：0 个    条目：36 条
    重新生成：python3 scripts/fetch_news.py
    ========================================================================== */
 
 window.AI_FEED = {
-    "updated": "2026-11-25 05:12",
+    "updated": "2026-11-26 04:40",
     "generator": "scripts/fetch_news.py",
     "sources": [
       "量子位",
@@ -25,43 +25,437 @@ window.AI_FEED = {
     "failed": [],
     "items": [
       {
-        "id": "rb7a29c9508",
+        "id": "ra804369682",
         "auto": true,
         "featured": false,
-        "cat": "chip",
-        "date": "2026-11-25",
+        "cat": "research",
+        "date": "2026-11-26",
         "source": "雷锋网",
         "lang": "zh",
-        "title": "CCF HPC 2026访谈：HPC与AI需求推动算力走向系统协同",
-        "summary": "过去两年，从 ChatGPT 到国内外各路大模型百舸争流，AI 从只会聊天的机器人，一路长成了能看图、能听声、能剪视频的多面手。短剧、内容创作、智能客服、企业办公……应用场景越铺越开，模型规模越做越大，训练和推理的胃口也随之水涨船高。可当所有人都意识到\"算力就是新的水电\"时，一个更棘手的问题浮出水面：算力从哪里来？又能不能以可负担的成本拿到手？ 10 月的 CCF 全国高性能计算学术大会（C…",
+        "title": "国产模型扎进 AI4S 深水区，几毫秒破译尘封18年密码学悬案",
+        "summary": "作者丨高允毅 编辑丨岑 峰 11月20日， AI for Science 迎来了一个载入史册的日子：Anthropic 数学家联合 Claude 拿下黎曼猜想的关键突破，同一天，以复杂的数学计算著称的密码学领域，也被AI撼动。 据 MiniMax 官方展示，其最新内部模型 MIM， 接连攻破了多个NIST 密码候选方案和顶会最新发表的前沿成果。在TII McEliece 中直接恢复了94个私…",
+        "tags": [
+          "论文",
+          "算力",
+          "国产",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html"
+      },
+      {
+        "id": "r43c1fd6596",
+        "auto": true,
+        "featured": false,
+        "cat": "research",
+        "date": "2026-11-26",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "独家 | 华人 CV 先驱权龙二次创业，成立空间与物理 AI 公司「Envision AI」",
+        "summary": "融合语言、逻辑、几何、物理规律，要做统一和通用的空间物理原生基模。 作者丨幸丽娟 编辑丨岑 峰 AI科技评论独家获悉，香港科技大学计算机科学与工程系教授、前苹果空间智能首席科学家权龙二次创业，成立公司“Envision AI”（格秩科技），进军空间与物理 AI 赛道。公司的目标，是打造一个通用的空间物理原生基模：基于大语言模型，从视觉出发，把文本、图像、空间与物理信息统一进同一套体系，推动物…",
+        "tags": [
+          "论文",
+          "算力",
+          "Agent",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/academic/S12DTjaFWmIPkwCk.html"
+      },
+      {
+        "id": "rc373269986",
+        "auto": true,
+        "featured": false,
+        "cat": "funding",
+        "date": "2026-11-26",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "一月只开工两三天！奥迪中国回应长春工厂产能利用率跌破10%；Anthropic创始人兄妹上市次日套现37亿；小鹏智驾拟开启全球付费订阅",
+        "summary": "要闻提示 1.Anthropic创始人兄妹上市次日套现37亿元 2.一月只开工两三天，被称“幽灵工厂”！奥迪中国回应长春工厂产能利用率跌破10% 3.打脸自己？小鹏图灵AI智驾将于明年二季度开启全球收费订阅 4.希音披露美国FTC调查最新进展：将向美国财政部支付1亿美元 5.B站陈睿回应短剧冲击：我们没受影响 6.华为将展示自研HBM、逻辑堆叠等技术 7.特朗普称美国政府入股英伟达犹未为晚，…",
         "tags": [
           "开源",
+          "论文",
           "政策",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/zaobao/TaYBp58OxQSPMi10.html"
+      },
+      {
+        "id": "r8e90774667",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-26",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "机器人量产背后，物理AI开始算新账：研发底座何必各自建？",
+        "summary": "2026年，人形机器人加速走出实验室。 但是让机器人在真实世界产生价值，依然复杂而成本高昂。 从数据采集、物理仿真到模型训练、真机验证，机器人每掌握一项新技能，背后都可能是一整套研发流程的反复运转。 更复杂的是，这些能力分散在不同的专业厂商手中。产业分工越来越细，如何将分散的技术能力组织起来，反而成了一道新的难题。 当机器人开始规模化交付，产业需要解决的不只是如何造出更多机器人，还有如何让更…",
+        "tags": [
+          "论文",
+          "融资",
           "算力",
           "中文源"
         ],
         "readTime": 12,
         "hot": 94,
-        "link": "https://www.leiphone.com/category/chips/yHCLu9wEjr4z9AgA.html"
+        "link": "https://www.leiphone.com/category/chips/HQvbSEUnkDy0Tos9.html"
       },
       {
-        "id": "r39c47df86f",
+        "id": "r7022a37d1c",
         "auto": true,
         "featured": false,
-        "cat": "opensrc",
-        "date": "2026-11-25",
-        "source": "InfoQ 中文",
+        "cat": "model",
+        "date": "2026-11-26",
+        "source": "少数派",
         "lang": "zh",
-        "title": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
-        "summary": "点击查看原文> 谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
+        "title": "派早报：蔚来举办 2026 创新科技日、Tidal 将拒绝 AI 音乐等",
+        "summary": "阿里千问 Go 开放免费代打电话服务、Sand.ai 发布视频生成模型 MAGI-2 等。查看全文",
         "tags": [
-          "开源",
-          "Agent",
+          "多模态",
+          "国产",
           "中文源"
         ],
         "readTime": 2,
         "hot": 92,
-        "link": "https://www.infoq.cn/article/YAc2TqCHc09kAFF1A7BS?utm_source=rss&utm_medium=article"
+        "link": "https://sspai.com/post/119560"
+      },
+      {
+        "id": "r6a404f48ee",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-26",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "任少卿带着世界模型3.0来了！蔚来智驾训练提效5倍，座舱也用上强化学习",
+        "summary": "李斌坦言：不做AI变革可能活不下去 任少卿带着世界模型3.0来了！蔚来智驾训练提效5倍，座舱也用上强化学习",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/512897.html"
+      },
+      {
+        "id": "r4d740f4068",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-26",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "沈向洋刚讲了好多AI非共识啊",
+        "summary": "“灵巧手是人类最后的尊严” 沈向洋刚讲了好多AI非共识啊",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/512840.html"
+      },
+      {
+        "id": "rbc5b0c3b8f",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-26",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "AI影视高地正在北影海淀一带崛起，「一人制片厂」基建搭好了",
+        "summary": "叠满海淀最强AI Buff。 AI影视高地正在北影海淀一带崛起，「一人制片厂」基建搭好了",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/512828.html"
+      },
+      {
+        "id": "r0bea4bc33d",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-26",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "刚刚，黎曼猜想证明代码暴砍了99.5%！只剩7.6万行",
+        "summary": "合着全让A➗揽了 刚刚，黎曼猜想证明代码暴砍了99.5%！只剩7.6万行",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/512819.html"
+      },
+      {
+        "id": "r8d012f47e8",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-26",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "Siri AI 开发者预览版让 iOS、iPadOS 和 macOS 应用能够与 Siri 集成",
+        "summary": "点击查看原文> Siri AI 开发者预览版让 iOS、iPadOS 和 macOS 应用能够与 Siri 集成",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/j1aQzS6OrB9aDlChCwiQ?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rbb84aedad9",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-26",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "AI写代码，谁来交付？",
+        "summary": "点击查看原文> AI写代码，谁来交付？",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/video/zrq9NZI5eJVetI8kA5kW?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r6fa8292462",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-26",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "前苹果空间智能首席科学家权龙再创业，成立 Envision AI 研发空间物理基础模型",
+        "summary": "点击查看原文> 前苹果空间智能首席科学家权龙再创业，成立 Envision AI 研发空间物理基础模型",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/3rQ4aRqts2zywSBmeJvb?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r8e024a06a4",
+        "auto": true,
+        "featured": false,
+        "cat": "model",
+        "date": "2026-11-26",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "从语音基座到语音应用：讯飞语音大模型能力全解",
+        "summary": "点击查看原文> 从语音基座到语音应用：讯飞语音大模型能力全解",
+        "tags": [
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/minibook/h1BlHGoTKyeLgs0KmAhe?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r4f2fe978e8",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-26",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "清华大学教授李宁已确认出席 AICon北京，分享生成式人工智能驱动的组织变革与组织管理",
+        "summary": "点击查看原文> 清华大学教授李宁已确认出席 AICon北京，分享生成式人工智能驱动的组织变革与组织管理",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/xzQgJEw18ECxHGA7FFBx?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "r4596ead874",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-26",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "我用AI做了一张两千年的中国历史地图",
+        "summary": "希望这张地图，能陪更多人走一遍故纸堆里的万里江山。查看全文 我用AI做了一张两千年的中国历史地图",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://sspai.com/post/117510"
+      },
+      {
+        "id": "r2c10ccff19",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-25",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "算力唤醒真实世界：九章云极发布物理AI工厂与生态开放计划",
+        "summary": "11月25日，以“算力唤醒真实世界”为主题的2026物理AI行业峰会暨九章云极智算生态大会在深圳举行。会议由九章云极DataCanvas主办，深圳市龙华区工业和信息化局支持，清华大学互联网产业研究院为学术指导单位。来自标准机构、高校与科研院所、投资机构，以及机器人本体、世界模型、仿真软件、智算云等领域的上百位嘉宾代表出席。中国电子技术标准化研究院副院长范科峰，深圳市龙华区委常委、常务副区长张…",
+        "tags": [
+          "开源",
+          "论文",
+          "融资",
+          "中文源"
+        ],
+        "readTime": 12,
+        "hot": 95,
+        "link": "https://www.leiphone.com/category/chips/Qz3QPf26nVIVA0ga.html"
+      },
+      {
+        "id": "r395284be8c",
+        "auto": true,
+        "featured": false,
+        "cat": "opensrc",
+        "date": "2026-11-25",
+        "source": "少数派",
+        "lang": "zh",
+        "title": "App+1｜Yab：开源、AI 友好的双内核浏览器，给舍不得 Arc 的你",
+        "summary": "Arc 花了很大力气重新设计「人该如何使用浏览器」，YAB 在继承这份交互遗产的同时，又顺手为 AI 打开了另一扇门。查看全文",
+        "tags": [
+          "开源",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 92,
+        "link": "https://sspai.com/post/119310"
+      },
+      {
+        "id": "r8dba2e51b1",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-25",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
+        "summary": "商汤SenseNova U1.6 我以为这是摄影作品，你告诉我这是最新的国产AI？！",
+        "tags": [
+          "国产",
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/512748.html"
+      },
+      {
+        "id": "r99b25ab6c1",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-25",
+        "source": "量子位",
+        "lang": "zh",
+        "title": "丢个故事就行！直出15分钟AI短片，家里二舅也能上手",
+        "summary": "丢个故事就行！直出15分钟AI短片，家里二舅也能上手",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.qbitai.com/2026/11/512727.html"
+      },
+      {
+        "id": "ra7c60c65db",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-25",
+        "source": "InfoQ 中文",
+        "lang": "zh",
+        "title": "AMD 联合中科慧灵完成人形机器人端侧 AI 验证，探索“大小脑”双处理器架构",
+        "summary": "点击查看原文> AMD 联合中科慧灵完成人形机器人端侧 AI 验证，探索“大小脑”双处理器架构",
+        "tags": [
+          "中文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.infoq.cn/article/stLpgV1kNHuvr21qRH9x?utm_source=rss&utm_medium=article"
+      },
+      {
+        "id": "rd1c4653f2d",
+        "auto": true,
+        "featured": false,
+        "cat": "apply",
+        "date": "2026-11-25",
+        "source": "雷锋网",
+        "lang": "zh",
+        "title": "阿维塔06T Max先锋版上新，限时权益后19.99万元",
+        "summary": "2026年11月25日（上海），阿维塔科技宣布，阿维塔06T Max先锋版正式上新，官方售价21.99万元，限时权益后19.99万元。新车定位智美全场景运动轿车，标配华为乾崑896线双光路图像级激光雷达与全新一代分布式电驱后轴双电机，是为年轻人专属打造的锋芒座驾。即日起，用户可通过阿维塔App、阿维塔官网、阿维塔小程序及全国各大城市的门店等官方渠道订购。 针对阿维塔06T Max先锋版上新，…",
+        "tags": [
+          "政策",
+          "Agent",
+          "多模态",
+          "中文源"
+        ],
+        "readTime": 8,
+        "hot": 90,
+        "link": "https://www.leiphone.com/category/industrynews/u4v3A1QiYM6qUcP1.html"
+      },
+      {
+        "id": "rdbaff2592f",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-25",
+        "source": "MIT Tech Review AI",
+        "lang": "en",
+        "title": "AI is straining America’s open records systems",
+        "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding electi…",
+        "tags": [
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/"
+      },
+      {
+        "id": "r6d57101ee6",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-25",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Where scientists draw the line on AI agents",
+        "summary": "Where scientists draw the line on AI agents",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+      },
+      {
+        "id": "r09db24f168",
+        "auto": true,
+        "featured": false,
+        "cat": "industry",
+        "date": "2026-11-25",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "An Indic Voice Agent with CUGA",
+        "summary": "An Indic Voice Agent with CUGA",
+        "tags": [
+          "Agent",
+          "英文源"
+        ],
+        "readTime": 2,
+        "hot": 90,
+        "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
       },
       {
         "id": "r4f8d6b7832",
@@ -78,210 +472,25 @@ window.AI_FEED = {
           "中文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://sspai.com/post/119527"
       },
       {
-        "id": "r4e211095c2",
+        "id": "rf9e91eb0ba",
         "auto": true,
         "featured": false,
         "cat": "industry",
         "date": "2026-11-25",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
-        "summary": "点击查看原文> Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
+        "source": "Hugging Face",
+        "lang": "en",
+        "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+        "summary": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
         "tags": [
-          "中文源"
+          "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/cgiP7vstrXKH94L1zj76?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rea9f580bd9",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-25",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "用 Super-agent 的理念，拆解 Octop 团队模式",
-        "summary": "点击查看原文> 用 Super-agent 的理念，拆解 Octop 团队模式",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/xJVcbBYI4m86a9TIA6HH?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "rd99a0691af",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-25",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
-        "summary": "点击查看原文> Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
-        "tags": [
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/XpM5q7sE88iSlxNsRrVu?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r9874fd546e",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-25",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "千问Go全面开放免费代打电话服务，支持订餐厅、找快递、寻失物",
-        "summary": "11月25日，千问Go全面开放代打电话服务，人人都能免费拥有一个帮自己打电话的专属AI助手。告知千问拨打对象和通话需求，用户授权后，千问即可代为联系餐厅预订包间、向酒店查询遗失物品、联系快递员确认配送进度等，并反馈沟通结果。此外，千问还支持定时代打电话。 据了解，千问代打电话需经用户授权，通话中会主动表明AI助手身份，并设有外呼安全防护机制，对存在风险的请求进行筛查和拦截。",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.leiphone.com/category/industrynews/L9rc3Khgc8pFgYtD.html"
-      },
-      {
-        "id": "rc06c63c9b7",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-24",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "蚂蚁OceanBase交出六年政企成绩单：服务22个省级数字政府、三分之一央企核心系统",
-        "summary": "随着人工智能加速进入政务与央国企核心业务，数据底座不仅要稳定承载关键系统，也开始支撑生产级AI应用。 11月24日，蚂蚁OceanBase在北京举办AI数据大会，正式发布湖库一体的OceanLake AI数据平台，并披露2026年经营进展。2026年，OceanBase专有云金融和政企客户总数增长50%，其中政企客户数首次与金融客户数持平，成为专有云业务的重要增长力量。 目前，OceanBa…",
-        "tags": [
-          "论文",
-          "政策",
-          "Agent",
-          "中文源"
-        ],
-        "readTime": 11,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/industrynews/b7Pw487MPHsDMSyR.html"
-      },
-      {
-        "id": "r9b7e48f12f",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-24",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "百度智能云等发起香港前沿科技产业发展联盟，助力具身智能企业拓展全球市场",
-        "summary": "11月23日，第十六届香港国际金融论坛暨第七届领航“9+2”粤港澳大湾区发展论坛举办。作为论坛重要活动，香港国际具身智能领袖峰会同期举行，并正式发布香港前沿科技产业发展联盟。该联盟由百度智能云、香港特区政府商务及经济发展局、香港特区政府创新科技署、投资家网，以及智平方、零次方、众擎、地瓜机器人、帕西尼、贝塔无限、零次方、破壳、亮源新创、松应、智动未来等企业共同发起，将依托大湾区产业基础和香港…",
-        "tags": [
-          "融资",
-          "算力",
-          "多模态",
-          "中文源"
-        ],
-        "readTime": 6,
-        "hot": 95,
-        "link": "https://www.leiphone.com/category/industrynews/uFuwhvMHGUY0Qeu0.html"
-      },
-      {
-        "id": "ra1be4dac98",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-24",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "从「卖向全球」到「扎根全球」，奇瑞怎么把增长做久？",
-        "summary": "“如果把这个剔除之外，应该达到170多亿元。” 近期，在一场小范围沟通会上，奇瑞汽车管理层透露汇率波动对利润造成了影响。前三季度，奇瑞有31.71亿元汇兑净损失。去年同期，这一项还是29.74亿元净收益，一来一回差了61.45亿元。 这导致，奇瑞前三季度的归母净利润为139.63亿元，同比下降2.8%。 雷峰网注意到，归母净利润降了些，但把奇瑞放到同行里看，它的利润表现依然靠前。前三季度，奇…",
-        "tags": [
-          "论文",
-          "政策",
-          "算力",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 94,
-        "link": "https://www.leiphone.com/category/transportation/DQjM3IyKu5bVltcG.html"
-      },
-      {
-        "id": "rd4dedd0262",
-        "auto": true,
-        "featured": false,
-        "cat": "opensrc",
-        "date": "2026-11-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
-        "summary": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
-        "tags": [
-          "开源",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/512354.html"
-      },
-      {
-        "id": "r3c5a9b967b",
-        "auto": true,
-        "featured": false,
-        "cat": "funding",
-        "date": "2026-11-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
-        "summary": "11月19日，方程豹钛9上市，售价27.99万元起 八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.qbitai.com/2026/11/512348.html"
-      },
-      {
-        "id": "rbc6b977778",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
-        "summary": "点击查看原文> OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
-        "tags": [
-          "多模态",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 92,
-        "link": "https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r55a5dccb17",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-24",
-        "source": "雷锋网",
-        "lang": "zh",
-        "title": "传统大厂的智驾，困在了组织里",
-        "summary": "一位传统车厂高管曾向雷峰网回忆，疫情期间，他所任职的车厂负责人去了一趟苏州博世。 那时车企都在忙着保供。按照他的记忆，这位CEO级的负责人为了一项主动安全系统的供应，在那里守了几天，最后既没见到负责人，也没能保供成功。 走出博世时，他长叹一口气：“到底谁是甲方，谁是乙方。” 他记住了这件事，这件事也让这家传统车厂下定决心：最关键的东西，一定要自己做。 传统车厂做智驾，故事往往就从这样的决心开…",
-        "tags": [
-          "论文",
-          "国产",
-          "中文源"
-        ],
-        "readTime": 12,
-        "hot": 92,
-        "link": "https://www.leiphone.com/category/transportation/Q7xf6JUVu3HScTsH.html"
+        "hot": 84,
+        "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
       },
       {
         "id": "r94929ea07e",
@@ -297,95 +506,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 92,
+        "hot": 86,
         "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
-      },
-      {
-        "id": "ra97f23c9ef",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "Google Cloud 出海峰会报名开启",
-        "summary": "2027 Google Cloud 出海峰会将于 1 月 14 日在北京中关村国际创新中心举行",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/512370.html"
-      },
-      {
-        "id": "rb0da4cdc22",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
-        "summary": "端侧老炮辛米尔，打通物理AI规模化落地之路 业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/512362.html"
-      },
-      {
-        "id": "r45bfc0b547",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "巴新总理见证，仰望U8交付巴布亚新几内亚市场",
-        "summary": "2026年11月18日，中国深圳——APEC会议期间，比亚迪仰望U8正式交付巴布亚新几内亚市场",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.qbitai.com/2026/11/512343.html"
-      },
-      {
-        "id": "r7b4dda1f99",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-24",
-        "source": "InfoQ 中文",
-        "lang": "zh",
-        "title": "当 AI 改变一切，下一步如何构建？",
-        "summary": "点击查看原文> 当 AI 改变一切，下一步如何构建？",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.infoq.cn/article/iRm9lBSQj0OCvDdgLQrO?utm_source=rss&utm_medium=article"
-      },
-      {
-        "id": "r89edf1e19f",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-24",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "Raising the stakes for enterprise networks with AI modernization",
-        "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is…",
-        "tags": [
-          "Agent",
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 90,
-        "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/"
       },
       {
         "id": "rdb0ccf412d",
@@ -402,7 +524,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
+        "hot": 84,
         "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
       },
       {
@@ -420,43 +542,8 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 90,
-        "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
-      },
-      {
-        "id": "re6827ef4a9",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-24",
-        "source": "少数派",
-        "lang": "zh",
-        "title": "派早报：黄仁勋重回英伟达，荣耀发布荣耀 700 系列新机等",
-        "summary": "少数派的近期动态我们已开设专页，汇总展示「优秀作者评选」奖项及结果。「优秀作者评选」是编辑部自2023年起实行的机制，于每季度结束后，评选该季度贡献突出的现有作者，以及涌现出的有潜力新作者。获奖者会获 ...查看全文",
-        "tags": [
-          "算力",
-          "中文源"
-        ],
-        "readTime": 2,
-        "hot": 86,
-        "link": "https://sspai.com/post/119460"
-      },
-      {
-        "id": "r76908e8097",
-        "auto": true,
-        "featured": false,
-        "cat": "apply",
-        "date": "2026-11-24",
-        "source": "量子位",
-        "lang": "zh",
-        "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
-        "summary": "12.9 北京，来MEET2027现场 报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
-        "tags": [
-          "中文源"
-        ],
-        "readTime": 2,
         "hot": 84,
-        "link": "https://www.qbitai.com/2026/11/512329.html"
+        "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
       },
       {
         "id": "r3661cd274c",
@@ -493,23 +580,6 @@ window.AI_FEED = {
         "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/"
       },
       {
-        "id": "re513acf606",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-23",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "RoboTrack: Point tracking for real-world robotic manipulation",
-        "summary": "RoboTrack: Point tracking for real-world robotic manipulation",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 84,
-        "link": "https://huggingface.co/blog/allenai/robotrack"
-      },
-      {
         "id": "r1dd9657978",
         "auto": true,
         "featured": false,
@@ -524,7 +594,7 @@ window.AI_FEED = {
           "英文源"
         ],
         "readTime": 2,
-        "hot": 84,
+        "hot": 78,
         "link": "https://huggingface.co/blog/agentic-evals"
       },
       {
@@ -562,23 +632,6 @@ window.AI_FEED = {
         "link": "https://huggingface.co/blog/inkling2mini"
       },
       {
-        "id": "rfeaad85531",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-20",
-        "source": "Hugging Face",
-        "lang": "en",
-        "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-        "summary": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://huggingface.co/blog/harness-adapters-at-scale"
-      },
-      {
         "id": "r36d6aadf23",
         "auto": true,
         "featured": false,
@@ -611,57 +664,6 @@ window.AI_FEED = {
         "readTime": 2,
         "hot": 80,
         "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
-      },
-      {
-        "id": "rb7f685c640",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-19",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-        "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/"
-      },
-      {
-        "id": "r92ac76d20f",
-        "auto": true,
-        "featured": false,
-        "cat": "model",
-        "date": "2026-11-18",
-        "source": "Google AI Blog",
-        "lang": "en",
-        "title": "The Gemini app is now available on lower-memory Android devices.",
-        "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 80,
-        "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
-      },
-      {
-        "id": "rf78d901484",
-        "auto": true,
-        "featured": false,
-        "cat": "industry",
-        "date": "2026-11-18",
-        "source": "MIT Tech Review AI",
-        "lang": "en",
-        "title": "The AI Hype Index: AI is everywhere",
-        "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you m…",
-        "tags": [
-          "英文源"
-        ],
-        "readTime": 2,
-        "hot": 78,
-        "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
       }
     ]
   };
